@@ -117,189 +117,296 @@ Inductive Genus : Type :=
 
 (* ======================== Species ======================== *)
 
-Inductive Species : Type :=
-  | Ratufa_affinis | Ratufa_bicolor | Ratufa_indica | Ratufa_macroura
-  | Sciurillus_pusillus
-  | Microsciurus_alfari | Microsciurus_flaviventer | Microsciurus_mimulus | Microsciurus_santanderensis
-  | Rheithrosciurus_macrotis
-  | Sciurus_aberti | Sciurus_alleni | Sciurus_anomalus | Sciurus_arizonensis | Sciurus_aureogaster
-  | Sciurus_carolinensis | Sciurus_colliaei | Sciurus_deppei | Sciurus_flammifer | Sciurus_gilvigularis
-  | Sciurus_granatensis | Sciurus_griseus | Sciurus_igniventris | Sciurus_lis | Sciurus_nayaritensis
-  | Sciurus_niger | Sciurus_oculatus | Sciurus_pucheranii | Sciurus_pyrrhinus | Sciurus_richmondi
-  | Sciurus_sanborni | Sciurus_spadiceus | Sciurus_stramineus | Sciurus_variegatoides | Sciurus_vulgaris
-  | Sciurus_yucatanensis
-  | Syntheosciurus_brochus
-  | Tamiasciurus_douglasii | Tamiasciurus_fremonti | Tamiasciurus_hudsonicus | Tamiasciurus_mearnsi
-  | Aeretes_melanopterus
-  | Aeromys_tephromelas | Aeromys_thomasi
-  | Belomys_pearsonii
-  | Biswamoyopterus_biswasi | Biswamoyopterus_laoensis
-  | Eoglaucomys_fimbriatus
-  | Eupetaurus_cinereus
-  | Glaucomys_oregonensis | Glaucomys_sabrinus | Glaucomys_volans
-  | Hylopetes_alboniger | Hylopetes_baberi | Hylopetes_bartelsi | Hylopetes_lepidus | Hylopetes_nigripes
-  | Hylopetes_phayrei | Hylopetes_platyurus | Hylopetes_sipora | Hylopetes_spadiceus | Hylopetes_winstoni
-  | Iomys_horsfieldii | Iomys_sipora
-  | Petaurillus_emiliae | Petaurillus_hosei | Petaurillus_kinlochii
-  | Petaurista_alborufus | Petaurista_elegans | Petaurista_leucogenys | Petaurista_magnificus
-  | Petaurista_mechukaensis | Petaurista_mishmiensis | Petaurista_nobilis | Petaurista_petaurista
-  | Petaurista_philippensis | Petaurista_xanthotis | Petaurista_yunanensis
-  | Petinomys_crinitus | Petinomys_fuscocapillus | Petinomys_genibarbis | Petinomys_hageni
-  | Petinomys_lugens | Petinomys_mindanensis | Petinomys_sagitta | Petinomys_setosus | Petinomys_vordermanni
-  | Pteromys_momonga | Pteromys_volans
-  | Pteromyscus_pulverulentus
-  | Trogopterus_xanthipes
-  | Callosciurus_adamsi | Callosciurus_albescens | Callosciurus_baluensis | Callosciurus_caniceps
-  | Callosciurus_erythraeus | Callosciurus_finlaysonii | Callosciurus_inornatus | Callosciurus_melanogaster
-  | Callosciurus_nigrovittatus | Callosciurus_notatus | Callosciurus_orestes | Callosciurus_phayrei
-  | Callosciurus_prevostii | Callosciurus_pygerythrus | Callosciurus_quinquestriatus
-  | Dremomys_everetti | Dremomys_gularis | Dremomys_lokriah | Dremomys_pernyi | Dremomys_pyrrhomerus | Dremomys_rufigenis
-  | Exilisciurus_concinnus | Exilisciurus_exilis | Exilisciurus_whiteheadi
-  | Funambulus_layardi | Funambulus_palmarum | Funambulus_pennantii | Funambulus_sublineatus | Funambulus_tristriatus
-  | Glyphotes_simus
-  | Hyosciurus_heinrichi | Hyosciurus_ileile
-  | Lariscus_hosei | Lariscus_insignis | Lariscus_niobe | Lariscus_obscurus
-  | Menetes_berdmorei
-  | Nannosciurus_melanotis
-  | Prosciurillus_abstrusus | Prosciurillus_leucomus | Prosciurillus_murinus | Prosciurillus_topapuensis | Prosciurillus_weberi
-  | Rhinosciurus_laticaudatus
-  | Rubrisciurus_rubriventer
-  | Sundasciurus_brookei | Sundasciurus_davensis | Sundasciurus_fraterculus | Sundasciurus_hippurus
-  | Sundasciurus_hoogstraali | Sundasciurus_jentinki | Sundasciurus_juvencus | Sundasciurus_lowii
-  | Sundasciurus_mindanensis | Sundasciurus_moellendorffi | Sundasciurus_philippinensis | Sundasciurus_rabori
-  | Sundasciurus_samarensis | Sundasciurus_steerii | Sundasciurus_tenuis
-  | Tamiops_mcclellandii | Tamiops_maritimus | Tamiops_rodolphii | Tamiops_swinhoei
-  | Atlantoxerus_getulus
-  | Spermophilopsis_leptodactylus
-  | Xerus_erythropus | Xerus_inauris | Xerus_princeps | Xerus_rutilus
-  | Epixerus_ebii | Epixerus_wilsoni
-  | Funisciurus_anerythrus | Funisciurus_bayonii | Funisciurus_carruthersi | Funisciurus_congicus
-  | Funisciurus_isabella | Funisciurus_lemniscatus | Funisciurus_leucogenys | Funisciurus_pyrropus | Funisciurus_substriatus
-  | Heliosciurus_gambianus | Heliosciurus_mutabilis | Heliosciurus_punctatus
-  | Heliosciurus_rufobrachium | Heliosciurus_ruwenzorii | Heliosciurus_undulatus
-  | Myosciurus_pumilio
-  | Paraxerus_alexandri | Paraxerus_boehmi | Paraxerus_cepapi | Paraxerus_cooperi | Paraxerus_flavovittis
-  | Paraxerus_lucifer | Paraxerus_ochraceus | Paraxerus_palliatus | Paraxerus_poensis | Paraxerus_vexillarius | Paraxerus_vincenti
-  | Protoxerus_aubinnii | Protoxerus_stangeri
-  | Ammospermophilus_harrisii | Ammospermophilus_insularis | Ammospermophilus_interpres
-  | Ammospermophilus_leucurus | Ammospermophilus_nelsoni
-  | Callospermophilus_lateralis | Callospermophilus_madrensis | Callospermophilus_saturatus
-  | Cynomys_gunnisoni | Cynomys_leucurus | Cynomys_ludovicianus | Cynomys_mexicanus | Cynomys_parvidens
-  | Ictidomys_mexicanus | Ictidomys_parvidens | Ictidomys_tridecemlineatus
-  | Marmota_baibacina | Marmota_bobak | Marmota_broweri | Marmota_caligata | Marmota_camtschatica
-  | Marmota_caudata | Marmota_flaviventris | Marmota_himalayana | Marmota_marmota | Marmota_menzbieri
-  | Marmota_monax | Marmota_olympus | Marmota_sibirica | Marmota_vancouverensis
-  | Notocitellus_adocetus | Notocitellus_annulatus
-  | Otospermophilus_atricapillus | Otospermophilus_beecheyi | Otospermophilus_variegatus
-  | Poliocitellus_franklinii
-  | Sciurotamias_davidianus | Sciurotamias_forresti
-  | Spermophilus_alashanicus | Spermophilus_brevicauda | Spermophilus_citellus | Spermophilus_dauricus
-  | Spermophilus_erythrogenys | Spermophilus_fulvus | Spermophilus_major | Spermophilus_musicus
-  | Spermophilus_pallidiccauda | Spermophilus_pygmaeus | Spermophilus_ralli | Spermophilus_relictus
-  | Spermophilus_suslicus | Spermophilus_taurensis | Spermophilus_xanthoprymnus
-  | Tamias_alpinus | Tamias_amoenus | Tamias_bulleri | Tamias_canipes | Tamias_cinereicollis
-  | Tamias_dorsalis | Tamias_durangae | Tamias_merriami | Tamias_minimus | Tamias_obscurus
-  | Tamias_ochrogenys | Tamias_palmeri | Tamias_panamintinus | Tamias_quadrimaculatus | Tamias_quadrivittatus
-  | Tamias_ruficaudus | Tamias_rufus | Tamias_senex | Tamias_sibiricus | Tamias_siskiyou
-  | Tamias_sonomae | Tamias_speciosus | Tamias_striatus | Tamias_townsendii | Tamias_umbrinus
-  | Urocitellus_armatus | Urocitellus_beldingi | Urocitellus_brunneus | Urocitellus_canus
-  | Urocitellus_columbianus | Urocitellus_elegans | Urocitellus_endemicus | Urocitellus_mollis
-  | Urocitellus_parryii | Urocitellus_richardsonii | Urocitellus_townsendii | Urocitellus_undulatus | Urocitellus_washingtoni
-  | Xerospermophilus_mohavensis | Xerospermophilus_perotensis | Xerospermophilus_spilosoma | Xerospermophilus_tereticaudus.
+Inductive Species : Genus -> Type :=
+  | Ratufa_affinis : Species Ratufa
+  | Ratufa_bicolor : Species Ratufa
+  | Ratufa_indica : Species Ratufa
+  | Ratufa_macroura : Species Ratufa
+  | Sciurillus_pusillus : Species Sciurillus
+  | Microsciurus_alfari : Species Microsciurus
+  | Microsciurus_flaviventer : Species Microsciurus
+  | Microsciurus_mimulus : Species Microsciurus
+  | Microsciurus_santanderensis : Species Microsciurus
+  | Rheithrosciurus_macrotis : Species Rheithrosciurus
+  | Sciurus_aberti : Species Sciurus
+  | Sciurus_alleni : Species Sciurus
+  | Sciurus_anomalus : Species Sciurus
+  | Sciurus_arizonensis : Species Sciurus
+  | Sciurus_aureogaster : Species Sciurus
+  | Sciurus_carolinensis : Species Sciurus
+  | Sciurus_colliaei : Species Sciurus
+  | Sciurus_deppei : Species Sciurus
+  | Sciurus_flammifer : Species Sciurus
+  | Sciurus_gilvigularis : Species Sciurus
+  | Sciurus_granatensis : Species Sciurus
+  | Sciurus_griseus : Species Sciurus
+  | Sciurus_igniventris : Species Sciurus
+  | Sciurus_lis : Species Sciurus
+  | Sciurus_nayaritensis : Species Sciurus
+  | Sciurus_niger : Species Sciurus
+  | Sciurus_oculatus : Species Sciurus
+  | Sciurus_pucheranii : Species Sciurus
+  | Sciurus_pyrrhinus : Species Sciurus
+  | Sciurus_richmondi : Species Sciurus
+  | Sciurus_sanborni : Species Sciurus
+  | Sciurus_spadiceus : Species Sciurus
+  | Sciurus_stramineus : Species Sciurus
+  | Sciurus_variegatoides : Species Sciurus
+  | Sciurus_vulgaris : Species Sciurus
+  | Sciurus_yucatanensis : Species Sciurus
+  | Syntheosciurus_brochus : Species Syntheosciurus
+  | Tamiasciurus_douglasii : Species Tamiasciurus
+  | Tamiasciurus_fremonti : Species Tamiasciurus
+  | Tamiasciurus_hudsonicus : Species Tamiasciurus
+  | Tamiasciurus_mearnsi : Species Tamiasciurus
+  | Aeretes_melanopterus : Species Aeretes
+  | Aeromys_tephromelas : Species Aeromys
+  | Aeromys_thomasi : Species Aeromys
+  | Belomys_pearsonii : Species Belomys
+  | Biswamoyopterus_biswasi : Species Biswamoyopterus
+  | Biswamoyopterus_laoensis : Species Biswamoyopterus
+  | Eoglaucomys_fimbriatus : Species Eoglaucomys
+  | Eupetaurus_cinereus : Species Eupetaurus
+  | Glaucomys_oregonensis : Species Glaucomys
+  | Glaucomys_sabrinus : Species Glaucomys
+  | Glaucomys_volans : Species Glaucomys
+  | Hylopetes_alboniger : Species Hylopetes
+  | Hylopetes_baberi : Species Hylopetes
+  | Hylopetes_bartelsi : Species Hylopetes
+  | Hylopetes_lepidus : Species Hylopetes
+  | Hylopetes_nigripes : Species Hylopetes
+  | Hylopetes_phayrei : Species Hylopetes
+  | Hylopetes_platyurus : Species Hylopetes
+  | Hylopetes_sipora : Species Hylopetes
+  | Hylopetes_spadiceus : Species Hylopetes
+  | Hylopetes_winstoni : Species Hylopetes
+  | Iomys_horsfieldii : Species Iomys
+  | Iomys_sipora : Species Iomys
+  | Petaurillus_emiliae : Species Petaurillus
+  | Petaurillus_hosei : Species Petaurillus
+  | Petaurillus_kinlochii : Species Petaurillus
+  | Petaurista_alborufus : Species Petaurista
+  | Petaurista_elegans : Species Petaurista
+  | Petaurista_leucogenys : Species Petaurista
+  | Petaurista_magnificus : Species Petaurista
+  | Petaurista_mechukaensis : Species Petaurista
+  | Petaurista_mishmiensis : Species Petaurista
+  | Petaurista_nobilis : Species Petaurista
+  | Petaurista_petaurista : Species Petaurista
+  | Petaurista_philippensis : Species Petaurista
+  | Petaurista_xanthotis : Species Petaurista
+  | Petaurista_yunanensis : Species Petaurista
+  | Petinomys_crinitus : Species Petinomys
+  | Petinomys_fuscocapillus : Species Petinomys
+  | Petinomys_genibarbis : Species Petinomys
+  | Petinomys_hageni : Species Petinomys
+  | Petinomys_lugens : Species Petinomys
+  | Petinomys_mindanensis : Species Petinomys
+  | Petinomys_sagitta : Species Petinomys
+  | Petinomys_setosus : Species Petinomys
+  | Petinomys_vordermanni : Species Petinomys
+  | Pteromys_momonga : Species Pteromys
+  | Pteromys_volans : Species Pteromys
+  | Pteromyscus_pulverulentus : Species Pteromyscus
+  | Trogopterus_xanthipes : Species Trogopterus
+  | Callosciurus_adamsi : Species Callosciurus
+  | Callosciurus_albescens : Species Callosciurus
+  | Callosciurus_baluensis : Species Callosciurus
+  | Callosciurus_caniceps : Species Callosciurus
+  | Callosciurus_erythraeus : Species Callosciurus
+  | Callosciurus_finlaysonii : Species Callosciurus
+  | Callosciurus_inornatus : Species Callosciurus
+  | Callosciurus_melanogaster : Species Callosciurus
+  | Callosciurus_nigrovittatus : Species Callosciurus
+  | Callosciurus_notatus : Species Callosciurus
+  | Callosciurus_orestes : Species Callosciurus
+  | Callosciurus_phayrei : Species Callosciurus
+  | Callosciurus_prevostii : Species Callosciurus
+  | Callosciurus_pygerythrus : Species Callosciurus
+  | Callosciurus_quinquestriatus : Species Callosciurus
+  | Dremomys_everetti : Species Dremomys
+  | Dremomys_gularis : Species Dremomys
+  | Dremomys_lokriah : Species Dremomys
+  | Dremomys_pernyi : Species Dremomys
+  | Dremomys_pyrrhomerus : Species Dremomys
+  | Dremomys_rufigenis : Species Dremomys
+  | Exilisciurus_concinnus : Species Exilisciurus
+  | Exilisciurus_exilis : Species Exilisciurus
+  | Exilisciurus_whiteheadi : Species Exilisciurus
+  | Funambulus_layardi : Species Funambulus
+  | Funambulus_palmarum : Species Funambulus
+  | Funambulus_pennantii : Species Funambulus
+  | Funambulus_sublineatus : Species Funambulus
+  | Funambulus_tristriatus : Species Funambulus
+  | Glyphotes_simus : Species Glyphotes
+  | Hyosciurus_heinrichi : Species Hyosciurus
+  | Hyosciurus_ileile : Species Hyosciurus
+  | Lariscus_hosei : Species Lariscus
+  | Lariscus_insignis : Species Lariscus
+  | Lariscus_niobe : Species Lariscus
+  | Lariscus_obscurus : Species Lariscus
+  | Menetes_berdmorei : Species Menetes
+  | Nannosciurus_melanotis : Species Nannosciurus
+  | Prosciurillus_abstrusus : Species Prosciurillus
+  | Prosciurillus_leucomus : Species Prosciurillus
+  | Prosciurillus_murinus : Species Prosciurillus
+  | Prosciurillus_topapuensis : Species Prosciurillus
+  | Prosciurillus_weberi : Species Prosciurillus
+  | Rhinosciurus_laticaudatus : Species Rhinosciurus
+  | Rubrisciurus_rubriventer : Species Rubrisciurus
+  | Sundasciurus_brookei : Species Sundasciurus
+  | Sundasciurus_davensis : Species Sundasciurus
+  | Sundasciurus_fraterculus : Species Sundasciurus
+  | Sundasciurus_hippurus : Species Sundasciurus
+  | Sundasciurus_hoogstraali : Species Sundasciurus
+  | Sundasciurus_jentinki : Species Sundasciurus
+  | Sundasciurus_juvencus : Species Sundasciurus
+  | Sundasciurus_lowii : Species Sundasciurus
+  | Sundasciurus_mindanensis : Species Sundasciurus
+  | Sundasciurus_moellendorffi : Species Sundasciurus
+  | Sundasciurus_philippinensis : Species Sundasciurus
+  | Sundasciurus_rabori : Species Sundasciurus
+  | Sundasciurus_samarensis : Species Sundasciurus
+  | Sundasciurus_steerii : Species Sundasciurus
+  | Sundasciurus_tenuis : Species Sundasciurus
+  | Tamiops_mcclellandii : Species Tamiops
+  | Tamiops_maritimus : Species Tamiops
+  | Tamiops_rodolphii : Species Tamiops
+  | Tamiops_swinhoei : Species Tamiops
+  | Atlantoxerus_getulus : Species Atlantoxerus
+  | Spermophilopsis_leptodactylus : Species Spermophilopsis
+  | Xerus_erythropus : Species Xerus
+  | Xerus_inauris : Species Xerus
+  | Xerus_princeps : Species Xerus
+  | Xerus_rutilus : Species Xerus
+  | Epixerus_ebii : Species Epixerus
+  | Epixerus_wilsoni : Species Epixerus
+  | Funisciurus_anerythrus : Species Funisciurus
+  | Funisciurus_bayonii : Species Funisciurus
+  | Funisciurus_carruthersi : Species Funisciurus
+  | Funisciurus_congicus : Species Funisciurus
+  | Funisciurus_isabella : Species Funisciurus
+  | Funisciurus_lemniscatus : Species Funisciurus
+  | Funisciurus_leucogenys : Species Funisciurus
+  | Funisciurus_pyrropus : Species Funisciurus
+  | Funisciurus_substriatus : Species Funisciurus
+  | Heliosciurus_gambianus : Species Heliosciurus
+  | Heliosciurus_mutabilis : Species Heliosciurus
+  | Heliosciurus_punctatus : Species Heliosciurus
+  | Heliosciurus_rufobrachium : Species Heliosciurus
+  | Heliosciurus_ruwenzorii : Species Heliosciurus
+  | Heliosciurus_undulatus : Species Heliosciurus
+  | Myosciurus_pumilio : Species Myosciurus
+  | Paraxerus_alexandri : Species Paraxerus
+  | Paraxerus_boehmi : Species Paraxerus
+  | Paraxerus_cepapi : Species Paraxerus
+  | Paraxerus_cooperi : Species Paraxerus
+  | Paraxerus_flavovittis : Species Paraxerus
+  | Paraxerus_lucifer : Species Paraxerus
+  | Paraxerus_ochraceus : Species Paraxerus
+  | Paraxerus_palliatus : Species Paraxerus
+  | Paraxerus_poensis : Species Paraxerus
+  | Paraxerus_vexillarius : Species Paraxerus
+  | Paraxerus_vincenti : Species Paraxerus
+  | Protoxerus_aubinnii : Species Protoxerus
+  | Protoxerus_stangeri : Species Protoxerus
+  | Ammospermophilus_harrisii : Species Ammospermophilus
+  | Ammospermophilus_insularis : Species Ammospermophilus
+  | Ammospermophilus_interpres : Species Ammospermophilus
+  | Ammospermophilus_leucurus : Species Ammospermophilus
+  | Ammospermophilus_nelsoni : Species Ammospermophilus
+  | Callospermophilus_lateralis : Species Callospermophilus
+  | Callospermophilus_madrensis : Species Callospermophilus
+  | Callospermophilus_saturatus : Species Callospermophilus
+  | Cynomys_gunnisoni : Species Cynomys
+  | Cynomys_leucurus : Species Cynomys
+  | Cynomys_ludovicianus : Species Cynomys
+  | Cynomys_mexicanus : Species Cynomys
+  | Cynomys_parvidens : Species Cynomys
+  | Ictidomys_mexicanus : Species Ictidomys
+  | Ictidomys_parvidens : Species Ictidomys
+  | Ictidomys_tridecemlineatus : Species Ictidomys
+  | Marmota_baibacina : Species Marmota
+  | Marmota_bobak : Species Marmota
+  | Marmota_broweri : Species Marmota
+  | Marmota_caligata : Species Marmota
+  | Marmota_camtschatica : Species Marmota
+  | Marmota_caudata : Species Marmota
+  | Marmota_flaviventris : Species Marmota
+  | Marmota_himalayana : Species Marmota
+  | Marmota_marmota : Species Marmota
+  | Marmota_menzbieri : Species Marmota
+  | Marmota_monax : Species Marmota
+  | Marmota_olympus : Species Marmota
+  | Marmota_sibirica : Species Marmota
+  | Marmota_vancouverensis : Species Marmota
+  | Notocitellus_adocetus : Species Notocitellus
+  | Notocitellus_annulatus : Species Notocitellus
+  | Otospermophilus_atricapillus : Species Otospermophilus
+  | Otospermophilus_beecheyi : Species Otospermophilus
+  | Otospermophilus_variegatus : Species Otospermophilus
+  | Poliocitellus_franklinii : Species Poliocitellus
+  | Sciurotamias_davidianus : Species Sciurotamias
+  | Sciurotamias_forresti : Species Sciurotamias
+  | Spermophilus_alashanicus : Species Spermophilus
+  | Spermophilus_brevicauda : Species Spermophilus
+  | Spermophilus_citellus : Species Spermophilus
+  | Spermophilus_dauricus : Species Spermophilus
+  | Spermophilus_erythrogenys : Species Spermophilus
+  | Spermophilus_fulvus : Species Spermophilus
+  | Spermophilus_major : Species Spermophilus
+  | Spermophilus_musicus : Species Spermophilus
+  | Spermophilus_pallidiccauda : Species Spermophilus
+  | Spermophilus_pygmaeus : Species Spermophilus
+  | Spermophilus_ralli : Species Spermophilus
+  | Spermophilus_relictus : Species Spermophilus
+  | Spermophilus_suslicus : Species Spermophilus
+  | Spermophilus_taurensis : Species Spermophilus
+  | Spermophilus_xanthoprymnus : Species Spermophilus
+  | Tamias_alpinus : Species Tamias
+  | Tamias_amoenus : Species Tamias
+  | Tamias_bulleri : Species Tamias
+  | Tamias_canipes : Species Tamias
+  | Tamias_cinereicollis : Species Tamias
+  | Tamias_dorsalis : Species Tamias
+  | Tamias_durangae : Species Tamias
+  | Tamias_merriami : Species Tamias
+  | Tamias_minimus : Species Tamias
+  | Tamias_obscurus : Species Tamias
+  | Tamias_ochrogenys : Species Tamias
+  | Tamias_palmeri : Species Tamias
+  | Tamias_panamintinus : Species Tamias
+  | Tamias_quadrimaculatus : Species Tamias
+  | Tamias_quadrivittatus : Species Tamias
+  | Tamias_ruficaudus : Species Tamias
+  | Tamias_rufus : Species Tamias
+  | Tamias_senex : Species Tamias
+  | Tamias_sibiricus : Species Tamias
+  | Tamias_siskiyou : Species Tamias
+  | Tamias_sonomae : Species Tamias
+  | Tamias_speciosus : Species Tamias
+  | Tamias_striatus : Species Tamias
+  | Tamias_townsendii : Species Tamias
+  | Tamias_umbrinus : Species Tamias
+  | Urocitellus_armatus : Species Urocitellus
+  | Urocitellus_beldingi : Species Urocitellus
+  | Urocitellus_brunneus : Species Urocitellus
+  | Urocitellus_canus : Species Urocitellus
+  | Urocitellus_columbianus : Species Urocitellus
+  | Urocitellus_elegans : Species Urocitellus
+  | Urocitellus_endemicus : Species Urocitellus
+  | Urocitellus_mollis : Species Urocitellus
+  | Urocitellus_parryii : Species Urocitellus
+  | Urocitellus_richardsonii : Species Urocitellus
+  | Urocitellus_townsendii : Species Urocitellus
+  | Urocitellus_undulatus : Species Urocitellus
+  | Urocitellus_washingtoni : Species Urocitellus
+  | Xerospermophilus_mohavensis : Species Xerospermophilus
+  | Xerospermophilus_perotensis : Species Xerospermophilus
+  | Xerospermophilus_spilosoma : Species Xerospermophilus
+  | Xerospermophilus_tereticaudus : Species Xerospermophilus.
 
-(* ======================== Species -> Genus ======================== *)
-
-Definition genus_of_species (s : Species) : Genus :=
-  match s with
-  | Ratufa_affinis | Ratufa_bicolor | Ratufa_indica | Ratufa_macroura => Ratufa
-  | Sciurillus_pusillus => Sciurillus
-  | Microsciurus_alfari | Microsciurus_flaviventer | Microsciurus_mimulus | Microsciurus_santanderensis => Microsciurus
-  | Rheithrosciurus_macrotis => Rheithrosciurus
-  | Sciurus_aberti | Sciurus_alleni | Sciurus_anomalus | Sciurus_arizonensis | Sciurus_aureogaster
-  | Sciurus_carolinensis | Sciurus_colliaei | Sciurus_deppei | Sciurus_flammifer | Sciurus_gilvigularis
-  | Sciurus_granatensis | Sciurus_griseus | Sciurus_igniventris | Sciurus_lis | Sciurus_nayaritensis
-  | Sciurus_niger | Sciurus_oculatus | Sciurus_pucheranii | Sciurus_pyrrhinus | Sciurus_richmondi
-  | Sciurus_sanborni | Sciurus_spadiceus | Sciurus_stramineus | Sciurus_variegatoides | Sciurus_vulgaris
-  | Sciurus_yucatanensis => Sciurus
-  | Syntheosciurus_brochus => Syntheosciurus
-  | Tamiasciurus_douglasii | Tamiasciurus_fremonti | Tamiasciurus_hudsonicus | Tamiasciurus_mearnsi => Tamiasciurus
-  | Aeretes_melanopterus => Aeretes
-  | Aeromys_tephromelas | Aeromys_thomasi => Aeromys
-  | Belomys_pearsonii => Belomys
-  | Biswamoyopterus_biswasi | Biswamoyopterus_laoensis => Biswamoyopterus
-  | Eoglaucomys_fimbriatus => Eoglaucomys
-  | Eupetaurus_cinereus => Eupetaurus
-  | Glaucomys_oregonensis | Glaucomys_sabrinus | Glaucomys_volans => Glaucomys
-  | Hylopetes_alboniger | Hylopetes_baberi | Hylopetes_bartelsi | Hylopetes_lepidus | Hylopetes_nigripes
-  | Hylopetes_phayrei | Hylopetes_platyurus | Hylopetes_sipora | Hylopetes_spadiceus | Hylopetes_winstoni => Hylopetes
-  | Iomys_horsfieldii | Iomys_sipora => Iomys
-  | Petaurillus_emiliae | Petaurillus_hosei | Petaurillus_kinlochii => Petaurillus
-  | Petaurista_alborufus | Petaurista_elegans | Petaurista_leucogenys | Petaurista_magnificus
-  | Petaurista_mechukaensis | Petaurista_mishmiensis | Petaurista_nobilis | Petaurista_petaurista
-  | Petaurista_philippensis | Petaurista_xanthotis | Petaurista_yunanensis => Petaurista
-  | Petinomys_crinitus | Petinomys_fuscocapillus | Petinomys_genibarbis | Petinomys_hageni
-  | Petinomys_lugens | Petinomys_mindanensis | Petinomys_sagitta | Petinomys_setosus | Petinomys_vordermanni => Petinomys
-  | Pteromys_momonga | Pteromys_volans => Pteromys
-  | Pteromyscus_pulverulentus => Pteromyscus
-  | Trogopterus_xanthipes => Trogopterus
-  | Callosciurus_adamsi | Callosciurus_albescens | Callosciurus_baluensis | Callosciurus_caniceps
-  | Callosciurus_erythraeus | Callosciurus_finlaysonii | Callosciurus_inornatus | Callosciurus_melanogaster
-  | Callosciurus_nigrovittatus | Callosciurus_notatus | Callosciurus_orestes | Callosciurus_phayrei
-  | Callosciurus_prevostii | Callosciurus_pygerythrus | Callosciurus_quinquestriatus => Callosciurus
-  | Dremomys_everetti | Dremomys_gularis | Dremomys_lokriah | Dremomys_pernyi | Dremomys_pyrrhomerus | Dremomys_rufigenis => Dremomys
-  | Exilisciurus_concinnus | Exilisciurus_exilis | Exilisciurus_whiteheadi => Exilisciurus
-  | Funambulus_layardi | Funambulus_palmarum | Funambulus_pennantii | Funambulus_sublineatus | Funambulus_tristriatus => Funambulus
-  | Glyphotes_simus => Glyphotes
-  | Hyosciurus_heinrichi | Hyosciurus_ileile => Hyosciurus
-  | Lariscus_hosei | Lariscus_insignis | Lariscus_niobe | Lariscus_obscurus => Lariscus
-  | Menetes_berdmorei => Menetes
-  | Nannosciurus_melanotis => Nannosciurus
-  | Prosciurillus_abstrusus | Prosciurillus_leucomus | Prosciurillus_murinus | Prosciurillus_topapuensis | Prosciurillus_weberi => Prosciurillus
-  | Rhinosciurus_laticaudatus => Rhinosciurus
-  | Rubrisciurus_rubriventer => Rubrisciurus
-  | Sundasciurus_brookei | Sundasciurus_davensis | Sundasciurus_fraterculus | Sundasciurus_hippurus
-  | Sundasciurus_hoogstraali | Sundasciurus_jentinki | Sundasciurus_juvencus | Sundasciurus_lowii
-  | Sundasciurus_mindanensis | Sundasciurus_moellendorffi | Sundasciurus_philippinensis | Sundasciurus_rabori
-  | Sundasciurus_samarensis | Sundasciurus_steerii | Sundasciurus_tenuis => Sundasciurus
-  | Tamiops_mcclellandii | Tamiops_maritimus | Tamiops_rodolphii | Tamiops_swinhoei => Tamiops
-  | Atlantoxerus_getulus => Atlantoxerus
-  | Spermophilopsis_leptodactylus => Spermophilopsis
-  | Xerus_erythropus | Xerus_inauris | Xerus_princeps | Xerus_rutilus => Xerus
-  | Epixerus_ebii | Epixerus_wilsoni => Epixerus
-  | Funisciurus_anerythrus | Funisciurus_bayonii | Funisciurus_carruthersi | Funisciurus_congicus
-  | Funisciurus_isabella | Funisciurus_lemniscatus | Funisciurus_leucogenys | Funisciurus_pyrropus | Funisciurus_substriatus => Funisciurus
-  | Heliosciurus_gambianus | Heliosciurus_mutabilis | Heliosciurus_punctatus
-  | Heliosciurus_rufobrachium | Heliosciurus_ruwenzorii | Heliosciurus_undulatus => Heliosciurus
-  | Myosciurus_pumilio => Myosciurus
-  | Paraxerus_alexandri | Paraxerus_boehmi | Paraxerus_cepapi | Paraxerus_cooperi | Paraxerus_flavovittis
-  | Paraxerus_lucifer | Paraxerus_ochraceus | Paraxerus_palliatus | Paraxerus_poensis | Paraxerus_vexillarius | Paraxerus_vincenti => Paraxerus
-  | Protoxerus_aubinnii | Protoxerus_stangeri => Protoxerus
-  | Ammospermophilus_harrisii | Ammospermophilus_insularis | Ammospermophilus_interpres
-  | Ammospermophilus_leucurus | Ammospermophilus_nelsoni => Ammospermophilus
-  | Callospermophilus_lateralis | Callospermophilus_madrensis | Callospermophilus_saturatus => Callospermophilus
-  | Cynomys_gunnisoni | Cynomys_leucurus | Cynomys_ludovicianus | Cynomys_mexicanus | Cynomys_parvidens => Cynomys
-  | Ictidomys_mexicanus | Ictidomys_parvidens | Ictidomys_tridecemlineatus => Ictidomys
-  | Marmota_baibacina | Marmota_bobak | Marmota_broweri | Marmota_caligata | Marmota_camtschatica
-  | Marmota_caudata | Marmota_flaviventris | Marmota_himalayana | Marmota_marmota | Marmota_menzbieri
-  | Marmota_monax | Marmota_olympus | Marmota_sibirica | Marmota_vancouverensis => Marmota
-  | Notocitellus_adocetus | Notocitellus_annulatus => Notocitellus
-  | Otospermophilus_atricapillus | Otospermophilus_beecheyi | Otospermophilus_variegatus => Otospermophilus
-  | Poliocitellus_franklinii => Poliocitellus
-  | Sciurotamias_davidianus | Sciurotamias_forresti => Sciurotamias
-  | Spermophilus_alashanicus | Spermophilus_brevicauda | Spermophilus_citellus | Spermophilus_dauricus
-  | Spermophilus_erythrogenys | Spermophilus_fulvus | Spermophilus_major | Spermophilus_musicus
-  | Spermophilus_pallidiccauda | Spermophilus_pygmaeus | Spermophilus_ralli | Spermophilus_relictus
-  | Spermophilus_suslicus | Spermophilus_taurensis | Spermophilus_xanthoprymnus => Spermophilus
-  | Tamias_alpinus | Tamias_amoenus | Tamias_bulleri | Tamias_canipes | Tamias_cinereicollis
-  | Tamias_dorsalis | Tamias_durangae | Tamias_merriami | Tamias_minimus | Tamias_obscurus
-  | Tamias_ochrogenys | Tamias_palmeri | Tamias_panamintinus | Tamias_quadrimaculatus | Tamias_quadrivittatus
-  | Tamias_ruficaudus | Tamias_rufus | Tamias_senex | Tamias_sibiricus | Tamias_siskiyou
-  | Tamias_sonomae | Tamias_speciosus | Tamias_striatus | Tamias_townsendii | Tamias_umbrinus => Tamias
-  | Urocitellus_armatus | Urocitellus_beldingi | Urocitellus_brunneus | Urocitellus_canus
-  | Urocitellus_columbianus | Urocitellus_elegans | Urocitellus_endemicus | Urocitellus_mollis
-  | Urocitellus_parryii | Urocitellus_richardsonii | Urocitellus_townsendii | Urocitellus_undulatus | Urocitellus_washingtoni => Urocitellus
-  | Xerospermophilus_mohavensis | Xerospermophilus_perotensis | Xerospermophilus_spilosoma | Xerospermophilus_tereticaudus => Xerospermophilus
-  end.
+Definition genus_of {g : Genus} (s : Species g) : Genus := g.
 
 (* ======================== Subfamily Membership ======================== *)
 
@@ -495,14 +602,14 @@ Definition native_continents (g : Genus) : list Continent :=
 
 (* ======================== Derived Species Classification ======================== *)
 
-Definition subfamily_of_species (s : Species) : Subfamily :=
-  subfamily_of (genus_of_species s).
+Definition subfamily_of_species {g : Genus} (s : Species g) : Subfamily :=
+  subfamily_of g.
 
-Definition tribe_of_species (s : Species) : Tribe :=
-  tribe_of (genus_of_species s).
+Definition tribe_of_species {g : Genus} (s : Species g) : Tribe :=
+  tribe_of g.
 
-Definition native_continents_species (s : Species) : list Continent :=
-  native_continents (genus_of_species s).
+Definition native_continents_species {g : Genus} (s : Species g) : list Continent :=
+  native_continents g.
 
 (* ======================== Decidable Equality ======================== *)
 
@@ -1146,26 +1253,496 @@ Qed.
 
 (* ======================== The Gray Squirrel ======================== *)
 
-Definition gray_squirrel : Genus := Sciurus.
+Definition gray_squirrel_species : Species Sciurus := Sciurus_carolinensis.
 
-Theorem gray_squirrel_classification :
-  subfamily_of gray_squirrel = Sciurinae /\
-  tribe_of gray_squirrel = Sciurini /\
-  native_to gray_squirrel NorthAmerica = true /\
-  native_to gray_squirrel Europe = true.
-Proof. repeat split; reflexivity. Qed.
-
-Theorem gray_squirrel_most_widespread :
-  length (native_continents gray_squirrel) = 5.
+Theorem gray_squirrel_genus : genus_of gray_squirrel_species = Sciurus.
 Proof. reflexivity. Qed.
 
-Theorem gray_squirrel_spans_hemispheres :
-  native_to gray_squirrel NorthAmerica = true /\
-  native_to gray_squirrel Asia = true.
+Theorem gray_squirrel_subfamily : subfamily_of_species gray_squirrel_species = Sciurinae.
+Proof. reflexivity. Qed.
+
+Theorem gray_squirrel_tribe : tribe_of_species gray_squirrel_species = Sciurini.
+Proof. reflexivity. Qed.
+
+Theorem gray_squirrel_type_guarantee :
+  forall (s : Species Sciurus), genus_of s = Sciurus.
+Proof. intros s; reflexivity. Qed.
+
+Theorem species_genus_injective :
+  forall g1 g2 (s1 : Species g1) (s2 : Species g2),
+  g1 <> g2 -> existT Species g1 s1 <> existT Species g2 s2.
+Proof.
+  intros g1 g2 s1 s2 Hneq Heq.
+  inversion Heq.
+  contradiction.
+Qed.
+
+(* ======================== Morphological Characters ======================== *)
+
+Inductive BodySize : Type := Tiny | Small | Medium | Large | Giant.
+Inductive TailType : Type := Bushy | Thin | Flat | Furred.
+Inductive Habitat : Type := Arboreal | Terrestrial | Fossorial | Gliding.
+Inductive CheekPouches : Type := Present | Absent.
+
+Record Morphology : Type := {
+  body_size : BodySize;
+  tail_type : TailType;
+  habitat : Habitat;
+  cheek_pouches : CheekPouches;
+  has_patagium : bool;
+  has_ear_tufts : bool;
+  is_striped : bool
+}.
+
+Definition flying_squirrel_morph : Morphology :=
+  {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+     cheek_pouches := Absent; has_patagium := true;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition ground_squirrel_morph : Morphology :=
+  {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
+     cheek_pouches := Present; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition tree_squirrel_morph : Morphology :=
+  {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+     cheek_pouches := Absent; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition morphology_of (g : Genus) : Morphology :=
+  match g with
+  | Ratufa => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
+                 cheek_pouches := Absent; has_patagium := false;
+                 has_ear_tufts := false; is_striped := false |}
+  | Sciurillus => {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
+                     cheek_pouches := Absent; has_patagium := false;
+                     has_ear_tufts := false; is_striped := false |}
+  | Sciurus => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                  cheek_pouches := Absent; has_patagium := false;
+                  has_ear_tufts := true; is_striped := false |}
+  | Tamiasciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                       cheek_pouches := Absent; has_patagium := false;
+                       has_ear_tufts := true; is_striped := false |}
+  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys
+  | Eupetaurus | Glaucomys | Hylopetes | Iomys | Petaurillus
+  | Petaurista | Petinomys | Pteromys | Pteromyscus | Trogopterus =>
+      flying_squirrel_morph
+  | Marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
+                  cheek_pouches := Present; has_patagium := false;
+                  has_ear_tufts := false; is_striped := false |}
+  | Cynomys => {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
+                  cheek_pouches := Present; has_patagium := false;
+                  has_ear_tufts := false; is_striped := false |}
+  | Tamias => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                 cheek_pouches := Present; has_patagium := false;
+                 has_ear_tufts := false; is_striped := true |}
+  | Ammospermophilus | Callospermophilus | Ictidomys | Notocitellus
+  | Otospermophilus | Poliocitellus | Spermophilus | Urocitellus
+  | Xerospermophilus | Sciurotamias => ground_squirrel_morph
+  | Xerus | Atlantoxerus | Spermophilopsis => ground_squirrel_morph
+  | Callosciurus | Dremomys | Exilisciurus | Glyphotes | Hyosciurus
+  | Lariscus | Menetes | Nannosciurus | Prosciurillus | Rhinosciurus
+  | Rubrisciurus | Sundasciurus | Tamiops => tree_squirrel_morph
+  | Funambulus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                     cheek_pouches := Absent; has_patagium := false;
+                     has_ear_tufts := false; is_striped := true |}
+  | Funisciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                      cheek_pouches := Absent; has_patagium := false;
+                      has_ear_tufts := false; is_striped := true |}
+  | Paraxerus | Heliosciurus | Myosciurus | Epixerus =>
+      tree_squirrel_morph
+  | Protoxerus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                     cheek_pouches := Absent; has_patagium := false;
+                     has_ear_tufts := false; is_striped := false |}
+  | Microsciurus | Syntheosciurus | Rheithrosciurus => tree_squirrel_morph
+  end.
+
+Definition morphology_of_species {g : Genus} (s : Species g) : Morphology :=
+  match s with
+  | Sciurus_carolinensis => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                               cheek_pouches := Absent; has_patagium := false;
+                               has_ear_tufts := false; is_striped := false |}
+  | Sciurus_vulgaris => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                           cheek_pouches := Absent; has_patagium := false;
+                           has_ear_tufts := true; is_striped := false |}
+  | Sciurus_niger => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                        cheek_pouches := Absent; has_patagium := false;
+                        has_ear_tufts := false; is_striped := false |}
+  | Sciurus_aberti => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                         cheek_pouches := Absent; has_patagium := false;
+                         has_ear_tufts := true; is_striped := false |}
+  | Ratufa_indica => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
+                        cheek_pouches := Absent; has_patagium := false;
+                        has_ear_tufts := true; is_striped := false |}
+  | Ratufa_bicolor => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
+                         cheek_pouches := Absent; has_patagium := false;
+                         has_ear_tufts := false; is_striped := false |}
+  | Glaucomys_volans => {| body_size := Small; tail_type := Flat; habitat := Gliding;
+                           cheek_pouches := Absent; has_patagium := true;
+                           has_ear_tufts := false; is_striped := false |}
+  | Glaucomys_sabrinus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                             cheek_pouches := Absent; has_patagium := true;
+                             has_ear_tufts := false; is_striped := false |}
+  | Petaurista_petaurista => {| body_size := Giant; tail_type := Flat; habitat := Gliding;
+                                cheek_pouches := Absent; has_patagium := true;
+                                has_ear_tufts := false; is_striped := false |}
+  | Petaurista_leucogenys => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                                cheek_pouches := Absent; has_patagium := true;
+                                has_ear_tufts := false; is_striped := false |}
+  | Marmota_monax => {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
+                        cheek_pouches := Present; has_patagium := false;
+                        has_ear_tufts := false; is_striped := false |}
+  | Marmota_marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
+                          cheek_pouches := Present; has_patagium := false;
+                          has_ear_tufts := false; is_striped := false |}
+  | Marmota_bobak => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
+                        cheek_pouches := Present; has_patagium := false;
+                        has_ear_tufts := false; is_striped := false |}
+  | Marmota_flaviventris => {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
+                               cheek_pouches := Present; has_patagium := false;
+                               has_ear_tufts := false; is_striped := false |}
+  | Cynomys_ludovicianus => {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
+                               cheek_pouches := Present; has_patagium := false;
+                               has_ear_tufts := false; is_striped := false |}
+  | Cynomys_leucurus => {| body_size := Small; tail_type := Thin; habitat := Fossorial;
+                           cheek_pouches := Present; has_patagium := false;
+                           has_ear_tufts := false; is_striped := false |}
+  | Tamias_striatus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                          cheek_pouches := Present; has_patagium := false;
+                          has_ear_tufts := false; is_striped := true |}
+  | Tamias_sibiricus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                           cheek_pouches := Present; has_patagium := false;
+                           has_ear_tufts := false; is_striped := true |}
+  | Tamias_minimus => {| body_size := Tiny; tail_type := Bushy; habitat := Terrestrial;
+                         cheek_pouches := Present; has_patagium := false;
+                         has_ear_tufts := false; is_striped := true |}
+  | Funambulus_palmarum => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                              cheek_pouches := Absent; has_patagium := false;
+                              has_ear_tufts := false; is_striped := true |}
+  | Funambulus_pennantii => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                               cheek_pouches := Absent; has_patagium := false;
+                               has_ear_tufts := false; is_striped := true |}
+  | Callosciurus_prevostii => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                                 cheek_pouches := Absent; has_patagium := false;
+                                 has_ear_tufts := false; is_striped := true |}
+  | Callosciurus_notatus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                               cheek_pouches := Absent; has_patagium := false;
+                               has_ear_tufts := false; is_striped := true |}
+  | Xerus_inauris => {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
+                        cheek_pouches := Present; has_patagium := false;
+                        has_ear_tufts := false; is_striped := true |}
+  | Xerus_erythropus => {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
+                           cheek_pouches := Present; has_patagium := false;
+                           has_ear_tufts := false; is_striped := true |}
+  | Tamiops_swinhoei => {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
+                           cheek_pouches := Absent; has_patagium := false;
+                           has_ear_tufts := false; is_striped := true |}
+  | Paraxerus_cepapi => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                           cheek_pouches := Absent; has_patagium := false;
+                           has_ear_tufts := false; is_striped := false |}
+  | Heliosciurus_rufobrachium => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+                                    cheek_pouches := Absent; has_patagium := false;
+                                    has_ear_tufts := false; is_striped := false |}
+  | Protoxerus_stangeri => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                              cheek_pouches := Absent; has_patagium := false;
+                              has_ear_tufts := true; is_striped := false |}
+  | Eupetaurus_cinereus => {| body_size := Giant; tail_type := Furred; habitat := Gliding;
+                              cheek_pouches := Absent; has_patagium := true;
+                              has_ear_tufts := true; is_striped := false |}
+  | _ => morphology_of g
+  end.
+
+Theorem species_morph_refines_genus :
+  forall g (s : Species g),
+  has_patagium (morphology_of_species s) = has_patagium (morphology_of g).
+Proof.
+  intros g s.
+  destruct s; reflexivity.
+Qed.
+
+Theorem carolinensis_no_ear_tufts :
+  has_ear_tufts (morphology_of_species Sciurus_carolinensis) = false.
+Proof. reflexivity. Qed.
+
+Theorem vulgaris_has_ear_tufts :
+  has_ear_tufts (morphology_of_species Sciurus_vulgaris) = true.
+Proof. reflexivity. Qed.
+
+Theorem volans_smaller_than_sabrinus :
+  body_size (morphology_of_species Glaucomys_volans) = Small /\
+  body_size (morphology_of_species Glaucomys_sabrinus) = Medium.
 Proof. split; reflexivity. Qed.
 
+Theorem minimus_is_tiny :
+  body_size (morphology_of_species Tamias_minimus) = Tiny.
+Proof. reflexivity. Qed.
+
+Theorem woolly_flying_squirrel_unique :
+  body_size (morphology_of_species Eupetaurus_cinereus) = Giant /\
+  tail_type (morphology_of_species Eupetaurus_cinereus) = Furred /\
+  has_ear_tufts (morphology_of_species Eupetaurus_cinereus) = true.
+Proof. repeat split; reflexivity. Qed.
+
+Theorem flying_squirrels_have_patagium :
+  forall g, tribe_of g = Pteromyini -> has_patagium (morphology_of g) = true.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; reflexivity.
+Qed.
+
+Theorem marmotini_have_cheek_pouches :
+  forall g, tribe_of g = Marmotini -> cheek_pouches (morphology_of g) = Present.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; reflexivity.
+Qed.
+
+Theorem xerini_have_cheek_pouches :
+  forall g, tribe_of g = Xerini -> cheek_pouches (morphology_of g) = Present.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; reflexivity.
+Qed.
+
+Theorem gliding_implies_patagium :
+  forall g, habitat (morphology_of g) = Gliding -> has_patagium (morphology_of g) = true.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; reflexivity.
+Qed.
+
+Theorem patagium_implies_sciurinae :
+  forall g, has_patagium (morphology_of g) = true -> subfamily_of g = Sciurinae.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; reflexivity.
+Qed.
+
+(* ======================== Sigma Types for Species ======================== *)
+
+Definition AnySpecies : Type := { g : Genus & Species g }.
+
+Definition pack_species {g : Genus} (s : Species g) : AnySpecies :=
+  existT Species g s.
+
+Definition genus_of_any (sp : AnySpecies) : Genus := projT1 sp.
+
+Definition subfamily_of_any (sp : AnySpecies) : Subfamily :=
+  subfamily_of (projT1 sp).
+
+Definition tribe_of_any (sp : AnySpecies) : Tribe :=
+  tribe_of (projT1 sp).
+
+Definition morphology_of_any (sp : AnySpecies) : Morphology :=
+  morphology_of (projT1 sp).
+
+Theorem genus_of_pack :
+  forall g (s : Species g), genus_of_any (pack_species s) = g.
+Proof. intros; reflexivity. Qed.
+
+Theorem subfamily_preserved :
+  forall g (s : Species g),
+  subfamily_of_any (pack_species s) = subfamily_of g.
+Proof. intros; reflexivity. Qed.
+
 (* ========================================================================== *)
-(*                        DICHOTOMOUS KEY                                     *)
+(*                   PROOF-CARRYING DICHOTOMOUS KEY                           *)
+(* ========================================================================== *)
+
+Record KeyResult : Type := {
+  result_genus : Genus;
+  result_subfamily : Subfamily;
+  result_tribe : Tribe;
+  subfamily_correct : subfamily_of result_genus = result_subfamily;
+  tribe_correct : tribe_of result_genus = result_tribe
+}.
+
+Definition make_key_result (g : Genus) : KeyResult := {|
+  result_genus := g;
+  result_subfamily := subfamily_of g;
+  result_tribe := tribe_of g;
+  subfamily_correct := eq_refl;
+  tribe_correct := eq_refl
+|}.
+
+Inductive MorphKey : Type :=
+  | MK_Ask_Patagium : MorphKey -> MorphKey -> MorphKey
+  | MK_Ask_CheekPouches : MorphKey -> MorphKey -> MorphKey
+  | MK_Ask_Habitat : (Habitat -> MorphKey) -> MorphKey
+  | MK_Ask_Size : (BodySize -> MorphKey) -> MorphKey
+  | MK_Ask_Striped : MorphKey -> MorphKey -> MorphKey
+  | MK_Ask_Continent : (Continent -> bool) -> MorphKey -> MorphKey -> MorphKey
+  | MK_Conclude : KeyResult -> MorphKey.
+
+Fixpoint run_morph_key (k : MorphKey) (m : Morphology) (native : Continent -> bool)
+  : KeyResult :=
+  match k with
+  | MK_Ask_Patagium yes no =>
+      if has_patagium m then run_morph_key yes m native
+      else run_morph_key no m native
+  | MK_Ask_CheekPouches yes no =>
+      match cheek_pouches m with
+      | Present => run_morph_key yes m native
+      | Absent => run_morph_key no m native
+      end
+  | MK_Ask_Habitat f => run_morph_key (f (habitat m)) m native
+  | MK_Ask_Size f => run_morph_key (f (body_size m)) m native
+  | MK_Ask_Striped yes no =>
+      if is_striped m then run_morph_key yes m native
+      else run_morph_key no m native
+  | MK_Ask_Continent test yes no =>
+      if existsb (fun c => andb (test c) (native c)) [NorthAmerica; CentralAmerica; SouthAmerica; Europe; Asia; Africa]
+      then run_morph_key yes m native
+      else run_morph_key no m native
+  | MK_Conclude r => r
+  end.
+
+Definition is_new_world_continent (c : Continent) : bool :=
+  match c with
+  | NorthAmerica | CentralAmerica | SouthAmerica => true
+  | _ => false
+  end.
+
+Definition is_african_continent (c : Continent) : bool :=
+  match c with Africa => true | _ => false end.
+
+Definition is_asian_continent (c : Continent) : bool :=
+  match c with Asia => true | _ => false end.
+
+Definition is_european_continent (c : Continent) : bool :=
+  match c with Europe => true | _ => false end.
+
+Definition morphological_key : MorphKey :=
+  MK_Ask_Patagium
+    (MK_Ask_Size (fun sz =>
+      match sz with
+      | Giant => MK_Conclude (make_key_result Petaurista)
+      | Large => MK_Conclude (make_key_result Aeromys)
+      | Medium => MK_Ask_Continent is_new_world_continent
+          (MK_Conclude (make_key_result Glaucomys))
+          (MK_Ask_Continent is_european_continent
+            (MK_Conclude (make_key_result Pteromys))
+            (MK_Conclude (make_key_result Pteromyscus)))
+      | Small => MK_Ask_Continent is_new_world_continent
+          (MK_Conclude (make_key_result Glaucomys))
+          (MK_Conclude (make_key_result Hylopetes))
+      | Tiny => MK_Conclude (make_key_result Petaurillus)
+      end))
+    (MK_Ask_CheekPouches
+      (MK_Ask_Habitat (fun h =>
+        match h with
+        | Fossorial => MK_Ask_Size (fun sz =>
+            match sz with
+            | Giant => MK_Conclude (make_key_result Marmota)
+            | Large => MK_Conclude (make_key_result Marmota)
+            | _ => MK_Conclude (make_key_result Cynomys)
+            end)
+        | Terrestrial => MK_Ask_Striped
+            (MK_Ask_Size (fun sz =>
+              match sz with
+              | Small => MK_Ask_Continent is_african_continent
+                  (MK_Conclude (make_key_result Xerus))
+                  (MK_Conclude (make_key_result Tamias))
+              | Medium => MK_Conclude (make_key_result Callospermophilus)
+              | _ => MK_Conclude (make_key_result Xerus)
+              end))
+            (MK_Ask_Continent is_african_continent
+              (MK_Conclude (make_key_result Atlantoxerus))
+              (MK_Ask_Continent is_asian_continent
+                (MK_Conclude (make_key_result Spermophilopsis))
+                (MK_Conclude (make_key_result Urocitellus))))
+        | Arboreal => MK_Conclude (make_key_result Sciurotamias)
+        | Gliding => MK_Conclude (make_key_result Glaucomys)
+        end))
+      (MK_Ask_Size (fun sz =>
+        match sz with
+        | Giant => MK_Conclude (make_key_result Ratufa)
+        | Large => MK_Ask_Continent is_african_continent
+            (MK_Conclude (make_key_result Protoxerus))
+            (MK_Conclude (make_key_result Rubrisciurus))
+        | Medium => MK_Ask_Striped
+            (MK_Conclude (make_key_result Funambulus))
+            (MK_Ask_Continent is_african_continent
+              (MK_Conclude (make_key_result Heliosciurus))
+              (MK_Ask_Continent is_asian_continent
+                (MK_Conclude (make_key_result Callosciurus))
+                (MK_Ask_Continent is_new_world_continent
+                  (MK_Conclude (make_key_result Microsciurus))
+                  (MK_Conclude (make_key_result Sciurus)))))
+        | Small => MK_Ask_Striped
+            (MK_Ask_Continent is_african_continent
+              (MK_Conclude (make_key_result Funisciurus))
+              (MK_Conclude (make_key_result Funambulus)))
+            (MK_Ask_Continent is_african_continent
+              (MK_Conclude (make_key_result Paraxerus))
+              (MK_Ask_Continent is_asian_continent
+                (MK_Conclude (make_key_result Sundasciurus))
+                (MK_Conclude (make_key_result Tamiasciurus))))
+        | Tiny => MK_Ask_Continent is_african_continent
+            (MK_Conclude (make_key_result Myosciurus))
+            (MK_Ask_Continent is_asian_continent
+              (MK_Conclude (make_key_result Exilisciurus))
+              (MK_Conclude (make_key_result Sciurillus)))
+        end))).
+
+Definition classify_by_morphology (g : Genus) : KeyResult :=
+  run_morph_key morphological_key (morphology_of g) (native_to g).
+
+Theorem key_result_valid :
+  forall r : KeyResult,
+  subfamily_of (result_genus r) = result_subfamily r /\
+  tribe_of (result_genus r) = result_tribe r.
+Proof.
+  intro r.
+  split.
+  - exact (subfamily_correct r).
+  - exact (tribe_correct r).
+Qed.
+
+Theorem flying_squirrel_key_path :
+  forall g, has_patagium (morphology_of g) = true ->
+  has_patagium (morphology_of (result_genus (classify_by_morphology g))) = true.
+Proof.
+  intros g H.
+  destruct g; simpl in H; try discriminate; simpl; reflexivity.
+Qed.
+
+Definition KeyProof (g : Genus) (r : KeyResult) : Prop :=
+  subfamily_of g = result_subfamily r ->
+  morphology_of g = morphology_of (result_genus r) ->
+  g = result_genus r \/ tribe_of g = result_tribe r.
+
+Record CertifiedResult (g : Genus) : Type := {
+  certified_result : KeyResult;
+  result_coherent : subfamily_of (result_genus certified_result) =
+                    subfamily_of g ->
+                    tribe_of (result_genus certified_result) = tribe_of g \/
+                    morphology_of (result_genus certified_result) <>
+                    morphology_of g
+}.
+
+Definition certify_classification (g : Genus) : CertifiedResult g.
+Proof.
+  refine {| certified_result := make_key_result g |}.
+  intro H.
+  left.
+  reflexivity.
+Defined.
+
+Theorem certification_sound :
+  forall g, result_genus (certified_result g (certify_classification g)) = g.
+Proof. intro g; reflexivity. Qed.
+
+Theorem certification_subfamily_match :
+  forall g, result_subfamily (certified_result g (certify_classification g)) = subfamily_of g.
+Proof. intro g; reflexivity. Qed.
+
+Theorem certification_tribe_match :
+  forall g, result_tribe (certified_result g (certify_classification g)) = tribe_of g.
+Proof. intro g; reflexivity. Qed.
+
+(* ========================================================================== *)
+(*                        LEGACY DICHOTOMOUS KEY                              *)
 (* ========================================================================== *)
 
 Inductive Question : Type :=
