@@ -2,14 +2,14 @@
 (*                                                                            *)
 (*         Sciuridae Formalis: Verified Taxonomy of the Squirrel Family       *)
 (*                                                                            *)
-(*     Inductive encoding of the family Sciuridae (58 genera, 5 subfamilies)  *)
+(*     Inductive encoding of the family Sciuridae (63 genera, 5 subfamilies)  *)
 (*     with a machine-checked dichotomous key, monophyly constraints, and     *)
 (*     biogeographic proofs: endemism, continental distribution, and clade    *)
 (*     exclusion. The key is complete and unambiguous by construction.        *)
 (*                                                                            *)
-(*     "The gray squirrel is peculiarly a product of the woods;               *)
-(*      he seems to be the spirit of the trees made visible."                 *)
-(*     — John Burroughs, Squirrels and Other Fur-Bearers, 1900                *)
+(*     The gray squirrel is peculiarly a product of the woods;                *)
+(*     he seems to be the spirit of the trees made visible.                   *)
+(*                                  -- John Burroughs, 1900                   *)
 (*                                                                            *)
 (*     In memoriam: the small lives lost beneath our wheels.                  *)
 (*                                                                            *)
@@ -21,8 +21,13 @@
 Require Import Coq.Lists.List.
 Require Import Coq.Bool.Bool.
 Require Import Coq.Arith.Arith.
+Require Import Coq.Strings.String.
 Require Import Lia.
 Import ListNotations.
+Local Open Scope string_scope.
+
+Ltac genus_destruct g := destruct g; simpl in *; try discriminate; auto.
+Ltac genus_exhaust := intros; match goal with | g : _ |- _ => genus_destruct g end.
 
 (* ======================== Continents ======================== *)
 
@@ -112,8 +117,80 @@ Inductive Genus : Type :=
   | Sciurotamias
   | Spermophilus
   | Tamias
+  | Neotamias
   | Urocitellus
-  | Xerospermophilus.
+  | Xerospermophilus
+  | Douglassciurus
+  | Hesperopetes
+  | Palaeosciurus
+  | Protosciurus.
+
+Definition common_name (g : Genus) : string :=
+  match g with
+  | Ratufa => "Giant squirrels"
+  | Sciurillus => "Neotropical pygmy squirrel"
+  | Microsciurus => "Dwarf squirrels"
+  | Rheithrosciurus => "Tufted ground squirrel"
+  | Sciurus => "Tree squirrels"
+  | Syntheosciurus => "Bangs's mountain squirrel"
+  | Tamiasciurus => "Pine squirrels"
+  | Aeretes => "Groove-toothed flying squirrel"
+  | Aeromys => "Black flying squirrels"
+  | Belomys => "Hairy-footed flying squirrel"
+  | Biswamoyopterus => "Namdapha flying squirrel"
+  | Eoglaucomys => "Kashmir flying squirrel"
+  | Eupetaurus => "Woolly flying squirrel"
+  | Glaucomys => "New World flying squirrels"
+  | Hylopetes => "Arrow-tailed flying squirrels"
+  | Iomys => "Javanese flying squirrel"
+  | Petaurillus => "Pygmy flying squirrels"
+  | Petaurista => "Giant flying squirrels"
+  | Petinomys => "Dwarf flying squirrels"
+  | Pteromys => "Old World flying squirrels"
+  | Pteromyscus => "Smoky flying squirrel"
+  | Trogopterus => "Complex-toothed flying squirrel"
+  | Callosciurus => "Beautiful squirrels"
+  | Dremomys => "Red-cheeked squirrels"
+  | Exilisciurus => "Philippine pygmy squirrels"
+  | Funambulus => "Palm squirrels"
+  | Glyphotes => "Sculptor squirrel"
+  | Hyosciurus => "Sulawesi long-nosed squirrels"
+  | Lariscus => "Striped ground squirrels"
+  | Menetes => "Berdmore's ground squirrel"
+  | Nannosciurus => "Black-eared squirrel"
+  | Prosciurillus => "Sulawesi dwarf squirrels"
+  | Rhinosciurus => "Shrew-faced squirrel"
+  | Rubrisciurus => "Sulawesi giant squirrel"
+  | Sundasciurus => "Sunda squirrels"
+  | Tamiops => "Asiatic striped squirrels"
+  | Atlantoxerus => "Barbary ground squirrel"
+  | Spermophilopsis => "Long-clawed ground squirrel"
+  | Xerus => "African ground squirrels"
+  | Epixerus => "African palm squirrels"
+  | Funisciurus => "Rope squirrels"
+  | Heliosciurus => "Sun squirrels"
+  | Myosciurus => "African pygmy squirrel"
+  | Paraxerus => "Bush squirrels"
+  | Protoxerus => "African giant squirrels"
+  | Ammospermophilus => "Antelope squirrels"
+  | Callospermophilus => "Golden-mantled ground squirrels"
+  | Cynomys => "Prairie dogs"
+  | Ictidomys => "Thirteen-lined ground squirrels"
+  | Marmota => "Marmots"
+  | Notocitellus => "Tropical ground squirrels"
+  | Otospermophilus => "Rock squirrels"
+  | Poliocitellus => "Franklin's ground squirrel"
+  | Sciurotamias => "Chinese rock squirrels"
+  | Spermophilus => "Ground squirrels"
+  | Tamias => "Chipmunks"
+  | Neotamias => "Western chipmunks"
+  | Urocitellus => "Holarctic ground squirrels"
+  | Xerospermophilus => "Spotted ground squirrels"
+  | Douglassciurus => "Douglass's squirrel (fossil)"
+  | Hesperopetes => "Western flying squirrel (fossil)"
+  | Palaeosciurus => "Ancient ground squirrel (fossil)"
+  | Protosciurus => "Proto-squirrel (fossil)"
+  end.
 
 (* ======================== Species ======================== *)
 
@@ -363,31 +440,31 @@ Inductive Species : Genus -> Type :=
   | Spermophilus_suslicus : Species Spermophilus
   | Spermophilus_taurensis : Species Spermophilus
   | Spermophilus_xanthoprymnus : Species Spermophilus
-  | Tamias_alpinus : Species Tamias
-  | Tamias_amoenus : Species Tamias
-  | Tamias_bulleri : Species Tamias
-  | Tamias_canipes : Species Tamias
-  | Tamias_cinereicollis : Species Tamias
-  | Tamias_dorsalis : Species Tamias
-  | Tamias_durangae : Species Tamias
-  | Tamias_merriami : Species Tamias
-  | Tamias_minimus : Species Tamias
-  | Tamias_obscurus : Species Tamias
-  | Tamias_ochrogenys : Species Tamias
-  | Tamias_palmeri : Species Tamias
-  | Tamias_panamintinus : Species Tamias
-  | Tamias_quadrimaculatus : Species Tamias
-  | Tamias_quadrivittatus : Species Tamias
-  | Tamias_ruficaudus : Species Tamias
-  | Tamias_rufus : Species Tamias
-  | Tamias_senex : Species Tamias
   | Tamias_sibiricus : Species Tamias
-  | Tamias_siskiyou : Species Tamias
-  | Tamias_sonomae : Species Tamias
-  | Tamias_speciosus : Species Tamias
   | Tamias_striatus : Species Tamias
-  | Tamias_townsendii : Species Tamias
-  | Tamias_umbrinus : Species Tamias
+  | Neotamias_alpinus : Species Neotamias
+  | Neotamias_amoenus : Species Neotamias
+  | Neotamias_bulleri : Species Neotamias
+  | Neotamias_canipes : Species Neotamias
+  | Neotamias_cinereicollis : Species Neotamias
+  | Neotamias_dorsalis : Species Neotamias
+  | Neotamias_durangae : Species Neotamias
+  | Neotamias_merriami : Species Neotamias
+  | Neotamias_minimus : Species Neotamias
+  | Neotamias_obscurus : Species Neotamias
+  | Neotamias_ochrogenys : Species Neotamias
+  | Neotamias_palmeri : Species Neotamias
+  | Neotamias_panamintinus : Species Neotamias
+  | Neotamias_quadrimaculatus : Species Neotamias
+  | Neotamias_quadrivittatus : Species Neotamias
+  | Neotamias_ruficaudus : Species Neotamias
+  | Neotamias_rufus : Species Neotamias
+  | Neotamias_senex : Species Neotamias
+  | Neotamias_siskiyou : Species Neotamias
+  | Neotamias_sonomae : Species Neotamias
+  | Neotamias_speciosus : Species Neotamias
+  | Neotamias_townsendii : Species Neotamias
+  | Neotamias_umbrinus : Species Neotamias
   | Urocitellus_armatus : Species Urocitellus
   | Urocitellus_beldingi : Species Urocitellus
   | Urocitellus_brunneus : Species Urocitellus
@@ -468,8 +545,13 @@ Definition subfamily_of (g : Genus) : Subfamily :=
   | Sciurotamias => Xerinae
   | Spermophilus => Xerinae
   | Tamias => Xerinae
+  | Neotamias => Xerinae
   | Urocitellus => Xerinae
   | Xerospermophilus => Xerinae
+  | Douglassciurus => Sciurinae
+  | Hesperopetes => Sciurinae
+  | Palaeosciurus => Xerinae
+  | Protosciurus => Sciurinae
   end.
 
 (* ======================== Tribe Membership ======================== *)
@@ -532,8 +614,13 @@ Definition tribe_of (g : Genus) : Tribe :=
   | Sciurotamias => Marmotini
   | Spermophilus => Marmotini
   | Tamias => Marmotini
+  | Neotamias => Marmotini
   | Urocitellus => Marmotini
   | Xerospermophilus => Marmotini
+  | Douglassciurus => Pteromyini
+  | Hesperopetes => Pteromyini
+  | Palaeosciurus => Marmotini
+  | Protosciurus => NoTribe
   end.
 
 (* ======================== Continental Distribution ======================== *)
@@ -596,8 +683,13 @@ Definition native_continents (g : Genus) : list Continent :=
   | Sciurotamias => [Asia]
   | Spermophilus => [Europe; Asia]
   | Tamias => [NorthAmerica; Asia]
+  | Neotamias => [NorthAmerica]
   | Urocitellus => [NorthAmerica]
   | Xerospermophilus => [NorthAmerica]
+  | Douglassciurus => [NorthAmerica]
+  | Hesperopetes => [NorthAmerica]
+  | Palaeosciurus => [Europe]
+  | Protosciurus => [NorthAmerica]
   end.
 
 (* ======================== Derived Species Classification ======================== *)
@@ -864,13 +956,14 @@ Definition all_genera : list Genus :=
    Funisciurus; Heliosciurus; Myosciurus; Paraxerus; Protoxerus;
    Ammospermophilus; Callospermophilus; Cynomys; Ictidomys; Marmota;
    Notocitellus; Otospermophilus; Poliocitellus; Sciurotamias; Spermophilus;
-   Tamias; Urocitellus; Xerospermophilus].
+   Tamias; Neotamias; Urocitellus; Xerospermophilus;
+   Douglassciurus; Hesperopetes; Palaeosciurus; Protosciurus].
 
-Theorem genera_count : length all_genera = 58.
+Theorem genera_count : List.length all_genera = 63.
 Proof. reflexivity. Qed.
 
 Theorem all_genera_complete : forall g, In g all_genera.
-Proof. destruct g; simpl; auto 60. Qed.
+Proof. destruct g; simpl; auto 70. Qed.
 
 Theorem all_genera_nodup : NoDup all_genera.
 Proof.
@@ -878,39 +971,59 @@ Proof.
   repeat constructor; simpl; intuition discriminate.
 Qed.
 
+Inductive ExtinctStatus : Type := Extant | Extinct.
+
+Definition extinction_status (g : Genus) : ExtinctStatus :=
+  match g with
+  | Douglassciurus | Hesperopetes | Palaeosciurus | Protosciurus => Extinct
+  | _ => Extant
+  end.
+
+Definition extant_genera : list Genus :=
+  filter (fun g => match extinction_status g with Extant => true | Extinct => false end) all_genera.
+
+Definition fossil_genera : list Genus :=
+  filter (fun g => match extinction_status g with Extinct => true | Extant => false end) all_genera.
+
+Theorem extant_genera_count : List.length extant_genera = 59.
+Proof. reflexivity. Qed.
+
+Theorem fossil_genera_count : List.length fossil_genera = 4.
+Proof. reflexivity. Qed.
+
 Definition genera_in_subfamily (sf : Subfamily) : list Genus :=
   filter (fun g => subfamily_eqb (subfamily_of g) sf) all_genera.
 
-Theorem ratufinae_count : length (genera_in_subfamily Ratufinae) = 1.
+Theorem ratufinae_count : List.length (genera_in_subfamily Ratufinae) = 1.
 Proof. reflexivity. Qed.
 
-Theorem sciurillinae_count : length (genera_in_subfamily Sciurillinae) = 1.
+Theorem sciurillinae_count : List.length (genera_in_subfamily Sciurillinae) = 1.
 Proof. reflexivity. Qed.
 
-Theorem sciurinae_count : length (genera_in_subfamily Sciurinae) = 20.
+Theorem sciurinae_count : List.length (genera_in_subfamily Sciurinae) = 23.
 Proof. reflexivity. Qed.
 
-Theorem callosciurinae_count : length (genera_in_subfamily Callosciurinae) = 14.
+Theorem callosciurinae_count : List.length (genera_in_subfamily Callosciurinae) = 14.
 Proof. reflexivity. Qed.
 
-Theorem xerinae_count : length (genera_in_subfamily Xerinae) = 22.
+Theorem xerinae_count : List.length (genera_in_subfamily Xerinae) = 24.
 Proof. reflexivity. Qed.
 
 Theorem subfamily_partition :
-  length (genera_in_subfamily Ratufinae) +
-  length (genera_in_subfamily Sciurillinae) +
-  length (genera_in_subfamily Sciurinae) +
-  length (genera_in_subfamily Callosciurinae) +
-  length (genera_in_subfamily Xerinae) = 58.
+  List.length (genera_in_subfamily Ratufinae) +
+  List.length (genera_in_subfamily Sciurillinae) +
+  List.length (genera_in_subfamily Sciurinae) +
+  List.length (genera_in_subfamily Callosciurinae) +
+  List.length (genera_in_subfamily Xerinae) = 63.
 Proof. reflexivity. Qed.
 
 Definition genera_in_tribe (t : Tribe) : list Genus :=
   filter (fun g => tribe_eqb (tribe_of g) t) all_genera.
 
-Theorem pteromyini_count : length (genera_in_tribe Pteromyini) = 15.
+Theorem pteromyini_count : List.length (genera_in_tribe Pteromyini) = 17.
 Proof. reflexivity. Qed.
 
-Theorem marmotini_count : length (genera_in_tribe Marmotini) = 13.
+Theorem marmotini_count : List.length (genera_in_tribe Marmotini) = 15.
 Proof. reflexivity. Qed.
 
 (* ======================== Key Uniqueness ======================== *)
@@ -962,7 +1075,8 @@ Definition has_patagium_char (g : Genus) : bool :=
   match g with
   | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys
   | Eupetaurus | Glaucomys | Hylopetes | Iomys | Petaurillus
-  | Petaurista | Petinomys | Pteromys | Pteromyscus | Trogopterus => true
+  | Petaurista | Petinomys | Pteromys | Pteromyscus | Trogopterus
+  | Douglassciurus | Hesperopetes => true
   | _ => false
   end.
 
@@ -971,7 +1085,8 @@ Definition has_cheek_pouches_char (g : Genus) : bool :=
   | Atlantoxerus | Spermophilopsis | Xerus
   | Ammospermophilus | Callospermophilus | Cynomys | Ictidomys | Marmota
   | Notocitellus | Otospermophilus | Poliocitellus | Sciurotamias
-  | Spermophilus | Tamias | Urocitellus | Xerospermophilus => true
+  | Spermophilus | Tamias | Neotamias | Urocitellus | Xerospermophilus
+  | Palaeosciurus => true
   | _ => false
   end.
 
@@ -1067,7 +1182,7 @@ Proof. repeat split; reflexivity. Qed.
 Example witness_sciurini :
   subfamily_of Sciurus = Sciurinae /\
   tribe_of Sciurus = Sciurini /\
-  length (native_continents Sciurus) = 5.
+  List.length (native_continents Sciurus) = 5.
 Proof. repeat split; reflexivity. Qed.
 
 Example witness_pteromyini :
@@ -1133,16 +1248,30 @@ Proof.
   destruct g; simpl in H; try discriminate; reflexivity.
 Qed.
 
+Example counter_flying_not_fossorial :
+  forall g, has_patagium_char g = true -> is_fossorial_char g = false.
+Proof.
+  intros g H.
+  destruct g; simpl in *; try discriminate; reflexivity.
+Qed.
+
+Example counter_giant_not_fossorial :
+  forall g, is_giant_char g = true -> is_fossorial_char g = false.
+Proof.
+  intros g H.
+  destruct g; simpl in *; try discriminate; reflexivity.
+Qed.
+
 (* ======================== Endemism Predicates ======================== *)
 
 Definition endemic_to (g : Genus) (c : Continent) : Prop :=
   native_continents g = [c].
 
 Definition cosmopolitan (g : Genus) : Prop :=
-  length (native_continents g) >= 3.
+  List.length (native_continents g) >= 3.
 
 Definition restricted (g : Genus) : Prop :=
-  length (native_continents g) = 1.
+  List.length (native_continents g) = 1.
 
 Theorem sciurus_cosmopolitan : cosmopolitan Sciurus.
 Proof. unfold cosmopolitan; simpl; lia. Qed.
@@ -1166,22 +1295,22 @@ Definition genera_endemic_to (c : Continent) : list Genus :=
     | _ => false
     end) all_genera.
 
-Theorem asian_endemic_count : length (genera_endemic_to Asia) = 31.
+Theorem asian_endemic_count : List.length (genera_endemic_to Asia) = 31.
 Proof. reflexivity. Qed.
 
-Theorem african_endemic_count : length (genera_endemic_to Africa) = 8.
+Theorem african_endemic_count : List.length (genera_endemic_to Africa) = 8.
 Proof. reflexivity. Qed.
 
-Theorem north_american_endemic_count : length (genera_endemic_to NorthAmerica) = 10.
+Theorem north_american_endemic_count : List.length (genera_endemic_to NorthAmerica) = 14.
 Proof. reflexivity. Qed.
 
-Theorem south_american_endemic_count : length (genera_endemic_to SouthAmerica) = 1.
+Theorem south_american_endemic_count : List.length (genera_endemic_to SouthAmerica) = 1.
 Proof. reflexivity. Qed.
 
-Theorem central_american_endemic_count : length (genera_endemic_to CentralAmerica) = 1.
+Theorem central_american_endemic_count : List.length (genera_endemic_to CentralAmerica) = 1.
 Proof. reflexivity. Qed.
 
-Theorem european_endemic_count : length (genera_endemic_to Europe) = 0.
+Theorem european_endemic_count : List.length (genera_endemic_to Europe) = 1.
 Proof. reflexivity. Qed.
 
 (* ======================== Continental Diversity ======================== *)
@@ -1189,27 +1318,27 @@ Proof. reflexivity. Qed.
 Definition genera_present_in (c : Continent) : list Genus :=
   filter (fun g => native_to g c) all_genera.
 
-Theorem asia_diversity : length (genera_present_in Asia) = 36.
+Theorem asia_diversity : List.length (genera_present_in Asia) = 36.
 Proof. reflexivity. Qed.
 
-Theorem north_america_diversity : length (genera_present_in NorthAmerica) = 14.
+Theorem north_america_diversity : List.length (genera_present_in NorthAmerica) = 18.
 Proof. reflexivity. Qed.
 
-Theorem africa_diversity : length (genera_present_in Africa) = 8.
+Theorem africa_diversity : List.length (genera_present_in Africa) = 8.
 Proof. reflexivity. Qed.
 
-Theorem europe_diversity : length (genera_present_in Europe) = 4.
+Theorem europe_diversity : List.length (genera_present_in Europe) = 5.
 Proof. reflexivity. Qed.
 
-Theorem south_america_diversity : length (genera_present_in SouthAmerica) = 3.
+Theorem south_america_diversity : List.length (genera_present_in SouthAmerica) = 3.
 Proof. reflexivity. Qed.
 
-Theorem central_america_diversity : length (genera_present_in CentralAmerica) = 4.
+Theorem central_america_diversity : List.length (genera_present_in CentralAmerica) = 4.
 Proof. reflexivity. Qed.
 
 Theorem asia_most_diverse :
   forall c, c <> Asia ->
-  length (genera_present_in c) < length (genera_present_in Asia).
+  List.length (genera_present_in c) < List.length (genera_present_in Asia).
 Proof.
   intros c H.
   destruct c; simpl; try contradiction; lia.
@@ -1375,38 +1504,57 @@ Definition morphology_of (g : Genus) : Morphology :=
   | Tamiasciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
                        cheek_pouches := Absent; has_patagium := false;
                        has_ear_tufts := true; is_striped := false |}
-  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys
-  | Eupetaurus | Glaucomys | Hylopetes | Iomys | Petaurillus
-  | Petaurista | Petinomys | Pteromys | Pteromyscus | Trogopterus =>
-      flying_squirrel_morph
+  | Petaurista => {| body_size := Giant; tail_type := Furred; habitat := Gliding;
+                    cheek_pouches := Absent; has_patagium := true;
+                    has_ear_tufts := false; is_striped := false |}
+  | Aeromys | Biswamoyopterus | Eupetaurus =>
+      {| body_size := Large; tail_type := Furred; habitat := Gliding;
+         cheek_pouches := Absent; has_patagium := true;
+         has_ear_tufts := false; is_striped := false |}
+  | Petaurillus => {| body_size := Tiny; tail_type := Furred; habitat := Gliding;
+                      cheek_pouches := Absent; has_patagium := true;
+                      has_ear_tufts := false; is_striped := false |}
+  | Aeretes | Belomys | Eoglaucomys | Glaucomys | Hylopetes | Iomys
+  | Petinomys | Pteromys | Pteromyscus | Trogopterus => flying_squirrel_morph
   | Marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
                   cheek_pouches := Present; has_patagium := false;
                   has_ear_tufts := false; is_striped := false |}
   | Cynomys => {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
                   cheek_pouches := Present; has_patagium := false;
                   has_ear_tufts := false; is_striped := false |}
-  | Tamias => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
-                 cheek_pouches := Present; has_patagium := false;
-                 has_ear_tufts := false; is_striped := true |}
+  | Tamias | Neotamias => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                            cheek_pouches := Present; has_patagium := false;
+                            has_ear_tufts := false; is_striped := true |}
   | Ammospermophilus | Callospermophilus | Ictidomys | Notocitellus
   | Otospermophilus | Poliocitellus | Spermophilus | Urocitellus
   | Xerospermophilus | Sciurotamias => ground_squirrel_morph
   | Xerus | Atlantoxerus | Spermophilopsis => ground_squirrel_morph
-  | Callosciurus | Dremomys | Exilisciurus | Glyphotes | Hyosciurus
-  | Lariscus | Menetes | Nannosciurus | Prosciurillus | Rhinosciurus
-  | Rubrisciurus | Sundasciurus | Tamiops => tree_squirrel_morph
+  | Rubrisciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                      cheek_pouches := Absent; has_patagium := false;
+                      has_ear_tufts := false; is_striped := false |}
+  | Nannosciurus | Exilisciurus | Myosciurus =>
+      {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
+         cheek_pouches := Absent; has_patagium := false;
+         has_ear_tufts := false; is_striped := false |}
+  | Glyphotes => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                    cheek_pouches := Absent; has_patagium := false;
+                    has_ear_tufts := false; is_striped := false |}
+  | Callosciurus | Dremomys | Hyosciurus | Lariscus | Menetes
+  | Prosciurillus | Rhinosciurus | Sundasciurus | Tamiops => tree_squirrel_morph
   | Funambulus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
                      cheek_pouches := Absent; has_patagium := false;
                      has_ear_tufts := false; is_striped := true |}
   | Funisciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
                       cheek_pouches := Absent; has_patagium := false;
                       has_ear_tufts := false; is_striped := true |}
-  | Paraxerus | Heliosciurus | Myosciurus | Epixerus =>
-      tree_squirrel_morph
+  | Paraxerus | Heliosciurus | Epixerus => tree_squirrel_morph
   | Protoxerus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
                      cheek_pouches := Absent; has_patagium := false;
                      has_ear_tufts := false; is_striped := false |}
   | Microsciurus | Syntheosciurus | Rheithrosciurus => tree_squirrel_morph
+  | Douglassciurus | Hesperopetes => flying_squirrel_morph
+  | Palaeosciurus => ground_squirrel_morph
+  | Protosciurus => tree_squirrel_morph
   end.
 
 Definition morphology_of_species {g : Genus} (s : Species g) : Morphology :=
@@ -1465,9 +1613,9 @@ Definition morphology_of_species {g : Genus} (s : Species g) : Morphology :=
   | Tamias_sibiricus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
                            cheek_pouches := Present; has_patagium := false;
                            has_ear_tufts := false; is_striped := true |}
-  | Tamias_minimus => {| body_size := Tiny; tail_type := Bushy; habitat := Terrestrial;
-                         cheek_pouches := Present; has_patagium := false;
-                         has_ear_tufts := false; is_striped := true |}
+  | Neotamias_minimus => {| body_size := Tiny; tail_type := Bushy; habitat := Terrestrial;
+                           cheek_pouches := Present; has_patagium := false;
+                           has_ear_tufts := false; is_striped := true |}
   | Funambulus_palmarum => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
                               cheek_pouches := Absent; has_patagium := false;
                               has_ear_tufts := false; is_striped := true |}
@@ -1526,7 +1674,7 @@ Theorem volans_smaller_than_sabrinus :
 Proof. split; reflexivity. Qed.
 
 Theorem minimus_is_tiny :
-  body_size (morphology_of_species Tamias_minimus) = Tiny.
+  body_size (morphology_of_species Neotamias_minimus) = Tiny.
 Proof. reflexivity. Qed.
 
 Theorem woolly_flying_squirrel_unique :
@@ -1826,7 +1974,7 @@ Definition answer_question (q : Question) (g : Genus) : bool :=
   | Q_Holarctic => andb (native_to g NorthAmerica) (native_to g Asia)
   | Q_SouthAmerican => native_to g SouthAmerica
   | Q_Burrowing => match tribe_of g with Marmotini => true | Xerini => true | _ => false end
-  | Q_Striped => match g with Tamias => true | Tamiops => true | Funambulus => true | _ => false end
+  | Q_Striped => match g with Tamias | Neotamias => true | Tamiops => true | Funambulus => true | _ => false end
   end.
 
 Definition sciuridae_key : KeyNode :=
@@ -1912,10 +2060,10 @@ Definition all_key_results : list (Genus * (Subfamily * Tribe)) :=
   map (fun g => (g, key_result g)) all_genera.
 
 Definition count_correct_subfamily : nat :=
-  length (filter (fun g => key_correct_subfamily g) all_genera).
+  List.length (filter (fun g => key_correct_subfamily g) all_genera).
 
 Definition count_correct_tribe : nat :=
-  length (filter (fun g => key_correct_tribe g) all_genera).
+  List.length (filter (fun g => key_correct_tribe g) all_genera).
 
 Theorem key_subfamily_accuracy : count_correct_subfamily >= 45.
 Proof. unfold count_correct_subfamily; simpl; lia. Qed.
@@ -2014,7 +2162,7 @@ Definition refined_key_result (g : Genus) : Subfamily * Tribe :=
   traverse_key refined_key g.
 
 Definition count_refined_correct_subfamily : nat :=
-  length (filter (fun g => subfamily_eqb (fst (refined_key_result g)) (subfamily_of g)) all_genera).
+  List.length (filter (fun g => subfamily_eqb (fst (refined_key_result g)) (subfamily_of g)) all_genera).
 
 Theorem refined_key_improves : count_refined_correct_subfamily >= 48.
 Proof. unfold count_refined_correct_subfamily; simpl; lia. Qed.
@@ -2201,19 +2349,19 @@ Definition all_species : list AnySpecies :=
    pack_species Spermophilus_ralli; pack_species Spermophilus_relictus;
    pack_species Spermophilus_suslicus; pack_species Spermophilus_taurensis;
    pack_species Spermophilus_xanthoprymnus;
-   pack_species Tamias_alpinus; pack_species Tamias_amoenus;
-   pack_species Tamias_bulleri; pack_species Tamias_canipes;
-   pack_species Tamias_cinereicollis; pack_species Tamias_dorsalis;
-   pack_species Tamias_durangae; pack_species Tamias_merriami;
-   pack_species Tamias_minimus; pack_species Tamias_obscurus;
-   pack_species Tamias_ochrogenys; pack_species Tamias_palmeri;
-   pack_species Tamias_panamintinus; pack_species Tamias_quadrimaculatus;
-   pack_species Tamias_quadrivittatus; pack_species Tamias_ruficaudus;
-   pack_species Tamias_rufus; pack_species Tamias_senex;
-   pack_species Tamias_sibiricus; pack_species Tamias_siskiyou;
-   pack_species Tamias_sonomae; pack_species Tamias_speciosus;
-   pack_species Tamias_striatus; pack_species Tamias_townsendii;
-   pack_species Tamias_umbrinus;
+   pack_species Tamias_sibiricus; pack_species Tamias_striatus;
+   pack_species Neotamias_alpinus; pack_species Neotamias_amoenus;
+   pack_species Neotamias_bulleri; pack_species Neotamias_canipes;
+   pack_species Neotamias_cinereicollis; pack_species Neotamias_dorsalis;
+   pack_species Neotamias_durangae; pack_species Neotamias_merriami;
+   pack_species Neotamias_minimus; pack_species Neotamias_obscurus;
+   pack_species Neotamias_ochrogenys; pack_species Neotamias_palmeri;
+   pack_species Neotamias_panamintinus; pack_species Neotamias_quadrimaculatus;
+   pack_species Neotamias_quadrivittatus; pack_species Neotamias_ruficaudus;
+   pack_species Neotamias_rufus; pack_species Neotamias_senex;
+   pack_species Neotamias_siskiyou; pack_species Neotamias_sonomae;
+   pack_species Neotamias_speciosus; pack_species Neotamias_townsendii;
+   pack_species Neotamias_umbrinus;
    pack_species Urocitellus_armatus; pack_species Urocitellus_beldingi;
    pack_species Urocitellus_brunneus; pack_species Urocitellus_canus;
    pack_species Urocitellus_columbianus; pack_species Urocitellus_elegans;
@@ -2224,7 +2372,7 @@ Definition all_species : list AnySpecies :=
    pack_species Xerospermophilus_mohavensis; pack_species Xerospermophilus_perotensis;
    pack_species Xerospermophilus_spilosoma; pack_species Xerospermophilus_tereticaudus].
 
-Theorem species_count : length all_species = 287.
+Theorem species_count : List.length all_species = 287.
 Proof. reflexivity. Qed.
 
 Theorem all_species_complete : forall g (s : Species g),
@@ -2240,7 +2388,7 @@ Qed.
 
 Inductive SnoutShape : Type := Elongated | Normal | Blunt.
 Inductive TailRatio : Type := TailShort | TailModerate | TailLong | TailVeryLong.
-Inductive PelagePattern : Type := Uniform | PelageSriped | Spotted | Banded | Grizzled.
+Inductive PelagePattern : Type := Uniform | PelageStriped | Spotted | Banded | Grizzled.
 Inductive EarShape : Type := Rounded | Pointed | EarTufted.
 
 Record ExtendedMorphology : Type := {
@@ -2289,12 +2437,12 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                        has_white_eye_ring := false; num_mammae := 4 |}
   | Funambulus => {| base_morph := morphology_of Funambulus;
                      snout_shape := Normal; tail_ratio := TailLong;
-                     pelage_pattern := PelageSriped; ear_shape := Rounded;
+                     pelage_pattern := PelageStriped; ear_shape := Rounded;
                      has_postauricular_patch := false; has_dorsal_stripe := true;
                      has_white_eye_ring := false; num_mammae := 6 |}
   | Tamiops => {| base_morph := morphology_of Tamiops;
                   snout_shape := Normal; tail_ratio := TailModerate;
-                  pelage_pattern := PelageSriped; ear_shape := Rounded;
+                  pelage_pattern := PelageStriped; ear_shape := Rounded;
                   has_postauricular_patch := false; has_dorsal_stripe := true;
                   has_white_eye_ring := false; num_mammae := 8 |}
   | Rhinosciurus => {| base_morph := morphology_of Rhinosciurus;
@@ -2309,9 +2457,14 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                      has_white_eye_ring := false; num_mammae := 4 |}
   | Tamias => {| base_morph := morphology_of Tamias;
                  snout_shape := Normal; tail_ratio := TailModerate;
-                 pelage_pattern := PelageSriped; ear_shape := Rounded;
+                 pelage_pattern := PelageStriped; ear_shape := Rounded;
                  has_postauricular_patch := false; has_dorsal_stripe := true;
                  has_white_eye_ring := true; num_mammae := 8 |}
+  | Neotamias => {| base_morph := morphology_of Neotamias;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := PelageStriped; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := true;
+                    has_white_eye_ring := true; num_mammae := 8 |}
   | Marmota => {| base_morph := morphology_of Marmota;
                   snout_shape := Blunt; tail_ratio := TailShort;
                   pelage_pattern := Grizzled; ear_shape := Rounded;
@@ -2324,12 +2477,12 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                   has_white_eye_ring := false; num_mammae := 10 |}
   | Xerus => {| base_morph := morphology_of Xerus;
                 snout_shape := Normal; tail_ratio := TailLong;
-                pelage_pattern := PelageSriped; ear_shape := Rounded;
+                pelage_pattern := PelageStriped; ear_shape := Rounded;
                 has_postauricular_patch := false; has_dorsal_stripe := true;
                 has_white_eye_ring := true; num_mammae := 4 |}
   | Atlantoxerus => {| base_morph := morphology_of Atlantoxerus;
                        snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := PelageSriped; ear_shape := Rounded;
+                       pelage_pattern := PelageStriped; ear_shape := Rounded;
                        has_postauricular_patch := false; has_dorsal_stripe := true;
                        has_white_eye_ring := false; num_mammae := 4 |}
   | Glaucomys => {| base_morph := morphology_of Glaucomys;
@@ -2364,7 +2517,7 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                        has_white_eye_ring := false; num_mammae := 4 |}
   | Funisciurus => {| base_morph := morphology_of Funisciurus;
                       snout_shape := Normal; tail_ratio := TailLong;
-                      pelage_pattern := PelageSriped; ear_shape := Rounded;
+                      pelage_pattern := PelageStriped; ear_shape := Rounded;
                       has_postauricular_patch := false; has_dorsal_stripe := true;
                       has_white_eye_ring := false; num_mammae := 4 |}
   | Paraxerus => {| base_morph := morphology_of Paraxerus;
@@ -2454,12 +2607,12 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                     has_white_eye_ring := false; num_mammae := 4 |}
   | Lariscus => {| base_morph := morphology_of Lariscus;
                    snout_shape := Normal; tail_ratio := TailModerate;
-                   pelage_pattern := PelageSriped; ear_shape := Rounded;
+                   pelage_pattern := PelageStriped; ear_shape := Rounded;
                    has_postauricular_patch := false; has_dorsal_stripe := true;
                    has_white_eye_ring := false; num_mammae := 4 |}
   | Menetes => {| base_morph := morphology_of Menetes;
                   snout_shape := Normal; tail_ratio := TailModerate;
-                  pelage_pattern := PelageSriped; ear_shape := Rounded;
+                  pelage_pattern := PelageStriped; ear_shape := Rounded;
                   has_postauricular_patch := false; has_dorsal_stripe := true;
                   has_white_eye_ring := false; num_mammae := 6 |}
   | Nannosciurus => {| base_morph := morphology_of Nannosciurus;
@@ -2494,12 +2647,12 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                      has_white_eye_ring := false; num_mammae := 4 |}
   | Ammospermophilus => {| base_morph := morphology_of Ammospermophilus;
                            snout_shape := Normal; tail_ratio := TailShort;
-                           pelage_pattern := PelageSriped; ear_shape := Rounded;
+                           pelage_pattern := PelageStriped; ear_shape := Rounded;
                            has_postauricular_patch := false; has_dorsal_stripe := true;
                            has_white_eye_ring := true; num_mammae := 10 |}
   | Callospermophilus => {| base_morph := morphology_of Callospermophilus;
                             snout_shape := Normal; tail_ratio := TailModerate;
-                            pelage_pattern := PelageSriped; ear_shape := Rounded;
+                            pelage_pattern := PelageStriped; ear_shape := Rounded;
                             has_postauricular_patch := false; has_dorsal_stripe := true;
                             has_white_eye_ring := false; num_mammae := 10 |}
   | Ictidomys => {| base_morph := morphology_of Ictidomys;
@@ -2547,6 +2700,21 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                   pelage_pattern := Uniform; ear_shape := Rounded;
                   has_postauricular_patch := false; has_dorsal_stripe := false;
                   has_white_eye_ring := false; num_mammae := 4 |}
+  | Douglassciurus | Hesperopetes => {| base_morph := flying_squirrel_morph;
+                                        snout_shape := Normal; tail_ratio := TailLong;
+                                        pelage_pattern := Uniform; ear_shape := Rounded;
+                                        has_postauricular_patch := false; has_dorsal_stripe := false;
+                                        has_white_eye_ring := false; num_mammae := 4 |}
+  | Palaeosciurus => {| base_morph := ground_squirrel_morph;
+                        snout_shape := Normal; tail_ratio := TailShort;
+                        pelage_pattern := Uniform; ear_shape := Rounded;
+                        has_postauricular_patch := false; has_dorsal_stripe := false;
+                        has_white_eye_ring := false; num_mammae := 8 |}
+  | Protosciurus => {| base_morph := tree_squirrel_morph;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 6 |}
   end.
 
 Theorem elongated_snout_iff :
@@ -2560,12 +2728,12 @@ Qed.
 
 Theorem dorsal_stripe_genera :
   forall g, has_dorsal_stripe (extended_morphology_of g) = true ->
-  (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Xerus \/
+  (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Neotamias \/ g = Xerus \/
    g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/ g = Menetes \/
    g = Ammospermophilus \/ g = Callospermophilus).
 Proof.
   intros g H.
-  destruct g; simpl in H; try discriminate; auto 10.
+  destruct g; simpl in H; try discriminate; auto 15.
 Qed.
 
 Theorem tufted_ears_iff :
@@ -2623,7 +2791,7 @@ Definition tail_eqb (t1 t2 : TailRatio) : bool :=
 
 Definition pelage_eqb (p1 p2 : PelagePattern) : bool :=
   match p1, p2 with
-  | Uniform, Uniform | PelageSriped, PelageSriped | Spotted, Spotted
+  | Uniform, Uniform | PelageStriped, PelageStriped | Spotted, Spotted
   | Banded, Banded | Grizzled, Grizzled => true
   | _, _ => false
   end.
@@ -2771,23 +2939,24 @@ Definition genus_key_correct (g : Genus) : bool :=
   | Notocitellus, Notocitellus => true | Otospermophilus, Otospermophilus => true
   | Poliocitellus, Poliocitellus => true | Sciurotamias, Sciurotamias => true
   | Spermophilus, Spermophilus => true | Tamias, Tamias => true
+  | Neotamias, Neotamias => true
   | Urocitellus, Urocitellus => true | Xerospermophilus, Xerospermophilus => true
   | _, _ => false
   end.
 
 Definition count_key_correct : nat :=
-  length (filter genus_key_correct all_genera).
+  List.length (filter genus_key_correct all_genera).
 
 Eval compute in count_key_correct.
 
-Theorem key_accuracy_current : count_key_correct = 23.
+Theorem key_accuracy_current : count_key_correct = 27.
 Proof. reflexivity. Qed.
 
 Definition misclassified_genera : list Genus :=
   filter (fun g => negb (genus_key_correct g)) all_genera.
 
 Eval compute in misclassified_genera.
-Eval compute in length misclassified_genera.
+Eval compute in List.length misclassified_genera.
 
 Theorem ratufa_key_correct : genus_key Ratufa = Ratufa.
 Proof. reflexivity. Qed.
@@ -2887,8 +3056,13 @@ Definition primary_region (g : Genus) : Region :=
   | Sciurotamias => China
   | Spermophilus => Palearctic
   | Tamias => Nearctic
+  | Neotamias => Nearctic
   | Urocitellus => Nearctic
   | Xerospermophilus => Nearctic
+  | Douglassciurus => Nearctic
+  | Hesperopetes => Nearctic
+  | Palaeosciurus => Palearctic
+  | Protosciurus => Nearctic
   end.
 
 Definition region_eqb (r1 r2 : Region) : bool :=
@@ -2994,7 +3168,7 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
                       stripe_count := NoStripes; is_island_endemic := true;
                       has_white_tail_border := false; has_facial_markings := false |}
   | Trogopterus => {| ext_morph := extended_morphology_of Trogopterus;
-                      region := China; tail_tip := TipBlack; ventral_color := VentralBuff;
+                      region := China; tail_tip := TipSame; ventral_color := VentralBuff;
                       stripe_count := NoStripes; is_island_endemic := false;
                       has_white_tail_border := false; has_facial_markings := false |}
   | Exilisciurus => {| ext_morph := extended_morphology_of Exilisciurus;
@@ -3045,6 +3219,10 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
                  region := Nearctic; tail_tip := TipSame; ventral_color := VentralWhite;
                  stripe_count := FiveStripes; is_island_endemic := false;
                  has_white_tail_border := false; has_facial_markings := true |}
+  | Neotamias => {| ext_morph := extended_morphology_of Neotamias;
+                    region := Nearctic; tail_tip := TipSame; ventral_color := VentralBuff;
+                    stripe_count := FiveStripes; is_island_endemic := false;
+                    has_white_tail_border := false; has_facial_markings := true |}
   | Ammospermophilus => {| ext_morph := extended_morphology_of Ammospermophilus;
                            region := Nearctic; tail_tip := TipBlack; ventral_color := VentralWhite;
                            stripe_count := OneStripe; is_island_endemic := false;
@@ -3125,7 +3303,8 @@ Definition fine_genus_key (g : Genus) : Genus :=
     | Giant => Petaurista
     | Large =>
         if region_eqb reg Borneo then Aeromys
-        else if region_eqb reg India then Biswamoyopterus
+        else if region_eqb reg India then
+          if ear_eqb (ear_shape em) EarTufted then Eupetaurus else Biswamoyopterus
         else Petaurista
     | Medium =>
         if region_eqb reg Nearctic then Glaucomys
@@ -3141,6 +3320,8 @@ Definition fine_genus_key (g : Genus) : Genus :=
           if ventral_eqb (ventral_color fm) VentralOrange then Iomys
           else if ventral_eqb (ventral_color fm) VentralGray then Pteromyscus
           else Hylopetes
+        else if region_eqb reg Oriental then
+          if tail_tip_eqb (tail_tip fm) TipBlack then Petinomys else Hylopetes
         else Hylopetes
     | Small =>
         if region_eqb reg Nearctic then Glaucomys
@@ -3176,7 +3357,8 @@ Definition fine_genus_key (g : Genus) : Genus :=
         if Nat.eqb (num_mammae em) 10 then Spermophilus else Spermophilopsis
       else if region_eqb reg China then Sciurotamias
       else if region_eqb reg Mexico then Notocitellus
-      else if stripe_eqb (stripe_count fm) FiveStripes then Tamias
+      else if stripe_eqb (stripe_count fm) FiveStripes then
+        if ventral_eqb (ventral_color fm) VentralBuff then Neotamias else Tamias
       else if stripe_eqb (stripe_count fm) OneStripe then
         if has_white_tail_border fm then Ammospermophilus else Callospermophilus
       else if pelage_eqb (pelage_pattern em) Spotted then
@@ -3209,6 +3391,7 @@ Definition fine_genus_key (g : Genus) : Genus :=
       else if region_eqb reg Oriental then
         if stripe_eqb (stripe_count fm) FiveStripes then Tamiops
         else if stripe_eqb (stripe_count fm) OneStripe then Menetes
+        else if has_postauricular_patch em then Dremomys
         else if pelage_eqb (pelage_pattern em) Banded then Callosciurus
         else if Nat.eqb (num_mammae em) 4 then Sundasciurus
         else Callosciurus
@@ -3252,12 +3435,13 @@ Definition fine_key_correct (g : Genus) : bool :=
   | Notocitellus, Notocitellus => true | Otospermophilus, Otospermophilus => true
   | Poliocitellus, Poliocitellus => true | Sciurotamias, Sciurotamias => true
   | Spermophilus, Spermophilus => true | Tamias, Tamias => true
+  | Neotamias, Neotamias => true
   | Urocitellus, Urocitellus => true | Xerospermophilus, Xerospermophilus => true
   | _, _ => false
   end.
 
 Definition count_fine_key_correct : nat :=
-  length (filter fine_key_correct all_genera).
+  List.length (filter fine_key_correct all_genera).
 
 Eval compute in count_fine_key_correct.
 
@@ -3265,3 +3449,72 @@ Definition fine_misclassified : list Genus :=
   filter (fun g => negb (fine_key_correct g)) all_genera.
 
 Eval compute in fine_misclassified.
+
+(* ========================================================================== *)
+(*                         PHYLOGENETIC TREE STRUCTURE                        *)
+(* ========================================================================== *)
+
+Inductive PhyloNode : Type :=
+  | Leaf : Genus -> PhyloNode
+  | Clade : string -> list PhyloNode -> PhyloNode.
+
+Definition pteromyini_clade : PhyloNode :=
+  Clade "Pteromyini" [
+    Leaf Glaucomys; Leaf Pteromys; Leaf Petaurista; Leaf Aeromys;
+    Leaf Hylopetes; Leaf Petinomys; Leaf Petaurillus; Leaf Aeretes;
+    Leaf Belomys; Leaf Biswamoyopterus; Leaf Eoglaucomys; Leaf Eupetaurus;
+    Leaf Iomys; Leaf Pteromyscus; Leaf Trogopterus;
+    Leaf Douglassciurus; Leaf Hesperopetes
+  ].
+
+Definition sciurini_clade : PhyloNode :=
+  Clade "Sciurini" [
+    Leaf Sciurus; Leaf Tamiasciurus; Leaf Microsciurus;
+    Leaf Syntheosciurus; Leaf Rheithrosciurus
+  ].
+
+Definition marmotini_clade : PhyloNode :=
+  Clade "Marmotini" [
+    Leaf Marmota; Leaf Cynomys; Leaf Tamias; Leaf Neotamias;
+    Leaf Spermophilus; Leaf Urocitellus; Leaf Ammospermophilus;
+    Leaf Callospermophilus; Leaf Ictidomys; Leaf Notocitellus;
+    Leaf Otospermophilus; Leaf Poliocitellus; Leaf Sciurotamias;
+    Leaf Xerospermophilus; Leaf Palaeosciurus
+  ].
+
+Definition xerini_clade : PhyloNode :=
+  Clade "Xerini" [Leaf Xerus; Leaf Atlantoxerus; Leaf Spermophilopsis].
+
+Definition protoxerini_clade : PhyloNode :=
+  Clade "Protoxerini" [
+    Leaf Funisciurus; Leaf Heliosciurus; Leaf Paraxerus;
+    Leaf Protoxerus; Leaf Epixerus; Leaf Myosciurus
+  ].
+
+Definition callosciurinae_clade : PhyloNode :=
+  Clade "Callosciurinae" [
+    Leaf Callosciurus; Leaf Dremomys; Leaf Exilisciurus;
+    Leaf Funambulus; Leaf Glyphotes; Leaf Hyosciurus;
+    Leaf Lariscus; Leaf Menetes; Leaf Nannosciurus;
+    Leaf Prosciurillus; Leaf Rhinosciurus; Leaf Rubrisciurus;
+    Leaf Sundasciurus; Leaf Tamiops
+  ].
+
+Definition sciuridae_tree : PhyloNode :=
+  Clade "Sciuridae" [
+    Clade "Ratufinae" [Leaf Ratufa];
+    Clade "Sciurillinae" [Leaf Sciurillus];
+    Clade "Sciurinae" [sciurini_clade; pteromyini_clade; Leaf Protosciurus];
+    callosciurinae_clade;
+    Clade "Xerinae" [xerini_clade; protoxerini_clade; marmotini_clade]
+  ].
+
+Fixpoint tree_genera (t : PhyloNode) : list Genus :=
+  match t with
+  | Leaf g => [g]
+  | Clade _ children => flat_map tree_genera children
+  end.
+
+Theorem tree_contains_all_genera :
+  List.length (tree_genera sciuridae_tree) = 63.
+Proof. reflexivity. Qed.
