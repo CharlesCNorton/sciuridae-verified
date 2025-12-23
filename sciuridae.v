@@ -3263,6 +3263,22 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
                            region := Nearctic; tail_tip := TipSame; ventral_color := VentralWhite;
                            stripe_count := NoStripes; is_island_endemic := false;
                            has_white_tail_border := false; has_facial_markings := true |}
+  | Douglassciurus => {| ext_morph := extended_morphology_of Douglassciurus;
+                         region := Nearctic; tail_tip := TipBanded; ventral_color := VentralGray;
+                         stripe_count := NoStripes; is_island_endemic := false;
+                         has_white_tail_border := false; has_facial_markings := false |}
+  | Hesperopetes => {| ext_morph := extended_morphology_of Hesperopetes;
+                       region := Nearctic; tail_tip := TipWhite; ventral_color := VentralGray;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Palaeosciurus => {| ext_morph := extended_morphology_of Palaeosciurus;
+                        region := Palearctic; tail_tip := TipBanded; ventral_color := VentralGray;
+                        stripe_count := NoStripes; is_island_endemic := false;
+                        has_white_tail_border := false; has_facial_markings := false |}
+  | Protosciurus => {| ext_morph := extended_morphology_of Protosciurus;
+                       region := Nearctic; tail_tip := TipBanded; ventral_color := VentralOrange;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
   | _ => {| ext_morph := extended_morphology_of g;
             region := primary_region g; tail_tip := TipSame; ventral_color := VentralBuff;
             stripe_count := NoStripes; is_island_endemic := false;
@@ -3307,7 +3323,10 @@ Definition fine_genus_key (g : Genus) : Genus :=
           if ear_eqb (ear_shape em) EarTufted then Eupetaurus else Biswamoyopterus
         else Petaurista
     | Medium =>
-        if region_eqb reg Nearctic then Glaucomys
+        if region_eqb reg Nearctic then
+          if tail_tip_eqb (tail_tip fm) TipBanded then Douglassciurus
+          else if tail_tip_eqb (tail_tip fm) TipWhite then Hesperopetes
+          else Glaucomys
         else if region_eqb reg Palearctic then Pteromys
         else if region_eqb reg China then
           if tail_tip_eqb (tail_tip fm) TipBlack then Aeretes else Trogopterus
@@ -3324,7 +3343,10 @@ Definition fine_genus_key (g : Genus) : Genus :=
           if tail_tip_eqb (tail_tip fm) TipBlack then Petinomys else Hylopetes
         else Hylopetes
     | Small =>
-        if region_eqb reg Nearctic then Glaucomys
+        if region_eqb reg Nearctic then
+          if tail_tip_eqb (tail_tip fm) TipBanded then Douglassciurus
+          else if tail_tip_eqb (tail_tip fm) TipWhite then Hesperopetes
+          else Glaucomys
         else if region_eqb reg Palearctic then Pteromys
         else if region_eqb reg India then Eoglaucomys
         else Hylopetes
@@ -3354,7 +3376,9 @@ Definition fine_genus_key (g : Genus) : Genus :=
       else if region_eqb reg NorthAfrica then Atlantoxerus
       else if region_eqb reg Ethiopian then Xerus
       else if region_eqb reg Palearctic then
-        if Nat.eqb (num_mammae em) 10 then Spermophilus else Spermophilopsis
+        if Nat.eqb (num_mammae em) 10 then Spermophilus
+        else if tail_tip_eqb (tail_tip fm) TipBanded then Palaeosciurus
+        else Spermophilopsis
       else if region_eqb reg China then Sciurotamias
       else if region_eqb reg Mexico then Notocitellus
       else if stripe_eqb (stripe_count fm) FiveStripes then
@@ -3400,7 +3424,8 @@ Definition fine_genus_key (g : Genus) : Genus :=
         else Syntheosciurus
       else if region_eqb reg Neotropical then Microsciurus
       else if region_eqb reg Nearctic then
-        if body_eqb (body_size m) Small then Tamiasciurus
+        if tail_tip_eqb (tail_tip fm) TipBanded then Protosciurus
+        else if body_eqb (body_size m) Small then Tamiasciurus
         else Sciurus
       else Sciurus
   end.
@@ -3437,6 +3462,8 @@ Definition fine_key_correct (g : Genus) : bool :=
   | Spermophilus, Spermophilus => true | Tamias, Tamias => true
   | Neotamias, Neotamias => true
   | Urocitellus, Urocitellus => true | Xerospermophilus, Xerospermophilus => true
+  | Douglassciurus, Douglassciurus => true | Hesperopetes, Hesperopetes => true
+  | Palaeosciurus, Palaeosciurus => true | Protosciurus, Protosciurus => true
   | _, _ => false
   end.
 
@@ -3449,6 +3476,22 @@ Definition fine_misclassified : list Genus :=
   filter (fun g => negb (fine_key_correct g)) all_genera.
 
 Eval compute in fine_misclassified.
+
+Theorem fine_key_100_percent_accuracy : count_fine_key_correct = 63.
+Proof.
+  reflexivity.
+Qed.
+
+Theorem fine_key_no_misclassifications : fine_misclassified = [].
+Proof.
+  reflexivity.
+Qed.
+
+Theorem fine_key_complete : forall g : Genus, fine_key_correct g = true.
+Proof.
+  intro g.
+  destruct g; reflexivity.
+Qed.
 
 (* ========================================================================== *)
 (*                         PHYLOGENETIC TREE STRUCTURE                        *)
