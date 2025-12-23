@@ -485,140 +485,50 @@ Inductive Species : Genus -> Type :=
 
 Definition genus_of {g : Genus} (s : Species g) : Genus := g.
 
+Definition AnySpecies : Type := { g : Genus & Species g }.
+Definition pack_species {g : Genus} (s : Species g) : AnySpecies := existT Species g s.
+Definition genus_of_any (sp : AnySpecies) : Genus := projT1 sp.
+
 (* ======================== Subfamily Membership ======================== *)
 
 Definition subfamily_of (g : Genus) : Subfamily :=
   match g with
   | Ratufa => Ratufinae
   | Sciurillus => Sciurillinae
-  | Microsciurus => Sciurinae
-  | Rheithrosciurus => Sciurinae
-  | Sciurus => Sciurinae
-  | Syntheosciurus => Sciurinae
-  | Tamiasciurus => Sciurinae
-  | Aeretes => Sciurinae
-  | Aeromys => Sciurinae
-  | Belomys => Sciurinae
-  | Biswamoyopterus => Sciurinae
-  | Eoglaucomys => Sciurinae
-  | Eupetaurus => Sciurinae
-  | Glaucomys => Sciurinae
-  | Hylopetes => Sciurinae
-  | Iomys => Sciurinae
-  | Petaurillus => Sciurinae
-  | Petaurista => Sciurinae
-  | Petinomys => Sciurinae
-  | Pteromys => Sciurinae
-  | Pteromyscus => Sciurinae
-  | Trogopterus => Sciurinae
-  | Callosciurus => Callosciurinae
-  | Dremomys => Callosciurinae
-  | Exilisciurus => Callosciurinae
-  | Funambulus => Callosciurinae
-  | Glyphotes => Callosciurinae
-  | Hyosciurus => Callosciurinae
-  | Lariscus => Callosciurinae
-  | Menetes => Callosciurinae
-  | Nannosciurus => Callosciurinae
-  | Prosciurillus => Callosciurinae
-  | Rhinosciurus => Callosciurinae
-  | Rubrisciurus => Callosciurinae
-  | Sundasciurus => Callosciurinae
-  | Tamiops => Callosciurinae
-  | Atlantoxerus => Xerinae
-  | Spermophilopsis => Xerinae
-  | Xerus => Xerinae
-  | Epixerus => Xerinae
-  | Funisciurus => Xerinae
-  | Heliosciurus => Xerinae
-  | Myosciurus => Xerinae
-  | Paraxerus => Xerinae
-  | Protoxerus => Xerinae
-  | Ammospermophilus => Xerinae
-  | Callospermophilus => Xerinae
-  | Cynomys => Xerinae
-  | Ictidomys => Xerinae
-  | Marmota => Xerinae
-  | Notocitellus => Xerinae
-  | Otospermophilus => Xerinae
-  | Poliocitellus => Xerinae
-  | Sciurotamias => Xerinae
-  | Spermophilus => Xerinae
-  | Tamias => Xerinae
-  | Neotamias => Xerinae
-  | Urocitellus => Xerinae
-  | Xerospermophilus => Xerinae
-  | Douglassciurus => Sciurinae
-  | Hesperopetes => Sciurinae
+  | Microsciurus | Rheithrosciurus | Sciurus | Syntheosciurus | Tamiasciurus => Sciurinae
+  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys | Eupetaurus => Sciurinae
+  | Glaucomys | Hylopetes | Iomys | Petaurillus | Petaurista | Petinomys => Sciurinae
+  | Pteromys | Pteromyscus | Trogopterus => Sciurinae
+  | Callosciurus | Dremomys | Exilisciurus | Funambulus | Glyphotes | Hyosciurus => Callosciurinae
+  | Lariscus | Menetes | Nannosciurus | Prosciurillus | Rhinosciurus => Callosciurinae
+  | Rubrisciurus | Sundasciurus | Tamiops => Callosciurinae
+  | Atlantoxerus | Spermophilopsis | Xerus => Xerinae
+  | Epixerus | Funisciurus | Heliosciurus | Myosciurus | Paraxerus | Protoxerus => Xerinae
+  | Ammospermophilus | Callospermophilus | Cynomys | Ictidomys | Marmota => Xerinae
+  | Notocitellus | Otospermophilus | Poliocitellus | Sciurotamias | Spermophilus => Xerinae
+  | Tamias | Neotamias | Urocitellus | Xerospermophilus => Xerinae
+  | Douglassciurus | Hesperopetes | Protosciurus => Sciurinae
   | Palaeosciurus => Xerinae
-  | Protosciurus => Sciurinae
   end.
 
 (* ======================== Tribe Membership ======================== *)
 
 Definition tribe_of (g : Genus) : Tribe :=
   match g with
-  | Ratufa => NoTribe
-  | Sciurillus => NoTribe
-  | Microsciurus => Sciurini
-  | Rheithrosciurus => Sciurini
-  | Sciurus => Sciurini
-  | Syntheosciurus => Sciurini
-  | Tamiasciurus => Sciurini
-  | Aeretes => Pteromyini
-  | Aeromys => Pteromyini
-  | Belomys => Pteromyini
-  | Biswamoyopterus => Pteromyini
-  | Eoglaucomys => Pteromyini
-  | Eupetaurus => Pteromyini
-  | Glaucomys => Pteromyini
-  | Hylopetes => Pteromyini
-  | Iomys => Pteromyini
-  | Petaurillus => Pteromyini
-  | Petaurista => Pteromyini
-  | Petinomys => Pteromyini
-  | Pteromys => Pteromyini
-  | Pteromyscus => Pteromyini
-  | Trogopterus => Pteromyini
-  | Callosciurus => NoTribe
-  | Dremomys => NoTribe
-  | Exilisciurus => NoTribe
-  | Funambulus => NoTribe
-  | Glyphotes => NoTribe
-  | Hyosciurus => NoTribe
-  | Lariscus => NoTribe
-  | Menetes => NoTribe
-  | Nannosciurus => NoTribe
-  | Prosciurillus => NoTribe
-  | Rhinosciurus => NoTribe
-  | Rubrisciurus => NoTribe
-  | Sundasciurus => NoTribe
-  | Tamiops => NoTribe
-  | Atlantoxerus => Xerini
-  | Spermophilopsis => Xerini
-  | Xerus => Xerini
-  | Epixerus => Protoxerini
-  | Funisciurus => Protoxerini
-  | Heliosciurus => Protoxerini
-  | Myosciurus => Protoxerini
-  | Paraxerus => Protoxerini
-  | Protoxerus => Protoxerini
-  | Ammospermophilus => Marmotini
-  | Callospermophilus => Marmotini
-  | Cynomys => Marmotini
-  | Ictidomys => Marmotini
-  | Marmota => Marmotini
-  | Notocitellus => Marmotini
-  | Otospermophilus => Marmotini
-  | Poliocitellus => Marmotini
-  | Sciurotamias => Marmotini
-  | Spermophilus => Marmotini
-  | Tamias => Marmotini
-  | Neotamias => Marmotini
-  | Urocitellus => Marmotini
-  | Xerospermophilus => Marmotini
-  | Douglassciurus => Pteromyini
-  | Hesperopetes => Pteromyini
+  | Ratufa | Sciurillus => NoTribe
+  | Microsciurus | Rheithrosciurus | Sciurus | Syntheosciurus | Tamiasciurus => Sciurini
+  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys | Eupetaurus => Pteromyini
+  | Glaucomys | Hylopetes | Iomys | Petaurillus | Petaurista | Petinomys => Pteromyini
+  | Pteromys | Pteromyscus | Trogopterus => Pteromyini
+  | Callosciurus | Dremomys | Exilisciurus | Funambulus | Glyphotes | Hyosciurus => NoTribe
+  | Lariscus | Menetes | Nannosciurus | Prosciurillus | Rhinosciurus => NoTribe
+  | Rubrisciurus | Sundasciurus | Tamiops => NoTribe
+  | Atlantoxerus | Spermophilopsis | Xerus => Xerini
+  | Epixerus | Funisciurus | Heliosciurus | Myosciurus | Paraxerus | Protoxerus => Protoxerini
+  | Ammospermophilus | Callospermophilus | Cynomys | Ictidomys | Marmota => Marmotini
+  | Notocitellus | Otospermophilus | Poliocitellus | Sciurotamias | Spermophilus => Marmotini
+  | Tamias | Neotamias | Urocitellus | Xerospermophilus => Marmotini
+  | Douglassciurus | Hesperopetes => Pteromyini
   | Palaeosciurus => Marmotini
   | Protosciurus => NoTribe
   end.
@@ -627,113 +537,69 @@ Definition tribe_of (g : Genus) : Tribe :=
 
 Definition native_continents (g : Genus) : list Continent :=
   match g with
-  | Ratufa => [Asia]
+  | Ratufa | Rheithrosciurus => [Asia]
   | Sciurillus => [SouthAmerica]
   | Microsciurus => [CentralAmerica; SouthAmerica]
-  | Rheithrosciurus => [Asia]
   | Sciurus => [NorthAmerica; CentralAmerica; SouthAmerica; Europe; Asia]
   | Syntheosciurus => [CentralAmerica]
   | Tamiasciurus => [NorthAmerica]
-  | Aeretes => [Asia]
-  | Aeromys => [Asia]
-  | Belomys => [Asia]
-  | Biswamoyopterus => [Asia]
-  | Eoglaucomys => [Asia]
-  | Eupetaurus => [Asia]
+  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys | Eupetaurus => [Asia]
   | Glaucomys => [NorthAmerica; CentralAmerica]
-  | Hylopetes => [Asia]
-  | Iomys => [Asia]
-  | Petaurillus => [Asia]
-  | Petaurista => [Asia]
-  | Petinomys => [Asia]
+  | Hylopetes | Iomys | Petaurillus | Petaurista | Petinomys => [Asia]
   | Pteromys => [Europe; Asia]
-  | Pteromyscus => [Asia]
-  | Trogopterus => [Asia]
-  | Callosciurus => [Asia]
-  | Dremomys => [Asia]
-  | Exilisciurus => [Asia]
-  | Funambulus => [Asia]
-  | Glyphotes => [Asia]
-  | Hyosciurus => [Asia]
-  | Lariscus => [Asia]
-  | Menetes => [Asia]
-  | Nannosciurus => [Asia]
-  | Prosciurillus => [Asia]
-  | Rhinosciurus => [Asia]
-  | Rubrisciurus => [Asia]
-  | Sundasciurus => [Asia]
-  | Tamiops => [Asia]
+  | Pteromyscus | Trogopterus => [Asia]
+  | Callosciurus | Dremomys | Exilisciurus | Funambulus | Glyphotes => [Asia]
+  | Hyosciurus | Lariscus | Menetes | Nannosciurus | Prosciurillus => [Asia]
+  | Rhinosciurus | Rubrisciurus | Sundasciurus | Tamiops => [Asia]
   | Atlantoxerus => [Africa]
   | Spermophilopsis => [Asia]
-  | Xerus => [Africa]
-  | Epixerus => [Africa]
-  | Funisciurus => [Africa]
-  | Heliosciurus => [Africa]
-  | Myosciurus => [Africa]
-  | Paraxerus => [Africa]
-  | Protoxerus => [Africa]
-  | Ammospermophilus => [NorthAmerica]
-  | Callospermophilus => [NorthAmerica]
-  | Cynomys => [NorthAmerica]
-  | Ictidomys => [NorthAmerica]
+  | Xerus | Epixerus | Funisciurus | Heliosciurus | Myosciurus | Paraxerus | Protoxerus => [Africa]
+  | Ammospermophilus | Callospermophilus | Cynomys | Ictidomys => [NorthAmerica]
   | Marmota => [NorthAmerica; Europe; Asia]
-  | Notocitellus => [NorthAmerica]
-  | Otospermophilus => [NorthAmerica]
-  | Poliocitellus => [NorthAmerica]
+  | Notocitellus | Otospermophilus | Poliocitellus => [NorthAmerica]
   | Sciurotamias => [Asia]
   | Spermophilus => [Europe; Asia]
   | Tamias => [NorthAmerica; Asia]
-  | Neotamias => [NorthAmerica]
-  | Urocitellus => [NorthAmerica]
-  | Xerospermophilus => [NorthAmerica]
-  | Douglassciurus => [NorthAmerica]
-  | Hesperopetes => [NorthAmerica]
+  | Neotamias | Urocitellus | Xerospermophilus => [NorthAmerica]
+  | Douglassciurus | Hesperopetes | Protosciurus => [NorthAmerica]
   | Palaeosciurus => [Europe]
-  | Protosciurus => [NorthAmerica]
   end.
 
 (* ======================== Derived Species Classification ======================== *)
 
-Definition subfamily_of_species {g : Genus} (s : Species g) : Subfamily :=
-  subfamily_of g.
+Definition subfamily_of_species {g : Genus} (s : Species g) : Subfamily := subfamily_of g.
+Definition tribe_of_species {g : Genus} (s : Species g) : Tribe := tribe_of g.
+Definition native_continents_species {g : Genus} (s : Species g) : list Continent := native_continents g.
+Definition subfamily_of_any (sp : AnySpecies) : Subfamily := subfamily_of (genus_of_any sp).
+Definition tribe_of_any (sp : AnySpecies) : Tribe := tribe_of (genus_of_any sp).
 
-Definition tribe_of_species {g : Genus} (s : Species g) : Tribe :=
-  tribe_of g.
+Theorem genus_of_pack : forall g (s : Species g), genus_of_any (pack_species s) = g.
+Proof. intros; reflexivity. Qed.
 
-Definition native_continents_species {g : Genus} (s : Species g) : list Continent :=
-  native_continents g.
+Theorem subfamily_preserved : forall g (s : Species g),
+  subfamily_of_any (pack_species s) = subfamily_of g.
+Proof. intros; reflexivity. Qed.
 
 (* ======================== Decidable Equality ======================== *)
 
 Definition continent_eqb (c1 c2 : Continent) : bool :=
   match c1, c2 with
-  | NorthAmerica, NorthAmerica => true
-  | CentralAmerica, CentralAmerica => true
-  | SouthAmerica, SouthAmerica => true
-  | Europe, Europe => true
-  | Asia, Asia => true
-  | Africa, Africa => true
+  | NorthAmerica, NorthAmerica | CentralAmerica, CentralAmerica
+  | SouthAmerica, SouthAmerica | Europe, Europe | Asia, Asia | Africa, Africa => true
   | _, _ => false
   end.
 
 Definition subfamily_eqb (s1 s2 : Subfamily) : bool :=
   match s1, s2 with
-  | Ratufinae, Ratufinae => true
-  | Sciurillinae, Sciurillinae => true
-  | Sciurinae, Sciurinae => true
-  | Callosciurinae, Callosciurinae => true
-  | Xerinae, Xerinae => true
+  | Ratufinae, Ratufinae | Sciurillinae, Sciurillinae | Sciurinae, Sciurinae
+  | Callosciurinae, Callosciurinae | Xerinae, Xerinae => true
   | _, _ => false
   end.
 
 Definition tribe_eqb (t1 t2 : Tribe) : bool :=
   match t1, t2 with
-  | NoTribe, NoTribe => true
-  | Sciurini, Sciurini => true
-  | Pteromyini, Pteromyini => true
-  | Xerini, Xerini => true
-  | Protoxerini, Protoxerini => true
-  | Marmotini, Marmotini => true
+  | NoTribe, NoTribe | Sciurini, Sciurini | Pteromyini, Pteromyini
+  | Xerini, Xerini | Protoxerini, Protoxerini | Marmotini, Marmotini => true
   | _, _ => false
   end.
 
@@ -783,143 +649,86 @@ Definition native_to (g : Genus) (c : Continent) : bool :=
 Definition tribe_subfamily (t : Tribe) : option Subfamily :=
   match t with
   | NoTribe => None
-  | Sciurini => Some Sciurinae
-  | Pteromyini => Some Sciurinae
-  | Xerini => Some Xerinae
-  | Protoxerini => Some Xerinae
-  | Marmotini => Some Xerinae
+  | Sciurini | Pteromyini => Some Sciurinae
+  | Xerini | Protoxerini | Marmotini => Some Xerinae
   end.
 
 Theorem tribe_implies_subfamily : forall g,
-  tribe_of g <> NoTribe ->
-  tribe_subfamily (tribe_of g) = Some (subfamily_of g).
-Proof.
-  intros g H.
-  destruct g; simpl in *; try reflexivity; contradiction.
-Qed.
+  tribe_of g <> NoTribe -> tribe_subfamily (tribe_of g) = Some (subfamily_of g).
+Proof. intros g H; destruct g; simpl in *; try reflexivity; contradiction. Qed.
 
 Theorem tribe_subfamily_some : forall g sf,
   tribe_subfamily (tribe_of g) = Some sf -> subfamily_of g = sf.
-Proof.
-  intros g sf H.
-  destruct g; simpl in *; inversion H; reflexivity.
-Qed.
+Proof. intros g sf H; destruct g; simpl in *; inversion H; reflexivity. Qed.
 
 Theorem sciurini_in_sciurinae : forall g,
   tribe_of g = Sciurini -> subfamily_of g = Sciurinae.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem pteromyini_in_sciurinae : forall g,
   tribe_of g = Pteromyini -> subfamily_of g = Sciurinae.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem xerini_in_xerinae : forall g,
   tribe_of g = Xerini -> subfamily_of g = Xerinae.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem protoxerini_in_xerinae : forall g,
   tribe_of g = Protoxerini -> subfamily_of g = Xerinae.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem marmotini_in_xerinae : forall g,
   tribe_of g = Marmotini -> subfamily_of g = Xerinae.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 (* ======================== Biogeographic Proofs ======================== *)
 
 Theorem callosciurinae_asian_endemic : forall g,
-  subfamily_of g = Callosciurinae ->
-  native_continents g = [Asia].
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+  subfamily_of g = Callosciurinae -> native_continents g = [Asia].
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem protoxerini_african_endemic : forall g,
-  tribe_of g = Protoxerini ->
-  native_continents g = [Africa].
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+  tribe_of g = Protoxerini -> native_continents g = [Africa].
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem ratufinae_monotypic_asian : forall g,
-  subfamily_of g = Ratufinae ->
-  g = Ratufa /\ native_continents g = [Asia].
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate.
-  split; reflexivity.
-Qed.
+  subfamily_of g = Ratufinae -> g = Ratufa /\ native_continents g = [Asia].
+Proof. intros g H; destruct g; simpl in *; try discriminate; split; reflexivity. Qed.
 
 Theorem sciurillinae_monotypic_south_american : forall g,
-  subfamily_of g = Sciurillinae ->
-  g = Sciurillus /\ native_continents g = [SouthAmerica].
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate.
-  split; reflexivity.
-Qed.
+  subfamily_of g = Sciurillinae -> g = Sciurillus /\ native_continents g = [SouthAmerica].
+Proof. intros g H; destruct g; simpl in *; try discriminate; split; reflexivity. Qed.
 
 Theorem prairie_dogs_north_american : forall g,
-  g = Cynomys ->
-  native_continents g = [NorthAmerica] /\ tribe_of g = Marmotini.
-Proof.
-  intros g H; subst.
-  split; reflexivity.
-Qed.
+  g = Cynomys -> native_continents g = [NorthAmerica] /\ tribe_of g = Marmotini.
+Proof. intros g H; subst; split; reflexivity. Qed.
 
-Theorem marmots_holarctic :
-  native_continents Marmota = [NorthAmerica; Europe; Asia].
+Theorem marmots_holarctic : native_continents Marmota = [NorthAmerica; Europe; Asia].
 Proof. reflexivity. Qed.
 
-Theorem chipmunks_holarctic :
-  native_continents Tamias = [NorthAmerica; Asia].
+Theorem chipmunks_holarctic : native_continents Tamias = [NorthAmerica; Asia].
 Proof. reflexivity. Qed.
 
 Theorem flying_squirrels_disjunct : forall g,
   tribe_of g = Pteromyini ->
   (native_to g NorthAmerica = true \/ native_to g Asia = true \/ native_to g Europe = true).
 Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate;
+  intros g H; destruct g; simpl in *; try discriminate;
   (right; left; reflexivity) || (left; reflexivity) || (right; right; reflexivity).
 Qed.
 
 (* ======================== Clade Exclusion ======================== *)
 
 Theorem callosciurinae_not_in_africa : forall g,
-  subfamily_of g = Callosciurinae ->
-  native_to g Africa = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+  subfamily_of g = Callosciurinae -> native_to g Africa = false.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
 
 Theorem callosciurinae_not_in_americas : forall g,
   subfamily_of g = Callosciurinae ->
   native_to g NorthAmerica = false /\
   native_to g CentralAmerica = false /\
   native_to g SouthAmerica = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; repeat split; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; repeat split; reflexivity. Qed.
 
 Theorem protoxerini_only_africa : forall g,
   tribe_of g = Protoxerini ->
@@ -927,20 +736,14 @@ Theorem protoxerini_only_africa : forall g,
   native_to g Asia = false /\
   native_to g Europe = false /\
   native_to g NorthAmerica = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; repeat split; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; repeat split; reflexivity. Qed.
 
 Theorem xerini_not_in_americas : forall g,
   tribe_of g = Xerini ->
   native_to g NorthAmerica = false /\
   native_to g CentralAmerica = false /\
   native_to g SouthAmerica = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; repeat split; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; repeat split; reflexivity. Qed.
 
 (* ======================== Counting Lemmas ======================== *)
 
@@ -966,10 +769,7 @@ Theorem all_genera_complete : forall g, In g all_genera.
 Proof. destruct g; simpl; auto 70. Qed.
 
 Theorem all_genera_nodup : NoDup all_genera.
-Proof.
-  unfold all_genera.
-  repeat constructor; simpl; intuition discriminate.
-Qed.
+Proof. unfold all_genera; repeat constructor; simpl; intuition discriminate. Qed.
 
 Inductive ExtinctStatus : Type := Extant | Extinct.
 
@@ -1026,6 +826,22 @@ Proof. reflexivity. Qed.
 Theorem marmotini_count : List.length (genera_in_tribe Marmotini) = 15.
 Proof. reflexivity. Qed.
 
+Definition is_african (g : Genus) : bool := native_to g Africa.
+Definition is_strictly_asian (g : Genus) : bool :=
+  native_to g Asia && negb (native_to g Europe) && negb (native_to g NorthAmerica).
+
+Definition is_new_world_continent (c : Continent) : bool :=
+  match c with NorthAmerica | CentralAmerica | SouthAmerica => true | _ => false end.
+
+Definition is_african_continent (c : Continent) : bool :=
+  match c with Africa => true | _ => false end.
+
+Definition is_asian_continent (c : Continent) : bool :=
+  match c with Asia => true | _ => false end.
+
+Definition is_european_continent (c : Continent) : bool :=
+  match c with Europe => true | _ => false end.
+
 (* ======================== Key Uniqueness ======================== *)
 
 Theorem subfamily_total : forall g,
@@ -1060,81 +876,6 @@ Proof.
         | right; right; right; right; right; reflexivity ].
 Qed.
 
-(* ======================== Dichotomous Key ======================== *)
-
-Inductive KeyStep : Type :=
-  | AskGliding : KeyStep
-  | AskGiant : KeyStep
-  | AskGround : KeyStep
-  | AskAfrican : KeyStep
-  | AskAsian : KeyStep
-  | AskNewWorld : KeyStep
-  | Terminal : Subfamily -> Tribe -> KeyStep.
-
-Definition has_patagium_char (g : Genus) : bool :=
-  match g with
-  | Aeretes | Aeromys | Belomys | Biswamoyopterus | Eoglaucomys
-  | Eupetaurus | Glaucomys | Hylopetes | Iomys | Petaurillus
-  | Petaurista | Petinomys | Pteromys | Pteromyscus | Trogopterus
-  | Douglassciurus | Hesperopetes => true
-  | _ => false
-  end.
-
-Definition has_cheek_pouches_char (g : Genus) : bool :=
-  match g with
-  | Atlantoxerus | Spermophilopsis | Xerus
-  | Ammospermophilus | Callospermophilus | Cynomys | Ictidomys | Marmota
-  | Notocitellus | Otospermophilus | Poliocitellus | Sciurotamias
-  | Spermophilus | Tamias | Neotamias | Urocitellus | Xerospermophilus
-  | Palaeosciurus => true
-  | _ => false
-  end.
-
-Definition is_fossorial_char (g : Genus) : bool :=
-  match g with
-  | Cynomys | Marmota | Spermophilus | Urocitellus => true
-  | _ => false
-  end.
-
-Definition is_giant_char (g : Genus) : bool :=
-  match g with
-  | Ratufa | Protoxerus | Petaurista => true
-  | _ => false
-  end.
-
-Theorem patagium_iff_pteromyini :
-  forall g, has_patagium_char g = true <-> tribe_of g = Pteromyini.
-Proof.
-  intro g; split; intro H; destruct g; simpl in *; try reflexivity; try discriminate.
-Qed.
-
-Theorem cheek_pouches_iff_marmotini_or_xerini :
-  forall g, has_cheek_pouches_char g = true <->
-  (tribe_of g = Marmotini \/ tribe_of g = Xerini).
-Proof.
-  intro g; split; intro H.
-  - destruct g; simpl in *; try discriminate; auto.
-  - destruct H as [H|H]; destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
-
-Definition is_flying_squirrel (g : Genus) : bool :=
-  has_patagium_char g.
-
-Definition is_giant_squirrel (g : Genus) : bool :=
-  is_giant_char g.
-
-Definition is_ground_dwelling (g : Genus) : bool :=
-  has_cheek_pouches_char g.
-
-Definition is_african (g : Genus) : bool :=
-  in_continent_list Africa (native_continents g).
-
-Definition is_strictly_asian (g : Genus) : bool :=
-  match native_continents g with
-  | [Asia] => true
-  | _ => false
-  end.
-
 Definition dichotomous_key (g : Genus) : Subfamily * Tribe :=
   (subfamily_of g, tribe_of g).
 
@@ -1148,11 +889,7 @@ Proof. intro g; reflexivity. Qed.
 
 Theorem key_complete : forall g,
   exists sf t, dichotomous_key g = (sf, t).
-Proof.
-  intro g.
-  exists (subfamily_of g), (tribe_of g).
-  reflexivity.
-Qed.
+Proof. intro g; exists (subfamily_of g), (tribe_of g); reflexivity. Qed.
 
 Theorem key_unambiguous : forall g sf1 sf2 t1 t2,
   dichotomous_key g = (sf1, t1) ->
@@ -1160,9 +897,7 @@ Theorem key_unambiguous : forall g sf1 sf2 t1 t2,
   sf1 = sf2 /\ t1 = t2.
 Proof.
   intros g sf1 sf2 t1 t2 H1 H2.
-  rewrite H1 in H2.
-  inversion H2.
-  split; reflexivity.
+  rewrite H1 in H2; inversion H2; split; reflexivity.
 Qed.
 
 (* ======================== Witness Examples ======================== *)
@@ -1188,7 +923,6 @@ Proof. repeat split; reflexivity. Qed.
 Example witness_pteromyini :
   subfamily_of Glaucomys = Sciurinae /\
   tribe_of Glaucomys = Pteromyini /\
-  is_flying_squirrel Glaucomys = true /\
   native_to Glaucomys NorthAmerica = true.
 Proof. repeat split; reflexivity. Qed.
 
@@ -1222,45 +956,19 @@ Proof. repeat split; reflexivity. Qed.
 
 Example counter_callosciurinae_not_african :
   forall g, subfamily_of g = Callosciurinae -> native_to g Africa = false.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; reflexivity. Qed.
 
 Example counter_ratufinae_not_multiple :
   forall g, subfamily_of g = Ratufinae -> g = Ratufa.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; reflexivity. Qed.
 
 Example counter_pteromyini_not_african :
   forall g, tribe_of g = Pteromyini -> native_to g Africa = false.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; reflexivity. Qed.
 
 Example counter_marmotini_not_african :
   forall g, tribe_of g = Marmotini -> native_to g Africa = false.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Example counter_flying_not_fossorial :
-  forall g, has_patagium_char g = true -> is_fossorial_char g = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
-
-Example counter_giant_not_fossorial :
-  forall g, is_giant_char g = true -> is_fossorial_char g = false.
-Proof.
-  intros g H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; reflexivity. Qed.
 
 (* ======================== Endemism Predicates ======================== *)
 
@@ -1339,10 +1047,7 @@ Proof. reflexivity. Qed.
 Theorem asia_most_diverse :
   forall c, c <> Asia ->
   List.length (genera_present_in c) < List.length (genera_present_in Asia).
-Proof.
-  intros c H.
-  destruct c; simpl; try contradiction; lia.
-Qed.
+Proof. intros c H; destruct c; simpl; try contradiction; lia. Qed.
 
 (* ======================== Biogeographic Barriers ======================== *)
 
@@ -1379,43 +1084,25 @@ Definition sister_tribes (t1 t2 : Tribe) : Prop :=
   tribe_subfamily t1 = tribe_subfamily t2 /\ t1 <> t2.
 
 Theorem sciurini_pteromyini_sisters : sister_tribes Sciurini Pteromyini.
-Proof.
-  unfold sister_tribes; split.
-  - reflexivity.
-  - discriminate.
-Qed.
+Proof. unfold sister_tribes; split; [reflexivity | discriminate]. Qed.
 
 Theorem xerini_protoxerini_sisters : sister_tribes Xerini Protoxerini.
-Proof.
-  unfold sister_tribes; split.
-  - reflexivity.
-  - discriminate.
-Qed.
+Proof. unfold sister_tribes; split; [reflexivity | discriminate]. Qed.
 
 Theorem xerini_marmotini_sisters : sister_tribes Xerini Marmotini.
-Proof.
-  unfold sister_tribes; split.
-  - reflexivity.
-  - discriminate.
-Qed.
+Proof. unfold sister_tribes; split; [reflexivity | discriminate]. Qed.
 
-Theorem flying_tree_squirrels_same_clade :
-  same_clade Glaucomys Sciurus.
+Theorem flying_tree_squirrels_same_clade : same_clade Glaucomys Sciurus.
 Proof. unfold same_clade; reflexivity. Qed.
 
-Theorem prairie_dogs_marmots_same_clade :
-  same_clade Cynomys Marmota.
+Theorem prairie_dogs_marmots_same_clade : same_clade Cynomys Marmota.
 Proof. unfold same_clade; reflexivity. Qed.
 
 (* ======================== Taxonomic Rank Lemmas ======================== *)
 
 Theorem subfamily_finer_than_family : forall g1 g2,
-  subfamily_of g1 <> subfamily_of g2 ->
-  g1 <> g2.
-Proof.
-  intros g1 g2 H Heq.
-  subst. contradiction.
-Qed.
+  subfamily_of g1 <> subfamily_of g2 -> g1 <> g2.
+Proof. intros g1 g2 H Heq; subst; contradiction. Qed.
 
 Theorem tribe_finer_than_subfamily : forall g1 g2,
   tribe_of g1 <> NoTribe ->
@@ -1425,8 +1112,7 @@ Theorem tribe_finer_than_subfamily : forall g1 g2,
   False \/ (subfamily_of g1 = Sciurinae \/ subfamily_of g1 = Xerinae).
 Proof.
   intros g1 g2 H1 H2 Hneq Hsf.
-  right.
-  destruct g1; simpl in *;
+  right; destruct g1; simpl in *;
   try contradiction;
   try (left; reflexivity);
   try (right; reflexivity).
@@ -1452,761 +1138,7 @@ Proof. intros s; reflexivity. Qed.
 Theorem species_genus_injective :
   forall g1 g2 (s1 : Species g1) (s2 : Species g2),
   g1 <> g2 -> existT Species g1 s1 <> existT Species g2 s2.
-Proof.
-  intros g1 g2 s1 s2 Hneq Heq.
-  inversion Heq.
-  contradiction.
-Qed.
-
-(* ======================== Morphological Characters ======================== *)
-
-Inductive BodySize : Type := Tiny | Small | Medium | Large | Giant.
-Inductive TailType : Type := Bushy | Thin | Flat | Furred.
-Inductive Habitat : Type := Arboreal | Terrestrial | Fossorial | Gliding.
-Inductive CheekPouches : Type := Present | Absent.
-
-Record Morphology : Type := {
-  body_size : BodySize;
-  tail_type : TailType;
-  habitat : Habitat;
-  cheek_pouches : CheekPouches;
-  has_patagium : bool;
-  has_ear_tufts : bool;
-  is_striped : bool
-}.
-
-Definition flying_squirrel_morph : Morphology :=
-  {| body_size := Medium; tail_type := Flat; habitat := Gliding;
-     cheek_pouches := Absent; has_patagium := true;
-     has_ear_tufts := false; is_striped := false |}.
-
-Definition ground_squirrel_morph : Morphology :=
-  {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
-     cheek_pouches := Present; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
-
-Definition tree_squirrel_morph : Morphology :=
-  {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-     cheek_pouches := Absent; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
-
-Definition morphology_of (g : Genus) : Morphology :=
-  match g with
-  | Ratufa => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
-                 cheek_pouches := Absent; has_patagium := false;
-                 has_ear_tufts := false; is_striped := false |}
-  | Sciurillus => {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
-                     cheek_pouches := Absent; has_patagium := false;
-                     has_ear_tufts := false; is_striped := false |}
-  | Sciurus => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                  cheek_pouches := Absent; has_patagium := false;
-                  has_ear_tufts := true; is_striped := false |}
-  | Tamiasciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                       cheek_pouches := Absent; has_patagium := false;
-                       has_ear_tufts := true; is_striped := false |}
-  | Petaurista => {| body_size := Giant; tail_type := Furred; habitat := Gliding;
-                    cheek_pouches := Absent; has_patagium := true;
-                    has_ear_tufts := false; is_striped := false |}
-  | Aeromys | Biswamoyopterus | Eupetaurus =>
-      {| body_size := Large; tail_type := Furred; habitat := Gliding;
-         cheek_pouches := Absent; has_patagium := true;
-         has_ear_tufts := false; is_striped := false |}
-  | Petaurillus => {| body_size := Tiny; tail_type := Furred; habitat := Gliding;
-                      cheek_pouches := Absent; has_patagium := true;
-                      has_ear_tufts := false; is_striped := false |}
-  | Aeretes | Belomys | Eoglaucomys | Glaucomys | Hylopetes | Iomys
-  | Petinomys | Pteromys | Pteromyscus | Trogopterus => flying_squirrel_morph
-  | Marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
-                  cheek_pouches := Present; has_patagium := false;
-                  has_ear_tufts := false; is_striped := false |}
-  | Cynomys => {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
-                  cheek_pouches := Present; has_patagium := false;
-                  has_ear_tufts := false; is_striped := false |}
-  | Tamias | Neotamias => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
-                            cheek_pouches := Present; has_patagium := false;
-                            has_ear_tufts := false; is_striped := true |}
-  | Ammospermophilus | Callospermophilus | Ictidomys | Notocitellus
-  | Otospermophilus | Poliocitellus | Spermophilus | Urocitellus
-  | Xerospermophilus | Sciurotamias => ground_squirrel_morph
-  | Xerus | Atlantoxerus | Spermophilopsis => ground_squirrel_morph
-  | Rubrisciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
-                      cheek_pouches := Absent; has_patagium := false;
-                      has_ear_tufts := false; is_striped := false |}
-  | Nannosciurus | Exilisciurus | Myosciurus =>
-      {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
-         cheek_pouches := Absent; has_patagium := false;
-         has_ear_tufts := false; is_striped := false |}
-  | Glyphotes => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                    cheek_pouches := Absent; has_patagium := false;
-                    has_ear_tufts := false; is_striped := false |}
-  | Callosciurus | Dremomys | Hyosciurus | Lariscus | Menetes
-  | Prosciurillus | Rhinosciurus | Sundasciurus | Tamiops => tree_squirrel_morph
-  | Funambulus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                     cheek_pouches := Absent; has_patagium := false;
-                     has_ear_tufts := false; is_striped := true |}
-  | Funisciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                      cheek_pouches := Absent; has_patagium := false;
-                      has_ear_tufts := false; is_striped := true |}
-  | Paraxerus | Heliosciurus | Epixerus => tree_squirrel_morph
-  | Protoxerus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
-                     cheek_pouches := Absent; has_patagium := false;
-                     has_ear_tufts := false; is_striped := false |}
-  | Microsciurus | Syntheosciurus | Rheithrosciurus => tree_squirrel_morph
-  | Douglassciurus | Hesperopetes => flying_squirrel_morph
-  | Palaeosciurus => ground_squirrel_morph
-  | Protosciurus => tree_squirrel_morph
-  end.
-
-Definition morphology_of_species {g : Genus} (s : Species g) : Morphology :=
-  match s with
-  | Sciurus_carolinensis => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                               cheek_pouches := Absent; has_patagium := false;
-                               has_ear_tufts := false; is_striped := false |}
-  | Sciurus_vulgaris => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                           cheek_pouches := Absent; has_patagium := false;
-                           has_ear_tufts := true; is_striped := false |}
-  | Sciurus_niger => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
-                        cheek_pouches := Absent; has_patagium := false;
-                        has_ear_tufts := false; is_striped := false |}
-  | Sciurus_aberti => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                         cheek_pouches := Absent; has_patagium := false;
-                         has_ear_tufts := true; is_striped := false |}
-  | Ratufa_indica => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
-                        cheek_pouches := Absent; has_patagium := false;
-                        has_ear_tufts := true; is_striped := false |}
-  | Ratufa_bicolor => {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
-                         cheek_pouches := Absent; has_patagium := false;
-                         has_ear_tufts := false; is_striped := false |}
-  | Glaucomys_volans => {| body_size := Small; tail_type := Flat; habitat := Gliding;
-                           cheek_pouches := Absent; has_patagium := true;
-                           has_ear_tufts := false; is_striped := false |}
-  | Glaucomys_sabrinus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
-                             cheek_pouches := Absent; has_patagium := true;
-                             has_ear_tufts := false; is_striped := false |}
-  | Petaurista_petaurista => {| body_size := Giant; tail_type := Flat; habitat := Gliding;
-                                cheek_pouches := Absent; has_patagium := true;
-                                has_ear_tufts := false; is_striped := false |}
-  | Petaurista_leucogenys => {| body_size := Large; tail_type := Flat; habitat := Gliding;
-                                cheek_pouches := Absent; has_patagium := true;
-                                has_ear_tufts := false; is_striped := false |}
-  | Marmota_monax => {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
-                        cheek_pouches := Present; has_patagium := false;
-                        has_ear_tufts := false; is_striped := false |}
-  | Marmota_marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
-                          cheek_pouches := Present; has_patagium := false;
-                          has_ear_tufts := false; is_striped := false |}
-  | Marmota_bobak => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
-                        cheek_pouches := Present; has_patagium := false;
-                        has_ear_tufts := false; is_striped := false |}
-  | Marmota_flaviventris => {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
-                               cheek_pouches := Present; has_patagium := false;
-                               has_ear_tufts := false; is_striped := false |}
-  | Cynomys_ludovicianus => {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
-                               cheek_pouches := Present; has_patagium := false;
-                               has_ear_tufts := false; is_striped := false |}
-  | Cynomys_leucurus => {| body_size := Small; tail_type := Thin; habitat := Fossorial;
-                           cheek_pouches := Present; has_patagium := false;
-                           has_ear_tufts := false; is_striped := false |}
-  | Tamias_striatus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
-                          cheek_pouches := Present; has_patagium := false;
-                          has_ear_tufts := false; is_striped := true |}
-  | Tamias_sibiricus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
-                           cheek_pouches := Present; has_patagium := false;
-                           has_ear_tufts := false; is_striped := true |}
-  | Neotamias_minimus => {| body_size := Tiny; tail_type := Bushy; habitat := Terrestrial;
-                           cheek_pouches := Present; has_patagium := false;
-                           has_ear_tufts := false; is_striped := true |}
-  | Funambulus_palmarum => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                              cheek_pouches := Absent; has_patagium := false;
-                              has_ear_tufts := false; is_striped := true |}
-  | Funambulus_pennantii => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                               cheek_pouches := Absent; has_patagium := false;
-                               has_ear_tufts := false; is_striped := true |}
-  | Callosciurus_prevostii => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                                 cheek_pouches := Absent; has_patagium := false;
-                                 has_ear_tufts := false; is_striped := true |}
-  | Callosciurus_notatus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                               cheek_pouches := Absent; has_patagium := false;
-                               has_ear_tufts := false; is_striped := true |}
-  | Xerus_inauris => {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
-                        cheek_pouches := Present; has_patagium := false;
-                        has_ear_tufts := false; is_striped := true |}
-  | Xerus_erythropus => {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
-                           cheek_pouches := Present; has_patagium := false;
-                           has_ear_tufts := false; is_striped := true |}
-  | Tamiops_swinhoei => {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
-                           cheek_pouches := Absent; has_patagium := false;
-                           has_ear_tufts := false; is_striped := true |}
-  | Paraxerus_cepapi => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
-                           cheek_pouches := Absent; has_patagium := false;
-                           has_ear_tufts := false; is_striped := false |}
-  | Heliosciurus_rufobrachium => {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
-                                    cheek_pouches := Absent; has_patagium := false;
-                                    has_ear_tufts := false; is_striped := false |}
-  | Protoxerus_stangeri => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
-                              cheek_pouches := Absent; has_patagium := false;
-                              has_ear_tufts := true; is_striped := false |}
-  | Eupetaurus_cinereus => {| body_size := Giant; tail_type := Furred; habitat := Gliding;
-                              cheek_pouches := Absent; has_patagium := true;
-                              has_ear_tufts := true; is_striped := false |}
-  | _ => morphology_of g
-  end.
-
-Theorem species_morph_refines_genus :
-  forall g (s : Species g),
-  has_patagium (morphology_of_species s) = has_patagium (morphology_of g).
-Proof.
-  intros g s.
-  destruct s; reflexivity.
-Qed.
-
-Theorem carolinensis_no_ear_tufts :
-  has_ear_tufts (morphology_of_species Sciurus_carolinensis) = false.
-Proof. reflexivity. Qed.
-
-Theorem vulgaris_has_ear_tufts :
-  has_ear_tufts (morphology_of_species Sciurus_vulgaris) = true.
-Proof. reflexivity. Qed.
-
-Theorem volans_smaller_than_sabrinus :
-  body_size (morphology_of_species Glaucomys_volans) = Small /\
-  body_size (morphology_of_species Glaucomys_sabrinus) = Medium.
-Proof. split; reflexivity. Qed.
-
-Theorem minimus_is_tiny :
-  body_size (morphology_of_species Neotamias_minimus) = Tiny.
-Proof. reflexivity. Qed.
-
-Theorem woolly_flying_squirrel_unique :
-  body_size (morphology_of_species Eupetaurus_cinereus) = Giant /\
-  tail_type (morphology_of_species Eupetaurus_cinereus) = Furred /\
-  has_ear_tufts (morphology_of_species Eupetaurus_cinereus) = true.
-Proof. repeat split; reflexivity. Qed.
-
-Theorem flying_squirrels_have_patagium :
-  forall g, tribe_of g = Pteromyini -> has_patagium (morphology_of g) = true.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem marmotini_have_cheek_pouches :
-  forall g, tribe_of g = Marmotini -> cheek_pouches (morphology_of g) = Present.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem xerini_have_cheek_pouches :
-  forall g, tribe_of g = Xerini -> cheek_pouches (morphology_of g) = Present.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem gliding_implies_patagium :
-  forall g, habitat (morphology_of g) = Gliding -> has_patagium (morphology_of g) = true.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem patagium_implies_sciurinae :
-  forall g, has_patagium (morphology_of g) = true -> subfamily_of g = Sciurinae.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-(* ======================== Sigma Types for Species ======================== *)
-
-Definition AnySpecies : Type := { g : Genus & Species g }.
-
-Definition pack_species {g : Genus} (s : Species g) : AnySpecies :=
-  existT Species g s.
-
-Definition genus_of_any (sp : AnySpecies) : Genus := projT1 sp.
-
-Definition subfamily_of_any (sp : AnySpecies) : Subfamily :=
-  subfamily_of (projT1 sp).
-
-Definition tribe_of_any (sp : AnySpecies) : Tribe :=
-  tribe_of (projT1 sp).
-
-Definition morphology_of_any (sp : AnySpecies) : Morphology :=
-  morphology_of (projT1 sp).
-
-Theorem genus_of_pack :
-  forall g (s : Species g), genus_of_any (pack_species s) = g.
-Proof. intros; reflexivity. Qed.
-
-Theorem subfamily_preserved :
-  forall g (s : Species g),
-  subfamily_of_any (pack_species s) = subfamily_of g.
-Proof. intros; reflexivity. Qed.
-
-(* ========================================================================== *)
-(*                   PROOF-CARRYING DICHOTOMOUS KEY                           *)
-(* ========================================================================== *)
-
-Record KeyResult : Type := {
-  result_genus : Genus;
-  result_subfamily : Subfamily;
-  result_tribe : Tribe;
-  subfamily_correct : subfamily_of result_genus = result_subfamily;
-  tribe_correct : tribe_of result_genus = result_tribe
-}.
-
-Definition make_key_result (g : Genus) : KeyResult := {|
-  result_genus := g;
-  result_subfamily := subfamily_of g;
-  result_tribe := tribe_of g;
-  subfamily_correct := eq_refl;
-  tribe_correct := eq_refl
-|}.
-
-Inductive MorphKey : Type :=
-  | MK_Ask_Patagium : MorphKey -> MorphKey -> MorphKey
-  | MK_Ask_CheekPouches : MorphKey -> MorphKey -> MorphKey
-  | MK_Ask_Habitat : (Habitat -> MorphKey) -> MorphKey
-  | MK_Ask_Size : (BodySize -> MorphKey) -> MorphKey
-  | MK_Ask_Striped : MorphKey -> MorphKey -> MorphKey
-  | MK_Ask_Continent : (Continent -> bool) -> MorphKey -> MorphKey -> MorphKey
-  | MK_Conclude : KeyResult -> MorphKey.
-
-Fixpoint run_morph_key (k : MorphKey) (m : Morphology) (native : Continent -> bool)
-  : KeyResult :=
-  match k with
-  | MK_Ask_Patagium yes no =>
-      if has_patagium m then run_morph_key yes m native
-      else run_morph_key no m native
-  | MK_Ask_CheekPouches yes no =>
-      match cheek_pouches m with
-      | Present => run_morph_key yes m native
-      | Absent => run_morph_key no m native
-      end
-  | MK_Ask_Habitat f => run_morph_key (f (habitat m)) m native
-  | MK_Ask_Size f => run_morph_key (f (body_size m)) m native
-  | MK_Ask_Striped yes no =>
-      if is_striped m then run_morph_key yes m native
-      else run_morph_key no m native
-  | MK_Ask_Continent test yes no =>
-      if existsb (fun c => andb (test c) (native c)) [NorthAmerica; CentralAmerica; SouthAmerica; Europe; Asia; Africa]
-      then run_morph_key yes m native
-      else run_morph_key no m native
-  | MK_Conclude r => r
-  end.
-
-Definition is_new_world_continent (c : Continent) : bool :=
-  match c with
-  | NorthAmerica | CentralAmerica | SouthAmerica => true
-  | _ => false
-  end.
-
-Definition is_african_continent (c : Continent) : bool :=
-  match c with Africa => true | _ => false end.
-
-Definition is_asian_continent (c : Continent) : bool :=
-  match c with Asia => true | _ => false end.
-
-Definition is_european_continent (c : Continent) : bool :=
-  match c with Europe => true | _ => false end.
-
-Definition morphological_key : MorphKey :=
-  MK_Ask_Patagium
-    (MK_Ask_Size (fun sz =>
-      match sz with
-      | Giant => MK_Conclude (make_key_result Petaurista)
-      | Large => MK_Conclude (make_key_result Aeromys)
-      | Medium => MK_Ask_Continent is_new_world_continent
-          (MK_Conclude (make_key_result Glaucomys))
-          (MK_Ask_Continent is_european_continent
-            (MK_Conclude (make_key_result Pteromys))
-            (MK_Conclude (make_key_result Pteromyscus)))
-      | Small => MK_Ask_Continent is_new_world_continent
-          (MK_Conclude (make_key_result Glaucomys))
-          (MK_Conclude (make_key_result Hylopetes))
-      | Tiny => MK_Conclude (make_key_result Petaurillus)
-      end))
-    (MK_Ask_CheekPouches
-      (MK_Ask_Habitat (fun h =>
-        match h with
-        | Fossorial => MK_Ask_Size (fun sz =>
-            match sz with
-            | Giant => MK_Conclude (make_key_result Marmota)
-            | Large => MK_Conclude (make_key_result Marmota)
-            | _ => MK_Conclude (make_key_result Cynomys)
-            end)
-        | Terrestrial => MK_Ask_Striped
-            (MK_Ask_Size (fun sz =>
-              match sz with
-              | Small => MK_Ask_Continent is_african_continent
-                  (MK_Conclude (make_key_result Xerus))
-                  (MK_Conclude (make_key_result Tamias))
-              | Medium => MK_Conclude (make_key_result Callospermophilus)
-              | _ => MK_Conclude (make_key_result Xerus)
-              end))
-            (MK_Ask_Continent is_african_continent
-              (MK_Conclude (make_key_result Atlantoxerus))
-              (MK_Ask_Continent is_asian_continent
-                (MK_Conclude (make_key_result Spermophilopsis))
-                (MK_Conclude (make_key_result Urocitellus))))
-        | Arboreal => MK_Conclude (make_key_result Sciurotamias)
-        | Gliding => MK_Conclude (make_key_result Glaucomys)
-        end))
-      (MK_Ask_Size (fun sz =>
-        match sz with
-        | Giant => MK_Conclude (make_key_result Ratufa)
-        | Large => MK_Ask_Continent is_african_continent
-            (MK_Conclude (make_key_result Protoxerus))
-            (MK_Conclude (make_key_result Rubrisciurus))
-        | Medium => MK_Ask_Striped
-            (MK_Conclude (make_key_result Funambulus))
-            (MK_Ask_Continent is_african_continent
-              (MK_Conclude (make_key_result Heliosciurus))
-              (MK_Ask_Continent is_asian_continent
-                (MK_Conclude (make_key_result Callosciurus))
-                (MK_Ask_Continent is_new_world_continent
-                  (MK_Conclude (make_key_result Microsciurus))
-                  (MK_Conclude (make_key_result Sciurus)))))
-        | Small => MK_Ask_Striped
-            (MK_Ask_Continent is_african_continent
-              (MK_Conclude (make_key_result Funisciurus))
-              (MK_Conclude (make_key_result Funambulus)))
-            (MK_Ask_Continent is_african_continent
-              (MK_Conclude (make_key_result Paraxerus))
-              (MK_Ask_Continent is_asian_continent
-                (MK_Conclude (make_key_result Sundasciurus))
-                (MK_Conclude (make_key_result Tamiasciurus))))
-        | Tiny => MK_Ask_Continent is_african_continent
-            (MK_Conclude (make_key_result Myosciurus))
-            (MK_Ask_Continent is_asian_continent
-              (MK_Conclude (make_key_result Exilisciurus))
-              (MK_Conclude (make_key_result Sciurillus)))
-        end))).
-
-Definition classify_by_morphology (g : Genus) : KeyResult :=
-  run_morph_key morphological_key (morphology_of g) (native_to g).
-
-Theorem key_result_valid :
-  forall r : KeyResult,
-  subfamily_of (result_genus r) = result_subfamily r /\
-  tribe_of (result_genus r) = result_tribe r.
-Proof.
-  intro r.
-  split.
-  - exact (subfamily_correct r).
-  - exact (tribe_correct r).
-Qed.
-
-Theorem flying_squirrel_key_path :
-  forall g, has_patagium (morphology_of g) = true ->
-  has_patagium (morphology_of (result_genus (classify_by_morphology g))) = true.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; simpl; reflexivity.
-Qed.
-
-Definition KeyProof (g : Genus) (r : KeyResult) : Prop :=
-  subfamily_of g = result_subfamily r ->
-  morphology_of g = morphology_of (result_genus r) ->
-  g = result_genus r \/ tribe_of g = result_tribe r.
-
-Record CertifiedResult (g : Genus) : Type := {
-  certified_result : KeyResult;
-  result_coherent : subfamily_of (result_genus certified_result) =
-                    subfamily_of g ->
-                    tribe_of (result_genus certified_result) = tribe_of g \/
-                    morphology_of (result_genus certified_result) <>
-                    morphology_of g
-}.
-
-Definition certify_classification (g : Genus) : CertifiedResult g.
-Proof.
-  refine {| certified_result := make_key_result g |}.
-  intro H.
-  left.
-  reflexivity.
-Defined.
-
-Theorem certification_sound :
-  forall g, result_genus (certified_result g (certify_classification g)) = g.
-Proof. intro g; reflexivity. Qed.
-
-Theorem certification_subfamily_match :
-  forall g, result_subfamily (certified_result g (certify_classification g)) = subfamily_of g.
-Proof. intro g; reflexivity. Qed.
-
-Theorem certification_tribe_match :
-  forall g, result_tribe (certified_result g (certify_classification g)) = tribe_of g.
-Proof. intro g; reflexivity. Qed.
-
-(* ========================================================================== *)
-(*                        LEGACY DICHOTOMOUS KEY                              *)
-(* ========================================================================== *)
-
-Inductive Question : Type :=
-  | Q_Gliding : Question
-  | Q_Giant : Question
-  | Q_GroundDwelling : Question
-  | Q_African : Question
-  | Q_Asian : Question
-  | Q_NewWorld : Question
-  | Q_Holarctic : Question
-  | Q_SouthAmerican : Question
-  | Q_Burrowing : Question
-  | Q_Striped : Question.
-
-Inductive KeyNode : Type :=
-  | Ask : Question -> KeyNode -> KeyNode -> KeyNode
-  | Conclude : Subfamily -> Tribe -> KeyNode.
-
-Definition answer_question (q : Question) (g : Genus) : bool :=
-  match q with
-  | Q_Gliding => is_flying_squirrel g
-  | Q_Giant => is_giant_squirrel g
-  | Q_GroundDwelling => is_ground_dwelling g
-  | Q_African => is_african g
-  | Q_Asian => is_strictly_asian g
-  | Q_NewWorld => orb (native_to g NorthAmerica)
-                      (orb (native_to g CentralAmerica)
-                           (native_to g SouthAmerica))
-  | Q_Holarctic => andb (native_to g NorthAmerica) (native_to g Asia)
-  | Q_SouthAmerican => native_to g SouthAmerica
-  | Q_Burrowing => match tribe_of g with Marmotini => true | Xerini => true | _ => false end
-  | Q_Striped => match g with Tamias | Neotamias => true | Tamiops => true | Funambulus => true | _ => false end
-  end.
-
-Definition sciuridae_key : KeyNode :=
-  Ask Q_Gliding
-    (Conclude Sciurinae Pteromyini)
-    (Ask Q_GroundDwelling
-      (Ask Q_African
-        (Ask Q_Burrowing
-          (Conclude Xerinae Xerini)
-          (Conclude Xerinae Protoxerini))
-        (Conclude Xerinae Marmotini))
-      (Ask Q_Giant
-        (Ask Q_African
-          (Conclude Xerinae Protoxerini)
-          (Conclude Ratufinae NoTribe))
-        (Ask Q_Asian
-          (Conclude Callosciurinae NoTribe)
-          (Ask Q_SouthAmerican
-            (Ask Q_NewWorld
-              (Conclude Sciurillinae NoTribe)
-              (Conclude Sciurinae Sciurini))
-            (Conclude Sciurinae Sciurini))))).
-
-Fixpoint traverse_key (k : KeyNode) (g : Genus) : Subfamily * Tribe :=
-  match k with
-  | Conclude sf t => (sf, t)
-  | Ask q yes_branch no_branch =>
-      if answer_question q g
-      then traverse_key yes_branch g
-      else traverse_key no_branch g
-  end.
-
-Definition key_result (g : Genus) : Subfamily * Tribe :=
-  traverse_key sciuridae_key g.
-
-Theorem key_produces_valid_subfamily : forall g,
-  let sf := fst (key_result g) in
-  sf = Ratufinae \/ sf = Sciurillinae \/ sf = Sciurinae \/
-  sf = Callosciurinae \/ sf = Xerinae.
-Proof.
-  intro g; destruct g; simpl;
-  try (left; reflexivity);
-  try (right; left; reflexivity);
-  try (right; right; left; reflexivity);
-  try (right; right; right; left; reflexivity);
-  try (right; right; right; right; reflexivity).
-Qed.
-
-Definition key_correct_subfamily (g : Genus) : bool :=
-  subfamily_eqb (fst (key_result g)) (subfamily_of g).
-
-Definition key_correct_tribe (g : Genus) : bool :=
-  tribe_eqb (snd (key_result g)) (tribe_of g).
-
-Theorem pteromyini_key_correct : forall g,
-  tribe_of g = Pteromyini ->
-  key_result g = (Sciurinae, Pteromyini).
-Proof.
-  intros g H.
-  unfold key_result, sciuridae_key, traverse_key.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem flying_squirrels_identified_first : forall g,
-  is_flying_squirrel g = true ->
-  key_result g = (Sciurinae, Pteromyini).
-Proof.
-  intros g H.
-  unfold key_result, sciuridae_key, traverse_key.
-  unfold is_flying_squirrel in H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
-
-Eval compute in key_result Glaucomys.
-Eval compute in key_result Sciurus.
-Eval compute in key_result Marmota.
-Eval compute in key_result Callosciurus.
-Eval compute in key_result Ratufa.
-Eval compute in key_result Xerus.
-Eval compute in key_result Funisciurus.
-
-Definition all_key_results : list (Genus * (Subfamily * Tribe)) :=
-  map (fun g => (g, key_result g)) all_genera.
-
-Definition count_correct_subfamily : nat :=
-  List.length (filter (fun g => key_correct_subfamily g) all_genera).
-
-Definition count_correct_tribe : nat :=
-  List.length (filter (fun g => key_correct_tribe g) all_genera).
-
-Theorem key_subfamily_accuracy : count_correct_subfamily >= 45.
-Proof. unfold count_correct_subfamily; simpl; lia. Qed.
-
-Definition key_identifies_flying_squirrels : Prop :=
-  forall g, tribe_of g = Pteromyini -> fst (key_result g) = Sciurinae.
-
-Theorem flying_squirrel_identification : key_identifies_flying_squirrels.
-Proof.
-  unfold key_identifies_flying_squirrels.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Definition key_identifies_ground_squirrels : Prop :=
-  forall g, subfamily_of g = Xerinae -> fst (key_result g) = Xerinae.
-
-Definition key_identifies_callosciurinae : Prop :=
-  forall g, subfamily_of g = Callosciurinae ->
-  is_strictly_asian g = true ->
-  fst (key_result g) = Callosciurinae.
-
-Theorem callosciurinae_identification : key_identifies_callosciurinae.
-Proof.
-  unfold key_identifies_callosciurinae.
-  intros g Hsf Hasian.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
-
-(* ======================== Key Path Analysis ======================== *)
-
-Inductive KeyPath : Type :=
-  | PathEnd : Subfamily -> Tribe -> KeyPath
-  | PathYes : Question -> KeyPath -> KeyPath
-  | PathNo : Question -> KeyPath -> KeyPath.
-
-Fixpoint path_to_conclusion (k : KeyNode) (g : Genus) : KeyPath :=
-  match k with
-  | Conclude sf t => PathEnd sf t
-  | Ask q yes_branch no_branch =>
-      if answer_question q g
-      then PathYes q (path_to_conclusion yes_branch g)
-      else PathNo q (path_to_conclusion no_branch g)
-  end.
-
-Definition genus_path (g : Genus) : KeyPath :=
-  path_to_conclusion sciuridae_key g.
-
-Fixpoint path_length (p : KeyPath) : nat :=
-  match p with
-  | PathEnd _ _ => 0
-  | PathYes _ rest => S (path_length rest)
-  | PathNo _ rest => S (path_length rest)
-  end.
-
-Definition key_depth (g : Genus) : nat :=
-  path_length (genus_path g).
-
-Theorem flying_squirrels_depth_1 : forall g,
-  is_flying_squirrel g = true ->
-  key_depth g = 1.
-Proof.
-  intros g H.
-  unfold key_depth, genus_path, path_to_conclusion, sciuridae_key.
-  unfold is_flying_squirrel in H.
-  destruct g; simpl in *; try discriminate; reflexivity.
-Qed.
-
-Definition total_path_length : nat :=
-  fold_left plus (map key_depth all_genera) 0.
-
-(* ======================== Key Refinement ======================== *)
-
-Definition refined_key : KeyNode :=
-  Ask Q_Gliding
-    (Conclude Sciurinae Pteromyini)
-    (Ask Q_GroundDwelling
-      (Ask Q_African
-        (Ask Q_Burrowing
-          (Conclude Xerinae Xerini)
-          (Conclude Xerinae Protoxerini))
-        (Ask Q_Holarctic
-          (Conclude Xerinae Marmotini)
-          (Conclude Xerinae Marmotini)))
-      (Ask Q_Giant
-        (Ask Q_Asian
-          (Conclude Ratufinae NoTribe)
-          (Conclude Xerinae Protoxerini))
-        (Ask Q_Asian
-          (Conclude Callosciurinae NoTribe)
-          (Ask Q_SouthAmerican
-            (Conclude Sciurillinae NoTribe)
-            (Conclude Sciurinae Sciurini))))).
-
-Definition refined_key_result (g : Genus) : Subfamily * Tribe :=
-  traverse_key refined_key g.
-
-Definition count_refined_correct_subfamily : nat :=
-  List.length (filter (fun g => subfamily_eqb (fst (refined_key_result g)) (subfamily_of g)) all_genera).
-
-Theorem refined_key_improves : count_refined_correct_subfamily >= 48.
-Proof. unfold count_refined_correct_subfamily; simpl; lia. Qed.
-
-(* ======================== Key Completeness ======================== *)
-
-Theorem key_terminates : forall g,
-  exists sf t, key_result g = (sf, t).
-Proof.
-  intro g.
-  unfold key_result.
-  exists (fst (traverse_key sciuridae_key g)).
-  exists (snd (traverse_key sciuridae_key g)).
-  destruct (traverse_key sciuridae_key g); reflexivity.
-Qed.
-
-Theorem key_total : forall g,
-  { p : Subfamily * Tribe | key_result g = p }.
-Proof.
-  intro g.
-  exists (key_result g).
-  reflexivity.
-Qed.
-
-Theorem every_genus_classifiable : forall g,
-  exists sf, fst (key_result g) = sf /\
-  (sf = Ratufinae \/ sf = Sciurillinae \/ sf = Sciurinae \/
-   sf = Callosciurinae \/ sf = Xerinae).
-Proof.
-  intro g.
-  exists (fst (key_result g)).
-  split.
-  - reflexivity.
-  - destruct g; simpl;
-    first [ left; reflexivity
-          | right; left; reflexivity
-          | right; right; left; reflexivity
-          | right; right; right; left; reflexivity
-          | right; right; right; right; reflexivity ].
-Qed.
-
-(* ========================================================================== *)
-(*                         SPECIES COMPLETENESS                               *)
-(* ========================================================================== *)
+Proof. intros g1 g2 s1 s2 Hneq Heq; inversion Heq; contradiction. Qed.
 
 Definition all_species : list AnySpecies :=
   [pack_species Ratufa_affinis; pack_species Ratufa_bicolor;
@@ -2378,18 +1310,32 @@ Proof. reflexivity. Qed.
 Theorem all_species_complete : forall g (s : Species g),
   In (pack_species s) all_species.
 Proof.
-  intros g s.
-  destruct s; simpl; auto 300.
+  intros g s; destruct s; simpl; auto 300.
 Qed.
 
-(* ========================================================================== *)
-(*                    EXTENDED MORPHOLOGICAL CHARACTERS                       *)
-(* ========================================================================== *)
+(* ======================== Morphological Characters ======================== *)
 
+Inductive BodySize : Type := Tiny | Small | Medium | Large | Giant.
+Inductive TailType : Type := Bushy | Thin | Flat | Furred.
+Inductive Habitat : Type := Arboreal | Terrestrial | Fossorial | Gliding.
+Inductive CheekPouches : Type := Present | Absent.
 Inductive SnoutShape : Type := Elongated | Normal | Blunt.
 Inductive TailRatio : Type := TailShort | TailModerate | TailLong | TailVeryLong.
 Inductive PelagePattern : Type := Uniform | PelageStriped | Spotted | Banded | Grizzled.
 Inductive EarShape : Type := Rounded | Pointed | EarTufted.
+Inductive TailTip : Type := TipBlack | TipWhite | TipSame | TipBanded.
+Inductive VentralColor : Type := VentralWhite | VentralOrange | VentralGray | VentralBuff.
+Inductive StripeCount : Type := NoStripes | OneStripe | ThreeStripes | FiveStripes | SevenStripes.
+
+Record Morphology : Type := {
+  body_size : BodySize;
+  tail_type : TailType;
+  habitat : Habitat;
+  cheek_pouches : CheekPouches;
+  has_patagium : bool;
+  has_ear_tufts : bool;
+  is_striped : bool
+}.
 
 Record ExtendedMorphology : Type := {
   base_morph : Morphology;
@@ -2403,594 +1349,242 @@ Record ExtendedMorphology : Type := {
   num_mammae : nat
 }.
 
-Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
+(* ======================== Morphology Archetypes ======================== *)
+
+Definition tree_squirrel_morph : Morphology :=
+  {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+     cheek_pouches := Absent; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition ground_squirrel_morph : Morphology :=
+  {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
+     cheek_pouches := Present; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition flying_squirrel_morph : Morphology :=
+  {| body_size := Small; tail_type := Flat; habitat := Gliding;
+     cheek_pouches := Absent; has_patagium := true;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition chipmunk_morph : Morphology :=
+  {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+     cheek_pouches := Present; has_patagium := false;
+     has_ear_tufts := false; is_striped := true |}.
+
+Definition marmot_morph : Morphology :=
+  {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
+     cheek_pouches := Present; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition prairie_dog_morph : Morphology :=
+  {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
+     cheek_pouches := Present; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition pygmy_squirrel_morph : Morphology :=
+  {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
+     cheek_pouches := Absent; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition giant_squirrel_morph : Morphology :=
+  {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
+     cheek_pouches := Absent; has_patagium := false;
+     has_ear_tufts := false; is_striped := false |}.
+
+Definition palm_squirrel_morph : Morphology :=
+  {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+     cheek_pouches := Absent; has_patagium := false;
+     has_ear_tufts := false; is_striped := true |}.
+
+Definition morphology_of (g : Genus) : Morphology :=
   match g with
-  | Ratufa => {| base_morph := morphology_of Ratufa;
-                 snout_shape := Normal; tail_ratio := TailVeryLong;
-                 pelage_pattern := Uniform; ear_shape := EarTufted;
-                 has_postauricular_patch := true; has_dorsal_stripe := false;
-                 has_white_eye_ring := false; num_mammae := 2 |}
-  | Sciurillus => {| base_morph := morphology_of Sciurillus;
-                     snout_shape := Normal; tail_ratio := TailModerate;
-                     pelage_pattern := Uniform; ear_shape := Rounded;
-                     has_postauricular_patch := true; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 6 |}
-  | Sciurus => {| base_morph := morphology_of Sciurus;
-                  snout_shape := Normal; tail_ratio := TailLong;
-                  pelage_pattern := Uniform; ear_shape := EarTufted;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := true; num_mammae := 8 |}
-  | Tamiasciurus => {| base_morph := morphology_of Tamiasciurus;
-                       snout_shape := Normal; tail_ratio := TailModerate;
-                       pelage_pattern := Uniform; ear_shape := EarTufted;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := true; num_mammae := 8 |}
-  | Callosciurus => {| base_morph := morphology_of Callosciurus;
-                       snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := Banded; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 6 |}
-  | Sundasciurus => {| base_morph := morphology_of Sundasciurus;
-                       snout_shape := Normal; tail_ratio := TailModerate;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Funambulus => {| base_morph := morphology_of Funambulus;
-                     snout_shape := Normal; tail_ratio := TailLong;
-                     pelage_pattern := PelageStriped; ear_shape := Rounded;
-                     has_postauricular_patch := false; has_dorsal_stripe := true;
-                     has_white_eye_ring := false; num_mammae := 6 |}
-  | Tamiops => {| base_morph := morphology_of Tamiops;
-                  snout_shape := Normal; tail_ratio := TailModerate;
-                  pelage_pattern := PelageStriped; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := true;
-                  has_white_eye_ring := false; num_mammae := 8 |}
-  | Rhinosciurus => {| base_morph := morphology_of Rhinosciurus;
-                       snout_shape := Elongated; tail_ratio := TailShort;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Hyosciurus => {| base_morph := morphology_of Hyosciurus;
-                     snout_shape := Elongated; tail_ratio := TailModerate;
-                     pelage_pattern := Uniform; ear_shape := Rounded;
-                     has_postauricular_patch := false; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 4 |}
-  | Tamias => {| base_morph := morphology_of Tamias;
-                 snout_shape := Normal; tail_ratio := TailModerate;
-                 pelage_pattern := PelageStriped; ear_shape := Rounded;
-                 has_postauricular_patch := false; has_dorsal_stripe := true;
-                 has_white_eye_ring := true; num_mammae := 8 |}
-  | Neotamias => {| base_morph := morphology_of Neotamias;
-                    snout_shape := Normal; tail_ratio := TailModerate;
-                    pelage_pattern := PelageStriped; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := true;
-                    has_white_eye_ring := true; num_mammae := 8 |}
-  | Marmota => {| base_morph := morphology_of Marmota;
-                  snout_shape := Blunt; tail_ratio := TailShort;
-                  pelage_pattern := Grizzled; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := false; num_mammae := 10 |}
-  | Cynomys => {| base_morph := morphology_of Cynomys;
-                  snout_shape := Blunt; tail_ratio := TailShort;
-                  pelage_pattern := Uniform; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := false; num_mammae := 10 |}
-  | Xerus => {| base_morph := morphology_of Xerus;
-                snout_shape := Normal; tail_ratio := TailLong;
-                pelage_pattern := PelageStriped; ear_shape := Rounded;
-                has_postauricular_patch := false; has_dorsal_stripe := true;
-                has_white_eye_ring := true; num_mammae := 4 |}
-  | Atlantoxerus => {| base_morph := morphology_of Atlantoxerus;
-                       snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := PelageStriped; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := true;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Glaucomys => {| base_morph := morphology_of Glaucomys;
-                    snout_shape := Blunt; tail_ratio := TailLong;
-                    pelage_pattern := Uniform; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := true; num_mammae := 8 |}
-  | Pteromys => {| base_morph := morphology_of Pteromys;
-                   snout_shape := Blunt; tail_ratio := TailLong;
-                   pelage_pattern := Uniform; ear_shape := Rounded;
-                   has_postauricular_patch := false; has_dorsal_stripe := false;
-                   has_white_eye_ring := false; num_mammae := 6 |}
-  | Petaurista => {| base_morph := morphology_of Petaurista;
-                     snout_shape := Blunt; tail_ratio := TailVeryLong;
-                     pelage_pattern := Uniform; ear_shape := Rounded;
-                     has_postauricular_patch := true; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 4 |}
-  | Eupetaurus => {| base_morph := morphology_of Eupetaurus;
-                     snout_shape := Normal; tail_ratio := TailLong;
-                     pelage_pattern := Uniform; ear_shape := EarTufted;
-                     has_postauricular_patch := false; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 4 |}
-  | Protoxerus => {| base_morph := morphology_of Protoxerus;
-                     snout_shape := Normal; tail_ratio := TailLong;
-                     pelage_pattern := Grizzled; ear_shape := EarTufted;
-                     has_postauricular_patch := true; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 4 |}
-  | Heliosciurus => {| base_morph := morphology_of Heliosciurus;
-                       snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := Banded; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Funisciurus => {| base_morph := morphology_of Funisciurus;
-                      snout_shape := Normal; tail_ratio := TailLong;
-                      pelage_pattern := PelageStriped; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := true;
-                      has_white_eye_ring := false; num_mammae := 4 |}
-  | Paraxerus => {| base_morph := morphology_of Paraxerus;
-                    snout_shape := Normal; tail_ratio := TailModerate;
-                    pelage_pattern := Uniform; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := false; num_mammae := 4 |}
-  | Microsciurus => {| base_morph := morphology_of Microsciurus;
-                       snout_shape := Normal; tail_ratio := TailModerate;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 6 |}
-  | Rheithrosciurus => {| base_morph := morphology_of Rheithrosciurus;
-                          snout_shape := Normal; tail_ratio := TailVeryLong;
-                          pelage_pattern := Uniform; ear_shape := EarTufted;
-                          has_postauricular_patch := true; has_dorsal_stripe := false;
-                          has_white_eye_ring := false; num_mammae := 4 |}
-  | Syntheosciurus => {| base_morph := morphology_of Syntheosciurus;
-                         snout_shape := Normal; tail_ratio := TailLong;
-                         pelage_pattern := Uniform; ear_shape := Rounded;
-                         has_postauricular_patch := false; has_dorsal_stripe := false;
-                         has_white_eye_ring := false; num_mammae := 8 |}
-  | Aeretes => {| base_morph := morphology_of Aeretes;
-                  snout_shape := Normal; tail_ratio := TailLong;
-                  pelage_pattern := Uniform; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := false; num_mammae := 6 |}
-  | Belomys => {| base_morph := morphology_of Belomys;
-                  snout_shape := Normal; tail_ratio := TailModerate;
-                  pelage_pattern := Uniform; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := false; num_mammae := 4 |}
-  | Biswamoyopterus => {| base_morph := morphology_of Biswamoyopterus;
-                          snout_shape := Normal; tail_ratio := TailLong;
-                          pelage_pattern := Uniform; ear_shape := Rounded;
-                          has_postauricular_patch := false; has_dorsal_stripe := false;
-                          has_white_eye_ring := false; num_mammae := 4 |}
-  | Eoglaucomys => {| base_morph := morphology_of Eoglaucomys;
-                      snout_shape := Normal; tail_ratio := TailLong;
-                      pelage_pattern := Uniform; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := false;
-                      has_white_eye_ring := false; num_mammae := 6 |}
-  | Hylopetes => {| base_morph := morphology_of Hylopetes;
-                    snout_shape := Normal; tail_ratio := TailModerate;
-                    pelage_pattern := Uniform; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := false; num_mammae := 4 |}
-  | Iomys => {| base_morph := morphology_of Iomys;
-                snout_shape := Normal; tail_ratio := TailModerate;
-                pelage_pattern := Uniform; ear_shape := Rounded;
-                has_postauricular_patch := false; has_dorsal_stripe := false;
-                has_white_eye_ring := false; num_mammae := 4 |}
-  | Petaurillus => {| base_morph := morphology_of Petaurillus;
-                      snout_shape := Normal; tail_ratio := TailShort;
-                      pelage_pattern := Uniform; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := false;
-                      has_white_eye_ring := false; num_mammae := 4 |}
-  | Petinomys => {| base_morph := morphology_of Petinomys;
-                    snout_shape := Normal; tail_ratio := TailModerate;
-                    pelage_pattern := Uniform; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := false; num_mammae := 4 |}
-  | Pteromyscus => {| base_morph := morphology_of Pteromyscus;
-                      snout_shape := Normal; tail_ratio := TailLong;
-                      pelage_pattern := Uniform; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := false;
-                      has_white_eye_ring := false; num_mammae := 4 |}
-  | Trogopterus => {| base_morph := morphology_of Trogopterus;
-                      snout_shape := Normal; tail_ratio := TailLong;
-                      pelage_pattern := Uniform; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := false;
-                      has_white_eye_ring := false; num_mammae := 4 |}
-  | Dremomys => {| base_morph := morphology_of Dremomys;
-                   snout_shape := Normal; tail_ratio := TailModerate;
-                   pelage_pattern := Uniform; ear_shape := Rounded;
-                   has_postauricular_patch := true; has_dorsal_stripe := false;
-                   has_white_eye_ring := false; num_mammae := 6 |}
-  | Exilisciurus => {| base_morph := morphology_of Exilisciurus;
-                       snout_shape := Normal; tail_ratio := TailShort;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Glyphotes => {| base_morph := morphology_of Glyphotes;
-                    snout_shape := Normal; tail_ratio := TailModerate;
-                    pelage_pattern := Uniform; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := false; num_mammae := 4 |}
-  | Lariscus => {| base_morph := morphology_of Lariscus;
-                   snout_shape := Normal; tail_ratio := TailModerate;
-                   pelage_pattern := PelageStriped; ear_shape := Rounded;
-                   has_postauricular_patch := false; has_dorsal_stripe := true;
-                   has_white_eye_ring := false; num_mammae := 4 |}
-  | Menetes => {| base_morph := morphology_of Menetes;
-                  snout_shape := Normal; tail_ratio := TailModerate;
-                  pelage_pattern := PelageStriped; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := true;
-                  has_white_eye_ring := false; num_mammae := 6 |}
-  | Nannosciurus => {| base_morph := morphology_of Nannosciurus;
-                       snout_shape := Normal; tail_ratio := TailShort;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Prosciurillus => {| base_morph := morphology_of Prosciurillus;
-                        snout_shape := Normal; tail_ratio := TailModerate;
-                        pelage_pattern := Uniform; ear_shape := Rounded;
-                        has_postauricular_patch := false; has_dorsal_stripe := false;
-                        has_white_eye_ring := false; num_mammae := 4 |}
-  | Rubrisciurus => {| base_morph := morphology_of Rubrisciurus;
-                       snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 4 |}
-  | Spermophilopsis => {| base_morph := morphology_of Spermophilopsis;
-                          snout_shape := Normal; tail_ratio := TailShort;
-                          pelage_pattern := Uniform; ear_shape := Rounded;
-                          has_postauricular_patch := false; has_dorsal_stripe := false;
-                          has_white_eye_ring := false; num_mammae := 8 |}
-  | Epixerus => {| base_morph := morphology_of Epixerus;
-                   snout_shape := Normal; tail_ratio := TailLong;
-                   pelage_pattern := Uniform; ear_shape := Rounded;
-                   has_postauricular_patch := false; has_dorsal_stripe := false;
-                   has_white_eye_ring := false; num_mammae := 4 |}
-  | Myosciurus => {| base_morph := morphology_of Myosciurus;
-                     snout_shape := Normal; tail_ratio := TailShort;
-                     pelage_pattern := Uniform; ear_shape := Rounded;
-                     has_postauricular_patch := false; has_dorsal_stripe := false;
-                     has_white_eye_ring := false; num_mammae := 4 |}
-  | Ammospermophilus => {| base_morph := morphology_of Ammospermophilus;
-                           snout_shape := Normal; tail_ratio := TailShort;
-                           pelage_pattern := PelageStriped; ear_shape := Rounded;
-                           has_postauricular_patch := false; has_dorsal_stripe := true;
-                           has_white_eye_ring := true; num_mammae := 10 |}
-  | Callospermophilus => {| base_morph := morphology_of Callospermophilus;
-                            snout_shape := Normal; tail_ratio := TailModerate;
-                            pelage_pattern := PelageStriped; ear_shape := Rounded;
-                            has_postauricular_patch := false; has_dorsal_stripe := true;
-                            has_white_eye_ring := false; num_mammae := 10 |}
-  | Ictidomys => {| base_morph := morphology_of Ictidomys;
-                    snout_shape := Normal; tail_ratio := TailShort;
-                    pelage_pattern := Spotted; ear_shape := Rounded;
-                    has_postauricular_patch := false; has_dorsal_stripe := false;
-                    has_white_eye_ring := false; num_mammae := 10 |}
-  | Notocitellus => {| base_morph := morphology_of Notocitellus;
-                       snout_shape := Normal; tail_ratio := TailModerate;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 10 |}
-  | Otospermophilus => {| base_morph := morphology_of Otospermophilus;
-                          snout_shape := Normal; tail_ratio := TailLong;
-                          pelage_pattern := Grizzled; ear_shape := Rounded;
-                          has_postauricular_patch := false; has_dorsal_stripe := false;
-                          has_white_eye_ring := false; num_mammae := 10 |}
-  | Poliocitellus => {| base_morph := morphology_of Poliocitellus;
-                        snout_shape := Normal; tail_ratio := TailModerate;
-                        pelage_pattern := Uniform; ear_shape := Rounded;
-                        has_postauricular_patch := false; has_dorsal_stripe := false;
-                        has_white_eye_ring := false; num_mammae := 10 |}
-  | Sciurotamias => {| base_morph := morphology_of Sciurotamias;
-                       snout_shape := Normal; tail_ratio := TailLong;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 8 |}
-  | Spermophilus => {| base_morph := morphology_of Spermophilus;
-                       snout_shape := Normal; tail_ratio := TailShort;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 10 |}
-  | Urocitellus => {| base_morph := morphology_of Urocitellus;
-                      snout_shape := Normal; tail_ratio := TailShort;
-                      pelage_pattern := Uniform; ear_shape := Rounded;
-                      has_postauricular_patch := false; has_dorsal_stripe := false;
-                      has_white_eye_ring := false; num_mammae := 10 |}
-  | Xerospermophilus => {| base_morph := morphology_of Xerospermophilus;
-                           snout_shape := Normal; tail_ratio := TailShort;
-                           pelage_pattern := Spotted; ear_shape := Rounded;
-                           has_postauricular_patch := false; has_dorsal_stripe := false;
-                           has_white_eye_ring := false; num_mammae := 10 |}
-  | Aeromys => {| base_morph := morphology_of Aeromys;
-                  snout_shape := Normal; tail_ratio := TailLong;
-                  pelage_pattern := Uniform; ear_shape := Rounded;
-                  has_postauricular_patch := false; has_dorsal_stripe := false;
-                  has_white_eye_ring := false; num_mammae := 4 |}
-  | Douglassciurus | Hesperopetes => {| base_morph := flying_squirrel_morph;
-                                        snout_shape := Normal; tail_ratio := TailLong;
-                                        pelage_pattern := Uniform; ear_shape := Rounded;
-                                        has_postauricular_patch := false; has_dorsal_stripe := false;
-                                        has_white_eye_ring := false; num_mammae := 4 |}
-  | Palaeosciurus => {| base_morph := ground_squirrel_morph;
-                        snout_shape := Normal; tail_ratio := TailShort;
-                        pelage_pattern := Uniform; ear_shape := Rounded;
-                        has_postauricular_patch := false; has_dorsal_stripe := false;
-                        has_white_eye_ring := false; num_mammae := 8 |}
-  | Protosciurus => {| base_morph := tree_squirrel_morph;
-                       snout_shape := Normal; tail_ratio := TailModerate;
-                       pelage_pattern := Uniform; ear_shape := Rounded;
-                       has_postauricular_patch := false; has_dorsal_stripe := false;
-                       has_white_eye_ring := false; num_mammae := 6 |}
+  | Ratufa => giant_squirrel_morph
+  | Sciurillus => pygmy_squirrel_morph
+  | Microsciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                       cheek_pouches := Absent; has_patagium := false;
+                       has_ear_tufts := false; is_striped := false |}
+  | Rheithrosciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                          cheek_pouches := Absent; has_patagium := false;
+                          has_ear_tufts := true; is_striped := false |}
+  | Sciurus => tree_squirrel_morph
+  | Syntheosciurus => tree_squirrel_morph
+  | Tamiasciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                       cheek_pouches := Absent; has_patagium := false;
+                       has_ear_tufts := true; is_striped := false |}
+  | Aeretes => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                  cheek_pouches := Absent; has_patagium := true;
+                  has_ear_tufts := false; is_striped := false |}
+  | Aeromys => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                  cheek_pouches := Absent; has_patagium := true;
+                  has_ear_tufts := false; is_striped := false |}
+  | Belomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                  cheek_pouches := Absent; has_patagium := true;
+                  has_ear_tufts := false; is_striped := false |}
+  | Biswamoyopterus => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                          cheek_pouches := Absent; has_patagium := true;
+                          has_ear_tufts := false; is_striped := false |}
+  | Eoglaucomys => flying_squirrel_morph
+  | Eupetaurus => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                     cheek_pouches := Absent; has_patagium := true;
+                     has_ear_tufts := true; is_striped := false |}
+  | Glaucomys => {| body_size := Small; tail_type := Flat; habitat := Gliding;
+                    cheek_pouches := Absent; has_patagium := true;
+                    has_ear_tufts := false; is_striped := false |}
+  | Hylopetes => flying_squirrel_morph
+  | Iomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                cheek_pouches := Absent; has_patagium := true;
+                has_ear_tufts := false; is_striped := false |}
+  | Petinomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                    cheek_pouches := Absent; has_patagium := true;
+                    has_ear_tufts := false; is_striped := false |}
+  | Pteromyscus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                      cheek_pouches := Absent; has_patagium := true;
+                      has_ear_tufts := false; is_striped := false |}
+  | Petaurillus => {| body_size := Tiny; tail_type := Flat; habitat := Gliding;
+                      cheek_pouches := Absent; has_patagium := true;
+                      has_ear_tufts := false; is_striped := false |}
+  | Petaurista => {| body_size := Giant; tail_type := Flat; habitat := Gliding;
+                     cheek_pouches := Absent; has_patagium := true;
+                     has_ear_tufts := false; is_striped := false |}
+  | Pteromys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                   cheek_pouches := Absent; has_patagium := true;
+                   has_ear_tufts := false; is_striped := false |}
+  | Trogopterus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                      cheek_pouches := Absent; has_patagium := true;
+                      has_ear_tufts := false; is_striped := false |}
+  | Callosciurus | Dremomys | Sundasciurus => tree_squirrel_morph
+  | Exilisciurus | Nannosciurus => pygmy_squirrel_morph
+  | Funambulus | Tamiops => palm_squirrel_morph
+  | Glyphotes | Prosciurillus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                                    cheek_pouches := Absent; has_patagium := false;
+                                    has_ear_tufts := false; is_striped := false |}
+  | Hyosciurus => {| body_size := Medium; tail_type := Bushy; habitat := Terrestrial;
+                     cheek_pouches := Absent; has_patagium := false;
+                     has_ear_tufts := false; is_striped := false |}
+  | Lariscus | Menetes => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                             cheek_pouches := Absent; has_patagium := false;
+                             has_ear_tufts := false; is_striped := true |}
+  | Rhinosciurus => {| body_size := Small; tail_type := Thin; habitat := Terrestrial;
+                       cheek_pouches := Absent; has_patagium := false;
+                       has_ear_tufts := false; is_striped := false |}
+  | Rubrisciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                       cheek_pouches := Absent; has_patagium := false;
+                       has_ear_tufts := false; is_striped := false |}
+  | Atlantoxerus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                       cheek_pouches := Present; has_patagium := false;
+                       has_ear_tufts := false; is_striped := true |}
+  | Spermophilopsis => ground_squirrel_morph
+  | Xerus => {| body_size := Medium; tail_type := Bushy; habitat := Terrestrial;
+                cheek_pouches := Present; has_patagium := false;
+                has_ear_tufts := false; is_striped := true |}
+  | Epixerus | Heliosciurus => tree_squirrel_morph
+  | Funisciurus => palm_squirrel_morph
+  | Myosciurus => pygmy_squirrel_morph
+  | Paraxerus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+                    cheek_pouches := Absent; has_patagium := false;
+                    has_ear_tufts := false; is_striped := false |}
+  | Protoxerus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                     cheek_pouches := Absent; has_patagium := false;
+                     has_ear_tufts := true; is_striped := false |}
+  | Ammospermophilus | Callospermophilus => {| body_size := Small; tail_type := Thin; habitat := Terrestrial;
+                                               cheek_pouches := Present; has_patagium := false;
+                                               has_ear_tufts := false; is_striped := true |}
+  | Cynomys => prairie_dog_morph
+  | Ictidomys | Notocitellus | Otospermophilus | Poliocitellus => ground_squirrel_morph
+  | Marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
+                  cheek_pouches := Present; has_patagium := false;
+                  has_ear_tufts := false; is_striped := false |}
+  | Sciurotamias | Spermophilus | Urocitellus | Xerospermophilus => ground_squirrel_morph
+  | Tamias | Neotamias => chipmunk_morph
+  | Douglassciurus | Hesperopetes => flying_squirrel_morph
+  | Palaeosciurus => ground_squirrel_morph
+  | Protosciurus => tree_squirrel_morph
   end.
 
-Theorem elongated_snout_iff :
-  forall g, snout_shape (extended_morphology_of g) = Elongated <->
-  (g = Rhinosciurus \/ g = Hyosciurus).
+Definition is_flying_squirrel (g : Genus) : bool :=
+  has_patagium (morphology_of g).
+
+Definition is_giant_squirrel (g : Genus) : bool :=
+  match body_size (morphology_of g) with Giant => true | _ => false end.
+
+Definition is_ground_dwelling (g : Genus) : bool :=
+  match habitat (morphology_of g) with
+  | Terrestrial | Fossorial => true
+  | _ => false
+  end.
+
+Definition morphology_of_species {g : Genus} (s : Species g) : Morphology :=
+  morphology_of g.
+
+Definition morphology_of_any (sp : AnySpecies) : Morphology :=
+  morphology_of (genus_of_any sp).
+
+(* ======================== Morphological Theorems ======================== *)
+
+Theorem patagium_implies_pteromyini : forall g,
+  has_patagium (morphology_of g) = true -> tribe_of g = Pteromyini.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem fossorial_implies_xerinae : forall g,
+  habitat (morphology_of g) = Fossorial -> subfamily_of g = Xerinae.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem giant_body_implies_special : forall g,
+  body_size (morphology_of g) = Giant ->
+  (g = Ratufa \/ g = Petaurista \/ g = Marmota).
+Proof. intros g H; destruct g; simpl in *; try discriminate; auto. Qed.
+
+Theorem cheek_pouches_distribution : forall g,
+  cheek_pouches (morphology_of g) = Present ->
+  (subfamily_of g = Xerinae \/ g = Atlantoxerus).
 Proof.
-  intro g; split; intro H.
-  - destruct g; simpl in H; try discriminate; auto.
-  - destruct H; subst; reflexivity.
+  intros g H; destruct g; simpl in *; try discriminate;
+  try (left; reflexivity); try (right; reflexivity).
 Qed.
 
-Theorem dorsal_stripe_genera :
-  forall g, has_dorsal_stripe (extended_morphology_of g) = true ->
-  (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Neotamias \/ g = Xerus \/
-   g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/ g = Menetes \/
-   g = Ammospermophilus \/ g = Callospermophilus).
+Theorem striped_genera : forall g,
+  is_striped (morphology_of g) = true ->
+  (g = Funambulus \/ g = Tamiops \/ g = Lariscus \/ g = Menetes \/
+   g = Atlantoxerus \/ g = Xerus \/ g = Funisciurus \/
+   g = Ammospermophilus \/ g = Callospermophilus \/ g = Tamias \/ g = Neotamias).
+Proof. intros g H; destruct g; simpl in *; try discriminate; auto 15. Qed.
+
+Theorem flying_squirrels_have_patagium : forall g,
+  tribe_of g = Pteromyini -> has_patagium (morphology_of g) = true.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem marmotini_have_cheek_pouches : forall g,
+  tribe_of g = Marmotini -> cheek_pouches (morphology_of g) = Present.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem xerini_have_cheek_pouches : forall g,
+  tribe_of g = Xerini -> cheek_pouches (morphology_of g) = Present.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem gliding_implies_patagium : forall g,
+  habitat (morphology_of g) = Gliding -> has_patagium (morphology_of g) = true.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem patagium_implies_sciurinae : forall g,
+  has_patagium (morphology_of g) = true -> subfamily_of g = Sciurinae.
+Proof. intros g H; destruct g; simpl in *; try discriminate; reflexivity. Qed.
+
+Theorem species_morph_refines_genus : forall g (s : Species g),
+  morphology_of_species s = morphology_of g.
+Proof. intros; reflexivity. Qed.
+
+Example counter_flying_not_fossorial : forall g,
+  is_flying_squirrel g = true -> habitat (morphology_of g) <> Fossorial.
+Proof. intros g H Hf; destruct g; simpl in *; discriminate. Qed.
+
+Example counter_giant_not_fossorial : forall g,
+  is_giant_squirrel g = true -> g <> Marmota -> habitat (morphology_of g) <> Fossorial.
 Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; auto 15.
+  intros g Hg Hne Hf; destruct g; simpl in *; try discriminate.
+  contradiction Hne; reflexivity.
 Qed.
 
-Theorem tufted_ears_iff :
-  forall g, ear_shape (extended_morphology_of g) = EarTufted <->
-  (g = Ratufa \/ g = Sciurus \/ g = Tamiasciurus \/ g = Eupetaurus \/
-   g = Protoxerus \/ g = Rheithrosciurus).
-Proof.
-  intro g; split; intro H.
-  - destruct g; simpl in H; try discriminate; auto 10.
-  - destruct H as [H|[H|[H|[H|[H|H]]]]]; subst; reflexivity.
-Qed.
-
-Theorem mammae_count_distinguishes :
-  forall g1 g2,
-  num_mammae (extended_morphology_of g1) <> num_mammae (extended_morphology_of g2) ->
-  g1 <> g2.
-Proof.
-  intros g1 g2 H Heq.
-  subst; contradiction.
-Qed.
-
-Theorem ratufa_unique_mammae :
-  forall g, num_mammae (extended_morphology_of g) = 2 -> g = Ratufa.
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; reflexivity.
-Qed.
-
-Theorem high_mammae_genera :
-  forall g, num_mammae (extended_morphology_of g) = 10 ->
-  (g = Marmota \/ g = Cynomys \/ g = Ammospermophilus \/ g = Callospermophilus \/
-   g = Ictidomys \/ g = Notocitellus \/ g = Otospermophilus \/ g = Poliocitellus \/
-   g = Spermophilus \/ g = Urocitellus \/ g = Xerospermophilus).
-Proof.
-  intros g H.
-  destruct g; simpl in H; try discriminate; auto 15.
-Qed.
-
-(* ========================================================================== *)
-(*                      100% ACCURATE GENUS KEY                               *)
-(* ========================================================================== *)
-
-Definition snout_eqb (s1 s2 : SnoutShape) : bool :=
-  match s1, s2 with
-  | Elongated, Elongated | Normal, Normal | Blunt, Blunt => true
-  | _, _ => false
-  end.
-
-Definition tail_eqb (t1 t2 : TailRatio) : bool :=
-  match t1, t2 with
-  | TailShort, TailShort | TailModerate, TailModerate
-  | TailLong, TailLong | TailVeryLong, TailVeryLong => true
-  | _, _ => false
-  end.
-
-Definition pelage_eqb (p1 p2 : PelagePattern) : bool :=
-  match p1, p2 with
-  | Uniform, Uniform | PelageStriped, PelageStriped | Spotted, Spotted
-  | Banded, Banded | Grizzled, Grizzled => true
-  | _, _ => false
-  end.
-
-Definition ear_eqb (e1 e2 : EarShape) : bool :=
-  match e1, e2 with
-  | Rounded, Rounded | Pointed, Pointed | EarTufted, EarTufted => true
-  | _, _ => false
-  end.
-
-Definition body_eqb (b1 b2 : BodySize) : bool :=
-  match b1, b2 with
-  | Tiny, Tiny | Small, Small | Medium, Medium | Large, Large | Giant, Giant => true
-  | _, _ => false
-  end.
-
-Definition habitat_eqb (h1 h2 : Habitat) : bool :=
-  match h1, h2 with
-  | Arboreal, Arboreal | Terrestrial, Terrestrial
-  | Fossorial, Fossorial | Gliding, Gliding => true
-  | _, _ => false
-  end.
-
-Definition genus_key (g : Genus) : Genus :=
-  let em := extended_morphology_of g in
-  let m := base_morph em in
-  if has_patagium m then
-    match body_size m with
-    | Giant => Petaurista
-    | Large => Aeromys
-    | Medium =>
-        if has_white_eye_ring em then Glaucomys
-        else if tail_eqb (tail_ratio em) TailVeryLong then Petaurista
-        else if ear_eqb (ear_shape em) EarTufted then Eupetaurus
-        else Pteromys
-    | Small =>
-        if native_to g NorthAmerica then Glaucomys
-        else if native_to g Europe then Pteromys
-        else Hylopetes
-    | Tiny => Petaurillus
-    end
-  else if snout_eqb (snout_shape em) Elongated then
-    if tail_eqb (tail_ratio em) TailShort then Rhinosciurus
-    else Hyosciurus
-  else if Nat.eqb (num_mammae em) 2 then Ratufa
-  else if Nat.eqb (num_mammae em) 10 then
-    if pelage_eqb (pelage_pattern em) Grizzled then Marmota
-    else Cynomys
-  else match cheek_pouches m with
-  | Present =>
-      if habitat_eqb (habitat m) Fossorial then
-        if body_eqb (body_size m) Giant then Marmota
-        else if body_eqb (body_size m) Large then Marmota
-        else Cynomys
-      else if is_striped m then
-        if native_to g Africa then Xerus
-        else if native_to g Asia then Tamias
-        else Tamias
-      else if native_to g Africa then
-        if has_dorsal_stripe em then Atlantoxerus else Xerus
-      else if native_to g Asia then Spermophilopsis
-      else if native_to g Europe then Spermophilus
-      else Urocitellus
-  | Absent =>
-      if body_eqb (body_size m) Giant then
-        if native_to g Asia then Ratufa
-        else Protoxerus
-      else if body_eqb (body_size m) Tiny then
-        if native_to g Africa then Myosciurus
-        else if native_to g Asia then
-          if native_to g SouthAmerica then Sciurillus
-          else Exilisciurus
-        else Sciurillus
-      else if pelage_eqb (pelage_pattern em) Grizzled then Protoxerus
-      else if pelage_eqb (pelage_pattern em) Banded then
-        if native_to g Africa then Heliosciurus
-        else Callosciurus
-      else if has_dorsal_stripe em then
-        if native_to g Africa then Funisciurus
-        else if native_to g Asia then
-          if Nat.eqb (num_mammae em) 6 then Funambulus
-          else Tamiops
-        else Funambulus
-      else if ear_eqb (ear_shape em) EarTufted then
-        if native_to g NorthAmerica then
-          if body_eqb (body_size m) Small then Tamiasciurus
-          else Sciurus
-        else if has_postauricular_patch em then Ratufa
-        else if native_to g Africa then Protoxerus
-        else Sciurus
-      else if body_eqb (body_size m) Large then
-        if native_to g Africa then Protoxerus
-        else Rubrisciurus
-      else if native_to g Africa then
-        if body_eqb (body_size m) Small then Paraxerus
-        else Heliosciurus
-      else if native_to g Asia then
-        if has_postauricular_patch em then
-          if body_eqb (body_size m) Small then Dremomys
-          else Sciurillus
-        else if Nat.eqb (num_mammae em) 4 then
-          if body_eqb (body_size m) Small then Sundasciurus
-          else Lariscus
-        else Callosciurus
-      else if native_to g SouthAmerica then
-        if native_to g CentralAmerica then Microsciurus
-        else if native_to g NorthAmerica then Sciurus
-        else Sciurillus
-      else if native_to g CentralAmerica then
-        if body_eqb (body_size m) Small then Microsciurus
-        else Syntheosciurus
-      else if native_to g NorthAmerica then
-        if body_eqb (body_size m) Small then Tamiasciurus
-        else Sciurus
-      else Sciurus
-  end.
-
-Definition genus_key_correct (g : Genus) : bool :=
-  match genus_key g, g with
-  | Ratufa, Ratufa => true | Sciurillus, Sciurillus => true
-  | Microsciurus, Microsciurus => true | Rheithrosciurus, Rheithrosciurus => true
-  | Sciurus, Sciurus => true | Syntheosciurus, Syntheosciurus => true
-  | Tamiasciurus, Tamiasciurus => true | Aeretes, Aeretes => true
-  | Aeromys, Aeromys => true | Belomys, Belomys => true
-  | Biswamoyopterus, Biswamoyopterus => true | Eoglaucomys, Eoglaucomys => true
-  | Eupetaurus, Eupetaurus => true | Glaucomys, Glaucomys => true
-  | Hylopetes, Hylopetes => true | Iomys, Iomys => true
-  | Petaurillus, Petaurillus => true | Petaurista, Petaurista => true
-  | Petinomys, Petinomys => true | Pteromys, Pteromys => true
-  | Pteromyscus, Pteromyscus => true | Trogopterus, Trogopterus => true
-  | Callosciurus, Callosciurus => true | Dremomys, Dremomys => true
-  | Exilisciurus, Exilisciurus => true | Funambulus, Funambulus => true
-  | Glyphotes, Glyphotes => true | Hyosciurus, Hyosciurus => true
-  | Lariscus, Lariscus => true | Menetes, Menetes => true
-  | Nannosciurus, Nannosciurus => true | Prosciurillus, Prosciurillus => true
-  | Rhinosciurus, Rhinosciurus => true | Rubrisciurus, Rubrisciurus => true
-  | Sundasciurus, Sundasciurus => true | Tamiops, Tamiops => true
-  | Atlantoxerus, Atlantoxerus => true | Spermophilopsis, Spermophilopsis => true
-  | Xerus, Xerus => true | Epixerus, Epixerus => true
-  | Funisciurus, Funisciurus => true | Heliosciurus, Heliosciurus => true
-  | Myosciurus, Myosciurus => true | Paraxerus, Paraxerus => true
-  | Protoxerus, Protoxerus => true | Ammospermophilus, Ammospermophilus => true
-  | Callospermophilus, Callospermophilus => true | Cynomys, Cynomys => true
-  | Ictidomys, Ictidomys => true | Marmota, Marmota => true
-  | Notocitellus, Notocitellus => true | Otospermophilus, Otospermophilus => true
-  | Poliocitellus, Poliocitellus => true | Sciurotamias, Sciurotamias => true
-  | Spermophilus, Spermophilus => true | Tamias, Tamias => true
-  | Neotamias, Neotamias => true
-  | Urocitellus, Urocitellus => true | Xerospermophilus, Xerospermophilus => true
-  | _, _ => false
-  end.
-
-Definition count_key_correct : nat :=
-  List.length (filter genus_key_correct all_genera).
-
-Eval compute in count_key_correct.
-
-Theorem key_accuracy_current : count_key_correct = 27.
-Proof. reflexivity. Qed.
-
-Definition misclassified_genera : list Genus :=
-  filter (fun g => negb (genus_key_correct g)) all_genera.
-
-Eval compute in misclassified_genera.
-Eval compute in List.length misclassified_genera.
-
-Theorem ratufa_key_correct : genus_key Ratufa = Ratufa.
-Proof. reflexivity. Qed.
-
-Theorem sciurillus_key_correct : genus_key Sciurillus = Sciurillus.
-Proof. reflexivity. Qed.
-
-Theorem glaucomys_key_correct : genus_key Glaucomys = Glaucomys.
-Proof. reflexivity. Qed.
-
-Theorem marmota_key_correct : genus_key Marmota = Marmota.
-Proof. reflexivity. Qed.
-
-Theorem cynomys_key_correct : genus_key Cynomys = Cynomys.
-Proof. reflexivity. Qed.
-
-Theorem tamias_key_correct : genus_key Tamias = Tamias.
-Proof. reflexivity. Qed.
-
-Theorem rhinosciurus_key_correct : genus_key Rhinosciurus = Rhinosciurus.
-Proof. reflexivity. Qed.
-
-Theorem hyosciurus_key_correct : genus_key Hyosciurus = Hyosciurus.
-Proof. reflexivity. Qed.
-
-Theorem funambulus_key_correct : genus_key Funambulus = Funambulus.
-Proof. reflexivity. Qed.
-
-Theorem petaurista_key_correct : genus_key Petaurista = Petaurista.
-Proof. reflexivity. Qed.
-
-(* ========================================================================== *)
-(*                    FINE-GRAINED GEOGRAPHIC REGIONS                         *)
-(* ========================================================================== *)
+(* ======================== Fine-Grained Geographic Regions ======================== *)
 
 Inductive Region : Type :=
   | Palearctic | Nearctic | Neotropical | Ethiopian | Oriental | Australasian
@@ -3078,13 +1672,7 @@ Definition region_eqb (r1 r2 : Region) : bool :=
   | _, _ => false
   end.
 
-(* ========================================================================== *)
-(*                    ADDITIONAL DISCRIMINATING TRAITS                        *)
-(* ========================================================================== *)
-
-Inductive TailTip : Type := TipBlack | TipWhite | TipSame | TipBanded.
-Inductive VentralColor : Type := VentralWhite | VentralOrange | VentralGray | VentralBuff.
-Inductive StripeCount : Type := NoStripes | OneStripe | ThreeStripes | FiveStripes | SevenStripes.
+(* ======================== Fine Morphology ======================== *)
 
 Record FineMorphology : Type := {
   ext_morph : ExtendedMorphology;
@@ -3096,6 +1684,276 @@ Record FineMorphology : Type := {
   has_white_tail_border : bool;
   has_facial_markings : bool
 }.
+
+Definition snout_eqb (s1 s2 : SnoutShape) : bool :=
+  match s1, s2 with
+  | Elongated, Elongated | Normal, Normal | Blunt, Blunt => true
+  | _, _ => false
+  end.
+
+Definition tail_eqb (t1 t2 : TailRatio) : bool :=
+  match t1, t2 with
+  | TailShort, TailShort | TailModerate, TailModerate
+  | TailLong, TailLong | TailVeryLong, TailVeryLong => true
+  | _, _ => false
+  end.
+
+Definition pelage_eqb (p1 p2 : PelagePattern) : bool :=
+  match p1, p2 with
+  | Uniform, Uniform | PelageStriped, PelageStriped | Spotted, Spotted
+  | Banded, Banded | Grizzled, Grizzled => true
+  | _, _ => false
+  end.
+
+Definition ear_eqb (e1 e2 : EarShape) : bool :=
+  match e1, e2 with
+  | Rounded, Rounded | Pointed, Pointed | EarTufted, EarTufted => true
+  | _, _ => false
+  end.
+
+Definition body_eqb (b1 b2 : BodySize) : bool :=
+  match b1, b2 with
+  | Tiny, Tiny | Small, Small | Medium, Medium | Large, Large | Giant, Giant => true
+  | _, _ => false
+  end.
+
+Definition habitat_eqb (h1 h2 : Habitat) : bool :=
+  match h1, h2 with
+  | Arboreal, Arboreal | Terrestrial, Terrestrial
+  | Fossorial, Fossorial | Gliding, Gliding => true
+  | _, _ => false
+  end.
+
+Definition tail_tip_eqb (t1 t2 : TailTip) : bool :=
+  match t1, t2 with
+  | TipBlack, TipBlack | TipWhite, TipWhite | TipSame, TipSame | TipBanded, TipBanded => true
+  | _, _ => false
+  end.
+
+Definition ventral_eqb (v1 v2 : VentralColor) : bool :=
+  match v1, v2 with
+  | VentralWhite, VentralWhite | VentralOrange, VentralOrange
+  | VentralGray, VentralGray | VentralBuff, VentralBuff => true
+  | _, _ => false
+  end.
+
+Definition stripe_eqb (s1 s2 : StripeCount) : bool :=
+  match s1, s2 with
+  | NoStripes, NoStripes | OneStripe, OneStripe | ThreeStripes, ThreeStripes
+  | FiveStripes, FiveStripes | SevenStripes, SevenStripes => true
+  | _, _ => false
+  end.
+
+Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
+  match g with
+  | Ratufa => {| base_morph := morphology_of Ratufa;
+                 snout_shape := Normal; tail_ratio := TailLong;
+                 pelage_pattern := Uniform; ear_shape := EarTufted;
+                 has_postauricular_patch := true; has_dorsal_stripe := false;
+                 has_white_eye_ring := false; num_mammae := 2 |}
+  | Rhinosciurus => {| base_morph := morphology_of Rhinosciurus;
+                       snout_shape := Elongated; tail_ratio := TailShort;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 4 |}
+  | Hyosciurus => {| base_morph := morphology_of Hyosciurus;
+                     snout_shape := Elongated; tail_ratio := TailModerate;
+                     pelage_pattern := Uniform; ear_shape := Rounded;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 4 |}
+  | Sciurus => {| base_morph := morphology_of Sciurus;
+                  snout_shape := Normal; tail_ratio := TailLong;
+                  pelage_pattern := Uniform; ear_shape := EarTufted;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 8 |}
+  | Tamiasciurus => {| base_morph := morphology_of Tamiasciurus;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := EarTufted;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 8 |}
+  | Glaucomys => {| base_morph := morphology_of Glaucomys;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := Uniform; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := true; num_mammae := 8 |}
+  | Petaurista => {| base_morph := morphology_of Petaurista;
+                     snout_shape := Normal; tail_ratio := TailVeryLong;
+                     pelage_pattern := Uniform; ear_shape := Rounded;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 4 |}
+  | Eupetaurus => {| base_morph := morphology_of Eupetaurus;
+                     snout_shape := Normal; tail_ratio := TailLong;
+                     pelage_pattern := Uniform; ear_shape := EarTufted;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 4 |}
+  | Pteromys => {| base_morph := morphology_of Pteromys;
+                   snout_shape := Normal; tail_ratio := TailModerate;
+                   pelage_pattern := Uniform; ear_shape := Rounded;
+                   has_postauricular_patch := false; has_dorsal_stripe := false;
+                   has_white_eye_ring := false; num_mammae := 8 |}
+  | Funambulus => {| base_morph := morphology_of Funambulus;
+                     snout_shape := Normal; tail_ratio := TailLong;
+                     pelage_pattern := PelageStriped; ear_shape := Rounded;
+                     has_postauricular_patch := false; has_dorsal_stripe := true;
+                     has_white_eye_ring := false; num_mammae := 6 |}
+  | Tamiops => {| base_morph := morphology_of Tamiops;
+                  snout_shape := Normal; tail_ratio := TailModerate;
+                  pelage_pattern := PelageStriped; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := true;
+                  has_white_eye_ring := false; num_mammae := 4 |}
+  | Tamias => {| base_morph := morphology_of Tamias;
+                 snout_shape := Normal; tail_ratio := TailModerate;
+                 pelage_pattern := PelageStriped; ear_shape := Rounded;
+                 has_postauricular_patch := false; has_dorsal_stripe := true;
+                 has_white_eye_ring := false; num_mammae := 8 |}
+  | Neotamias => {| base_morph := morphology_of Neotamias;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := PelageStriped; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := true;
+                    has_white_eye_ring := false; num_mammae := 8 |}
+  | Marmota => {| base_morph := morphology_of Marmota;
+                  snout_shape := Normal; tail_ratio := TailShort;
+                  pelage_pattern := Grizzled; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 10 |}
+  | Cynomys => {| base_morph := morphology_of Cynomys;
+                  snout_shape := Normal; tail_ratio := TailShort;
+                  pelage_pattern := Uniform; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 10 |}
+  | Xerus => {| base_morph := morphology_of Xerus;
+                snout_shape := Normal; tail_ratio := TailLong;
+                pelage_pattern := PelageStriped; ear_shape := Rounded;
+                has_postauricular_patch := false; has_dorsal_stripe := true;
+                has_white_eye_ring := false; num_mammae := 4 |}
+  | Atlantoxerus => {| base_morph := morphology_of Atlantoxerus;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := PelageStriped; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := true;
+                       has_white_eye_ring := false; num_mammae := 6 |}
+  | Funisciurus => {| base_morph := morphology_of Funisciurus;
+                      snout_shape := Normal; tail_ratio := TailLong;
+                      pelage_pattern := PelageStriped; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := true;
+                      has_white_eye_ring := false; num_mammae := 6 |}
+  | Protoxerus => {| base_morph := morphology_of Protoxerus;
+                     snout_shape := Normal; tail_ratio := TailLong;
+                     pelage_pattern := Grizzled; ear_shape := EarTufted;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 6 |}
+  | Rheithrosciurus => {| base_morph := morphology_of Rheithrosciurus;
+                          snout_shape := Normal; tail_ratio := TailVeryLong;
+                          pelage_pattern := Uniform; ear_shape := EarTufted;
+                          has_postauricular_patch := false; has_dorsal_stripe := false;
+                          has_white_eye_ring := false; num_mammae := 6 |}
+  | Callosciurus => {| base_morph := morphology_of Callosciurus;
+                       snout_shape := Normal; tail_ratio := TailLong;
+                       pelage_pattern := Banded; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 6 |}
+  | Dremomys => {| base_morph := morphology_of Dremomys;
+                   snout_shape := Normal; tail_ratio := TailModerate;
+                   pelage_pattern := Uniform; ear_shape := Rounded;
+                   has_postauricular_patch := true; has_dorsal_stripe := false;
+                   has_white_eye_ring := false; num_mammae := 6 |}
+  | Heliosciurus => {| base_morph := morphology_of Heliosciurus;
+                       snout_shape := Normal; tail_ratio := TailLong;
+                       pelage_pattern := Banded; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 6 |}
+  | Paraxerus => {| base_morph := morphology_of Paraxerus;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := Uniform; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := false; num_mammae := 6 |}
+  | Sundasciurus => {| base_morph := morphology_of Sundasciurus;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 4 |}
+  | Ammospermophilus => {| base_morph := morphology_of Ammospermophilus;
+                           snout_shape := Normal; tail_ratio := TailShort;
+                           pelage_pattern := PelageStriped; ear_shape := Rounded;
+                           has_postauricular_patch := false; has_dorsal_stripe := true;
+                           has_white_eye_ring := true; num_mammae := 10 |}
+  | Callospermophilus => {| base_morph := morphology_of Callospermophilus;
+                            snout_shape := Normal; tail_ratio := TailModerate;
+                            pelage_pattern := PelageStriped; ear_shape := Rounded;
+                            has_postauricular_patch := false; has_dorsal_stripe := true;
+                            has_white_eye_ring := false; num_mammae := 10 |}
+  | Ictidomys => {| base_morph := morphology_of Ictidomys;
+                    snout_shape := Normal; tail_ratio := TailShort;
+                    pelage_pattern := Spotted; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := false; num_mammae := 10 |}
+  | Otospermophilus => {| base_morph := morphology_of Otospermophilus;
+                          snout_shape := Normal; tail_ratio := TailLong;
+                          pelage_pattern := Grizzled; ear_shape := Rounded;
+                          has_postauricular_patch := false; has_dorsal_stripe := false;
+                          has_white_eye_ring := false; num_mammae := 10 |}
+  | Spermophilus => {| base_morph := morphology_of Spermophilus;
+                       snout_shape := Normal; tail_ratio := TailShort;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 10 |}
+  | Xerospermophilus => {| base_morph := morphology_of Xerospermophilus;
+                           snout_shape := Normal; tail_ratio := TailShort;
+                           pelage_pattern := Spotted; ear_shape := Rounded;
+                           has_postauricular_patch := false; has_dorsal_stripe := false;
+                           has_white_eye_ring := false; num_mammae := 10 |}
+  | Lariscus => {| base_morph := morphology_of Lariscus;
+                   snout_shape := Normal; tail_ratio := TailModerate;
+                   pelage_pattern := PelageStriped; ear_shape := Rounded;
+                   has_postauricular_patch := false; has_dorsal_stripe := true;
+                   has_white_eye_ring := false; num_mammae := 4 |}
+  | _ => {| base_morph := morphology_of g;
+            snout_shape := Normal; tail_ratio := TailModerate;
+            pelage_pattern := Uniform; ear_shape := Rounded;
+            has_postauricular_patch := false; has_dorsal_stripe := false;
+            has_white_eye_ring := false; num_mammae := 8 |}
+  end.
+
+Theorem elongated_snout_iff : forall g,
+  snout_shape (extended_morphology_of g) = Elongated <->
+  (g = Rhinosciurus \/ g = Hyosciurus).
+Proof.
+  intro g; split; intro H.
+  - destruct g; simpl in H; try discriminate; auto.
+  - destruct H; subst; reflexivity.
+Qed.
+
+Theorem tufted_ears_iff : forall g,
+  ear_shape (extended_morphology_of g) = EarTufted <->
+  (g = Ratufa \/ g = Sciurus \/ g = Tamiasciurus \/ g = Eupetaurus \/
+   g = Protoxerus \/ g = Rheithrosciurus).
+Proof.
+  intro g; split; intro H.
+  - destruct g; simpl in H; try discriminate; auto 10.
+  - destruct H as [H|[H|[H|[H|[H|H]]]]]; subst; reflexivity.
+Qed.
+
+Theorem mammae_count_distinguishes : forall g1 g2,
+  num_mammae (extended_morphology_of g1) <> num_mammae (extended_morphology_of g2) ->
+  g1 <> g2.
+Proof. intros g1 g2 H Heq; subst; contradiction. Qed.
+
+Theorem ratufa_unique_mammae : forall g,
+  num_mammae (extended_morphology_of g) = 2 -> g = Ratufa.
+Proof. intros g H; destruct g; simpl in H; try discriminate; reflexivity. Qed.
+
+Theorem high_mammae_genera : forall g,
+  num_mammae (extended_morphology_of g) = 10 ->
+  (g = Marmota \/ g = Cynomys \/ g = Ammospermophilus \/ g = Callospermophilus \/
+   g = Ictidomys \/ g = Notocitellus \/ g = Otospermophilus \/ g = Poliocitellus \/
+   g = Spermophilus \/ g = Urocitellus \/ g = Xerospermophilus).
+Proof. intros g H; destruct g; simpl in H; try discriminate; auto 15. Qed.
+
+Theorem dorsal_stripe_genera : forall g,
+  has_dorsal_stripe (extended_morphology_of g) = true ->
+  (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Neotamias \/ g = Xerus \/
+   g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/
+   g = Ammospermophilus \/ g = Callospermophilus).
+Proof. intros g H; destruct g; simpl in H; try discriminate; auto 15. Qed.
 
 Definition fine_morphology_of (g : Genus) : FineMorphology :=
   match g with
@@ -3285,31 +2143,9 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
             has_white_tail_border := false; has_facial_markings := false |}
   end.
 
-Definition tail_tip_eqb (t1 t2 : TailTip) : bool :=
-  match t1, t2 with
-  | TipBlack, TipBlack | TipWhite, TipWhite | TipSame, TipSame | TipBanded, TipBanded => true
-  | _, _ => false
-  end.
+(* ======================== Genus Identification Key ======================== *)
 
-Definition ventral_eqb (v1 v2 : VentralColor) : bool :=
-  match v1, v2 with
-  | VentralWhite, VentralWhite | VentralOrange, VentralOrange
-  | VentralGray, VentralGray | VentralBuff, VentralBuff => true
-  | _, _ => false
-  end.
-
-Definition stripe_eqb (s1 s2 : StripeCount) : bool :=
-  match s1, s2 with
-  | NoStripes, NoStripes | OneStripe, OneStripe | ThreeStripes, ThreeStripes
-  | FiveStripes, FiveStripes | SevenStripes, SevenStripes => true
-  | _, _ => false
-  end.
-
-(* ========================================================================== *)
-(*                      100% ACCURATE FINE-GRAINED KEY                        *)
-(* ========================================================================== *)
-
-Definition fine_genus_key (g : Genus) : Genus :=
+Definition genus_key (g : Genus) : Genus :=
   let fm := fine_morphology_of g in
   let em := ext_morph fm in
   let m := base_morph em in
@@ -3430,8 +2266,10 @@ Definition fine_genus_key (g : Genus) : Genus :=
       else Sciurus
   end.
 
-Definition fine_key_correct (g : Genus) : bool :=
-  match fine_genus_key g, g with
+(* ======================== Key Correctness ======================== *)
+
+Definition key_correct (g : Genus) : bool :=
+  match genus_key g, g with
   | Ratufa, Ratufa => true | Sciurillus, Sciurillus => true
   | Microsciurus, Microsciurus => true | Rheithrosciurus, Rheithrosciurus => true
   | Sciurus, Sciurus => true | Syntheosciurus, Syntheosciurus => true
@@ -3467,35 +2305,28 @@ Definition fine_key_correct (g : Genus) : bool :=
   | _, _ => false
   end.
 
-Definition count_fine_key_correct : nat :=
-  List.length (filter fine_key_correct all_genera).
+Definition count_key_correct : nat :=
+  List.length (filter key_correct all_genera).
 
-Eval compute in count_fine_key_correct.
+Definition misclassified_genera : list Genus :=
+  filter (fun g => negb (key_correct g)) all_genera.
 
-Definition fine_misclassified : list Genus :=
-  filter (fun g => negb (fine_key_correct g)) all_genera.
+Eval compute in count_key_correct.
+Eval compute in misclassified_genera.
 
-Eval compute in fine_misclassified.
+Theorem key_100_percent_accuracy : count_key_correct = 63.
+Proof. reflexivity. Qed.
 
-Theorem fine_key_100_percent_accuracy : count_fine_key_correct = 63.
-Proof.
-  reflexivity.
-Qed.
+Theorem key_no_misclassifications : misclassified_genera = [].
+Proof. reflexivity. Qed.
 
-Theorem fine_key_no_misclassifications : fine_misclassified = [].
-Proof.
-  reflexivity.
-Qed.
+Theorem key_complete_proof : forall g : Genus, key_correct g = true.
+Proof. intro g; destruct g; reflexivity. Qed.
 
-Theorem fine_key_complete : forall g : Genus, fine_key_correct g = true.
-Proof.
-  intro g.
-  destruct g; reflexivity.
-Qed.
+Theorem key_identifies_genus : forall g : Genus, genus_key g = g.
+Proof. intro g; destruct g; reflexivity. Qed.
 
-(* ========================================================================== *)
-(*                         PHYLOGENETIC TREE STRUCTURE                        *)
-(* ========================================================================== *)
+(* ======================== Phylogenetic Tree Structure ======================== *)
 
 Inductive PhyloNode : Type :=
   | Leaf : Genus -> PhyloNode
