@@ -633,6 +633,86 @@ Proof.
   - subst; apply tribe_eqb_refl.
 Qed.
 
+Definition genus_eqb (g1 g2 : Genus) : bool :=
+  match g1, g2 with
+  | Ratufa, Ratufa => true
+  | Sciurillus, Sciurillus => true
+  | Microsciurus, Microsciurus => true
+  | Rheithrosciurus, Rheithrosciurus => true
+  | Sciurus, Sciurus => true
+  | Syntheosciurus, Syntheosciurus => true
+  | Tamiasciurus, Tamiasciurus => true
+  | Aeretes, Aeretes => true
+  | Aeromys, Aeromys => true
+  | Belomys, Belomys => true
+  | Biswamoyopterus, Biswamoyopterus => true
+  | Eoglaucomys, Eoglaucomys => true
+  | Eupetaurus, Eupetaurus => true
+  | Glaucomys, Glaucomys => true
+  | Hylopetes, Hylopetes => true
+  | Iomys, Iomys => true
+  | Petaurillus, Petaurillus => true
+  | Petaurista, Petaurista => true
+  | Petinomys, Petinomys => true
+  | Pteromys, Pteromys => true
+  | Pteromyscus, Pteromyscus => true
+  | Trogopterus, Trogopterus => true
+  | Callosciurus, Callosciurus => true
+  | Dremomys, Dremomys => true
+  | Exilisciurus, Exilisciurus => true
+  | Funambulus, Funambulus => true
+  | Glyphotes, Glyphotes => true
+  | Hyosciurus, Hyosciurus => true
+  | Lariscus, Lariscus => true
+  | Menetes, Menetes => true
+  | Nannosciurus, Nannosciurus => true
+  | Prosciurillus, Prosciurillus => true
+  | Rhinosciurus, Rhinosciurus => true
+  | Rubrisciurus, Rubrisciurus => true
+  | Sundasciurus, Sundasciurus => true
+  | Tamiops, Tamiops => true
+  | Atlantoxerus, Atlantoxerus => true
+  | Spermophilopsis, Spermophilopsis => true
+  | Xerus, Xerus => true
+  | Epixerus, Epixerus => true
+  | Funisciurus, Funisciurus => true
+  | Heliosciurus, Heliosciurus => true
+  | Myosciurus, Myosciurus => true
+  | Paraxerus, Paraxerus => true
+  | Protoxerus, Protoxerus => true
+  | Ammospermophilus, Ammospermophilus => true
+  | Callospermophilus, Callospermophilus => true
+  | Cynomys, Cynomys => true
+  | Ictidomys, Ictidomys => true
+  | Marmota, Marmota => true
+  | Notocitellus, Notocitellus => true
+  | Otospermophilus, Otospermophilus => true
+  | Poliocitellus, Poliocitellus => true
+  | Sciurotamias, Sciurotamias => true
+  | Spermophilus, Spermophilus => true
+  | Tamias, Tamias => true
+  | Neotamias, Neotamias => true
+  | Urocitellus, Urocitellus => true
+  | Xerospermophilus, Xerospermophilus => true
+  | Douglassciurus, Douglassciurus => true
+  | Hesperopetes, Hesperopetes => true
+  | Palaeosciurus, Palaeosciurus => true
+  | Protosciurus, Protosciurus => true
+  | _, _ => false
+  end.
+
+Lemma genus_eqb_refl : forall g, genus_eqb g g = true.
+Proof.
+  intro g; destruct g; simpl; reflexivity.
+Qed.
+
+Lemma genus_eqb_eq : forall g1 g2, genus_eqb g1 g2 = true <-> g1 = g2.
+Proof.
+  intros g1 g2; split; intros H.
+  - destruct g1, g2; simpl in H; try reflexivity; discriminate.
+  - subst; apply genus_eqb_refl.
+Qed.
+
 (* ======================== List Membership ======================== *)
 
 Fixpoint in_continent_list (c : Continent) (l : list Continent) : bool :=
@@ -1313,6 +1393,166 @@ Proof.
   intros g s; destruct s; simpl; auto 300.
 Qed.
 
+Definition species_to_nat {g : Genus} (s : Species g) : nat :=
+  match s with
+  | Ratufa_affinis => 0 | Ratufa_bicolor => 1 | Ratufa_indica => 2 | Ratufa_macroura => 3
+  | Sciurillus_pusillus => 4
+  | Microsciurus_alfari => 5 | Microsciurus_flaviventer => 6 | Microsciurus_mimulus => 7 | Microsciurus_santanderensis => 8
+  | Rheithrosciurus_macrotis => 9
+  | Sciurus_aberti => 10 | Sciurus_alleni => 11 | Sciurus_anomalus => 12 | Sciurus_arizonensis => 13
+  | Sciurus_aureogaster => 14 | Sciurus_carolinensis => 15 | Sciurus_colliaei => 16 | Sciurus_deppei => 17
+  | Sciurus_flammifer => 18 | Sciurus_gilvigularis => 19 | Sciurus_granatensis => 20 | Sciurus_griseus => 21
+  | Sciurus_igniventris => 22 | Sciurus_lis => 23 | Sciurus_nayaritensis => 24 | Sciurus_niger => 25
+  | Sciurus_oculatus => 26 | Sciurus_pucheranii => 27 | Sciurus_pyrrhinus => 28 | Sciurus_richmondi => 29
+  | Sciurus_sanborni => 30 | Sciurus_spadiceus => 31 | Sciurus_stramineus => 32 | Sciurus_variegatoides => 33
+  | Sciurus_vulgaris => 34 | Sciurus_yucatanensis => 35
+  | Syntheosciurus_brochus => 36
+  | Tamiasciurus_douglasii => 37 | Tamiasciurus_fremonti => 38 | Tamiasciurus_hudsonicus => 39 | Tamiasciurus_mearnsi => 40
+  | Aeretes_melanopterus => 41
+  | Aeromys_tephromelas => 42 | Aeromys_thomasi => 43
+  | Belomys_pearsonii => 44
+  | Biswamoyopterus_biswasi => 45 | Biswamoyopterus_laoensis => 46
+  | Eoglaucomys_fimbriatus => 47
+  | Eupetaurus_cinereus => 48
+  | Glaucomys_oregonensis => 49 | Glaucomys_sabrinus => 50 | Glaucomys_volans => 51
+  | Hylopetes_alboniger => 52 | Hylopetes_baberi => 53 | Hylopetes_bartelsi => 54 | Hylopetes_lepidus => 55
+  | Hylopetes_nigripes => 56 | Hylopetes_phayrei => 57 | Hylopetes_platyurus => 58 | Hylopetes_sipora => 59
+  | Hylopetes_spadiceus => 60 | Hylopetes_winstoni => 61
+  | Iomys_horsfieldii => 62 | Iomys_sipora => 63
+  | Petaurillus_emiliae => 64 | Petaurillus_hosei => 65 | Petaurillus_kinlochii => 66
+  | Petaurista_alborufus => 67 | Petaurista_elegans => 68 | Petaurista_leucogenys => 69 | Petaurista_magnificus => 70
+  | Petaurista_mechukaensis => 71 | Petaurista_mishmiensis => 72 | Petaurista_nobilis => 73 | Petaurista_petaurista => 74
+  | Petaurista_philippensis => 75 | Petaurista_xanthotis => 76 | Petaurista_yunanensis => 77
+  | Petinomys_crinitus => 78 | Petinomys_fuscocapillus => 79 | Petinomys_genibarbis => 80 | Petinomys_hageni => 81
+  | Petinomys_lugens => 82 | Petinomys_mindanensis => 83 | Petinomys_sagitta => 84 | Petinomys_setosus => 85 | Petinomys_vordermanni => 86
+  | Pteromys_momonga => 87 | Pteromys_volans => 88
+  | Pteromyscus_pulverulentus => 89
+  | Trogopterus_xanthipes => 90
+  | Callosciurus_adamsi => 91 | Callosciurus_albescens => 92 | Callosciurus_baluensis => 93 | Callosciurus_caniceps => 94
+  | Callosciurus_erythraeus => 95 | Callosciurus_finlaysonii => 96 | Callosciurus_inornatus => 97 | Callosciurus_melanogaster => 98
+  | Callosciurus_nigrovittatus => 99 | Callosciurus_notatus => 100 | Callosciurus_orestes => 101 | Callosciurus_phayrei => 102
+  | Callosciurus_prevostii => 103 | Callosciurus_pygerythrus => 104 | Callosciurus_quinquestriatus => 105
+  | Dremomys_everetti => 106 | Dremomys_gularis => 107 | Dremomys_lokriah => 108 | Dremomys_pernyi => 109
+  | Dremomys_pyrrhomerus => 110 | Dremomys_rufigenis => 111
+  | Exilisciurus_concinnus => 112 | Exilisciurus_exilis => 113 | Exilisciurus_whiteheadi => 114
+  | Funambulus_layardi => 115 | Funambulus_palmarum => 116 | Funambulus_pennantii => 117 | Funambulus_sublineatus => 118 | Funambulus_tristriatus => 119
+  | Glyphotes_simus => 120
+  | Hyosciurus_heinrichi => 121 | Hyosciurus_ileile => 122
+  | Lariscus_hosei => 123 | Lariscus_insignis => 124 | Lariscus_niobe => 125 | Lariscus_obscurus => 126
+  | Menetes_berdmorei => 127
+  | Nannosciurus_melanotis => 128
+  | Prosciurillus_abstrusus => 129 | Prosciurillus_leucomus => 130 | Prosciurillus_murinus => 131
+  | Prosciurillus_topapuensis => 132 | Prosciurillus_weberi => 133
+  | Rhinosciurus_laticaudatus => 134
+  | Rubrisciurus_rubriventer => 135
+  | Sundasciurus_brookei => 136 | Sundasciurus_davensis => 137 | Sundasciurus_fraterculus => 138 | Sundasciurus_hippurus => 139
+  | Sundasciurus_hoogstraali => 140 | Sundasciurus_jentinki => 141 | Sundasciurus_juvencus => 142 | Sundasciurus_lowii => 143
+  | Sundasciurus_mindanensis => 144 | Sundasciurus_moellendorffi => 145 | Sundasciurus_philippinensis => 146 | Sundasciurus_rabori => 147
+  | Sundasciurus_samarensis => 148 | Sundasciurus_steerii => 149 | Sundasciurus_tenuis => 150
+  | Tamiops_mcclellandii => 151 | Tamiops_maritimus => 152 | Tamiops_rodolphii => 153 | Tamiops_swinhoei => 154
+  | Atlantoxerus_getulus => 155
+  | Spermophilopsis_leptodactylus => 156
+  | Xerus_erythropus => 157 | Xerus_inauris => 158 | Xerus_princeps => 159 | Xerus_rutilus => 160
+  | Epixerus_ebii => 161 | Epixerus_wilsoni => 162
+  | Funisciurus_anerythrus => 163 | Funisciurus_bayonii => 164 | Funisciurus_carruthersi => 165 | Funisciurus_congicus => 166
+  | Funisciurus_isabella => 167 | Funisciurus_lemniscatus => 168 | Funisciurus_leucogenys => 169 | Funisciurus_pyrropus => 170 | Funisciurus_substriatus => 171
+  | Heliosciurus_gambianus => 172 | Heliosciurus_mutabilis => 173 | Heliosciurus_punctatus => 174
+  | Heliosciurus_rufobrachium => 175 | Heliosciurus_ruwenzorii => 176 | Heliosciurus_undulatus => 177
+  | Myosciurus_pumilio => 178
+  | Paraxerus_alexandri => 179 | Paraxerus_boehmi => 180 | Paraxerus_cepapi => 181 | Paraxerus_cooperi => 182
+  | Paraxerus_flavovittis => 183 | Paraxerus_lucifer => 184 | Paraxerus_ochraceus => 185 | Paraxerus_palliatus => 186
+  | Paraxerus_poensis => 187 | Paraxerus_vexillarius => 188 | Paraxerus_vincenti => 189
+  | Protoxerus_aubinnii => 190 | Protoxerus_stangeri => 191
+  | Ammospermophilus_harrisii => 192 | Ammospermophilus_insularis => 193 | Ammospermophilus_interpres => 194
+  | Ammospermophilus_leucurus => 195 | Ammospermophilus_nelsoni => 196
+  | Callospermophilus_lateralis => 197 | Callospermophilus_madrensis => 198 | Callospermophilus_saturatus => 199
+  | Cynomys_gunnisoni => 200 | Cynomys_leucurus => 201 | Cynomys_ludovicianus => 202 | Cynomys_mexicanus => 203 | Cynomys_parvidens => 204
+  | Ictidomys_mexicanus => 205 | Ictidomys_parvidens => 206 | Ictidomys_tridecemlineatus => 207
+  | Marmota_baibacina => 208 | Marmota_bobak => 209 | Marmota_broweri => 210 | Marmota_caligata => 211
+  | Marmota_camtschatica => 212 | Marmota_caudata => 213 | Marmota_flaviventris => 214 | Marmota_himalayana => 215
+  | Marmota_marmota => 216 | Marmota_menzbieri => 217 | Marmota_monax => 218 | Marmota_olympus => 219
+  | Marmota_sibirica => 220 | Marmota_vancouverensis => 221
+  | Notocitellus_adocetus => 222 | Notocitellus_annulatus => 223
+  | Otospermophilus_atricapillus => 224 | Otospermophilus_beecheyi => 225 | Otospermophilus_variegatus => 226
+  | Poliocitellus_franklinii => 227
+  | Sciurotamias_davidianus => 228 | Sciurotamias_forresti => 229
+  | Spermophilus_alashanicus => 230 | Spermophilus_brevicauda => 231 | Spermophilus_citellus => 232 | Spermophilus_dauricus => 233
+  | Spermophilus_erythrogenys => 234 | Spermophilus_fulvus => 235 | Spermophilus_major => 236 | Spermophilus_musicus => 237
+  | Spermophilus_pallidiccauda => 238 | Spermophilus_pygmaeus => 239 | Spermophilus_ralli => 240 | Spermophilus_relictus => 241
+  | Spermophilus_suslicus => 242 | Spermophilus_taurensis => 243 | Spermophilus_xanthoprymnus => 244
+  | Tamias_sibiricus => 245 | Tamias_striatus => 246
+  | Neotamias_alpinus => 247 | Neotamias_amoenus => 248 | Neotamias_bulleri => 249 | Neotamias_canipes => 250
+  | Neotamias_cinereicollis => 251 | Neotamias_dorsalis => 252 | Neotamias_durangae => 253 | Neotamias_merriami => 254
+  | Neotamias_minimus => 255 | Neotamias_obscurus => 256 | Neotamias_ochrogenys => 257 | Neotamias_palmeri => 258
+  | Neotamias_panamintinus => 259 | Neotamias_quadrimaculatus => 260 | Neotamias_quadrivittatus => 261 | Neotamias_ruficaudus => 262
+  | Neotamias_rufus => 263 | Neotamias_senex => 264 | Neotamias_siskiyou => 265 | Neotamias_sonomae => 266
+  | Neotamias_speciosus => 267 | Neotamias_townsendii => 268 | Neotamias_umbrinus => 269
+  | Urocitellus_armatus => 270 | Urocitellus_beldingi => 271 | Urocitellus_brunneus => 272 | Urocitellus_canus => 273
+  | Urocitellus_columbianus => 274 | Urocitellus_elegans => 275 | Urocitellus_endemicus => 276 | Urocitellus_mollis => 277
+  | Urocitellus_parryii => 278 | Urocitellus_richardsonii => 279 | Urocitellus_townsendii => 280 | Urocitellus_undulatus => 281 | Urocitellus_washingtoni => 282
+  | Xerospermophilus_mohavensis => 283 | Xerospermophilus_perotensis => 284 | Xerospermophilus_spilosoma => 285 | Xerospermophilus_tereticaudus => 286
+  end.
+
+Definition anyspecies_to_nat (sp : AnySpecies) : nat :=
+  match sp with existT _ _ s => species_to_nat s end.
+
+Fixpoint nodup_nat_list (l : list nat) : bool :=
+  match l with
+  | [] => true
+  | x :: xs => negb (existsb (Nat.eqb x) xs) && nodup_nat_list xs
+  end.
+
+Definition all_species_indices : list nat := map anyspecies_to_nat all_species.
+
+Lemma all_species_indices_nodup_check : nodup_nat_list all_species_indices = true.
+Proof. native_compute. reflexivity. Qed.
+
+Lemma species_to_nat_injective : forall g1 g2 (s1 : Species g1) (s2 : Species g2),
+  species_to_nat s1 = species_to_nat s2 -> existT _ g1 s1 = existT _ g2 s2.
+Proof.
+  intros g1 g2 s1 s2 H.
+  destruct s1, s2; simpl in H; try discriminate; reflexivity.
+Qed.
+
+Lemma nodup_nat_implies_NoDup : forall (l : list nat),
+  nodup_nat_list l = true -> NoDup l.
+Proof.
+  induction l as [|x xs IH]; intros H.
+  - constructor.
+  - simpl in H.
+    apply andb_prop in H as [Hnin Hrest].
+    constructor.
+    + intro Hin.
+      assert (Hfalse : existsb (Nat.eqb x) xs = true).
+      { apply existsb_exists. exists x. split; [exact Hin | apply Nat.eqb_refl]. }
+      rewrite Hfalse in Hnin. discriminate.
+    + apply IH; exact Hrest.
+Qed.
+
+Lemma NoDup_map_injective : forall {A B} (f : A -> B) (l : list A),
+  (forall x y, f x = f y -> x = y) -> NoDup (map f l) -> NoDup l.
+Proof.
+  intros A B f l Hinj Hnd.
+  induction l as [|x xs IH]; [constructor|].
+  simpl in Hnd.
+  inversion Hnd as [|? ? Hnin Hrest]; subst.
+  constructor.
+  - intro Hin.
+    apply Hnin.
+    apply in_map.
+    exact Hin.
+  - apply IH; exact Hrest.
+Qed.
+
+Theorem all_species_nodup : NoDup all_species.
+Proof.
+  apply NoDup_map_injective with (f := anyspecies_to_nat).
+  - intros [g1 s1] [g2 s2] Heq.
+    apply species_to_nat_injective; exact Heq.
+  - apply nodup_nat_implies_NoDup.
+    exact all_species_indices_nodup_check.
+Qed.
+
 (* ======================== Morphological Characters ======================== *)
 
 Inductive BodySize : Type := Tiny | Small | Medium | Large | Giant.
@@ -1906,11 +2146,161 @@ Definition extended_morphology_of (g : Genus) : ExtendedMorphology :=
                    pelage_pattern := PelageStriped; ear_shape := Rounded;
                    has_postauricular_patch := false; has_dorsal_stripe := true;
                    has_white_eye_ring := false; num_mammae := 4 |}
-  | _ => {| base_morph := morphology_of g;
-            snout_shape := Normal; tail_ratio := TailModerate;
-            pelage_pattern := Uniform; ear_shape := Rounded;
-            has_postauricular_patch := false; has_dorsal_stripe := false;
-            has_white_eye_ring := false; num_mammae := 8 |}
+  | Sciurillus => {| base_morph := morphology_of Sciurillus;
+                     snout_shape := Normal; tail_ratio := TailModerate;
+                     pelage_pattern := Uniform; ear_shape := Rounded;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 6 |}
+  | Microsciurus => {| base_morph := morphology_of Microsciurus;
+                       snout_shape := Normal; tail_ratio := TailLong;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 6 |}
+  | Syntheosciurus => {| base_morph := morphology_of Syntheosciurus;
+                         snout_shape := Normal; tail_ratio := TailLong;
+                         pelage_pattern := Uniform; ear_shape := Rounded;
+                         has_postauricular_patch := false; has_dorsal_stripe := false;
+                         has_white_eye_ring := false; num_mammae := 8 |}
+  | Aeretes => {| base_morph := morphology_of Aeretes;
+                  snout_shape := Normal; tail_ratio := TailLong;
+                  pelage_pattern := Uniform; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 4 |}
+  | Aeromys => {| base_morph := morphology_of Aeromys;
+                  snout_shape := Normal; tail_ratio := TailLong;
+                  pelage_pattern := Uniform; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 4 |}
+  | Belomys => {| base_morph := morphology_of Belomys;
+                  snout_shape := Normal; tail_ratio := TailModerate;
+                  pelage_pattern := Uniform; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := false;
+                  has_white_eye_ring := false; num_mammae := 4 |}
+  | Biswamoyopterus => {| base_morph := morphology_of Biswamoyopterus;
+                          snout_shape := Normal; tail_ratio := TailLong;
+                          pelage_pattern := Uniform; ear_shape := Rounded;
+                          has_postauricular_patch := false; has_dorsal_stripe := false;
+                          has_white_eye_ring := false; num_mammae := 4 |}
+  | Eoglaucomys => {| base_morph := morphology_of Eoglaucomys;
+                      snout_shape := Normal; tail_ratio := TailModerate;
+                      pelage_pattern := Uniform; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := false;
+                      has_white_eye_ring := false; num_mammae := 4 |}
+  | Hylopetes => {| base_morph := morphology_of Hylopetes;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := Uniform; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := false; num_mammae := 4 |}
+  | Iomys => {| base_morph := morphology_of Iomys;
+                snout_shape := Normal; tail_ratio := TailModerate;
+                pelage_pattern := Uniform; ear_shape := Rounded;
+                has_postauricular_patch := false; has_dorsal_stripe := false;
+                has_white_eye_ring := false; num_mammae := 4 |}
+  | Petaurillus => {| base_morph := morphology_of Petaurillus;
+                      snout_shape := Normal; tail_ratio := TailModerate;
+                      pelage_pattern := Uniform; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := false;
+                      has_white_eye_ring := false; num_mammae := 4 |}
+  | Petinomys => {| base_morph := morphology_of Petinomys;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := Uniform; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := false; num_mammae := 4 |}
+  | Pteromyscus => {| base_morph := morphology_of Pteromyscus;
+                      snout_shape := Normal; tail_ratio := TailModerate;
+                      pelage_pattern := Uniform; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := false;
+                      has_white_eye_ring := false; num_mammae := 4 |}
+  | Trogopterus => {| base_morph := morphology_of Trogopterus;
+                      snout_shape := Normal; tail_ratio := TailModerate;
+                      pelage_pattern := Uniform; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := false;
+                      has_white_eye_ring := false; num_mammae := 4 |}
+  | Exilisciurus => {| base_morph := morphology_of Exilisciurus;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 4 |}
+  | Glyphotes => {| base_morph := morphology_of Glyphotes;
+                    snout_shape := Normal; tail_ratio := TailModerate;
+                    pelage_pattern := Uniform; ear_shape := Rounded;
+                    has_postauricular_patch := false; has_dorsal_stripe := false;
+                    has_white_eye_ring := false; num_mammae := 4 |}
+  | Menetes => {| base_morph := morphology_of Menetes;
+                  snout_shape := Normal; tail_ratio := TailModerate;
+                  pelage_pattern := PelageStriped; ear_shape := Rounded;
+                  has_postauricular_patch := false; has_dorsal_stripe := true;
+                  has_white_eye_ring := false; num_mammae := 4 |}
+  | Nannosciurus => {| base_morph := morphology_of Nannosciurus;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 4 |}
+  | Prosciurillus => {| base_morph := morphology_of Prosciurillus;
+                        snout_shape := Normal; tail_ratio := TailModerate;
+                        pelage_pattern := Uniform; ear_shape := Rounded;
+                        has_postauricular_patch := false; has_dorsal_stripe := false;
+                        has_white_eye_ring := false; num_mammae := 4 |}
+  | Rubrisciurus => {| base_morph := morphology_of Rubrisciurus;
+                       snout_shape := Normal; tail_ratio := TailLong;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 4 |}
+  | Epixerus => {| base_morph := morphology_of Epixerus;
+                   snout_shape := Normal; tail_ratio := TailLong;
+                   pelage_pattern := Uniform; ear_shape := Rounded;
+                   has_postauricular_patch := false; has_dorsal_stripe := false;
+                   has_white_eye_ring := false; num_mammae := 6 |}
+  | Myosciurus => {| base_morph := morphology_of Myosciurus;
+                     snout_shape := Normal; tail_ratio := TailModerate;
+                     pelage_pattern := Uniform; ear_shape := Rounded;
+                     has_postauricular_patch := false; has_dorsal_stripe := false;
+                     has_white_eye_ring := false; num_mammae := 4 |}
+  | Notocitellus => {| base_morph := morphology_of Notocitellus;
+                       snout_shape := Normal; tail_ratio := TailShort;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 10 |}
+  | Poliocitellus => {| base_morph := morphology_of Poliocitellus;
+                        snout_shape := Normal; tail_ratio := TailModerate;
+                        pelage_pattern := Uniform; ear_shape := Rounded;
+                        has_postauricular_patch := false; has_dorsal_stripe := false;
+                        has_white_eye_ring := false; num_mammae := 10 |}
+  | Sciurotamias => {| base_morph := morphology_of Sciurotamias;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 10 |}
+  | Urocitellus => {| base_morph := morphology_of Urocitellus;
+                      snout_shape := Normal; tail_ratio := TailShort;
+                      pelage_pattern := Uniform; ear_shape := Rounded;
+                      has_postauricular_patch := false; has_dorsal_stripe := false;
+                      has_white_eye_ring := false; num_mammae := 10 |}
+  | Spermophilopsis => {| base_morph := morphology_of Spermophilopsis;
+                          snout_shape := Normal; tail_ratio := TailModerate;
+                          pelage_pattern := Uniform; ear_shape := Rounded;
+                          has_postauricular_patch := false; has_dorsal_stripe := false;
+                          has_white_eye_ring := false; num_mammae := 8 |}
+  | Douglassciurus => {| base_morph := morphology_of Douglassciurus;
+                         snout_shape := Normal; tail_ratio := TailModerate;
+                         pelage_pattern := Uniform; ear_shape := Rounded;
+                         has_postauricular_patch := false; has_dorsal_stripe := false;
+                         has_white_eye_ring := false; num_mammae := 8 |}
+  | Hesperopetes => {| base_morph := morphology_of Hesperopetes;
+                       snout_shape := Normal; tail_ratio := TailModerate;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 8 |}
+  | Palaeosciurus => {| base_morph := morphology_of Palaeosciurus;
+                        snout_shape := Normal; tail_ratio := TailShort;
+                        pelage_pattern := Uniform; ear_shape := Rounded;
+                        has_postauricular_patch := false; has_dorsal_stripe := false;
+                        has_white_eye_ring := false; num_mammae := 8 |}
+  | Protosciurus => {| base_morph := morphology_of Protosciurus;
+                       snout_shape := Normal; tail_ratio := TailLong;
+                       pelage_pattern := Uniform; ear_shape := Rounded;
+                       has_postauricular_patch := false; has_dorsal_stripe := false;
+                       has_white_eye_ring := false; num_mammae := 8 |}
   end.
 
 Theorem elongated_snout_iff : forall g,
@@ -1945,13 +2335,13 @@ Theorem high_mammae_genera : forall g,
   num_mammae (extended_morphology_of g) = 10 ->
   (g = Marmota \/ g = Cynomys \/ g = Ammospermophilus \/ g = Callospermophilus \/
    g = Ictidomys \/ g = Notocitellus \/ g = Otospermophilus \/ g = Poliocitellus \/
-   g = Spermophilus \/ g = Urocitellus \/ g = Xerospermophilus).
-Proof. intros g H; destruct g; simpl in H; try discriminate; auto 15. Qed.
+   g = Sciurotamias \/ g = Spermophilus \/ g = Urocitellus \/ g = Xerospermophilus).
+Proof. intros g H; destruct g; simpl in H; try discriminate; auto 20. Qed.
 
 Theorem dorsal_stripe_genera : forall g,
   has_dorsal_stripe (extended_morphology_of g) = true ->
   (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Neotamias \/ g = Xerus \/
-   g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/
+   g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/ g = Menetes \/
    g = Ammospermophilus \/ g = Callospermophilus).
 Proof. intros g H; destruct g; simpl in H; try discriminate; auto 15. Qed.
 
@@ -2137,10 +2527,78 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
                        region := Nearctic; tail_tip := TipBanded; ventral_color := VentralOrange;
                        stripe_count := NoStripes; is_island_endemic := false;
                        has_white_tail_border := false; has_facial_markings := false |}
-  | _ => {| ext_morph := extended_morphology_of g;
-            region := primary_region g; tail_tip := TipSame; ventral_color := VentralBuff;
-            stripe_count := NoStripes; is_island_endemic := false;
-            has_white_tail_border := false; has_facial_markings := false |}
+  | Microsciurus => {| ext_morph := extended_morphology_of Microsciurus;
+                       region := Neotropical; tail_tip := TipSame; ventral_color := VentralBuff;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Sciurus => {| ext_morph := extended_morphology_of Sciurus;
+                  region := Nearctic; tail_tip := TipSame; ventral_color := VentralWhite;
+                  stripe_count := NoStripes; is_island_endemic := false;
+                  has_white_tail_border := false; has_facial_markings := false |}
+  | Syntheosciurus => {| ext_morph := extended_morphology_of Syntheosciurus;
+                         region := CentralAmericaRegion; tail_tip := TipSame; ventral_color := VentralBuff;
+                         stripe_count := NoStripes; is_island_endemic := false;
+                         has_white_tail_border := false; has_facial_markings := false |}
+  | Tamiasciurus => {| ext_morph := extended_morphology_of Tamiasciurus;
+                       region := Nearctic; tail_tip := TipSame; ventral_color := VentralWhite;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Callosciurus => {| ext_morph := extended_morphology_of Callosciurus;
+                       region := Oriental; tail_tip := TipSame; ventral_color := VentralOrange;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Dremomys => {| ext_morph := extended_morphology_of Dremomys;
+                   region := Oriental; tail_tip := TipSame; ventral_color := VentralOrange;
+                   stripe_count := NoStripes; is_island_endemic := false;
+                   has_white_tail_border := false; has_facial_markings := false |}
+  | Sundasciurus => {| ext_morph := extended_morphology_of Sundasciurus;
+                       region := Oriental; tail_tip := TipSame; ventral_color := VentralBuff;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Atlantoxerus => {| ext_morph := extended_morphology_of Atlantoxerus;
+                       region := NorthAfrica; tail_tip := TipSame; ventral_color := VentralWhite;
+                       stripe_count := ThreeStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Spermophilopsis => {| ext_morph := extended_morphology_of Spermophilopsis;
+                          region := Palearctic; tail_tip := TipSame; ventral_color := VentralBuff;
+                          stripe_count := NoStripes; is_island_endemic := false;
+                          has_white_tail_border := false; has_facial_markings := false |}
+  | Xerus => {| ext_morph := extended_morphology_of Xerus;
+                region := Ethiopian; tail_tip := TipSame; ventral_color := VentralWhite;
+                stripe_count := OneStripe; is_island_endemic := false;
+                has_white_tail_border := false; has_facial_markings := false |}
+  | Epixerus => {| ext_morph := extended_morphology_of Epixerus;
+                   region := WestAfrica; tail_tip := TipSame; ventral_color := VentralBuff;
+                   stripe_count := NoStripes; is_island_endemic := false;
+                   has_white_tail_border := false; has_facial_markings := false |}
+  | Funisciurus => {| ext_morph := extended_morphology_of Funisciurus;
+                      region := Ethiopian; tail_tip := TipSame; ventral_color := VentralBuff;
+                      stripe_count := OneStripe; is_island_endemic := false;
+                      has_white_tail_border := false; has_facial_markings := false |}
+  | Heliosciurus => {| ext_morph := extended_morphology_of Heliosciurus;
+                       region := Ethiopian; tail_tip := TipSame; ventral_color := VentralBuff;
+                       stripe_count := NoStripes; is_island_endemic := false;
+                       has_white_tail_border := false; has_facial_markings := false |}
+  | Myosciurus => {| ext_morph := extended_morphology_of Myosciurus;
+                     region := WestAfrica; tail_tip := TipSame; ventral_color := VentralWhite;
+                     stripe_count := NoStripes; is_island_endemic := false;
+                     has_white_tail_border := false; has_facial_markings := false |}
+  | Paraxerus => {| ext_morph := extended_morphology_of Paraxerus;
+                    region := Ethiopian; tail_tip := TipSame; ventral_color := VentralBuff;
+                    stripe_count := NoStripes; is_island_endemic := false;
+                    has_white_tail_border := false; has_facial_markings := false |}
+  | Protoxerus => {| ext_morph := extended_morphology_of Protoxerus;
+                     region := WestAfrica; tail_tip := TipSame; ventral_color := VentralBuff;
+                     stripe_count := NoStripes; is_island_endemic := false;
+                     has_white_tail_border := false; has_facial_markings := false |}
+  | Cynomys => {| ext_morph := extended_morphology_of Cynomys;
+                  region := Nearctic; tail_tip := TipBlack; ventral_color := VentralBuff;
+                  stripe_count := NoStripes; is_island_endemic := false;
+                  has_white_tail_border := false; has_facial_markings := false |}
+  | Marmota => {| ext_morph := extended_morphology_of Marmota;
+                  region := Palearctic; tail_tip := TipSame; ventral_color := VentralBuff;
+                  stripe_count := NoStripes; is_island_endemic := false;
+                  has_white_tail_border := false; has_facial_markings := false |}
   end.
 
 (* ======================== Genus Identification Key ======================== *)
@@ -2268,42 +2726,7 @@ Definition genus_key (g : Genus) : Genus :=
 
 (* ======================== Key Correctness ======================== *)
 
-Definition key_correct (g : Genus) : bool :=
-  match genus_key g, g with
-  | Ratufa, Ratufa => true | Sciurillus, Sciurillus => true
-  | Microsciurus, Microsciurus => true | Rheithrosciurus, Rheithrosciurus => true
-  | Sciurus, Sciurus => true | Syntheosciurus, Syntheosciurus => true
-  | Tamiasciurus, Tamiasciurus => true | Aeretes, Aeretes => true
-  | Aeromys, Aeromys => true | Belomys, Belomys => true
-  | Biswamoyopterus, Biswamoyopterus => true | Eoglaucomys, Eoglaucomys => true
-  | Eupetaurus, Eupetaurus => true | Glaucomys, Glaucomys => true
-  | Hylopetes, Hylopetes => true | Iomys, Iomys => true
-  | Petaurillus, Petaurillus => true | Petaurista, Petaurista => true
-  | Petinomys, Petinomys => true | Pteromys, Pteromys => true
-  | Pteromyscus, Pteromyscus => true | Trogopterus, Trogopterus => true
-  | Callosciurus, Callosciurus => true | Dremomys, Dremomys => true
-  | Exilisciurus, Exilisciurus => true | Funambulus, Funambulus => true
-  | Glyphotes, Glyphotes => true | Hyosciurus, Hyosciurus => true
-  | Lariscus, Lariscus => true | Menetes, Menetes => true
-  | Nannosciurus, Nannosciurus => true | Prosciurillus, Prosciurillus => true
-  | Rhinosciurus, Rhinosciurus => true | Rubrisciurus, Rubrisciurus => true
-  | Sundasciurus, Sundasciurus => true | Tamiops, Tamiops => true
-  | Atlantoxerus, Atlantoxerus => true | Spermophilopsis, Spermophilopsis => true
-  | Xerus, Xerus => true | Epixerus, Epixerus => true
-  | Funisciurus, Funisciurus => true | Heliosciurus, Heliosciurus => true
-  | Myosciurus, Myosciurus => true | Paraxerus, Paraxerus => true
-  | Protoxerus, Protoxerus => true | Ammospermophilus, Ammospermophilus => true
-  | Callospermophilus, Callospermophilus => true | Cynomys, Cynomys => true
-  | Ictidomys, Ictidomys => true | Marmota, Marmota => true
-  | Notocitellus, Notocitellus => true | Otospermophilus, Otospermophilus => true
-  | Poliocitellus, Poliocitellus => true | Sciurotamias, Sciurotamias => true
-  | Spermophilus, Spermophilus => true | Tamias, Tamias => true
-  | Neotamias, Neotamias => true
-  | Urocitellus, Urocitellus => true | Xerospermophilus, Xerospermophilus => true
-  | Douglassciurus, Douglassciurus => true | Hesperopetes, Hesperopetes => true
-  | Palaeosciurus, Palaeosciurus => true | Protosciurus, Protosciurus => true
-  | _, _ => false
-  end.
+Definition key_correct (g : Genus) : bool := genus_eqb (genus_key g) g.
 
 Definition count_key_correct : nat :=
   List.length (filter key_correct all_genera).
@@ -2325,6 +2748,137 @@ Proof. intro g; destruct g; reflexivity. Qed.
 
 Theorem key_identifies_genus : forall g : Genus, genus_key g = g.
 Proof. intro g; destruct g; reflexivity. Qed.
+
+(* ======================== Species-Level Data ======================== *)
+
+Inductive ConservationStatus : Type :=
+  | LC | NT | VU | EN | CR | DD | NE.
+
+Record SpeciesData : Type := {
+  body_length_min_mm : nat;
+  body_length_max_mm : nat;
+  tail_length_min_mm : nat;
+  tail_length_max_mm : nat;
+  mass_min_g : nat;
+  mass_max_g : nat;
+  conservation : ConservationStatus;
+  distribution_note : string
+}.
+
+Definition default_species_data : SpeciesData :=
+  {| body_length_min_mm := 0; body_length_max_mm := 0;
+     tail_length_min_mm := 0; tail_length_max_mm := 0;
+     mass_min_g := 0; mass_max_g := 0;
+     conservation := NE; distribution_note := "" |}.
+
+Definition species_data {g : Genus} (s : Species g) : SpeciesData :=
+  match s with
+  | Ratufa_affinis => {| body_length_min_mm := 320; body_length_max_mm := 380;
+      tail_length_min_mm := 310; tail_length_max_mm := 370;
+      mass_min_g := 900; mass_max_g := 1500; conservation := NT;
+      distribution_note := "Malay Peninsula, Sumatra, Borneo" |}
+  | Ratufa_bicolor => {| body_length_min_mm := 350; body_length_max_mm := 400;
+      tail_length_min_mm := 400; tail_length_max_mm := 450;
+      mass_min_g := 1100; mass_max_g := 1800; conservation := NT;
+      distribution_note := "South and Southeast Asia forests" |}
+  | Ratufa_indica => {| body_length_min_mm := 360; body_length_max_mm := 450;
+      tail_length_min_mm := 500; tail_length_max_mm := 610;
+      mass_min_g := 1500; mass_max_g := 2000; conservation := LC;
+      distribution_note := "Indian subcontinent deciduous forests" |}
+  | Ratufa_macroura => {| body_length_min_mm := 250; body_length_max_mm := 350;
+      tail_length_min_mm := 250; tail_length_max_mm := 340;
+      mass_min_g := 700; mass_max_g := 1100; conservation := NT;
+      distribution_note := "Sri Lanka and southern India" |}
+  | Sciurillus_pusillus => {| body_length_min_mm := 90; body_length_max_mm := 110;
+      tail_length_min_mm := 90; tail_length_max_mm := 120;
+      mass_min_g := 33; mass_max_g := 45; conservation := LC;
+      distribution_note := "Amazon basin" |}
+  | Sciurus_carolinensis => {| body_length_min_mm := 230; body_length_max_mm := 300;
+      tail_length_min_mm := 190; tail_length_max_mm := 250;
+      mass_min_g := 400; mass_max_g := 600; conservation := LC;
+      distribution_note := "Eastern North America, introduced Europe" |}
+  | Sciurus_vulgaris => {| body_length_min_mm := 190; body_length_max_mm := 230;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 250; mass_max_g := 350; conservation := LC;
+      distribution_note := "Eurasia boreal and temperate forests" |}
+  | Sciurus_niger => {| body_length_min_mm := 250; body_length_max_mm := 380;
+      tail_length_min_mm := 200; tail_length_max_mm := 330;
+      mass_min_g := 500; mass_max_g := 1000; conservation := LC;
+      distribution_note := "Eastern and central North America" |}
+  | Tamias_striatus => {| body_length_min_mm := 125; body_length_max_mm := 150;
+      tail_length_min_mm := 75; tail_length_max_mm := 100;
+      mass_min_g := 70; mass_max_g := 140; conservation := LC;
+      distribution_note := "Eastern North America deciduous forests" |}
+  | Marmota_monax => {| body_length_min_mm := 400; body_length_max_mm := 650;
+      tail_length_min_mm := 100; tail_length_max_mm := 180;
+      mass_min_g := 2000; mass_max_g := 6300; conservation := LC;
+      distribution_note := "Eastern North America" |}
+  | Marmota_marmota => {| body_length_min_mm := 500; body_length_max_mm := 580;
+      tail_length_min_mm := 130; tail_length_max_mm := 160;
+      mass_min_g := 4000; mass_max_g := 8000; conservation := LC;
+      distribution_note := "European Alps, Carpathians, Pyrenees" |}
+  | Cynomys_ludovicianus => {| body_length_min_mm := 280; body_length_max_mm := 330;
+      tail_length_min_mm := 75; tail_length_max_mm := 100;
+      mass_min_g := 700; mass_max_g := 1400; conservation := LC;
+      distribution_note := "North American Great Plains" |}
+  | Glaucomys_volans => {| body_length_min_mm := 130; body_length_max_mm := 150;
+      tail_length_min_mm := 80; tail_length_max_mm := 120;
+      mass_min_g := 45; mass_max_g := 82; conservation := LC;
+      distribution_note := "Eastern North America" |}
+  | Petaurista_petaurista => {| body_length_min_mm := 340; body_length_max_mm := 600;
+      tail_length_min_mm := 390; tail_length_max_mm := 635;
+      mass_min_g := 1000; mass_max_g := 2500; conservation := LC;
+      distribution_note := "South and Southeast Asia" |}
+  | Callosciurus_prevostii => {| body_length_min_mm := 200; body_length_max_mm := 280;
+      tail_length_min_mm := 200; tail_length_max_mm := 250;
+      mass_min_g := 350; mass_max_g := 500; conservation := LC;
+      distribution_note := "Thai-Malay Peninsula, Sumatra, Borneo" |}
+  | Funambulus_palmarum => {| body_length_min_mm := 110; body_length_max_mm := 180;
+      tail_length_min_mm := 110; tail_length_max_mm := 180;
+      mass_min_g := 100; mass_max_g := 120; conservation := LC;
+      distribution_note := "India and Sri Lanka" |}
+  | Xerus_inauris => {| body_length_min_mm := 220; body_length_max_mm := 260;
+      tail_length_min_mm := 200; tail_length_max_mm := 250;
+      mass_min_g := 500; mass_max_g := 1000; conservation := LC;
+      distribution_note := "Southern Africa semi-arid regions" |}
+  | Biswamoyopterus_biswasi => {| body_length_min_mm := 400; body_length_max_mm := 450;
+      tail_length_min_mm := 600; tail_length_max_mm := 610;
+      mass_min_g := 1500; mass_max_g := 1800; conservation := CR;
+      distribution_note := "Arunachal Pradesh, India (single specimen)" |}
+  | Rheithrosciurus_macrotis => {| body_length_min_mm := 300; body_length_max_mm := 350;
+      tail_length_min_mm := 300; tail_length_max_mm := 350;
+      mass_min_g := 1000; mass_max_g := 1500; conservation := VU;
+      distribution_note := "Borneo montane forests" |}
+  | _ => default_species_data
+  end.
+
+Theorem species_data_preserves_genus_size : forall g (s : Species g),
+  body_length_min_mm (species_data s) > 0 ->
+  body_size (morphology_of g) = Giant ->
+  body_length_max_mm (species_data s) >= 300.
+Proof.
+  intros g s Hpos Hgiant.
+  destruct s; simpl in *; try discriminate; try lia.
+Qed.
+
+Definition count_species_with_data : nat :=
+  List.length (filter (fun sp =>
+    match sp with
+    | existT _ _ s => Nat.ltb 0 (body_length_min_mm (species_data s))
+    end) all_species).
+
+Lemma at_least_some_species_have_data : count_species_with_data >= 19.
+Proof. native_compute. lia. Qed.
+
+Definition species_conservation {g : Genus} (s : Species g) : ConservationStatus :=
+  conservation (species_data s).
+
+Lemma ratufa_species_have_data :
+  Nat.ltb 0 (body_length_min_mm (species_data Ratufa_affinis)) = true /\
+  Nat.ltb 0 (body_length_min_mm (species_data Ratufa_bicolor)) = true /\
+  Nat.ltb 0 (body_length_min_mm (species_data Ratufa_indica)) = true /\
+  Nat.ltb 0 (body_length_min_mm (species_data Ratufa_macroura)) = true.
+Proof. repeat split; reflexivity. Qed.
 
 (* ======================== Phylogenetic Tree Structure ======================== *)
 
@@ -2392,3 +2946,119 @@ Fixpoint tree_genera (t : PhyloNode) : list Genus :=
 Theorem tree_contains_all_genera :
   List.length (tree_genera sciuridae_tree) = 63.
 Proof. reflexivity. Qed.
+
+Fixpoint in_tree (g : Genus) (t : PhyloNode) : bool :=
+  match t with
+  | Leaf g' => genus_eqb g g'
+  | Clade _ children => existsb (in_tree g) children
+  end.
+
+Definition clade_monophyletic_for_tribe (c : PhyloNode) (tr : Tribe) : Prop :=
+  forall g, In g (tree_genera c) -> tribe_of g = tr.
+
+Definition clade_monophyletic_for_subfamily (c : PhyloNode) (sf : Subfamily) : Prop :=
+  forall g, In g (tree_genera c) -> subfamily_of g = sf.
+
+Theorem pteromyini_monophyly : clade_monophyletic_for_tribe pteromyini_clade Pteromyini.
+Proof.
+  unfold clade_monophyletic_for_tribe, pteromyini_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Theorem sciurini_monophyly : clade_monophyletic_for_tribe sciurini_clade Sciurini.
+Proof.
+  unfold clade_monophyletic_for_tribe, sciurini_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Theorem marmotini_monophyly : clade_monophyletic_for_tribe marmotini_clade Marmotini.
+Proof.
+  unfold clade_monophyletic_for_tribe, marmotini_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Theorem xerini_monophyly : clade_monophyletic_for_tribe xerini_clade Xerini.
+Proof.
+  unfold clade_monophyletic_for_tribe, xerini_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Theorem protoxerini_monophyly : clade_monophyletic_for_tribe protoxerini_clade Protoxerini.
+Proof.
+  unfold clade_monophyletic_for_tribe, protoxerini_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Theorem callosciurinae_monophyly : clade_monophyletic_for_subfamily callosciurinae_clade Callosciurinae.
+Proof.
+  unfold clade_monophyletic_for_subfamily, callosciurinae_clade; simpl.
+  intros g H.
+  repeat (destruct H as [H|H]; [subst; reflexivity|]).
+  destruct H.
+Qed.
+
+Definition sciurinae_clade : PhyloNode :=
+  Clade "Sciurinae" [sciurini_clade; pteromyini_clade; Leaf Protosciurus].
+
+Theorem sciurinae_monophyly : clade_monophyletic_for_subfamily sciurinae_clade Sciurinae.
+Proof.
+  unfold clade_monophyletic_for_subfamily, sciurinae_clade; simpl.
+  intros g H.
+  repeat match goal with
+  | H : _ \/ _ |- _ => destruct H as [H|H]
+  | H : _ = _ |- _ => subst; reflexivity
+  | H : False |- _ => destruct H
+  end.
+Qed.
+
+Definition xerinae_clade : PhyloNode :=
+  Clade "Xerinae" [xerini_clade; protoxerini_clade; marmotini_clade].
+
+Theorem xerinae_monophyly : clade_monophyletic_for_subfamily xerinae_clade Xerinae.
+Proof.
+  unfold clade_monophyletic_for_subfamily, xerinae_clade; simpl.
+  intros g H.
+  repeat match goal with
+  | H : _ \/ _ |- _ => destruct H as [H|H]
+  | H : _ = _ |- _ => subst; reflexivity
+  | H : False |- _ => destruct H
+  end.
+Qed.
+
+Theorem tree_tribes_consistent : forall g tr,
+  tribe_of g = tr -> tr <> NoTribe ->
+  exists c, in_tree g c = true /\ clade_monophyletic_for_tribe c tr.
+Proof.
+  intros g tr Htribe Hnotrivial.
+  destruct tr; try contradiction.
+  - exists sciurini_clade; split; [|exact sciurini_monophyly].
+    destruct g; simpl in Htribe; try discriminate; reflexivity.
+  - exists pteromyini_clade; split; [|exact pteromyini_monophyly].
+    destruct g; simpl in Htribe; try discriminate; reflexivity.
+  - exists xerini_clade; split; [|exact xerini_monophyly].
+    destruct g; simpl in Htribe; try discriminate; reflexivity.
+  - exists protoxerini_clade; split; [|exact protoxerini_monophyly].
+    destruct g; simpl in Htribe; try discriminate; reflexivity.
+  - exists marmotini_clade; split; [|exact marmotini_monophyly].
+    destruct g; simpl in Htribe; try discriminate; reflexivity.
+Qed.
+
+Theorem tree_subfamilies_consistent : forall g sf,
+  subfamily_of g = sf ->
+  (sf = Sciurinae -> in_tree g sciurinae_clade = true) /\
+  (sf = Callosciurinae -> in_tree g callosciurinae_clade = true) /\
+  (sf = Xerinae -> in_tree g xerinae_clade = true).
+Proof.
+  intros g sf Hsf.
+  destruct g; simpl in Hsf; subst; repeat split; intro H; try discriminate; reflexivity.
+Qed.
