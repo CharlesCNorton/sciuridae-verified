@@ -22,6 +22,7 @@ Require Import Coq.Lists.List.
 Require Import Coq.Bool.Bool.
 Require Import Coq.Arith.Arith.
 Require Import Coq.Strings.String.
+Require Import Coq.Sorting.Permutation.
 Require Import Lia.
 Import ListNotations.
 Local Open Scope string_scope.
@@ -2603,128 +2604,144 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
 
 (* ======================== Genus Identification Key ======================== *)
 
-Definition genus_key (g : Genus) : Genus :=
-  let fm := fine_morphology_of g in
-  let em := ext_morph fm in
+Definition Observation := FineMorphology.
+Definition canonical_obs : Genus -> Observation := fine_morphology_of.
+
+Definition identify (obs : Observation) : option Genus :=
+  let em := ext_morph obs in
   let m := base_morph em in
-  let reg := region fm in
+  let reg := region obs in
   if has_patagium m then
     match body_size m with
-    | Giant => Petaurista
+    | Giant => Some Petaurista
     | Large =>
-        if region_eqb reg Borneo then Aeromys
+        if region_eqb reg Borneo then Some Aeromys
         else if region_eqb reg India then
-          if ear_eqb (ear_shape em) EarTufted then Eupetaurus else Biswamoyopterus
-        else Petaurista
+          if ear_eqb (ear_shape em) EarTufted then Some Eupetaurus else Some Biswamoyopterus
+        else Some Petaurista
     | Medium =>
         if region_eqb reg Nearctic then
-          if tail_tip_eqb (tail_tip fm) TipBanded then Douglassciurus
-          else if tail_tip_eqb (tail_tip fm) TipWhite then Hesperopetes
-          else Glaucomys
-        else if region_eqb reg Palearctic then Pteromys
+          if tail_tip_eqb (tail_tip obs) TipBanded then Some Douglassciurus
+          else if tail_tip_eqb (tail_tip obs) TipWhite then Some Hesperopetes
+          else Some Glaucomys
+        else if region_eqb reg Palearctic then Some Pteromys
         else if region_eqb reg China then
-          if tail_tip_eqb (tail_tip fm) TipBlack then Aeretes else Trogopterus
+          if tail_tip_eqb (tail_tip obs) TipBlack then Some Aeretes else Some Trogopterus
         else if region_eqb reg India then
-          if ear_eqb (ear_shape em) EarTufted then Eupetaurus
-          else if has_white_tail_border fm then Eoglaucomys
-          else Biswamoyopterus
-        else if region_eqb reg Taiwan then Belomys
+          if ear_eqb (ear_shape em) EarTufted then Some Eupetaurus
+          else if has_white_tail_border obs then Some Eoglaucomys
+          else Some Biswamoyopterus
+        else if region_eqb reg Taiwan then Some Belomys
         else if region_eqb reg Borneo then
-          if ventral_eqb (ventral_color fm) VentralOrange then Iomys
-          else if ventral_eqb (ventral_color fm) VentralGray then Pteromyscus
-          else Hylopetes
+          if ventral_eqb (ventral_color obs) VentralOrange then Some Iomys
+          else if ventral_eqb (ventral_color obs) VentralGray then Some Pteromyscus
+          else Some Hylopetes
         else if region_eqb reg Oriental then
-          if tail_tip_eqb (tail_tip fm) TipBlack then Petinomys else Hylopetes
-        else Hylopetes
+          if tail_tip_eqb (tail_tip obs) TipBlack then Some Petinomys else Some Hylopetes
+        else Some Hylopetes
     | Small =>
         if region_eqb reg Nearctic then
-          if tail_tip_eqb (tail_tip fm) TipBanded then Douglassciurus
-          else if tail_tip_eqb (tail_tip fm) TipWhite then Hesperopetes
-          else Glaucomys
-        else if region_eqb reg Palearctic then Pteromys
-        else if region_eqb reg India then Eoglaucomys
-        else Hylopetes
-    | Tiny => Petaurillus
+          if tail_tip_eqb (tail_tip obs) TipBanded then Some Douglassciurus
+          else if tail_tip_eqb (tail_tip obs) TipWhite then Some Hesperopetes
+          else Some Glaucomys
+        else if region_eqb reg Palearctic then Some Pteromys
+        else if region_eqb reg India then Some Eoglaucomys
+        else Some Hylopetes
+    | Tiny => Some Petaurillus
     end
   else if snout_eqb (snout_shape em) Elongated then
-    if region_eqb reg Sulawesi then Hyosciurus else Rhinosciurus
-  else if Nat.eqb (num_mammae em) 2 then Ratufa
+    if region_eqb reg Sulawesi then Some Hyosciurus else Some Rhinosciurus
+  else if Nat.eqb (num_mammae em) 2 then Some Ratufa
   else if region_eqb reg Sulawesi then
-    if body_eqb (body_size m) Large then Rubrisciurus
-    else Prosciurillus
-  else if region_eqb reg Amazon then Sciurillus
+    if body_eqb (body_size m) Large then Some Rubrisciurus
+    else Some Prosciurillus
+  else if region_eqb reg Amazon then Some Sciurillus
   else if region_eqb reg Borneo then
-    if ear_eqb (ear_shape em) EarTufted then Rheithrosciurus
-    else if body_eqb (body_size m) Tiny then Nannosciurus
-    else if has_dorsal_stripe em then Lariscus
+    if ear_eqb (ear_shape em) EarTufted then Some Rheithrosciurus
+    else if body_eqb (body_size m) Tiny then Some Nannosciurus
+    else if has_dorsal_stripe em then Some Lariscus
     else if body_eqb (body_size m) Small then
-      if is_island_endemic fm then Glyphotes else Sundasciurus
-    else Callosciurus
-  else if region_eqb reg Philippines then Exilisciurus
+      if is_island_endemic obs then Some Glyphotes else Some Sundasciurus
+    else Some Callosciurus
+  else if region_eqb reg Philippines then Some Exilisciurus
   else match cheek_pouches m with
   | Present =>
       if habitat_eqb (habitat m) Fossorial then
-        if body_eqb (body_size m) Giant then Marmota
-        else if body_eqb (body_size m) Large then Marmota
-        else Cynomys
-      else if region_eqb reg NorthAfrica then Atlantoxerus
-      else if region_eqb reg Ethiopian then Xerus
+        if body_eqb (body_size m) Giant then Some Marmota
+        else if body_eqb (body_size m) Large then Some Marmota
+        else Some Cynomys
+      else if region_eqb reg NorthAfrica then Some Atlantoxerus
+      else if region_eqb reg Ethiopian then Some Xerus
       else if region_eqb reg Palearctic then
-        if Nat.eqb (num_mammae em) 10 then Spermophilus
-        else if tail_tip_eqb (tail_tip fm) TipBanded then Palaeosciurus
-        else Spermophilopsis
-      else if region_eqb reg China then Sciurotamias
-      else if region_eqb reg Mexico then Notocitellus
-      else if stripe_eqb (stripe_count fm) FiveStripes then
-        if ventral_eqb (ventral_color fm) VentralBuff then Neotamias else Tamias
-      else if stripe_eqb (stripe_count fm) OneStripe then
-        if has_white_tail_border fm then Ammospermophilus else Callospermophilus
+        if Nat.eqb (num_mammae em) 10 then Some Spermophilus
+        else if tail_tip_eqb (tail_tip obs) TipBanded then Some Palaeosciurus
+        else Some Spermophilopsis
+      else if region_eqb reg China then Some Sciurotamias
+      else if region_eqb reg Mexico then Some Notocitellus
+      else if stripe_eqb (stripe_count obs) FiveStripes then
+        if ventral_eqb (ventral_color obs) VentralBuff then Some Neotamias else Some Tamias
+      else if stripe_eqb (stripe_count obs) OneStripe then
+        if has_white_tail_border obs then Some Ammospermophilus else Some Callospermophilus
       else if pelage_eqb (pelage_pattern em) Spotted then
-        if has_facial_markings fm then Xerospermophilus else Ictidomys
-      else if pelage_eqb (pelage_pattern em) Grizzled then Otospermophilus
-      else if ventral_eqb (ventral_color fm) VentralGray then Poliocitellus
-      else if tail_tip_eqb (tail_tip fm) TipBlack then Urocitellus
-      else Spermophilus
+        if has_facial_markings obs then Some Xerospermophilus else Some Ictidomys
+      else if pelage_eqb (pelage_pattern em) Grizzled then Some Otospermophilus
+      else if ventral_eqb (ventral_color obs) VentralGray then Some Poliocitellus
+      else if tail_tip_eqb (tail_tip obs) TipBlack then Some Urocitellus
+      else Some Spermophilus
   | Absent =>
       if body_eqb (body_size m) Giant then
-        if region_eqb reg Oriental then Ratufa
-        else Protoxerus
+        if region_eqb reg Oriental then Some Ratufa
+        else Some Protoxerus
       else if body_eqb (body_size m) Tiny then
-        if region_eqb reg WestAfrica then Myosciurus
-        else if region_eqb reg Philippines then Exilisciurus
-        else if region_eqb reg Amazon then Sciurillus
-        else Exilisciurus
+        if region_eqb reg WestAfrica then Some Myosciurus
+        else if region_eqb reg Philippines then Some Exilisciurus
+        else if region_eqb reg Amazon then Some Sciurillus
+        else Some Exilisciurus
       else if region_eqb reg WestAfrica then
-        if body_eqb (body_size m) Large then Protoxerus
-        else if pelage_eqb (pelage_pattern em) Grizzled then Protoxerus
-        else Epixerus
+        if body_eqb (body_size m) Large then Some Protoxerus
+        else if pelage_eqb (pelage_pattern em) Grizzled then Some Protoxerus
+        else Some Epixerus
       else if region_eqb reg Ethiopian then
-        if has_dorsal_stripe em then Funisciurus
-        else if pelage_eqb (pelage_pattern em) Banded then Heliosciurus
-        else Paraxerus
+        if has_dorsal_stripe em then Some Funisciurus
+        else if pelage_eqb (pelage_pattern em) Banded then Some Heliosciurus
+        else Some Paraxerus
       else if region_eqb reg India then
-        if stripe_eqb (stripe_count fm) ThreeStripes then Funambulus
-        else if has_postauricular_patch em then Dremomys
-        else Funambulus
+        if stripe_eqb (stripe_count obs) ThreeStripes then Some Funambulus
+        else if has_postauricular_patch em then Some Dremomys
+        else Some Funambulus
       else if region_eqb reg Oriental then
-        if stripe_eqb (stripe_count fm) FiveStripes then Tamiops
-        else if stripe_eqb (stripe_count fm) OneStripe then Menetes
-        else if has_postauricular_patch em then Dremomys
-        else if pelage_eqb (pelage_pattern em) Banded then Callosciurus
-        else if Nat.eqb (num_mammae em) 4 then Sundasciurus
-        else Callosciurus
+        if stripe_eqb (stripe_count obs) FiveStripes then Some Tamiops
+        else if stripe_eqb (stripe_count obs) OneStripe then Some Menetes
+        else if has_postauricular_patch em then Some Dremomys
+        else if pelage_eqb (pelage_pattern em) Banded then Some Callosciurus
+        else if Nat.eqb (num_mammae em) 4 then Some Sundasciurus
+        else Some Callosciurus
       else if region_eqb reg CentralAmericaRegion then
-        if body_eqb (body_size m) Small then Microsciurus
-        else Syntheosciurus
-      else if region_eqb reg Neotropical then Microsciurus
+        if body_eqb (body_size m) Small then Some Microsciurus
+        else Some Syntheosciurus
+      else if region_eqb reg Neotropical then Some Microsciurus
       else if region_eqb reg Nearctic then
-        if tail_tip_eqb (tail_tip fm) TipBanded then Protosciurus
-        else if body_eqb (body_size m) Small then Tamiasciurus
-        else Sciurus
-      else Sciurus
+        if tail_tip_eqb (tail_tip obs) TipBanded then Some Protosciurus
+        else if body_eqb (body_size m) Small then Some Tamiasciurus
+        else Some Sciurus
+      else Some Sciurus
+  end.
+
+Definition genus_key (g : Genus) : Genus :=
+  match identify (canonical_obs g) with
+  | Some g' => g'
+  | None => g
   end.
 
 (* ======================== Key Correctness ======================== *)
+
+Theorem identify_complete : forall g : Genus,
+  identify (canonical_obs g) = Some g.
+Proof. intro g; destruct g; native_compute; reflexivity. Qed.
+
+Theorem identify_unambiguous : forall obs g1 g2,
+  identify obs = Some g1 -> identify obs = Some g2 -> g1 = g2.
+Proof. intros obs g1 g2 H1 H2; rewrite H1 in H2; injection H2; auto. Qed.
 
 Definition key_correct (g : Genus) : bool := genus_eqb (genus_key g) g.
 
@@ -2734,20 +2751,17 @@ Definition count_key_correct : nat :=
 Definition misclassified_genera : list Genus :=
   filter (fun g => negb (key_correct g)) all_genera.
 
-Eval compute in count_key_correct.
-Eval compute in misclassified_genera.
-
 Theorem key_100_percent_accuracy : count_key_correct = 63.
-Proof. reflexivity. Qed.
+Proof. native_compute. reflexivity. Qed.
 
 Theorem key_no_misclassifications : misclassified_genera = [].
-Proof. reflexivity. Qed.
+Proof. native_compute. reflexivity. Qed.
 
 Theorem key_complete_proof : forall g : Genus, key_correct g = true.
-Proof. intro g; destruct g; reflexivity. Qed.
+Proof. intro g; destruct g; native_compute; reflexivity. Qed.
 
 Theorem key_identifies_genus : forall g : Genus, genus_key g = g.
-Proof. intro g; destruct g; reflexivity. Qed.
+Proof. intro g; unfold genus_key; rewrite identify_complete; reflexivity. Qed.
 
 (* ======================== Species-Level Data ======================== *)
 
@@ -2945,7 +2959,68 @@ Fixpoint tree_genera (t : PhyloNode) : list Genus :=
 
 Theorem tree_contains_all_genera :
   List.length (tree_genera sciuridae_tree) = 63.
-Proof. reflexivity. Qed.
+Proof. native_compute. reflexivity. Qed.
+
+Definition tree_genera_list : list Genus := tree_genera sciuridae_tree.
+
+Lemma tree_genera_nodup_check : nodup_nat_list (map (fun g =>
+  match g with
+  | Ratufa => 0 | Sciurillus => 1 | Microsciurus => 2 | Rheithrosciurus => 3
+  | Sciurus => 4 | Syntheosciurus => 5 | Tamiasciurus => 6 | Aeretes => 7
+  | Aeromys => 8 | Belomys => 9 | Biswamoyopterus => 10 | Eoglaucomys => 11
+  | Eupetaurus => 12 | Glaucomys => 13 | Hylopetes => 14 | Iomys => 15
+  | Petaurillus => 16 | Petaurista => 17 | Petinomys => 18 | Pteromys => 19
+  | Pteromyscus => 20 | Trogopterus => 21 | Callosciurus => 22 | Dremomys => 23
+  | Exilisciurus => 24 | Funambulus => 25 | Glyphotes => 26 | Hyosciurus => 27
+  | Lariscus => 28 | Menetes => 29 | Nannosciurus => 30 | Prosciurillus => 31
+  | Rhinosciurus => 32 | Rubrisciurus => 33 | Sundasciurus => 34 | Tamiops => 35
+  | Atlantoxerus => 36 | Spermophilopsis => 37 | Xerus => 38 | Epixerus => 39
+  | Funisciurus => 40 | Heliosciurus => 41 | Myosciurus => 42 | Paraxerus => 43
+  | Protoxerus => 44 | Ammospermophilus => 45 | Callospermophilus => 46
+  | Cynomys => 47 | Ictidomys => 48 | Marmota => 49 | Notocitellus => 50
+  | Otospermophilus => 51 | Poliocitellus => 52 | Sciurotamias => 53
+  | Spermophilus => 54 | Tamias => 55 | Neotamias => 56 | Urocitellus => 57
+  | Xerospermophilus => 58 | Douglassciurus => 59 | Hesperopetes => 60
+  | Palaeosciurus => 61 | Protosciurus => 62
+  end) tree_genera_list) = true.
+Proof. native_compute. reflexivity. Qed.
+
+Theorem tree_genera_nodup : NoDup tree_genera_list.
+Proof.
+  apply NoDup_map_injective with (f := fun g =>
+    match g with
+    | Ratufa => 0 | Sciurillus => 1 | Microsciurus => 2 | Rheithrosciurus => 3
+    | Sciurus => 4 | Syntheosciurus => 5 | Tamiasciurus => 6 | Aeretes => 7
+    | Aeromys => 8 | Belomys => 9 | Biswamoyopterus => 10 | Eoglaucomys => 11
+    | Eupetaurus => 12 | Glaucomys => 13 | Hylopetes => 14 | Iomys => 15
+    | Petaurillus => 16 | Petaurista => 17 | Petinomys => 18 | Pteromys => 19
+    | Pteromyscus => 20 | Trogopterus => 21 | Callosciurus => 22 | Dremomys => 23
+    | Exilisciurus => 24 | Funambulus => 25 | Glyphotes => 26 | Hyosciurus => 27
+    | Lariscus => 28 | Menetes => 29 | Nannosciurus => 30 | Prosciurillus => 31
+    | Rhinosciurus => 32 | Rubrisciurus => 33 | Sundasciurus => 34 | Tamiops => 35
+    | Atlantoxerus => 36 | Spermophilopsis => 37 | Xerus => 38 | Epixerus => 39
+    | Funisciurus => 40 | Heliosciurus => 41 | Myosciurus => 42 | Paraxerus => 43
+    | Protoxerus => 44 | Ammospermophilus => 45 | Callospermophilus => 46
+    | Cynomys => 47 | Ictidomys => 48 | Marmota => 49 | Notocitellus => 50
+    | Otospermophilus => 51 | Poliocitellus => 52 | Sciurotamias => 53
+    | Spermophilus => 54 | Tamias => 55 | Neotamias => 56 | Urocitellus => 57
+    | Xerospermophilus => 58 | Douglassciurus => 59 | Hesperopetes => 60
+    | Palaeosciurus => 61 | Protosciurus => 62
+    end).
+  - intros x y H; destruct x, y; simpl in H; try reflexivity; discriminate.
+  - apply nodup_nat_implies_NoDup; exact tree_genera_nodup_check.
+Qed.
+
+Theorem tree_genera_complete : forall g, In g tree_genera_list.
+Proof. intro g; destruct g; simpl; auto 70. Qed.
+
+Theorem tree_all_genera_permutation : Permutation tree_genera_list all_genera.
+Proof.
+  apply NoDup_Permutation.
+  - exact tree_genera_nodup.
+  - exact all_genera_nodup.
+  - intro g; split; intros; [apply all_genera_complete | apply tree_genera_complete].
+Qed.
 
 Fixpoint in_tree (g : Genus) (t : PhyloNode) : bool :=
   match t with
