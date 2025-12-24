@@ -242,9 +242,12 @@ Inductive Species : Genus -> Type :=
   | Aeromys_thomasi : Species Aeromys
   | Belomys_pearsonii : Species Belomys
   | Biswamoyopterus_biswasi : Species Biswamoyopterus
+  | Biswamoyopterus_gaoligongensis : Species Biswamoyopterus
   | Biswamoyopterus_laoensis : Species Biswamoyopterus
   | Eoglaucomys_fimbriatus : Species Eoglaucomys
   | Eupetaurus_cinereus : Species Eupetaurus
+  | Eupetaurus_nivamons : Species Eupetaurus
+  | Eupetaurus_tibetensis : Species Eupetaurus
   | Glaucomys_oregonensis : Species Glaucomys
   | Glaucomys_sabrinus : Species Glaucomys
   | Glaucomys_volans : Species Glaucomys
@@ -255,6 +258,7 @@ Inductive Species : Genus -> Type :=
   | Hylopetes_nigripes : Species Hylopetes
   | Hylopetes_phayrei : Species Hylopetes
   | Hylopetes_platyurus : Species Hylopetes
+  | Hylopetes_sagitta : Species Hylopetes
   | Hylopetes_sipora : Species Hylopetes
   | Hylopetes_spadiceus : Species Hylopetes
   | Hylopetes_winstoni : Species Hylopetes
@@ -272,6 +276,7 @@ Inductive Species : Genus -> Type :=
   | Petaurista_nobilis : Species Petaurista
   | Petaurista_petaurista : Species Petaurista
   | Petaurista_philippensis : Species Petaurista
+  | Petaurista_siangensis : Species Petaurista
   | Petaurista_xanthotis : Species Petaurista
   | Petaurista_yunanensis : Species Petaurista
   | Petinomys_crinitus : Species Petinomys
@@ -1247,15 +1252,18 @@ Definition all_species : list AnySpecies :=
    pack_species Aeretes_melanopterus;
    pack_species Aeromys_tephromelas; pack_species Aeromys_thomasi;
    pack_species Belomys_pearsonii;
-   pack_species Biswamoyopterus_biswasi; pack_species Biswamoyopterus_laoensis;
+   pack_species Biswamoyopterus_biswasi; pack_species Biswamoyopterus_gaoligongensis;
+   pack_species Biswamoyopterus_laoensis;
    pack_species Eoglaucomys_fimbriatus;
-   pack_species Eupetaurus_cinereus;
+   pack_species Eupetaurus_cinereus; pack_species Eupetaurus_nivamons;
+   pack_species Eupetaurus_tibetensis;
    pack_species Glaucomys_oregonensis; pack_species Glaucomys_sabrinus;
    pack_species Glaucomys_volans;
    pack_species Hylopetes_alboniger; pack_species Hylopetes_baberi;
    pack_species Hylopetes_bartelsi; pack_species Hylopetes_lepidus;
    pack_species Hylopetes_nigripes; pack_species Hylopetes_phayrei;
-   pack_species Hylopetes_platyurus; pack_species Hylopetes_sipora;
+   pack_species Hylopetes_platyurus; pack_species Hylopetes_sagitta;
+   pack_species Hylopetes_sipora;
    pack_species Hylopetes_spadiceus; pack_species Hylopetes_winstoni;
    pack_species Iomys_horsfieldii; pack_species Iomys_sipora;
    pack_species Petaurillus_emiliae; pack_species Petaurillus_hosei;
@@ -1264,7 +1272,8 @@ Definition all_species : list AnySpecies :=
    pack_species Petaurista_leucogenys; pack_species Petaurista_magnificus;
    pack_species Petaurista_mechukaensis; pack_species Petaurista_mishmiensis;
    pack_species Petaurista_nobilis; pack_species Petaurista_petaurista;
-   pack_species Petaurista_philippensis; pack_species Petaurista_xanthotis;
+   pack_species Petaurista_philippensis; pack_species Petaurista_siangensis;
+   pack_species Petaurista_xanthotis;
    pack_species Petaurista_yunanensis;
    pack_species Petinomys_crinitus; pack_species Petinomys_fuscocapillus;
    pack_species Petinomys_genibarbis; pack_species Petinomys_hageni;
@@ -1385,7 +1394,7 @@ Definition all_species : list AnySpecies :=
    pack_species Xerospermophilus_mohavensis; pack_species Xerospermophilus_perotensis;
    pack_species Xerospermophilus_spilosoma; pack_species Xerospermophilus_tereticaudus].
 
-Theorem species_count : List.length all_species = 287.
+Theorem species_count : List.length all_species = 292.
 Proof. reflexivity. Qed.
 
 Theorem all_species_complete : forall g (s : Species g),
@@ -1492,6 +1501,10 @@ Definition species_to_nat {g : Genus} (s : Species g) : nat :=
   | Urocitellus_columbianus => 274 | Urocitellus_elegans => 275 | Urocitellus_endemicus => 276 | Urocitellus_mollis => 277
   | Urocitellus_parryii => 278 | Urocitellus_richardsonii => 279 | Urocitellus_townsendii => 280 | Urocitellus_undulatus => 281 | Urocitellus_washingtoni => 282
   | Xerospermophilus_mohavensis => 283 | Xerospermophilus_perotensis => 284 | Xerospermophilus_spilosoma => 285 | Xerospermophilus_tereticaudus => 286
+  | Biswamoyopterus_gaoligongensis => 287
+  | Eupetaurus_nivamons => 288 | Eupetaurus_tibetensis => 289
+  | Hylopetes_sagitta => 290
+  | Petaurista_siangensis => 291
   end.
 
 Definition anyspecies_to_nat (sp : AnySpecies) : nat :=
@@ -2863,6 +2876,1094 @@ Definition species_data {g : Genus} (s : Species g) : SpeciesData :=
       tail_length_min_mm := 300; tail_length_max_mm := 350;
       mass_min_g := 1000; mass_max_g := 1500; conservation := VU;
       distribution_note := "Borneo montane forests" |}
+  | Microsciurus_alfari => {| body_length_min_mm := 120; body_length_max_mm := 150;
+      tail_length_min_mm := 100; tail_length_max_mm := 130;
+      mass_min_g := 75; mass_max_g := 100; conservation := LC;
+      distribution_note := "Costa Rica to Colombia" |}
+  | Microsciurus_flaviventer => {| body_length_min_mm := 130; body_length_max_mm := 160;
+      tail_length_min_mm := 110; tail_length_max_mm := 140;
+      mass_min_g := 80; mass_max_g := 110; conservation := LC;
+      distribution_note := "Amazon basin" |}
+  | Microsciurus_mimulus => {| body_length_min_mm := 110; body_length_max_mm := 140;
+      tail_length_min_mm := 95; tail_length_max_mm := 125;
+      mass_min_g := 70; mass_max_g := 95; conservation := LC;
+      distribution_note := "Panama to Ecuador" |}
+  | Microsciurus_santanderensis => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 105; tail_length_max_mm := 135;
+      mass_min_g := 75; mass_max_g := 105; conservation := DD;
+      distribution_note := "Colombia" |}
+  | Sciurus_aberti => {| body_length_min_mm := 280; body_length_max_mm := 330;
+      tail_length_min_mm := 195; tail_length_max_mm := 250;
+      mass_min_g := 540; mass_max_g := 970; conservation := LC;
+      distribution_note := "Rocky Mountains, USA and Mexico" |}
+  | Sciurus_alleni => {| body_length_min_mm := 260; body_length_max_mm := 310;
+      tail_length_min_mm := 240; tail_length_max_mm := 290;
+      mass_min_g := 450; mass_max_g := 700; conservation := LC;
+      distribution_note := "Northeastern Mexico" |}
+  | Sciurus_anomalus => {| body_length_min_mm := 190; body_length_max_mm := 250;
+      tail_length_min_mm := 130; tail_length_max_mm := 185;
+      mass_min_g := 250; mass_max_g := 410; conservation := LC;
+      distribution_note := "Caucasus to Iran" |}
+  | Sciurus_arizonensis => {| body_length_min_mm := 250; body_length_max_mm := 295;
+      tail_length_min_mm := 235; tail_length_max_mm := 280;
+      mass_min_g := 500; mass_max_g := 750; conservation := LC;
+      distribution_note := "Arizona and Sonora" |}
+  | Sciurus_aureogaster => {| body_length_min_mm := 240; body_length_max_mm := 290;
+      tail_length_min_mm := 220; tail_length_max_mm := 280;
+      mass_min_g := 400; mass_max_g := 700; conservation := LC;
+      distribution_note := "Mexico and Guatemala" |}
+  | Sciurus_colliaei => {| body_length_min_mm := 240; body_length_max_mm := 285;
+      tail_length_min_mm := 230; tail_length_max_mm := 275;
+      mass_min_g := 380; mass_max_g := 600; conservation := LC;
+      distribution_note := "Western Mexico" |}
+  | Sciurus_deppei => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 170; tail_length_max_mm := 220;
+      mass_min_g := 190; mass_max_g := 340; conservation := LC;
+      distribution_note := "Mexico to Costa Rica" |}
+  | Sciurus_flammifer => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 300; mass_max_g := 450; conservation := LC;
+      distribution_note := "Venezuela" |}
+  | Sciurus_gilvigularis => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 175; tail_length_max_mm := 225;
+      mass_min_g := 280; mass_max_g := 420; conservation := LC;
+      distribution_note := "Venezuela, Guyana, Brazil" |}
+  | Sciurus_granatensis => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 170; tail_length_max_mm := 240;
+      mass_min_g := 250; mass_max_g := 520; conservation := LC;
+      distribution_note := "Costa Rica to Ecuador" |}
+  | Sciurus_griseus => {| body_length_min_mm := 280; body_length_max_mm := 350;
+      tail_length_min_mm := 250; tail_length_max_mm := 320;
+      mass_min_g := 520; mass_max_g := 940; conservation := LC;
+      distribution_note := "Pacific coast USA" |}
+  | Sciurus_igniventris => {| body_length_min_mm := 250; body_length_max_mm := 310;
+      tail_length_min_mm := 240; tail_length_max_mm := 300;
+      mass_min_g := 500; mass_max_g := 900; conservation := LC;
+      distribution_note := "Amazon basin" |}
+  | Sciurus_lis => {| body_length_min_mm := 160; body_length_max_mm := 220;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 170; mass_max_g := 310; conservation := LC;
+      distribution_note := "Japan" |}
+  | Sciurus_nayaritensis => {| body_length_min_mm := 250; body_length_max_mm := 300;
+      tail_length_min_mm := 240; tail_length_max_mm := 290;
+      mass_min_g := 450; mass_max_g := 750; conservation := LC;
+      distribution_note := "Western Mexico to Arizona" |}
+  | Sciurus_oculatus => {| body_length_min_mm := 220; body_length_max_mm := 270;
+      tail_length_min_mm := 200; tail_length_max_mm := 255;
+      mass_min_g := 350; mass_max_g := 550; conservation := LC;
+      distribution_note := "Central Mexico" |}
+  | Sciurus_pucheranii => {| body_length_min_mm := 180; body_length_max_mm := 235;
+      tail_length_min_mm := 165; tail_length_max_mm := 220;
+      mass_min_g := 260; mass_max_g := 400; conservation := DD;
+      distribution_note := "Colombia" |}
+  | Sciurus_pyrrhinus => {| body_length_min_mm := 210; body_length_max_mm := 260;
+      tail_length_min_mm := 200; tail_length_max_mm := 250;
+      mass_min_g := 350; mass_max_g := 500; conservation := LC;
+      distribution_note := "Peru" |}
+  | Sciurus_richmondi => {| body_length_min_mm := 195; body_length_max_mm := 245;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 300; mass_max_g := 450; conservation := EN;
+      distribution_note := "Nicaragua" |}
+  | Sciurus_sanborni => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 185; tail_length_max_mm := 235;
+      mass_min_g := 320; mass_max_g := 480; conservation := DD;
+      distribution_note := "Peru" |}
+  | Sciurus_spadiceus => {| body_length_min_mm := 230; body_length_max_mm := 285;
+      tail_length_min_mm := 220; tail_length_max_mm := 275;
+      mass_min_g := 400; mass_max_g := 650; conservation := LC;
+      distribution_note := "South America" |}
+  | Sciurus_stramineus => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 190; tail_length_max_mm := 240;
+      mass_min_g := 310; mass_max_g := 470; conservation := LC;
+      distribution_note := "Ecuador and Peru" |}
+  | Sciurus_variegatoides => {| body_length_min_mm := 220; body_length_max_mm := 280;
+      tail_length_min_mm := 210; tail_length_max_mm := 270;
+      mass_min_g := 400; mass_max_g := 600; conservation := LC;
+      distribution_note := "Central America" |}
+  | Sciurus_yucatanensis => {| body_length_min_mm := 210; body_length_max_mm := 260;
+      tail_length_min_mm := 195; tail_length_max_mm := 245;
+      mass_min_g := 340; mass_max_g := 510; conservation := LC;
+      distribution_note := "Yucatan Peninsula" |}
+  | Syntheosciurus_brochus => {| body_length_min_mm := 145; body_length_max_mm := 175;
+      tail_length_min_mm := 130; tail_length_max_mm := 160;
+      mass_min_g := 180; mass_max_g := 280; conservation := NT;
+      distribution_note := "Costa Rica and Panama highlands" |}
+  | Tamiasciurus_douglasii => {| body_length_min_mm := 165; body_length_max_mm := 205;
+      tail_length_min_mm := 115; tail_length_max_mm := 150;
+      mass_min_g := 150; mass_max_g := 310; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Tamiasciurus_fremonti => {| body_length_min_mm := 180; body_length_max_mm := 220;
+      tail_length_min_mm := 125; tail_length_max_mm := 160;
+      mass_min_g := 200; mass_max_g := 340; conservation := LC;
+      distribution_note := "Rocky Mountains USA" |}
+  | Tamiasciurus_hudsonicus => {| body_length_min_mm := 170; body_length_max_mm := 230;
+      tail_length_min_mm := 100; tail_length_max_mm := 160;
+      mass_min_g := 140; mass_max_g := 310; conservation := LC;
+      distribution_note := "North American boreal forests" |}
+  | Tamiasciurus_mearnsi => {| body_length_min_mm := 185; body_length_max_mm := 225;
+      tail_length_min_mm := 130; tail_length_max_mm := 165;
+      mass_min_g := 175; mass_max_g := 350; conservation := EN;
+      distribution_note := "Baja California" |}
+  | Aeretes_melanopterus => {| body_length_min_mm := 275; body_length_max_mm := 330;
+      tail_length_min_mm := 280; tail_length_max_mm := 340;
+      mass_min_g := 300; mass_max_g := 450; conservation := NT;
+      distribution_note := "Central China" |}
+  | Aeromys_tephromelas => {| body_length_min_mm := 290; body_length_max_mm := 380;
+      tail_length_min_mm := 280; tail_length_max_mm := 360;
+      mass_min_g := 800; mass_max_g := 1200; conservation := DD;
+      distribution_note := "Borneo, Sumatra, Malay Peninsula" |}
+  | Aeromys_thomasi => {| body_length_min_mm := 300; body_length_max_mm := 400;
+      tail_length_min_mm := 290; tail_length_max_mm := 380;
+      mass_min_g := 900; mass_max_g := 1350; conservation := NT;
+      distribution_note := "Borneo" |}
+  | Belomys_pearsonii => {| body_length_min_mm := 180; body_length_max_mm := 250;
+      tail_length_min_mm := 110; tail_length_max_mm := 170;
+      mass_min_g := 200; mass_max_g := 400; conservation := DD;
+      distribution_note := "Taiwan to Nepal" |}
+  | Biswamoyopterus_gaoligongensis => {| body_length_min_mm := 380; body_length_max_mm := 440;
+      tail_length_min_mm := 480; tail_length_max_mm := 540;
+      mass_min_g := 1300; mass_max_g := 1600; conservation := CR;
+      distribution_note := "Mount Gaoligong, Yunnan, China" |}
+  | Biswamoyopterus_laoensis => {| body_length_min_mm := 390; body_length_max_mm := 430;
+      tail_length_min_mm := 500; tail_length_max_mm := 560;
+      mass_min_g := 1400; mass_max_g := 1700; conservation := CR;
+      distribution_note := "Laos" |}
+  | Eoglaucomys_fimbriatus => {| body_length_min_mm := 230; body_length_max_mm := 300;
+      tail_length_min_mm := 280; tail_length_max_mm := 380;
+      mass_min_g := 300; mass_max_g := 500; conservation := LC;
+      distribution_note := "Afghanistan to Nepal" |}
+  | Eupetaurus_cinereus => {| body_length_min_mm := 450; body_length_max_mm := 600;
+      tail_length_min_mm := 380; tail_length_max_mm := 480;
+      mass_min_g := 1800; mass_max_g := 2500; conservation := EN;
+      distribution_note := "Northern Pakistan" |}
+  | Eupetaurus_nivamons => {| body_length_min_mm := 440; body_length_max_mm := 580;
+      tail_length_min_mm := 370; tail_length_max_mm := 470;
+      mass_min_g := 1700; mass_max_g := 2400; conservation := DD;
+      distribution_note := "Mount Gaoligong and Biluo Snow Mountain, Yunnan" |}
+  | Eupetaurus_tibetensis => {| body_length_min_mm := 430; body_length_max_mm := 560;
+      tail_length_min_mm := 350; tail_length_max_mm := 450;
+      mass_min_g := 1600; mass_max_g := 2300; conservation := DD;
+      distribution_note := "Tibet" |}
+  | Glaucomys_oregonensis => {| body_length_min_mm := 125; body_length_max_mm := 150;
+      tail_length_min_mm := 95; tail_length_max_mm := 125;
+      mass_min_g := 50; mass_max_g := 90; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Glaucomys_sabrinus => {| body_length_min_mm := 150; body_length_max_mm := 185;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 75; mass_max_g := 180; conservation := LC;
+      distribution_note := "Northern North America" |}
+  | Hylopetes_alboniger => {| body_length_min_mm := 160; body_length_max_mm := 210;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 100; mass_max_g := 200; conservation := LC;
+      distribution_note := "Nepal to Vietnam" |}
+  | Hylopetes_bartelsi => {| body_length_min_mm := 140; body_length_max_mm := 175;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 80; mass_max_g := 130; conservation := VU;
+      distribution_note := "Java" |}
+  | Hylopetes_lepidus => {| body_length_min_mm := 120; body_length_max_mm := 155;
+      tail_length_min_mm := 115; tail_length_max_mm := 150;
+      mass_min_g := 60; mass_max_g := 100; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Hylopetes_nigripes => {| body_length_min_mm := 135; body_length_max_mm := 170;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 70; mass_max_g := 120; conservation := VU;
+      distribution_note := "Philippines" |}
+  | Hylopetes_phayrei => {| body_length_min_mm := 150; body_length_max_mm := 195;
+      tail_length_min_mm := 140; tail_length_max_mm := 185;
+      mass_min_g := 90; mass_max_g := 160; conservation := LC;
+      distribution_note := "Myanmar to Vietnam" |}
+  | Hylopetes_platyurus => {| body_length_min_mm := 130; body_length_max_mm := 165;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 65; mass_max_g := 110; conservation := LC;
+      distribution_note := "Sumatra, Java, Borneo" |}
+  | Hylopetes_sagitta => {| body_length_min_mm := 125; body_length_max_mm := 160;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 60; mass_max_g := 100; conservation := LC;
+      distribution_note := "Java" |}
+  | Hylopetes_sipora => {| body_length_min_mm := 130; body_length_max_mm := 165;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 65; mass_max_g := 105; conservation := EN;
+      distribution_note := "Mentawai Islands" |}
+  | Hylopetes_spadiceus => {| body_length_min_mm := 145; body_length_max_mm := 180;
+      tail_length_min_mm := 135; tail_length_max_mm := 175;
+      mass_min_g := 80; mass_max_g := 140; conservation := LC;
+      distribution_note := "Thailand to Indonesia" |}
+  | Hylopetes_winstoni => {| body_length_min_mm := 140; body_length_max_mm := 175;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 75; mass_max_g := 125; conservation := DD;
+      distribution_note := "Cambodia" |}
+  | Iomys_horsfieldii => {| body_length_min_mm := 145; body_length_max_mm := 180;
+      tail_length_min_mm := 140; tail_length_max_mm := 175;
+      mass_min_g := 80; mass_max_g := 150; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Iomys_sipora => {| body_length_min_mm := 140; body_length_max_mm := 175;
+      tail_length_min_mm := 135; tail_length_max_mm := 170;
+      mass_min_g := 75; mass_max_g := 140; conservation := CR;
+      distribution_note := "Sipora Island" |}
+  | Petaurillus_emiliae => {| body_length_min_mm := 65; body_length_max_mm := 80;
+      tail_length_min_mm := 60; tail_length_max_mm := 75;
+      mass_min_g := 15; mass_max_g := 25; conservation := DD;
+      distribution_note := "Borneo" |}
+  | Petaurillus_hosei => {| body_length_min_mm := 70; body_length_max_mm := 85;
+      tail_length_min_mm := 65; tail_length_max_mm := 80;
+      mass_min_g := 18; mass_max_g := 30; conservation := DD;
+      distribution_note := "Borneo" |}
+  | Petaurillus_kinlochii => {| body_length_min_mm := 68; body_length_max_mm := 82;
+      tail_length_min_mm := 62; tail_length_max_mm := 78;
+      mass_min_g := 16; mass_max_g := 28; conservation := DD;
+      distribution_note := "Malay Peninsula" |}
+  | Petaurista_alborufus => {| body_length_min_mm := 380; body_length_max_mm := 510;
+      tail_length_min_mm := 430; tail_length_max_mm := 570;
+      mass_min_g := 1100; mass_max_g := 2000; conservation := LC;
+      distribution_note := "China and Taiwan" |}
+  | Petaurista_elegans => {| body_length_min_mm := 300; body_length_max_mm := 400;
+      tail_length_min_mm := 350; tail_length_max_mm := 450;
+      mass_min_g := 700; mass_max_g := 1100; conservation := LC;
+      distribution_note := "Nepal to Indochina" |}
+  | Petaurista_leucogenys => {| body_length_min_mm := 350; body_length_max_mm := 480;
+      tail_length_min_mm := 400; tail_length_max_mm := 520;
+      mass_min_g := 900; mass_max_g := 1500; conservation := LC;
+      distribution_note := "Japan" |}
+  | Petaurista_magnificus => {| body_length_min_mm := 320; body_length_max_mm := 420;
+      tail_length_min_mm := 370; tail_length_max_mm := 480;
+      mass_min_g := 800; mass_max_g := 1200; conservation := LC;
+      distribution_note := "Nepal to Myanmar" |}
+  | Petaurista_mechukaensis => {| body_length_min_mm := 340; body_length_max_mm := 440;
+      tail_length_min_mm := 380; tail_length_max_mm := 490;
+      mass_min_g := 850; mass_max_g := 1250; conservation := DD;
+      distribution_note := "Northeast India" |}
+  | Petaurista_mishmiensis => {| body_length_min_mm := 330; body_length_max_mm := 430;
+      tail_length_min_mm := 370; tail_length_max_mm := 470;
+      mass_min_g := 820; mass_max_g := 1220; conservation := DD;
+      distribution_note := "Arunachal Pradesh" |}
+  | Petaurista_nobilis => {| body_length_min_mm := 360; body_length_max_mm := 470;
+      tail_length_min_mm := 410; tail_length_max_mm := 530;
+      mass_min_g := 950; mass_max_g := 1450; conservation := LC;
+      distribution_note := "Nepal to Southwest China" |}
+  | Petaurista_philippensis => {| body_length_min_mm := 370; body_length_max_mm := 520;
+      tail_length_min_mm := 420; tail_length_max_mm := 560;
+      mass_min_g := 1000; mass_max_g := 1600; conservation := LC;
+      distribution_note := "South and Southeast Asia" |}
+  | Petaurista_siangensis => {| body_length_min_mm := 335; body_length_max_mm := 435;
+      tail_length_min_mm := 375; tail_length_max_mm := 485;
+      mass_min_g := 830; mass_max_g := 1230; conservation := DD;
+      distribution_note := "Siang Basin, Arunachal Pradesh, India" |}
+  | Petaurista_xanthotis => {| body_length_min_mm := 290; body_length_max_mm := 380;
+      tail_length_min_mm := 340; tail_length_max_mm := 440;
+      mass_min_g := 700; mass_max_g := 1100; conservation := LC;
+      distribution_note := "Central China" |}
+  | Petinomys_crinitus => {| body_length_min_mm := 125; body_length_max_mm := 160;
+      tail_length_min_mm := 110; tail_length_max_mm := 145;
+      mass_min_g := 45; mass_max_g := 85; conservation := DD;
+      distribution_note := "Borneo" |}
+  | Petinomys_fuscocapillus => {| body_length_min_mm := 170; body_length_max_mm := 220;
+      tail_length_min_mm := 160; tail_length_max_mm := 210;
+      mass_min_g := 130; mass_max_g := 250; conservation := EN;
+      distribution_note := "Sri Lanka and South India" |}
+  | Petinomys_genibarbis => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 70; mass_max_g := 140; conservation := LC;
+      distribution_note := "Thailand to Indonesia" |}
+  | Petinomys_hageni => {| body_length_min_mm := 155; body_length_max_mm := 200;
+      tail_length_min_mm := 145; tail_length_max_mm := 190;
+      mass_min_g := 100; mass_max_g := 190; conservation := DD;
+      distribution_note := "Sumatra and Borneo" |}
+  | Petinomys_lugens => {| body_length_min_mm := 135; body_length_max_mm := 175;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 65; mass_max_g := 120; conservation := DD;
+      distribution_note := "Borneo" |}
+  | Petinomys_mindanensis => {| body_length_min_mm := 130; body_length_max_mm := 170;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 60; mass_max_g := 110; conservation := DD;
+      distribution_note := "Mindanao" |}
+  | Petinomys_sagitta => {| body_length_min_mm := 115; body_length_max_mm := 150;
+      tail_length_min_mm := 105; tail_length_max_mm := 140;
+      mass_min_g := 45; mass_max_g := 80; conservation := LC;
+      distribution_note := "Malay Peninsula to Java" |}
+  | Petinomys_setosus => {| body_length_min_mm := 165; body_length_max_mm := 210;
+      tail_length_min_mm := 155; tail_length_max_mm := 200;
+      mass_min_g := 120; mass_max_g := 220; conservation := LC;
+      distribution_note := "Thailand to Borneo" |}
+  | Petinomys_vordermanni => {| body_length_min_mm := 110; body_length_max_mm := 145;
+      tail_length_min_mm := 100; tail_length_max_mm := 135;
+      mass_min_g := 40; mass_max_g := 75; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Pteromys_momonga => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 100; tail_length_max_mm := 140;
+      mass_min_g := 100; mass_max_g := 200; conservation := LC;
+      distribution_note := "Japan" |}
+  | Pteromys_volans => {| body_length_min_mm := 135; body_length_max_mm := 205;
+      tail_length_min_mm := 90; tail_length_max_mm := 140;
+      mass_min_g := 95; mass_max_g := 170; conservation := LC;
+      distribution_note := "Finland to Japan" |}
+  | Pteromyscus_pulverulentus => {| body_length_min_mm := 180; body_length_max_mm := 235;
+      tail_length_min_mm := 165; tail_length_max_mm := 220;
+      mass_min_g := 150; mass_max_g := 300; conservation := VU;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Trogopterus_xanthipes => {| body_length_min_mm := 280; body_length_max_mm := 340;
+      tail_length_min_mm := 270; tail_length_max_mm := 330;
+      mass_min_g := 300; mass_max_g := 500; conservation := NT;
+      distribution_note := "China" |}
+  | Callosciurus_adamsi => {| body_length_min_mm := 180; body_length_max_mm := 220;
+      tail_length_min_mm := 170; tail_length_max_mm := 210;
+      mass_min_g := 200; mass_max_g := 350; conservation := LC;
+      distribution_note := "Borneo" |}
+  | Callosciurus_albescens => {| body_length_min_mm := 170; body_length_max_mm := 210;
+      tail_length_min_mm := 160; tail_length_max_mm := 200;
+      mass_min_g := 180; mass_max_g := 300; conservation := LC;
+      distribution_note := "Philippines" |}
+  | Callosciurus_baluensis => {| body_length_min_mm := 185; body_length_max_mm := 225;
+      tail_length_min_mm := 175; tail_length_max_mm := 215;
+      mass_min_g := 220; mass_max_g := 380; conservation := LC;
+      distribution_note := "Mount Kinabalu, Borneo" |}
+  | Callosciurus_caniceps => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 250; mass_max_g := 420; conservation := LC;
+      distribution_note := "Myanmar to Vietnam" |}
+  | Callosciurus_erythraeus => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 170; tail_length_max_mm := 240;
+      mass_min_g := 310; mass_max_g := 460; conservation := LC;
+      distribution_note := "South and Southeast Asia" |}
+  | Callosciurus_finlaysonii => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 200; tail_length_max_mm := 250;
+      mass_min_g := 250; mass_max_g := 400; conservation := LC;
+      distribution_note := "Myanmar to Indochina" |}
+  | Callosciurus_inornatus => {| body_length_min_mm := 175; body_length_max_mm := 215;
+      tail_length_min_mm := 165; tail_length_max_mm := 205;
+      mass_min_g := 190; mass_max_g := 320; conservation := LC;
+      distribution_note := "Vietnam and Laos" |}
+  | Callosciurus_melanogaster => {| body_length_min_mm := 195; body_length_max_mm := 245;
+      tail_length_min_mm := 185; tail_length_max_mm := 235;
+      mass_min_g := 280; mass_max_g := 440; conservation := LC;
+      distribution_note := "Sumatra" |}
+  | Callosciurus_nigrovittatus => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 260; mass_max_g := 410; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Callosciurus_notatus => {| body_length_min_mm := 175; body_length_max_mm := 220;
+      tail_length_min_mm := 165; tail_length_max_mm := 210;
+      mass_min_g := 200; mass_max_g := 350; conservation := LC;
+      distribution_note := "Southeast Asia" |}
+  | Callosciurus_orestes => {| body_length_min_mm := 180; body_length_max_mm := 225;
+      tail_length_min_mm := 170; tail_length_max_mm := 215;
+      mass_min_g := 210; mass_max_g := 360; conservation := LC;
+      distribution_note := "Borneo highlands" |}
+  | Callosciurus_phayrei => {| body_length_min_mm := 185; body_length_max_mm := 235;
+      tail_length_min_mm := 175; tail_length_max_mm := 225;
+      mass_min_g := 230; mass_max_g := 390; conservation := LC;
+      distribution_note := "Myanmar to Thailand" |}
+  | Callosciurus_pygerythrus => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 170; tail_length_max_mm := 220;
+      mass_min_g := 220; mass_max_g := 370; conservation := LC;
+      distribution_note := "Nepal to Vietnam" |}
+  | Callosciurus_quinquestriatus => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 250; mass_max_g := 400; conservation := LC;
+      distribution_note := "Myanmar to China" |}
+  | Dremomys_everetti => {| body_length_min_mm := 175; body_length_max_mm := 215;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 180; mass_max_g := 280; conservation := NT;
+      distribution_note := "Borneo mountains" |}
+  | Dremomys_gularis => {| body_length_min_mm := 160; body_length_max_mm := 200;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 150; mass_max_g := 240; conservation := DD;
+      distribution_note := "Vietnam" |}
+  | Dremomys_lokriah => {| body_length_min_mm := 165; body_length_max_mm := 205;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 160; mass_max_g := 260; conservation := LC;
+      distribution_note := "Nepal to Myanmar" |}
+  | Dremomys_pernyi => {| body_length_min_mm := 180; body_length_max_mm := 220;
+      tail_length_min_mm := 140; tail_length_max_mm := 180;
+      mass_min_g := 200; mass_max_g := 320; conservation := LC;
+      distribution_note := "China to Vietnam" |}
+  | Dremomys_pyrrhomerus => {| body_length_min_mm := 170; body_length_max_mm := 210;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 170; mass_max_g := 280; conservation := LC;
+      distribution_note := "South China" |}
+  | Dremomys_rufigenis => {| body_length_min_mm := 185; body_length_max_mm := 225;
+      tail_length_min_mm := 145; tail_length_max_mm := 185;
+      mass_min_g := 210; mass_max_g := 340; conservation := LC;
+      distribution_note := "Nepal to Indochina" |}
+  | Exilisciurus_concinnus => {| body_length_min_mm := 70; body_length_max_mm := 90;
+      tail_length_min_mm := 55; tail_length_max_mm := 75;
+      mass_min_g := 15; mass_max_g := 25; conservation := LC;
+      distribution_note := "Philippines" |}
+  | Exilisciurus_exilis => {| body_length_min_mm := 65; body_length_max_mm := 85;
+      tail_length_min_mm := 50; tail_length_max_mm := 70;
+      mass_min_g := 12; mass_max_g := 22; conservation := LC;
+      distribution_note := "Borneo" |}
+  | Exilisciurus_whiteheadi => {| body_length_min_mm := 68; body_length_max_mm := 88;
+      tail_length_min_mm := 52; tail_length_max_mm := 72;
+      mass_min_g := 13; mass_max_g := 23; conservation := LC;
+      distribution_note := "Borneo mountains" |}
+  | Funambulus_layardi => {| body_length_min_mm := 120; body_length_max_mm := 160;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 80; mass_max_g := 130; conservation := VU;
+      distribution_note := "Sri Lanka" |}
+  | Funambulus_pennantii => {| body_length_min_mm := 130; body_length_max_mm := 180;
+      tail_length_min_mm := 125; tail_length_max_mm := 175;
+      mass_min_g := 100; mass_max_g := 150; conservation := LC;
+      distribution_note := "India, Pakistan, Nepal" |}
+  | Funambulus_sublineatus => {| body_length_min_mm := 100; body_length_max_mm := 135;
+      tail_length_min_mm := 95; tail_length_max_mm := 130;
+      mass_min_g := 60; mass_max_g := 100; conservation := LC;
+      distribution_note := "South India and Sri Lanka" |}
+  | Funambulus_tristriatus => {| body_length_min_mm := 125; body_length_max_mm := 170;
+      tail_length_min_mm := 120; tail_length_max_mm := 165;
+      mass_min_g := 90; mass_max_g := 140; conservation := LC;
+      distribution_note := "India" |}
+  | Glyphotes_simus => {| body_length_min_mm := 115; body_length_max_mm := 145;
+      tail_length_min_mm := 85; tail_length_max_mm := 115;
+      mass_min_g := 70; mass_max_g := 120; conservation := VU;
+      distribution_note := "Borneo" |}
+  | Hyosciurus_heinrichi => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 105; tail_length_max_mm := 135;
+      mass_min_g := 250; mass_max_g := 380; conservation := VU;
+      distribution_note := "Sulawesi" |}
+  | Hyosciurus_ileile => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 100; tail_length_max_mm := 130;
+      mass_min_g := 230; mass_max_g := 350; conservation := VU;
+      distribution_note := "Sulawesi" |}
+  | Lariscus_hosei => {| body_length_min_mm := 175; body_length_max_mm := 215;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 200; mass_max_g := 320; conservation := VU;
+      distribution_note := "Borneo" |}
+  | Lariscus_insignis => {| body_length_min_mm := 165; body_length_max_mm := 205;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 180; mass_max_g := 290; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Lariscus_niobe => {| body_length_min_mm := 170; body_length_max_mm := 210;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 190; mass_max_g := 300; conservation := NT;
+      distribution_note := "Sumatra" |}
+  | Lariscus_obscurus => {| body_length_min_mm := 160; body_length_max_mm := 200;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 170; mass_max_g := 270; conservation := DD;
+      distribution_note := "Borneo" |}
+  | Menetes_berdmorei => {| body_length_min_mm := 165; body_length_max_mm := 210;
+      tail_length_min_mm := 135; tail_length_max_mm := 180;
+      mass_min_g := 190; mass_max_g := 290; conservation := LC;
+      distribution_note := "Myanmar to Vietnam" |}
+  | Nannosciurus_melanotis => {| body_length_min_mm := 65; body_length_max_mm := 85;
+      tail_length_min_mm := 50; tail_length_max_mm := 70;
+      mass_min_g := 15; mass_max_g := 25; conservation := LC;
+      distribution_note := "Sumatra, Java, Borneo" |}
+  | Prosciurillus_abstrusus => {| body_length_min_mm := 120; body_length_max_mm := 155;
+      tail_length_min_mm := 95; tail_length_max_mm := 130;
+      mass_min_g := 80; mass_max_g := 140; conservation := DD;
+      distribution_note := "Sulawesi" |}
+  | Prosciurillus_leucomus => {| body_length_min_mm := 130; body_length_max_mm := 170;
+      tail_length_min_mm := 105; tail_length_max_mm := 145;
+      mass_min_g := 100; mass_max_g := 170; conservation := LC;
+      distribution_note := "Sulawesi" |}
+  | Prosciurillus_murinus => {| body_length_min_mm := 115; body_length_max_mm := 150;
+      tail_length_min_mm := 90; tail_length_max_mm := 125;
+      mass_min_g := 70; mass_max_g := 130; conservation := LC;
+      distribution_note := "Sulawesi" |}
+  | Prosciurillus_topapuensis => {| body_length_min_mm := 110; body_length_max_mm := 145;
+      tail_length_min_mm := 85; tail_length_max_mm := 120;
+      mass_min_g := 65; mass_max_g := 120; conservation := DD;
+      distribution_note := "Sulawesi" |}
+  | Prosciurillus_weberi => {| body_length_min_mm := 118; body_length_max_mm := 152;
+      tail_length_min_mm := 92; tail_length_max_mm := 128;
+      mass_min_g := 75; mass_max_g := 135; conservation := DD;
+      distribution_note := "Sulawesi" |}
+  | Rhinosciurus_laticaudatus => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 95; tail_length_max_mm := 130;
+      mass_min_g := 200; mass_max_g := 340; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Rubrisciurus_rubriventer => {| body_length_min_mm := 220; body_length_max_mm := 280;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 400; mass_max_g := 600; conservation := VU;
+      distribution_note := "Sulawesi" |}
+  | Sundasciurus_brookei => {| body_length_min_mm := 130; body_length_max_mm := 165;
+      tail_length_min_mm := 105; tail_length_max_mm := 140;
+      mass_min_g := 90; mass_max_g := 150; conservation := LC;
+      distribution_note := "Borneo" |}
+  | Sundasciurus_davensis => {| body_length_min_mm := 135; body_length_max_mm := 175;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 100; mass_max_g := 170; conservation := DD;
+      distribution_note := "Mindanao" |}
+  | Sundasciurus_fraterculus => {| body_length_min_mm := 115; body_length_max_mm := 150;
+      tail_length_min_mm := 90; tail_length_max_mm := 125;
+      mass_min_g := 70; mass_max_g := 130; conservation := DD;
+      distribution_note := "Mentawai Islands" |}
+  | Sundasciurus_hippurus => {| body_length_min_mm := 195; body_length_max_mm := 250;
+      tail_length_min_mm := 210; tail_length_max_mm := 270;
+      mass_min_g := 300; mass_max_g := 500; conservation := NT;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Sundasciurus_hoogstraali => {| body_length_min_mm := 120; body_length_max_mm := 155;
+      tail_length_min_mm := 95; tail_length_max_mm := 130;
+      mass_min_g := 75; mass_max_g := 135; conservation := DD;
+      distribution_note := "Mindanao" |}
+  | Sundasciurus_jentinki => {| body_length_min_mm := 145; body_length_max_mm := 185;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 120; mass_max_g := 200; conservation := NT;
+      distribution_note := "Borneo" |}
+  | Sundasciurus_juvencus => {| body_length_min_mm := 125; body_length_max_mm := 160;
+      tail_length_min_mm := 100; tail_length_max_mm := 135;
+      mass_min_g := 80; mass_max_g := 145; conservation := DD;
+      distribution_note := "Palawan" |}
+  | Sundasciurus_lowii => {| body_length_min_mm := 110; body_length_max_mm := 140;
+      tail_length_min_mm := 80; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 100; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Sundasciurus_mindanensis => {| body_length_min_mm := 150; body_length_max_mm := 190;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 150; mass_max_g := 250; conservation := DD;
+      distribution_note := "Mindanao" |}
+  | Sundasciurus_moellendorffi => {| body_length_min_mm := 155; body_length_max_mm := 200;
+      tail_length_min_mm := 130; tail_length_max_mm := 175;
+      mass_min_g := 160; mass_max_g := 270; conservation := DD;
+      distribution_note := "Palawan" |}
+  | Sundasciurus_philippinensis => {| body_length_min_mm := 160; body_length_max_mm := 205;
+      tail_length_min_mm := 135; tail_length_max_mm := 180;
+      mass_min_g := 180; mass_max_g := 290; conservation := LC;
+      distribution_note := "Philippines" |}
+  | Sundasciurus_rabori => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 110; mass_max_g := 190; conservation := DD;
+      distribution_note := "Palawan" |}
+  | Sundasciurus_samarensis => {| body_length_min_mm := 145; body_length_max_mm := 185;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 120; mass_max_g := 200; conservation := DD;
+      distribution_note := "Samar Island" |}
+  | Sundasciurus_steerii => {| body_length_min_mm := 165; body_length_max_mm := 210;
+      tail_length_min_mm := 140; tail_length_max_mm := 185;
+      mass_min_g := 190; mass_max_g := 310; conservation := LC;
+      distribution_note := "Palawan" |}
+  | Sundasciurus_tenuis => {| body_length_min_mm := 130; body_length_max_mm := 170;
+      tail_length_min_mm := 105; tail_length_max_mm := 145;
+      mass_min_g := 95; mass_max_g := 165; conservation := LC;
+      distribution_note := "Malay Peninsula to Borneo" |}
+  | Tamiops_mcclellandii => {| body_length_min_mm := 100; body_length_max_mm := 130;
+      tail_length_min_mm := 90; tail_length_max_mm := 120;
+      mass_min_g := 40; mass_max_g := 70; conservation := LC;
+      distribution_note := "Nepal to Vietnam" |}
+  | Tamiops_maritimus => {| body_length_min_mm := 95; body_length_max_mm := 125;
+      tail_length_min_mm := 85; tail_length_max_mm := 115;
+      mass_min_g := 35; mass_max_g := 65; conservation := LC;
+      distribution_note := "Taiwan" |}
+  | Tamiops_rodolphii => {| body_length_min_mm := 105; body_length_max_mm := 135;
+      tail_length_min_mm := 95; tail_length_max_mm := 125;
+      mass_min_g := 45; mass_max_g := 75; conservation := LC;
+      distribution_note := "Vietnam to Cambodia" |}
+  | Tamiops_swinhoei => {| body_length_min_mm := 98; body_length_max_mm := 128;
+      tail_length_min_mm := 88; tail_length_max_mm := 118;
+      mass_min_g := 38; mass_max_g := 68; conservation := LC;
+      distribution_note := "China" |}
+  | Atlantoxerus_getulus => {| body_length_min_mm := 160; body_length_max_mm := 220;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 300; mass_max_g := 450; conservation := LC;
+      distribution_note := "Morocco and Algeria" |}
+  | Spermophilopsis_leptodactylus => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 70; tail_length_max_mm := 100;
+      mass_min_g := 280; mass_max_g := 450; conservation := LC;
+      distribution_note := "Central Asia deserts" |}
+  | Xerus_erythropus => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 180; tail_length_max_mm := 230;
+      mass_min_g := 400; mass_max_g := 700; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Xerus_princeps => {| body_length_min_mm := 230; body_length_max_mm := 280;
+      tail_length_min_mm := 200; tail_length_max_mm := 260;
+      mass_min_g := 600; mass_max_g := 1100; conservation := LC;
+      distribution_note := "Southern Africa" |}
+  | Xerus_rutilus => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 170; tail_length_max_mm := 220;
+      mass_min_g := 300; mass_max_g := 550; conservation := LC;
+      distribution_note := "East Africa" |}
+  | Epixerus_ebii => {| body_length_min_mm := 260; body_length_max_mm := 320;
+      tail_length_min_mm := 260; tail_length_max_mm := 320;
+      mass_min_g := 500; mass_max_g := 800; conservation := DD;
+      distribution_note := "West Africa" |}
+  | Epixerus_wilsoni => {| body_length_min_mm := 250; body_length_max_mm := 310;
+      tail_length_min_mm := 250; tail_length_max_mm := 310;
+      mass_min_g := 480; mass_max_g := 750; conservation := DD;
+      distribution_note := "Central Africa" |}
+  | Funisciurus_anerythrus => {| body_length_min_mm := 150; body_length_max_mm := 190;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 120; mass_max_g := 200; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Funisciurus_bayonii => {| body_length_min_mm := 145; body_length_max_mm := 185;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 110; mass_max_g := 180; conservation := LC;
+      distribution_note := "Central Africa" |}
+  | Funisciurus_carruthersi => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 100; mass_max_g := 170; conservation := LC;
+      distribution_note := "East Africa mountains" |}
+  | Funisciurus_congicus => {| body_length_min_mm := 155; body_length_max_mm := 195;
+      tail_length_min_mm := 135; tail_length_max_mm := 175;
+      mass_min_g := 130; mass_max_g := 210; conservation := LC;
+      distribution_note := "Congo Basin" |}
+  | Funisciurus_isabella => {| body_length_min_mm := 135; body_length_max_mm := 175;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 90; mass_max_g := 160; conservation := LC;
+      distribution_note := "West Africa" |}
+  | Funisciurus_lemniscatus => {| body_length_min_mm := 130; body_length_max_mm := 170;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 85; mass_max_g := 150; conservation := LC;
+      distribution_note := "Central Africa" |}
+  | Funisciurus_leucogenys => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 95; mass_max_g := 165; conservation := LC;
+      distribution_note := "West Africa" |}
+  | Funisciurus_pyrropus => {| body_length_min_mm := 160; body_length_max_mm := 200;
+      tail_length_min_mm := 140; tail_length_max_mm := 180;
+      mass_min_g := 140; mass_max_g := 230; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Funisciurus_substriatus => {| body_length_min_mm := 125; body_length_max_mm := 165;
+      tail_length_min_mm := 105; tail_length_max_mm := 145;
+      mass_min_g := 75; mass_max_g := 140; conservation := LC;
+      distribution_note := "West Africa" |}
+  | Heliosciurus_gambianus => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 210; tail_length_max_mm := 270;
+      mass_min_g := 250; mass_max_g := 400; conservation := LC;
+      distribution_note := "West Africa savanna" |}
+  | Heliosciurus_mutabilis => {| body_length_min_mm := 180; body_length_max_mm := 240;
+      tail_length_min_mm := 190; tail_length_max_mm := 250;
+      mass_min_g := 220; mass_max_g := 350; conservation := LC;
+      distribution_note := "East and Southern Africa" |}
+  | Heliosciurus_punctatus => {| body_length_min_mm := 170; body_length_max_mm := 230;
+      tail_length_min_mm := 180; tail_length_max_mm := 240;
+      mass_min_g := 200; mass_max_g := 320; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Heliosciurus_rufobrachium => {| body_length_min_mm := 190; body_length_max_mm := 250;
+      tail_length_min_mm := 200; tail_length_max_mm := 260;
+      mass_min_g := 240; mass_max_g := 380; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Heliosciurus_ruwenzorii => {| body_length_min_mm := 210; body_length_max_mm := 270;
+      tail_length_min_mm := 220; tail_length_max_mm := 280;
+      mass_min_g := 280; mass_max_g := 440; conservation := LC;
+      distribution_note := "Ruwenzori Mountains" |}
+  | Heliosciurus_undulatus => {| body_length_min_mm := 175; body_length_max_mm := 235;
+      tail_length_min_mm := 185; tail_length_max_mm := 245;
+      mass_min_g := 210; mass_max_g := 340; conservation := LC;
+      distribution_note := "East Africa" |}
+  | Myosciurus_pumilio => {| body_length_min_mm := 60; body_length_max_mm := 80;
+      tail_length_min_mm := 50; tail_length_max_mm := 70;
+      mass_min_g := 14; mass_max_g := 20; conservation := LC;
+      distribution_note := "West Africa rainforests" |}
+  | Paraxerus_alexandri => {| body_length_min_mm := 130; body_length_max_mm := 170;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 80; mass_max_g := 150; conservation := LC;
+      distribution_note := "Central Africa" |}
+  | Paraxerus_boehmi => {| body_length_min_mm := 135; body_length_max_mm := 175;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 90; mass_max_g := 160; conservation := LC;
+      distribution_note := "East Africa" |}
+  | Paraxerus_cepapi => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 100; mass_max_g := 200; conservation := LC;
+      distribution_note := "Southern Africa" |}
+  | Paraxerus_cooperi => {| body_length_min_mm := 125; body_length_max_mm := 165;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 75; mass_max_g := 145; conservation := DD;
+      distribution_note := "Cameroon" |}
+  | Paraxerus_flavovittis => {| body_length_min_mm := 145; body_length_max_mm := 185;
+      tail_length_min_mm := 135; tail_length_max_mm := 175;
+      mass_min_g := 110; mass_max_g := 200; conservation := LC;
+      distribution_note := "East Africa" |}
+  | Paraxerus_lucifer => {| body_length_min_mm := 155; body_length_max_mm := 200;
+      tail_length_min_mm := 145; tail_length_max_mm := 190;
+      mass_min_g := 130; mass_max_g := 240; conservation := VU;
+      distribution_note := "Tanzania mountains" |}
+  | Paraxerus_ochraceus => {| body_length_min_mm := 150; body_length_max_mm := 195;
+      tail_length_min_mm := 140; tail_length_max_mm := 185;
+      mass_min_g := 120; mass_max_g := 220; conservation := LC;
+      distribution_note := "East Africa" |}
+  | Paraxerus_palliatus => {| body_length_min_mm := 160; body_length_max_mm := 210;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 150; mass_max_g := 280; conservation := LC;
+      distribution_note := "Southern Africa" |}
+  | Paraxerus_poensis => {| body_length_min_mm := 120; body_length_max_mm := 160;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 70; mass_max_g := 135; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Paraxerus_vexillarius => {| body_length_min_mm := 165; body_length_max_mm := 215;
+      tail_length_min_mm := 155; tail_length_max_mm := 205;
+      mass_min_g := 160; mass_max_g := 300; conservation := NT;
+      distribution_note := "Tanzania" |}
+  | Paraxerus_vincenti => {| body_length_min_mm := 170; body_length_max_mm := 220;
+      tail_length_min_mm := 160; tail_length_max_mm := 210;
+      mass_min_g := 175; mass_max_g := 320; conservation := EN;
+      distribution_note := "Mozambique" |}
+  | Protoxerus_aubinnii => {| body_length_min_mm := 250; body_length_max_mm := 320;
+      tail_length_min_mm := 260; tail_length_max_mm := 330;
+      mass_min_g := 500; mass_max_g := 850; conservation := DD;
+      distribution_note := "West Africa" |}
+  | Protoxerus_stangeri => {| body_length_min_mm := 260; body_length_max_mm := 350;
+      tail_length_min_mm := 270; tail_length_max_mm := 360;
+      mass_min_g := 600; mass_max_g := 1000; conservation := LC;
+      distribution_note := "West and Central Africa" |}
+  | Ammospermophilus_harrisii => {| body_length_min_mm := 135; body_length_max_mm := 165;
+      tail_length_min_mm := 75; tail_length_max_mm := 100;
+      mass_min_g := 100; mass_max_g := 150; conservation := LC;
+      distribution_note := "Arizona and Sonora deserts" |}
+  | Ammospermophilus_insularis => {| body_length_min_mm := 140; body_length_max_mm := 170;
+      tail_length_min_mm := 80; tail_length_max_mm := 105;
+      mass_min_g := 110; mass_max_g := 160; conservation := VU;
+      distribution_note := "Espiritu Santo Island, Mexico" |}
+  | Ammospermophilus_interpres => {| body_length_min_mm := 140; body_length_max_mm := 168;
+      tail_length_min_mm := 75; tail_length_max_mm := 95;
+      mass_min_g := 105; mass_max_g := 155; conservation := LC;
+      distribution_note := "Texas to New Mexico" |}
+  | Ammospermophilus_leucurus => {| body_length_min_mm := 145; body_length_max_mm := 175;
+      tail_length_min_mm := 55; tail_length_max_mm := 85;
+      mass_min_g := 95; mass_max_g := 145; conservation := LC;
+      distribution_note := "Western USA deserts" |}
+  | Ammospermophilus_nelsoni => {| body_length_min_mm := 150; body_length_max_mm := 180;
+      tail_length_min_mm := 65; tail_length_max_mm := 90;
+      mass_min_g := 140; mass_max_g := 190; conservation := EN;
+      distribution_note := "San Joaquin Valley, California" |}
+  | Callospermophilus_lateralis => {| body_length_min_mm := 185; body_length_max_mm := 230;
+      tail_length_min_mm := 70; tail_length_max_mm := 110;
+      mass_min_g := 165; mass_max_g := 280; conservation := LC;
+      distribution_note := "Western North America mountains" |}
+  | Callospermophilus_madrensis => {| body_length_min_mm := 200; body_length_max_mm := 250;
+      tail_length_min_mm := 80; tail_length_max_mm := 120;
+      mass_min_g := 200; mass_max_g := 350; conservation := EN;
+      distribution_note := "Sierra Madre, Mexico" |}
+  | Callospermophilus_saturatus => {| body_length_min_mm := 195; body_length_max_mm := 240;
+      tail_length_min_mm := 75; tail_length_max_mm := 115;
+      mass_min_g := 180; mass_max_g := 300; conservation := LC;
+      distribution_note := "Pacific Northwest mountains" |}
+  | Cynomys_gunnisoni => {| body_length_min_mm := 305; body_length_max_mm := 355;
+      tail_length_min_mm := 40; tail_length_max_mm := 65;
+      mass_min_g := 450; mass_max_g := 1100; conservation := LC;
+      distribution_note := "Four Corners region USA" |}
+  | Cynomys_leucurus => {| body_length_min_mm := 280; body_length_max_mm := 335;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 650; mass_max_g := 1050; conservation := LC;
+      distribution_note := "Wyoming and Montana" |}
+  | Cynomys_mexicanus => {| body_length_min_mm := 340; body_length_max_mm := 400;
+      tail_length_min_mm := 70; tail_length_max_mm := 100;
+      mass_min_g := 800; mass_max_g := 1400; conservation := EN;
+      distribution_note := "Coahuila, Mexico" |}
+  | Cynomys_parvidens => {| body_length_min_mm := 300; body_length_max_mm := 360;
+      tail_length_min_mm := 30; tail_length_max_mm := 50;
+      mass_min_g := 550; mass_max_g := 950; conservation := EN;
+      distribution_note := "Utah" |}
+  | Ictidomys_mexicanus => {| body_length_min_mm := 160; body_length_max_mm := 200;
+      tail_length_min_mm := 60; tail_length_max_mm := 90;
+      mass_min_g := 130; mass_max_g := 200; conservation := LC;
+      distribution_note := "Texas to Mexico" |}
+  | Ictidomys_parvidens => {| body_length_min_mm := 170; body_length_max_mm := 210;
+      tail_length_min_mm := 55; tail_length_max_mm := 85;
+      mass_min_g := 140; mass_max_g := 220; conservation := LC;
+      distribution_note := "Texas to New Mexico" |}
+  | Ictidomys_tridecemlineatus => {| body_length_min_mm := 165; body_length_max_mm := 200;
+      tail_length_min_mm := 80; tail_length_max_mm := 105;
+      mass_min_g := 110; mass_max_g := 180; conservation := LC;
+      distribution_note := "Central North America prairies" |}
+  | Marmota_baibacina => {| body_length_min_mm := 450; body_length_max_mm := 550;
+      tail_length_min_mm := 100; tail_length_max_mm := 150;
+      mass_min_g := 4000; mass_max_g := 8000; conservation := LC;
+      distribution_note := "Central Asia mountains" |}
+  | Marmota_bobak => {| body_length_min_mm := 490; body_length_max_mm := 580;
+      tail_length_min_mm := 120; tail_length_max_mm := 160;
+      mass_min_g := 5000; mass_max_g := 10000; conservation := LC;
+      distribution_note := "Central Asia steppes" |}
+  | Marmota_broweri => {| body_length_min_mm := 540; body_length_max_mm := 640;
+      tail_length_min_mm := 130; tail_length_max_mm := 170;
+      mass_min_g := 2500; mass_max_g := 5000; conservation := LC;
+      distribution_note := "Alaska Brooks Range" |}
+  | Marmota_caligata => {| body_length_min_mm := 470; body_length_max_mm := 530;
+      tail_length_min_mm := 170; tail_length_max_mm := 250;
+      mass_min_g := 4000; mass_max_g := 7000; conservation := LC;
+      distribution_note := "Pacific Northwest mountains" |}
+  | Marmota_camtschatica => {| body_length_min_mm := 480; body_length_max_mm := 560;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 4500; mass_max_g := 7500; conservation := LC;
+      distribution_note := "Kamchatka and Siberia" |}
+  | Marmota_caudata => {| body_length_min_mm := 400; body_length_max_mm := 480;
+      tail_length_min_mm := 220; tail_length_max_mm := 280;
+      mass_min_g := 4000; mass_max_g := 9000; conservation := LC;
+      distribution_note := "Central Asia mountains" |}
+  | Marmota_flaviventris => {| body_length_min_mm := 470; body_length_max_mm := 700;
+      tail_length_min_mm := 130; tail_length_max_mm := 220;
+      mass_min_g := 1600; mass_max_g := 5000; conservation := LC;
+      distribution_note := "Western North America" |}
+  | Marmota_himalayana => {| body_length_min_mm := 475; body_length_max_mm := 570;
+      tail_length_min_mm := 125; tail_length_max_mm := 165;
+      mass_min_g := 4500; mass_max_g := 9000; conservation := LC;
+      distribution_note := "Himalayas and Tibet" |}
+  | Marmota_menzbieri => {| body_length_min_mm := 420; body_length_max_mm := 500;
+      tail_length_min_mm := 110; tail_length_max_mm := 145;
+      mass_min_g := 2500; mass_max_g := 4500; conservation := VU;
+      distribution_note := "Tian Shan mountains" |}
+  | Marmota_olympus => {| body_length_min_mm := 470; body_length_max_mm := 530;
+      tail_length_min_mm := 170; tail_length_max_mm := 250;
+      mass_min_g := 3500; mass_max_g := 7000; conservation := LC;
+      distribution_note := "Olympic Peninsula, Washington" |}
+  | Marmota_sibirica => {| body_length_min_mm := 500; body_length_max_mm := 600;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 5500; mass_max_g := 8500; conservation := EN;
+      distribution_note := "Mongolia and Russia" |}
+  | Marmota_vancouverensis => {| body_length_min_mm := 560; body_length_max_mm := 700;
+      tail_length_min_mm := 180; tail_length_max_mm := 260;
+      mass_min_g := 3000; mass_max_g := 6500; conservation := CR;
+      distribution_note := "Vancouver Island, British Columbia" |}
+  | Notocitellus_adocetus => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 100; tail_length_max_mm := 140;
+      mass_min_g := 250; mass_max_g := 400; conservation := LC;
+      distribution_note := "Western Mexico" |}
+  | Notocitellus_annulatus => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 280; mass_max_g := 450; conservation := LC;
+      distribution_note := "Western Mexico" |}
+  | Otospermophilus_atricapillus => {| body_length_min_mm := 260; body_length_max_mm := 320;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 450; mass_max_g := 700; conservation := LC;
+      distribution_note := "Baja California" |}
+  | Otospermophilus_beecheyi => {| body_length_min_mm := 280; body_length_max_mm := 360;
+      tail_length_min_mm := 150; tail_length_max_mm := 200;
+      mass_min_g := 450; mass_max_g := 880; conservation := LC;
+      distribution_note := "California and Oregon" |}
+  | Otospermophilus_variegatus => {| body_length_min_mm := 250; body_length_max_mm := 310;
+      tail_length_min_mm := 170; tail_length_max_mm := 230;
+      mass_min_g := 500; mass_max_g := 880; conservation := LC;
+      distribution_note := "Mexico to Nevada" |}
+  | Poliocitellus_franklinii => {| body_length_min_mm := 230; body_length_max_mm := 285;
+      tail_length_min_mm := 100; tail_length_max_mm := 140;
+      mass_min_g := 350; mass_max_g := 700; conservation := LC;
+      distribution_note := "North American prairies" |}
+  | Sciurotamias_davidianus => {| body_length_min_mm := 150; body_length_max_mm := 190;
+      tail_length_min_mm := 110; tail_length_max_mm := 150;
+      mass_min_g := 200; mass_max_g := 350; conservation := LC;
+      distribution_note := "China" |}
+  | Sciurotamias_forresti => {| body_length_min_mm := 155; body_length_max_mm := 195;
+      tail_length_min_mm := 115; tail_length_max_mm := 155;
+      mass_min_g := 210; mass_max_g := 360; conservation := NT;
+      distribution_note := "Yunnan, China" |}
+  | Spermophilus_alashanicus => {| body_length_min_mm := 185; body_length_max_mm := 235;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 200; mass_max_g := 340; conservation := LC;
+      distribution_note := "Mongolia and China" |}
+  | Spermophilus_brevicauda => {| body_length_min_mm := 180; body_length_max_mm := 225;
+      tail_length_min_mm := 40; tail_length_max_mm := 60;
+      mass_min_g := 180; mass_max_g := 320; conservation := LC;
+      distribution_note := "Kazakhstan" |}
+  | Spermophilus_citellus => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 50; tail_length_max_mm := 75;
+      mass_min_g := 200; mass_max_g := 450; conservation := VU;
+      distribution_note := "Central and Southeast Europe" |}
+  | Spermophilus_dauricus => {| body_length_min_mm := 175; body_length_max_mm := 220;
+      tail_length_min_mm := 40; tail_length_max_mm := 60;
+      mass_min_g := 170; mass_max_g := 290; conservation := LC;
+      distribution_note := "Mongolia and China" |}
+  | Spermophilus_erythrogenys => {| body_length_min_mm := 190; body_length_max_mm := 240;
+      tail_length_min_mm := 55; tail_length_max_mm := 80;
+      mass_min_g := 220; mass_max_g := 380; conservation := LC;
+      distribution_note := "Central Asia" |}
+  | Spermophilus_fulvus => {| body_length_min_mm := 270; body_length_max_mm := 340;
+      tail_length_min_mm := 90; tail_length_max_mm := 130;
+      mass_min_g := 850; mass_max_g := 1600; conservation := LC;
+      distribution_note := "Central Asia" |}
+  | Spermophilus_major => {| body_length_min_mm := 220; body_length_max_mm := 280;
+      tail_length_min_mm := 60; tail_length_max_mm := 90;
+      mass_min_g := 400; mass_max_g := 700; conservation := LC;
+      distribution_note := "Russia and Kazakhstan" |}
+  | Spermophilus_musicus => {| body_length_min_mm := 190; body_length_max_mm := 245;
+      tail_length_min_mm := 50; tail_length_max_mm := 75;
+      mass_min_g := 230; mass_max_g := 400; conservation := NT;
+      distribution_note := "Caucasus" |}
+  | Spermophilus_pallidiccauda => {| body_length_min_mm := 195; body_length_max_mm := 250;
+      tail_length_min_mm := 55; tail_length_max_mm := 85;
+      mass_min_g := 250; mass_max_g := 430; conservation := LC;
+      distribution_note := "Mongolia and China" |}
+  | Spermophilus_pygmaeus => {| body_length_min_mm := 140; body_length_max_mm := 180;
+      tail_length_min_mm := 25; tail_length_max_mm := 45;
+      mass_min_g := 90; mass_max_g := 160; conservation := LC;
+      distribution_note := "Russia and Kazakhstan steppes" |}
+  | Spermophilus_ralli => {| body_length_min_mm := 200; body_length_max_mm := 255;
+      tail_length_min_mm := 60; tail_length_max_mm := 90;
+      mass_min_g := 280; mass_max_g := 480; conservation := LC;
+      distribution_note := "Central Asia" |}
+  | Spermophilus_relictus => {| body_length_min_mm := 175; body_length_max_mm := 225;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 180; mass_max_g := 320; conservation := LC;
+      distribution_note := "Tian Shan mountains" |}
+  | Spermophilus_suslicus => {| body_length_min_mm := 170; body_length_max_mm := 220;
+      tail_length_min_mm := 35; tail_length_max_mm := 55;
+      mass_min_g := 150; mass_max_g := 280; conservation := NT;
+      distribution_note := "Eastern Europe" |}
+  | Spermophilus_taurensis => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 190; mass_max_g := 340; conservation := LC;
+      distribution_note := "Turkey" |}
+  | Spermophilus_xanthoprymnus => {| body_length_min_mm := 195; body_length_max_mm := 250;
+      tail_length_min_mm := 50; tail_length_max_mm := 80;
+      mass_min_g := 250; mass_max_g := 450; conservation := LC;
+      distribution_note := "Turkey and Iran" |}
+  | Neotamias_alpinus => {| body_length_min_mm := 110; body_length_max_mm := 135;
+      tail_length_min_mm := 65; tail_length_max_mm := 85;
+      mass_min_g := 30; mass_max_g := 50; conservation := LC;
+      distribution_note := "Sierra Nevada, California" |}
+  | Neotamias_amoenus => {| body_length_min_mm := 115; body_length_max_mm := 140;
+      tail_length_min_mm := 75; tail_length_max_mm := 100;
+      mass_min_g := 35; mass_max_g := 60; conservation := LC;
+      distribution_note := "Western USA and Canada" |}
+  | Neotamias_bulleri => {| body_length_min_mm := 135; body_length_max_mm := 165;
+      tail_length_min_mm := 95; tail_length_max_mm := 120;
+      mass_min_g := 60; mass_max_g := 95; conservation := LC;
+      distribution_note := "Western Mexico" |}
+  | Neotamias_canipes => {| body_length_min_mm := 130; body_length_max_mm := 160;
+      tail_length_min_mm := 90; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 85; conservation := LC;
+      distribution_note := "Texas and New Mexico" |}
+  | Neotamias_cinereicollis => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 85; tail_length_max_mm := 110;
+      mass_min_g := 50; mass_max_g := 80; conservation := LC;
+      distribution_note := "Arizona and New Mexico" |}
+  | Neotamias_dorsalis => {| body_length_min_mm := 130; body_length_max_mm := 160;
+      tail_length_min_mm := 85; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 85; conservation := LC;
+      distribution_note := "Rocky Mountains USA" |}
+  | Neotamias_durangae => {| body_length_min_mm := 135; body_length_max_mm := 165;
+      tail_length_min_mm := 90; tail_length_max_mm := 120;
+      mass_min_g := 60; mass_max_g := 90; conservation := LC;
+      distribution_note := "Western Mexico" |}
+  | Neotamias_merriami => {| body_length_min_mm := 115; body_length_max_mm := 145;
+      tail_length_min_mm := 80; tail_length_max_mm := 105;
+      mass_min_g := 40; mass_max_g := 65; conservation := LC;
+      distribution_note := "California" |}
+  | Neotamias_minimus => {| body_length_min_mm := 105; body_length_max_mm := 130;
+      tail_length_min_mm := 70; tail_length_max_mm := 95;
+      mass_min_g := 30; mass_max_g := 50; conservation := LC;
+      distribution_note := "North America" |}
+  | Neotamias_obscurus => {| body_length_min_mm := 120; body_length_max_mm := 150;
+      tail_length_min_mm := 80; tail_length_max_mm := 105;
+      mass_min_g := 45; mass_max_g := 70; conservation := LC;
+      distribution_note := "Southern California" |}
+  | Neotamias_ochrogenys => {| body_length_min_mm := 130; body_length_max_mm := 160;
+      tail_length_min_mm := 90; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 85; conservation := LC;
+      distribution_note := "Northern California" |}
+  | Neotamias_palmeri => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 85; tail_length_max_mm := 110;
+      mass_min_g := 50; mass_max_g := 75; conservation := EN;
+      distribution_note := "Spring Mountains, Nevada" |}
+  | Neotamias_panamintinus => {| body_length_min_mm := 115; body_length_max_mm := 145;
+      tail_length_min_mm := 75; tail_length_max_mm := 100;
+      mass_min_g := 40; mass_max_g := 65; conservation := LC;
+      distribution_note := "Eastern California and Nevada" |}
+  | Neotamias_quadrimaculatus => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 85; tail_length_max_mm := 110;
+      mass_min_g := 50; mass_max_g := 80; conservation := LC;
+      distribution_note := "Sierra Nevada" |}
+  | Neotamias_quadrivittatus => {| body_length_min_mm := 120; body_length_max_mm := 150;
+      tail_length_min_mm := 80; tail_length_max_mm := 105;
+      mass_min_g := 45; mass_max_g := 75; conservation := LC;
+      distribution_note := "Rocky Mountains" |}
+  | Neotamias_ruficaudus => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 90; tail_length_max_mm := 115;
+      mass_min_g := 50; mass_max_g := 80; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Neotamias_rufus => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 85; tail_length_max_mm := 110;
+      mass_min_g := 50; mass_max_g := 80; conservation := LC;
+      distribution_note := "Colorado Plateau" |}
+  | Neotamias_senex => {| body_length_min_mm := 135; body_length_max_mm := 165;
+      tail_length_min_mm := 95; tail_length_max_mm := 120;
+      mass_min_g := 60; mass_max_g := 95; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Neotamias_siskiyou => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 90; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 85; conservation := LC;
+      distribution_note := "Northern California and Oregon" |}
+  | Neotamias_sonomae => {| body_length_min_mm := 130; body_length_max_mm := 160;
+      tail_length_min_mm := 90; tail_length_max_mm := 115;
+      mass_min_g := 55; mass_max_g := 85; conservation := LC;
+      distribution_note := "Northern California" |}
+  | Neotamias_speciosus => {| body_length_min_mm := 135; body_length_max_mm := 165;
+      tail_length_min_mm := 95; tail_length_max_mm := 120;
+      mass_min_g := 60; mass_max_g := 90; conservation := LC;
+      distribution_note := "Southern California mountains" |}
+  | Neotamias_townsendii => {| body_length_min_mm := 145; body_length_max_mm := 175;
+      tail_length_min_mm := 100; tail_length_max_mm := 130;
+      mass_min_g := 70; mass_max_g := 115; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Neotamias_umbrinus => {| body_length_min_mm := 125; body_length_max_mm := 155;
+      tail_length_min_mm := 85; tail_length_max_mm := 110;
+      mass_min_g := 50; mass_max_g := 80; conservation := LC;
+      distribution_note := "Western USA mountains" |}
+  | Urocitellus_armatus => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 55; tail_length_max_mm := 85;
+      mass_min_g := 175; mass_max_g := 400; conservation := LC;
+      distribution_note := "Rocky Mountains" |}
+  | Urocitellus_beldingi => {| body_length_min_mm := 220; body_length_max_mm := 280;
+      tail_length_min_mm := 55; tail_length_max_mm := 75;
+      mass_min_g := 200; mass_max_g := 500; conservation := LC;
+      distribution_note := "Sierra Nevada and Great Basin" |}
+  | Urocitellus_brunneus => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 40; tail_length_max_mm := 65;
+      mass_min_g := 140; mass_max_g := 290; conservation := VU;
+      distribution_note := "Idaho" |}
+  | Urocitellus_canus => {| body_length_min_mm := 185; body_length_max_mm := 240;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 150; mass_max_g := 320; conservation := LC;
+      distribution_note := "Great Basin, USA" |}
+  | Urocitellus_columbianus => {| body_length_min_mm := 250; body_length_max_mm := 320;
+      tail_length_min_mm := 70; tail_length_max_mm := 110;
+      mass_min_g := 340; mass_max_g := 750; conservation := LC;
+      distribution_note := "Pacific Northwest mountains" |}
+  | Urocitellus_elegans => {| body_length_min_mm := 210; body_length_max_mm := 270;
+      tail_length_min_mm := 50; tail_length_max_mm := 80;
+      mass_min_g := 180; mass_max_g := 420; conservation := LC;
+      distribution_note := "Rocky Mountains" |}
+  | Urocitellus_endemicus => {| body_length_min_mm := 195; body_length_max_mm := 250;
+      tail_length_min_mm := 45; tail_length_max_mm := 75;
+      mass_min_g := 160; mass_max_g := 350; conservation := VU;
+      distribution_note := "Southern Idaho" |}
+  | Urocitellus_mollis => {| body_length_min_mm := 170; body_length_max_mm := 220;
+      tail_length_min_mm := 45; tail_length_max_mm := 70;
+      mass_min_g := 120; mass_max_g := 250; conservation := LC;
+      distribution_note := "Pacific Northwest" |}
+  | Urocitellus_parryii => {| body_length_min_mm := 270; body_length_max_mm := 340;
+      tail_length_min_mm := 90; tail_length_max_mm := 130;
+      mass_min_g := 500; mass_max_g := 1000; conservation := LC;
+      distribution_note := "Alaska and northern Canada" |}
+  | Urocitellus_richardsonii => {| body_length_min_mm := 210; body_length_max_mm := 270;
+      tail_length_min_mm := 60; tail_length_max_mm := 90;
+      mass_min_g := 300; mass_max_g := 630; conservation := LC;
+      distribution_note := "Northern Great Plains" |}
+  | Urocitellus_townsendii => {| body_length_min_mm := 175; body_length_max_mm := 225;
+      tail_length_min_mm := 35; tail_length_max_mm := 55;
+      mass_min_g := 130; mass_max_g := 280; conservation := VU;
+      distribution_note := "Pacific Northwest" |}
+  | Urocitellus_undulatus => {| body_length_min_mm := 200; body_length_max_mm := 260;
+      tail_length_min_mm := 70; tail_length_max_mm := 100;
+      mass_min_g := 300; mass_max_g := 600; conservation := LC;
+      distribution_note := "Siberia and Central Asia" |}
+  | Urocitellus_washingtoni => {| body_length_min_mm := 180; body_length_max_mm := 230;
+      tail_length_min_mm := 40; tail_length_max_mm := 65;
+      mass_min_g := 140; mass_max_g := 300; conservation := NT;
+      distribution_note := "Washington and Oregon" |}
+  | Xerospermophilus_mohavensis => {| body_length_min_mm := 155; body_length_max_mm := 195;
+      tail_length_min_mm := 55; tail_length_max_mm := 80;
+      mass_min_g := 80; mass_max_g := 140; conservation := LC;
+      distribution_note := "Mojave Desert" |}
+  | Xerospermophilus_perotensis => {| body_length_min_mm := 160; body_length_max_mm := 200;
+      tail_length_min_mm := 60; tail_length_max_mm := 85;
+      mass_min_g := 90; mass_max_g := 150; conservation := EN;
+      distribution_note := "Central Mexico" |}
+  | Xerospermophilus_spilosoma => {| body_length_min_mm := 150; body_length_max_mm := 190;
+      tail_length_min_mm := 65; tail_length_max_mm := 90;
+      mass_min_g := 100; mass_max_g := 160; conservation := LC;
+      distribution_note := "Southwest USA to Mexico" |}
+  | Xerospermophilus_tereticaudus => {| body_length_min_mm := 145; body_length_max_mm := 185;
+      tail_length_min_mm := 60; tail_length_max_mm := 85;
+      mass_min_g := 90; mass_max_g := 155; conservation := LC;
+      distribution_note := "Southwest USA deserts" |}
+  | Hylopetes_baberi => {| body_length_min_mm := 150; body_length_max_mm := 195;
+      tail_length_min_mm := 140; tail_length_max_mm := 185;
+      mass_min_g := 85; mass_max_g := 155; conservation := LC;
+      distribution_note := "Pakistan to India" |}
+  | Petaurista_yunanensis => {| body_length_min_mm := 320; body_length_max_mm := 400;
+      tail_length_min_mm := 360; tail_length_max_mm := 460;
+      mass_min_g := 750; mass_max_g := 1150; conservation := DD;
+      distribution_note := "Yunnan, China" |}
   | _ => default_species_data
   end.
 
