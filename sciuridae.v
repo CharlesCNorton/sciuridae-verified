@@ -852,7 +852,7 @@ Theorem genera_count : List.length all_genera = 63.
 Proof. reflexivity. Qed.
 
 Theorem all_genera_complete : forall g, In g all_genera.
-Proof. destruct g; simpl; auto 70. Qed.
+Proof. destruct g; simpl; tauto. Qed.
 
 Theorem all_genera_nodup : NoDup all_genera.
 Proof. unfold all_genera; repeat constructor; simpl; intuition discriminate. Qed.
@@ -1400,7 +1400,7 @@ Proof. reflexivity. Qed.
 Theorem all_species_complete : forall g (s : Species g),
   In (pack_species s) all_species.
 Proof.
-  intros g s; destruct s; simpl; auto 300.
+  intros g s; destruct s; simpl; tauto.
 Qed.
 
 Definition species_to_nat {g : Genus} (s : Species g) : nat :=
@@ -1801,7 +1801,7 @@ Theorem striped_genera : forall g,
   (g = Funambulus \/ g = Tamiops \/ g = Lariscus \/ g = Menetes \/
    g = Atlantoxerus \/ g = Xerus \/ g = Funisciurus \/
    g = Ammospermophilus \/ g = Callospermophilus \/ g = Tamias \/ g = Neotamias).
-Proof. intros g H; destruct g; simpl in *; try discriminate; auto 15. Qed.
+Proof. intros g H; destruct g; simpl in *; try discriminate; tauto. Qed.
 
 Theorem flying_squirrels_have_patagium : forall g,
   tribe_of g = Pteromyini -> has_patagium (morphology_of g) = true.
@@ -2332,7 +2332,7 @@ Theorem tufted_ears_iff : forall g,
    g = Protoxerus \/ g = Rheithrosciurus).
 Proof.
   intro g; split; intro H.
-  - destruct g; simpl in H; try discriminate; auto 10.
+  - destruct g; simpl in H; try discriminate; tauto.
   - destruct H as [H|[H|[H|[H|[H|H]]]]]; subst; reflexivity.
 Qed.
 
@@ -2350,14 +2350,14 @@ Theorem high_mammae_genera : forall g,
   (g = Marmota \/ g = Cynomys \/ g = Ammospermophilus \/ g = Callospermophilus \/
    g = Ictidomys \/ g = Notocitellus \/ g = Otospermophilus \/ g = Poliocitellus \/
    g = Sciurotamias \/ g = Spermophilus \/ g = Urocitellus \/ g = Xerospermophilus).
-Proof. intros g H; destruct g; simpl in H; try discriminate; auto 20. Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; tauto. Qed.
 
 Theorem dorsal_stripe_genera : forall g,
   has_dorsal_stripe (extended_morphology_of g) = true ->
   (g = Funambulus \/ g = Tamiops \/ g = Tamias \/ g = Neotamias \/ g = Xerus \/
    g = Atlantoxerus \/ g = Funisciurus \/ g = Lariscus \/ g = Menetes \/
    g = Ammospermophilus \/ g = Callospermophilus).
-Proof. intros g H; destruct g; simpl in H; try discriminate; auto 15. Qed.
+Proof. intros g H; destruct g; simpl in H; try discriminate; tauto. Qed.
 
 Definition fine_morphology_of (g : Genus) : FineMorphology :=
   match g with
@@ -4113,7 +4113,7 @@ Proof.
 Qed.
 
 Theorem tree_genera_complete : forall g, In g tree_genera_list.
-Proof. intro g; destruct g; simpl; auto 70. Qed.
+Proof. intro g; destruct g; simpl; tauto. Qed.
 
 Theorem tree_all_genera_permutation : Permutation tree_genera_list all_genera.
 Proof.
