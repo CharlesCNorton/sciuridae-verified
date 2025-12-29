@@ -18,6 +18,23 @@
 (*                                                                            *)
 (******************************************************************************)
 
+(* ======================== Remaining Work ======================== *)
+(*                                                                  *)
+(* 1. Complete species measurement data for all 292 species.        *)
+(* 2. Distinguish native vs. introduced ranges.                     *)
+(* 3. Model intraspecific variation.                                *)
+(* 4. Separate data tables from theorems.                           *)
+(* 5. Use structured proofs.                                        *)
+(* 6. Add injectivity proof for canonical_obs.                      *)
+(* 7. Define observation validity.                                  *)
+(* 8. Prove key works on arbitrary valid observations.              *)
+(* 9. Add partial matching for identification.                      *)
+(* 10. Implement true dichotomous key structure.                    *)
+(* 11. Derive phylogeny from character data or external source.     *)
+(* 12. Add branch lengths and support values to PhyloNode.          *)
+(*                                                                  *)
+(* ================================================================ *)
+
 Require Import Coq.Lists.List.
 Require Import Coq.Bool.Bool.
 Require Import Coq.Arith.Arith.
