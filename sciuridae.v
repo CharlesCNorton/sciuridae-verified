@@ -1583,12 +1583,16 @@ Inductive StripeCount : Type := NoStripes | OneStripe | ThreeStripes | FiveStrip
 
 Record Morphology : Type := {
   body_size : BodySize;
+  genus_length_min_mm : nat;
+  genus_length_max_mm : nat;
   tail_type : TailType;
   habitat : Habitat;
   cheek_pouches : CheekPouches;
   has_patagium : bool;
   has_ear_tufts : bool;
-  is_striped : bool
+  is_striped : bool;
+  gliding_requires_patagium : habitat = Gliding -> has_patagium = true;
+  genus_length_range_valid : genus_length_min_mm <= genus_length_max_mm
 }.
 
 Record ExtendedMorphology : Type := {
@@ -1606,148 +1610,256 @@ Record ExtendedMorphology : Type := {
 (* ======================== Morphology Archetypes ======================== *)
 
 Definition tree_squirrel_morph : Morphology :=
-  {| body_size := Medium; tail_type := Bushy; habitat := Arboreal;
+  {| body_size := Medium; genus_length_min_mm := 200; genus_length_max_mm := 300;
+     tail_type := Bushy; habitat := Arboreal;
      cheek_pouches := Absent; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition ground_squirrel_morph : Morphology :=
-  {| body_size := Medium; tail_type := Thin; habitat := Terrestrial;
+  {| body_size := Medium; genus_length_min_mm := 180; genus_length_max_mm := 280;
+     tail_type := Thin; habitat := Terrestrial;
      cheek_pouches := Present; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition flying_squirrel_morph : Morphology :=
-  {| body_size := Small; tail_type := Flat; habitat := Gliding;
+  {| body_size := Small; genus_length_min_mm := 120; genus_length_max_mm := 200;
+     tail_type := Flat; habitat := Gliding;
      cheek_pouches := Absent; has_patagium := true;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun _ => eq_refl;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition chipmunk_morph : Morphology :=
-  {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+  {| body_size := Small; genus_length_min_mm := 100; genus_length_max_mm := 160;
+     tail_type := Bushy; habitat := Terrestrial;
      cheek_pouches := Present; has_patagium := false;
-     has_ear_tufts := false; is_striped := true |}.
+     has_ear_tufts := false; is_striped := true;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition marmot_morph : Morphology :=
-  {| body_size := Large; tail_type := Bushy; habitat := Fossorial;
+  {| body_size := Large; genus_length_min_mm := 400; genus_length_max_mm := 700;
+     tail_type := Bushy; habitat := Fossorial;
      cheek_pouches := Present; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition prairie_dog_morph : Morphology :=
-  {| body_size := Medium; tail_type := Thin; habitat := Fossorial;
+  {| body_size := Medium; genus_length_min_mm := 280; genus_length_max_mm := 400;
+     tail_type := Thin; habitat := Fossorial;
      cheek_pouches := Present; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition pygmy_squirrel_morph : Morphology :=
-  {| body_size := Tiny; tail_type := Bushy; habitat := Arboreal;
+  {| body_size := Tiny; genus_length_min_mm := 60; genus_length_max_mm := 100;
+     tail_type := Bushy; habitat := Arboreal;
      cheek_pouches := Absent; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition giant_squirrel_morph : Morphology :=
-  {| body_size := Giant; tail_type := Bushy; habitat := Arboreal;
+  {| body_size := Giant; genus_length_min_mm := 350; genus_length_max_mm := 500;
+     tail_type := Bushy; habitat := Arboreal;
      cheek_pouches := Absent; has_patagium := false;
-     has_ear_tufts := false; is_striped := false |}.
+     has_ear_tufts := false; is_striped := false;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition palm_squirrel_morph : Morphology :=
-  {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+  {| body_size := Small; genus_length_min_mm := 100; genus_length_max_mm := 180;
+     tail_type := Bushy; habitat := Arboreal;
      cheek_pouches := Absent; has_patagium := false;
-     has_ear_tufts := false; is_striped := true |}.
+     has_ear_tufts := false; is_striped := true;
+     gliding_requires_patagium := fun H => match H with end;
+     genus_length_range_valid := ltac:(lia) |}.
 
 Definition morphology_of (g : Genus) : Morphology :=
   match g with
   | Ratufa => giant_squirrel_morph
   | Sciurillus => pygmy_squirrel_morph
-  | Microsciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+  | Microsciurus => {| body_size := Small; genus_length_min_mm := 100; genus_length_max_mm := 150;
+                       tail_type := Bushy; habitat := Arboreal;
                        cheek_pouches := Absent; has_patagium := false;
-                       has_ear_tufts := false; is_striped := false |}
-  | Rheithrosciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                       has_ear_tufts := false; is_striped := false;
+                       gliding_requires_patagium := fun H => match H with end;
+                       genus_length_range_valid := ltac:(lia) |}
+  | Rheithrosciurus => {| body_size := Large; genus_length_min_mm := 320; genus_length_max_mm := 380;
+                          tail_type := Bushy; habitat := Arboreal;
                           cheek_pouches := Absent; has_patagium := false;
-                          has_ear_tufts := true; is_striped := false |}
+                          has_ear_tufts := true; is_striped := false;
+                          gliding_requires_patagium := fun H => match H with end;
+                          genus_length_range_valid := ltac:(lia) |}
   | Sciurus => tree_squirrel_morph
   | Syntheosciurus => tree_squirrel_morph
-  | Tamiasciurus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+  | Tamiasciurus => {| body_size := Small; genus_length_min_mm := 165; genus_length_max_mm := 230;
+                       tail_type := Bushy; habitat := Arboreal;
                        cheek_pouches := Absent; has_patagium := false;
-                       has_ear_tufts := true; is_striped := false |}
-  | Aeretes => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                       has_ear_tufts := true; is_striped := false;
+                       gliding_requires_patagium := fun H => match H with end;
+                       genus_length_range_valid := ltac:(lia) |}
+  | Aeretes => {| body_size := Medium; genus_length_min_mm := 275; genus_length_max_mm := 340;
+                  tail_type := Flat; habitat := Gliding;
                   cheek_pouches := Absent; has_patagium := true;
-                  has_ear_tufts := false; is_striped := false |}
-  | Aeromys => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                  has_ear_tufts := false; is_striped := false;
+                  gliding_requires_patagium := fun _ => eq_refl;
+                  genus_length_range_valid := ltac:(lia) |}
+  | Aeromys => {| body_size := Large; genus_length_min_mm := 290; genus_length_max_mm := 400;
+                  tail_type := Flat; habitat := Gliding;
                   cheek_pouches := Absent; has_patagium := true;
-                  has_ear_tufts := false; is_striped := false |}
-  | Belomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                  has_ear_tufts := false; is_striped := false;
+                  gliding_requires_patagium := fun _ => eq_refl;
+                  genus_length_range_valid := ltac:(lia) |}
+  | Belomys => {| body_size := Medium; genus_length_min_mm := 180; genus_length_max_mm := 250;
+                  tail_type := Flat; habitat := Gliding;
                   cheek_pouches := Absent; has_patagium := true;
-                  has_ear_tufts := false; is_striped := false |}
-  | Biswamoyopterus => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+                  has_ear_tufts := false; is_striped := false;
+                  gliding_requires_patagium := fun _ => eq_refl;
+                  genus_length_range_valid := ltac:(lia) |}
+  | Biswamoyopterus => {| body_size := Large; genus_length_min_mm := 380; genus_length_max_mm := 440;
+                          tail_type := Flat; habitat := Gliding;
                           cheek_pouches := Absent; has_patagium := true;
-                          has_ear_tufts := false; is_striped := false |}
+                          has_ear_tufts := false; is_striped := false;
+                          gliding_requires_patagium := fun _ => eq_refl;
+                          genus_length_range_valid := ltac:(lia) |}
   | Eoglaucomys => flying_squirrel_morph
-  | Eupetaurus => {| body_size := Large; tail_type := Flat; habitat := Gliding;
+  | Eupetaurus => {| body_size := Large; genus_length_min_mm := 450; genus_length_max_mm := 600;
+                     tail_type := Flat; habitat := Gliding;
                      cheek_pouches := Absent; has_patagium := true;
-                     has_ear_tufts := true; is_striped := false |}
-  | Glaucomys => {| body_size := Small; tail_type := Flat; habitat := Gliding;
+                     has_ear_tufts := true; is_striped := false;
+                     gliding_requires_patagium := fun _ => eq_refl;
+                     genus_length_range_valid := ltac:(lia) |}
+  | Glaucomys => {| body_size := Small; genus_length_min_mm := 125; genus_length_max_mm := 185;
+                    tail_type := Flat; habitat := Gliding;
                     cheek_pouches := Absent; has_patagium := true;
-                    has_ear_tufts := false; is_striped := false |}
+                    has_ear_tufts := false; is_striped := false;
+                    gliding_requires_patagium := fun _ => eq_refl;
+                    genus_length_range_valid := ltac:(lia) |}
   | Hylopetes => flying_squirrel_morph
-  | Iomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+  | Iomys => {| body_size := Medium; genus_length_min_mm := 145; genus_length_max_mm := 180;
+                tail_type := Flat; habitat := Gliding;
                 cheek_pouches := Absent; has_patagium := true;
-                has_ear_tufts := false; is_striped := false |}
-  | Petinomys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                has_ear_tufts := false; is_striped := false;
+                gliding_requires_patagium := fun _ => eq_refl;
+                genus_length_range_valid := ltac:(lia) |}
+  | Petinomys => {| body_size := Medium; genus_length_min_mm := 110; genus_length_max_mm := 220;
+                    tail_type := Flat; habitat := Gliding;
                     cheek_pouches := Absent; has_patagium := true;
-                    has_ear_tufts := false; is_striped := false |}
-  | Pteromyscus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                    has_ear_tufts := false; is_striped := false;
+                    gliding_requires_patagium := fun _ => eq_refl;
+                    genus_length_range_valid := ltac:(lia) |}
+  | Pteromyscus => {| body_size := Medium; genus_length_min_mm := 180; genus_length_max_mm := 235;
+                      tail_type := Flat; habitat := Gliding;
                       cheek_pouches := Absent; has_patagium := true;
-                      has_ear_tufts := false; is_striped := false |}
-  | Petaurillus => {| body_size := Tiny; tail_type := Flat; habitat := Gliding;
+                      has_ear_tufts := false; is_striped := false;
+                      gliding_requires_patagium := fun _ => eq_refl;
+                      genus_length_range_valid := ltac:(lia) |}
+  | Petaurillus => {| body_size := Tiny; genus_length_min_mm := 65; genus_length_max_mm := 85;
+                      tail_type := Flat; habitat := Gliding;
                       cheek_pouches := Absent; has_patagium := true;
-                      has_ear_tufts := false; is_striped := false |}
-  | Petaurista => {| body_size := Giant; tail_type := Flat; habitat := Gliding;
+                      has_ear_tufts := false; is_striped := false;
+                      gliding_requires_patagium := fun _ => eq_refl;
+                      genus_length_range_valid := ltac:(lia) |}
+  | Petaurista => {| body_size := Giant; genus_length_min_mm := 290; genus_length_max_mm := 520;
+                     tail_type := Flat; habitat := Gliding;
                      cheek_pouches := Absent; has_patagium := true;
-                     has_ear_tufts := false; is_striped := false |}
-  | Pteromys => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                     has_ear_tufts := false; is_striped := false;
+                     gliding_requires_patagium := fun _ => eq_refl;
+                     genus_length_range_valid := ltac:(lia) |}
+  | Pteromys => {| body_size := Medium; genus_length_min_mm := 135; genus_length_max_mm := 205;
+                   tail_type := Flat; habitat := Gliding;
                    cheek_pouches := Absent; has_patagium := true;
-                   has_ear_tufts := false; is_striped := false |}
-  | Trogopterus => {| body_size := Medium; tail_type := Flat; habitat := Gliding;
+                   has_ear_tufts := false; is_striped := false;
+                   gliding_requires_patagium := fun _ => eq_refl;
+                   genus_length_range_valid := ltac:(lia) |}
+  | Trogopterus => {| body_size := Medium; genus_length_min_mm := 280; genus_length_max_mm := 340;
+                      tail_type := Flat; habitat := Gliding;
                       cheek_pouches := Absent; has_patagium := true;
-                      has_ear_tufts := false; is_striped := false |}
+                      has_ear_tufts := false; is_striped := false;
+                      gliding_requires_patagium := fun _ => eq_refl;
+                      genus_length_range_valid := ltac:(lia) |}
   | Callosciurus | Dremomys | Sundasciurus => tree_squirrel_morph
   | Exilisciurus | Nannosciurus => pygmy_squirrel_morph
   | Funambulus | Tamiops => palm_squirrel_morph
-  | Glyphotes | Prosciurillus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+  | Glyphotes | Prosciurillus => {| body_size := Small; genus_length_min_mm := 110; genus_length_max_mm := 170;
+                                    tail_type := Bushy; habitat := Arboreal;
                                     cheek_pouches := Absent; has_patagium := false;
-                                    has_ear_tufts := false; is_striped := false |}
-  | Hyosciurus => {| body_size := Medium; tail_type := Bushy; habitat := Terrestrial;
+                                    has_ear_tufts := false; is_striped := false;
+                                    gliding_requires_patagium := fun H => match H with end;
+                                    genus_length_range_valid := ltac:(lia) |}
+  | Hyosciurus => {| body_size := Medium; genus_length_min_mm := 190; genus_length_max_mm := 250;
+                     tail_type := Bushy; habitat := Terrestrial;
                      cheek_pouches := Absent; has_patagium := false;
-                     has_ear_tufts := false; is_striped := false |}
-  | Lariscus | Menetes => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                     has_ear_tufts := false; is_striped := false;
+                     gliding_requires_patagium := fun H => match H with end;
+                     genus_length_range_valid := ltac:(lia) |}
+  | Lariscus | Menetes => {| body_size := Small; genus_length_min_mm := 160; genus_length_max_mm := 215;
+                             tail_type := Bushy; habitat := Terrestrial;
                              cheek_pouches := Absent; has_patagium := false;
-                             has_ear_tufts := false; is_striped := true |}
-  | Rhinosciurus => {| body_size := Small; tail_type := Thin; habitat := Terrestrial;
+                             has_ear_tufts := false; is_striped := true;
+                             gliding_requires_patagium := fun H => match H with end;
+                             genus_length_range_valid := ltac:(lia) |}
+  | Rhinosciurus => {| body_size := Small; genus_length_min_mm := 190; genus_length_max_mm := 240;
+                       tail_type := Thin; habitat := Terrestrial;
                        cheek_pouches := Absent; has_patagium := false;
-                       has_ear_tufts := false; is_striped := false |}
-  | Rubrisciurus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                       has_ear_tufts := false; is_striped := false;
+                       gliding_requires_patagium := fun H => match H with end;
+                       genus_length_range_valid := ltac:(lia) |}
+  | Rubrisciurus => {| body_size := Large; genus_length_min_mm := 220; genus_length_max_mm := 280;
+                       tail_type := Bushy; habitat := Arboreal;
                        cheek_pouches := Absent; has_patagium := false;
-                       has_ear_tufts := false; is_striped := false |}
-  | Atlantoxerus => {| body_size := Small; tail_type := Bushy; habitat := Terrestrial;
+                       has_ear_tufts := false; is_striped := false;
+                       gliding_requires_patagium := fun H => match H with end;
+                       genus_length_range_valid := ltac:(lia) |}
+  | Atlantoxerus => {| body_size := Small; genus_length_min_mm := 160; genus_length_max_mm := 220;
+                       tail_type := Bushy; habitat := Terrestrial;
                        cheek_pouches := Present; has_patagium := false;
-                       has_ear_tufts := false; is_striped := true |}
+                       has_ear_tufts := false; is_striped := true;
+                       gliding_requires_patagium := fun H => match H with end;
+                       genus_length_range_valid := ltac:(lia) |}
   | Spermophilopsis => ground_squirrel_morph
-  | Xerus => {| body_size := Medium; tail_type := Bushy; habitat := Terrestrial;
+  | Xerus => {| body_size := Medium; genus_length_min_mm := 190; genus_length_max_mm := 280;
+                tail_type := Bushy; habitat := Terrestrial;
                 cheek_pouches := Present; has_patagium := false;
-                has_ear_tufts := false; is_striped := true |}
+                has_ear_tufts := false; is_striped := true;
+                gliding_requires_patagium := fun H => match H with end;
+                genus_length_range_valid := ltac:(lia) |}
   | Epixerus | Heliosciurus => tree_squirrel_morph
   | Funisciurus => palm_squirrel_morph
   | Myosciurus => pygmy_squirrel_morph
-  | Paraxerus => {| body_size := Small; tail_type := Bushy; habitat := Arboreal;
+  | Paraxerus => {| body_size := Small; genus_length_min_mm := 120; genus_length_max_mm := 220;
+                    tail_type := Bushy; habitat := Arboreal;
                     cheek_pouches := Absent; has_patagium := false;
-                    has_ear_tufts := false; is_striped := false |}
-  | Protoxerus => {| body_size := Large; tail_type := Bushy; habitat := Arboreal;
+                    has_ear_tufts := false; is_striped := false;
+                    gliding_requires_patagium := fun H => match H with end;
+                    genus_length_range_valid := ltac:(lia) |}
+  | Protoxerus => {| body_size := Large; genus_length_min_mm := 250; genus_length_max_mm := 350;
+                     tail_type := Bushy; habitat := Arboreal;
                      cheek_pouches := Absent; has_patagium := false;
-                     has_ear_tufts := true; is_striped := false |}
-  | Ammospermophilus | Callospermophilus => {| body_size := Small; tail_type := Thin; habitat := Terrestrial;
+                     has_ear_tufts := true; is_striped := false;
+                     gliding_requires_patagium := fun H => match H with end;
+                     genus_length_range_valid := ltac:(lia) |}
+  | Ammospermophilus | Callospermophilus => {| body_size := Small; genus_length_min_mm := 135; genus_length_max_mm := 250;
+                                               tail_type := Thin; habitat := Terrestrial;
                                                cheek_pouches := Present; has_patagium := false;
-                                               has_ear_tufts := false; is_striped := true |}
+                                               has_ear_tufts := false; is_striped := true;
+                                               gliding_requires_patagium := fun H => match H with end;
+                                               genus_length_range_valid := ltac:(lia) |}
   | Cynomys => prairie_dog_morph
   | Ictidomys | Notocitellus | Otospermophilus | Poliocitellus => ground_squirrel_morph
-  | Marmota => {| body_size := Giant; tail_type := Bushy; habitat := Fossorial;
+  | Marmota => {| body_size := Giant; genus_length_min_mm := 400; genus_length_max_mm := 700;
+                  tail_type := Bushy; habitat := Fossorial;
                   cheek_pouches := Present; has_patagium := false;
-                  has_ear_tufts := false; is_striped := false |}
+                  has_ear_tufts := false; is_striped := false;
+                  gliding_requires_patagium := fun H => match H with end;
+                  genus_length_range_valid := ltac:(lia) |}
   | Sciurotamias | Spermophilus | Urocitellus | Xerospermophilus => ground_squirrel_morph
   | Tamias | Neotamias => chipmunk_morph
   | Douglassciurus | Hesperopetes => flying_squirrel_morph
@@ -2614,6 +2726,26 @@ Definition fine_morphology_of (g : Genus) : FineMorphology :=
                   stripe_count := NoStripes; is_island_endemic := false;
                   has_white_tail_border := false; has_facial_markings := false |}
   end.
+
+(* ======================== Consolidated Genus Info ======================== *)
+
+Record GenusInfo : Type := {
+  gi_common_name : string;
+  gi_subfamily : Subfamily;
+  gi_tribe : Tribe;
+  gi_continents : list Continent;
+  gi_extinction_status : ExtinctStatus;
+  gi_fine_morphology : FineMorphology
+}.
+
+Definition info_of (g : Genus) : GenusInfo := {|
+  gi_common_name := common_name g;
+  gi_subfamily := subfamily_of g;
+  gi_tribe := tribe_of g;
+  gi_continents := native_continents g;
+  gi_extinction_status := extinction_status g;
+  gi_fine_morphology := fine_morphology_of g
+|}.
 
 (* ======================== Genus Identification Key ======================== *)
 
