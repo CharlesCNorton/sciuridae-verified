@@ -49,7 +49,7 @@ characters could separate them. Further targeted research is in progress.
 
 ## Building
 
-Requires Coq 8.18 (tested) and `make`.
+Requires Coq 8.18, 8.19 or 8.20 (all three are built in CI) and `make`.
 
 ```sh
 make                         # build everything (about 30 s)
