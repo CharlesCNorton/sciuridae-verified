@@ -22,16 +22,17 @@ jobs:
       fail-fast: false
       matrix:
         coq: ['8.18']   # the version the development is tested with locally
-    container:
-      image: coqorg/coq:${{ matrix.coq }}
-      options: --user root
     steps:
       - uses: actions/checkout@v4
-      - name: Build
-        run: |
-          eval $(opam env)
-          make -j2
-      - name: Axiom audit
-        run: |
-          eval $(opam env)
-          sh tools/check_assumptions.sh
+      - uses: coq-community/docker-coq-action@v1
+        with:
+          coq_version: ${{ matrix.coq }}
+          ocaml_version: 'default'
+          custom_script: |
+            startGroup "Build"
+              sudo chown -R coq:coq .
+              make -j2
+            endGroup
+            startGroup "Axiom audit"
+              sh tools/check_assumptions.sh
+            endGroup
