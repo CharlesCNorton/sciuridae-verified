@@ -1,0 +1,27 @@
+{
+  "purpose": "Explicit adjustments to the sourced codings in the group files. Each entry either corrects a figure the source itself shows to be something else, or widens a coding that an observer could reasonably score either way. Widening can only make the key more cautious; it never makes a sound key unsound.",
+  "adjustments": [
+    {"genus": "Euxerus", "character": "hb_length_mm", "states": {"min": 204, "max": 290},
+     "reason": "The 460 mm maximum (Kingdon 1974, quoted in Mammalian Species 748) is a total length, as the research notes record; head-and-body records span 204-290 mm."},
+    {"genus": "Euxerus", "character": "tail_distichous", "states": ["no", "yes"],
+     "reason": "Described as bushy rather than strongly flattened by some sources; scoring is subjective, so both states."},
+    {"genus": "Xerus", "character": "tail_distichous", "states": ["no", "yes"],
+     "reason": "As for Euxerus: subjective scoring, both states."},
+    {"genus": "Geosciurus", "character": "tail_distichous", "states": ["no", "yes"],
+     "reason": "As for Euxerus: subjective scoring, and the source covers only one species."},
+    {"genus": "Petaurista", "character": "hypsodont_cheek_teeth", "states": ["no", "yes"],
+     "reason": "Ellerman (1940) calls the cheek teeth semi-hypsodont; an observer could answer either way."},
+    {"genus": "Trogopterus", "character": "hypsodont_cheek_teeth", "states": ["no", "yes"],
+     "reason": "Ellerman (1940) calls the cheek teeth semi-hypsodont; an observer could answer either way."},
+    {"genus": "Ammospermophilus", "character": "dorsal_stripes", "states": ["absent", "present"],
+     "reason": "The pale lateral stripes lie on the sides of the back; several sources describe them as stripes on the back."},
+    {"genus": "Callospermophilus", "character": "dorsal_stripes", "states": ["absent", "present"],
+     "reason": "As for Ammospermophilus: dorsal versus flank placement is open to interpretation."},
+    {"genus": "Funambulus", "character": "flank_stripe", "states": ["absent", "present"],
+     "reason": "The boundary between dorsal and flank stripes is unclear in palm squirrels (research notes)."},
+    {"genus": "Tamiops", "character": "dorsal_stripes", "states": ["absent", "present"],
+     "reason": "Dorsal versus flank placement of the outer stripes is unclear (research notes); separation relies on the dedicated stripe characters."},
+    {"genus": "Menetes", "character": "flank_stripe", "states": ["absent", "present"],
+     "reason": "Dorsal versus flank placement is unclear (research notes)."}
+  ]
+}

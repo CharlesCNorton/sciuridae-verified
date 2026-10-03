@@ -1,0 +1,3167 @@
+{
+ "group": "nannosciurinae_islands",
+ "genera": {
+  "Exilisciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 62,
+      "max": 93
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Exilisciurus exilis",
+      "Exilisciurus whiteheadi",
+      "Exilisciurus concinnus"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "and Exilisciurus (length of head and body 5 62–93 mm) are the smallest in body size of the nonvolant Bornean squirrels",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818636",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Exilisciurus concinnus",
+       "quote": "Head-body mean 87 mm, tail mean 62 mm (males) and 68 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818638",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Exilisciurus exilis",
+       "quote": "Head-body mean 72 mm (males) and 73 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818640",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Exilisciurus whiteheadi",
+       "quote": "Head-body mean 86 mm (males) and 85 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Measurements of the holotype given (in mm) in the description are: head and body, 85; tail without hairs, 59",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Measurements of the type given in the description as (in mm): head and body, 90; tail, without hairs, 53",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf",
+       "citation": "Hayssen 2008, Patterns of body and tail length and body mass in Sciuridae. J. Mammal. 89: 852-873",
+       "quote": "Exilisciurus and Nannosciurus are small (,100 mm), whereas Rubrisciurus is large (.250 mm).",
+       "verbatim": true
+      }
+     ],
+     "notes": "62-93 mm is the range Musser et al. (2010, citing Payne et al. 1985) give for the Bornean species (E. exilis, E. whiteheadi). For E. concinnus (Philippines) only means are available (HMW mean 87 mm; holotype 85 mm); these fall inside 62-93, but the true individual maximum for E. concinnus is undocumented here. In Musser the \"5\" is the PDF glyph for \"=\"; in Hayssen \",100\"/\".250\" are the glyphs for \"<100\"/\">250\". Heaney quotes are OCR-corrected transcriptions."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane. Ellerman's Nannosciurus included exilis, concinnus and whiteheadi (\"Forms seen: borneanus, concinnus, exilis, melanotis, pulcher, retectus, samaricus, whiteheadi\")."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Definition: arboreal, diurnal, small-bodied sciurids with tail shorter than head and body length (LT/LHB 5 68%–78%); no facial or body stripes, no postauricular or nape patches, very long ear tufts in E. whiteheadi",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Pelage plain, with no facial stripes: ear tufts present in one species (E. whiteheadi).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 definition of tribe Exilisciurini (monogeneric). Heaney 1985 generic diagnosis (OCR-corrected)."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "no facial or body stripes, no postauricular or nape patches",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 tribe Exilisciurini definition: no body stripes of any kind."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "GENUS EXILISCIURUS PATTERNLESS PYGMY SQUIRRELS",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Pelage plain, with no facial stripes",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) calls the genus the \"patternless pygmy squirrels\"; Heaney (1985) \"Pelage plain\"."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Exilisciurus whiteheadi",
+      "Exilisciurus exilis",
+      "Exilisciurus concinnus"
+     ],
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Pelage plain, with no facial stripes: ear tufts present in one species (E. whiteheadi).",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "whiteheadi group, like the last but with ear-tufts present and conspicuous, in some cases extremely long. (These absent in exilis group.)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818640",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Exilisciurus whiteheadi",
+       "quote": "ears have white hair tufts at least 20 mm long",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present only in E. whiteheadi; absent in E. exilis and E. concinnus (Heaney 1985 diagnoses of E. exilis \"without facial stripes or ear tufts\" and comparisons)."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found stating whether the tail is annulated. Heaney (1985) notes E. concinnus tail guard hairs have \"up to six alternating bands of black and orange color zones\" (hair banding, not necessarily a ringed tail)."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum extremely elongated.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus and Hyosciurus have \"The rostrum extremely elongated\"; all other genera of his Sciurus group fall under \"The rostrum not extremely elongated.\" Ellerman's Nannosciurus (incl. Exilisciurus) keys out under \"rostrum not extremely elongated\". Heaney (1985) describes the skull rostrum as \"relatively long, narrow\" but this is a cranial proportion, not a shrew-like snout."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found addressing cheek pouches in Exilisciurus."
+    },
+    "upper_premolars": {
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Exilisciurus exilis",
+      "Exilisciurus concinnus",
+      "Exilisciurus whiteheadi"
+     ],
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "As noted below, P3 is absent in 29% of the skulls of E. exilis examined, whereas P3 or its alveolus is present in all adults of Philippine pygmy squirrels examined.",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "P3 minute, unicuspid, diameter less than one-fourth that of P4",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "P. 3 present;",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 (E. concinnus account): upper P3 absent in 29% of E. exilis skulls; present in all adult Philippine E. concinnus; minute in E. exilis and E. whiteheadi. So 1 or 2 upper premolars. OCR-corrected transcription (original OCR: \"P:' is absent in 29% of the skulls of E. c.xi1i.s cxa~ninecl\")."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Exilisciurus concinnus",
+      "Exilisciurus exilis",
+      "Exilisciurus whiteheadi"
+     ],
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Incisors strongly procumbent, with distal tip nearly as far forward as anterior tip of nasals. Anterior surface smooth, yellow.",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Incisors strongly procumbent, with distal tip slightly anterior to tip of nasals when skull rests on incisors and bullae; anterior surface smooth, yellow.",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Incisors strongly procumbent, with distal tip about even with tip of nasals when skull rests on incisors and bullae; anterior surtace smooth, yellow.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 species descriptions (concinnus, exilis, whiteheadi respectively) all state anterior incisor surface smooth. (\"surtace\" is OCR in source.)"
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "no"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Exilisciurus concinnus",
+      "Exilisciurus exilis"
+     ],
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Molars typical of callosciurines, but very low-crowned.",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Teeth small, higher-crowned than in Exilisciurus (Fig. 2).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985: E. concinnus molars \"very low-crowned\"; Nannosciurus teeth are higher-crowned than in Exilisciurus (comparison based on E. exilis, Fig. 2). Not stated for E. whiteheadi."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Heaney (1985, E. concinnus): \"Dorsal surface of hind feet heavily furred, ventral surface well furred proximal to metatarsal pads ... Distal to metatarsal pad, hair on ventral surface restricted to fringe of short, stiff hairs along edge of foot.\" Soles thus partly furred (heel) but naked distally; does not clearly match \"densely furred soles\", so left unknown."
+    }
+   },
+   "extra_characters": {
+    "facial_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Exilisciurus differs from Nannosciurus in that 1) all species lack facial stripes",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 generic comparison (OCR-corrected). Key character separating Exilisciurus from Nannosciurus."
+    },
+    "postauricular_patch": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "no facial or body stripes, no postauricular or nape patches",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010, Exilisciurini definition."
+    },
+    "hypothenar_pad_hindfoot": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Hypothenar pad on hind foot absent.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 generic diagnosis; contrasts with Nannosciurus (outer plantar pad present but reduced)."
+    }
+   },
+   "distinguishing_notes": "Patternless pygmy squirrels (Moore 1959). vs Nannosciurus: Exilisciurus lacks the black-and-white facial stripes and black postauricular patches of N. melanotis (Heaney 1985; HMW 2016 \"These stripes differentiate the Black-eared Squirrel from species of Exilisciurus\"); hypothenar pad absent; P3 sometimes absent (29% of E. exilis). E. whiteheadi uniquely has long ear tufts. vs all other co-occurring non-flying genera: much smaller (HB 62-93 mm for Bornean species; Prosciurillus is \"still much larger than the species in Nannosciurus and Exilisciurus, the true pygmy or dwarf tree squirrels\", Musser 2010); Glyphotes (HB 94-144) has a white-over-black flank stripe and broad divergent incisors. vs flying squirrels (Petaurillus etc.): no patagium."
+  },
+  "Glyphotes": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 94,
+      "max": 144
+     },
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818722",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Glyphotes simus",
+       "quote": "Head-body 94-144 mm, tail 95-106 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "Head and body 129 millim.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Glyphotes",
+       "citation": "English Wikipedia, Glyphotes (wikitext; accessed 2026-10-03)",
+       "quote": "The body is 95 to 145 mm long",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic (G. simus). HMW range 94-144; holotype 129 mm (Thomas 1898); Wikipedia 95-145. Hayssen (2008) means 114.9-119.5."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated. Thomas (1898): \"Colour-pattern as in Sciurus notatus\" (i.e., Callosciurus notatus, which has flank stripes only); HMW: \"brownish dorsum ... is finely speckled\". Absence of mid-dorsal stripes is implied but not stated, so left unknown."
+    },
+    "flank_stripe": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "flank-stripes present (white over black).",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "white lateral line commencing broadly and abruptly just behind the elbow",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "The white lateral band is, however, rather broader and more strongly marked, especially anteriorly.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic; Ellerman saw only the type skin. Thomas (1898) also mentions \"dark lateral lines\" below the white line."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement; dorsum \"finely speckled\" (HMW), which is grizzling, not rows of spots."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement found. Thomas (1898): \"proportions of ears and limbs, and colour throughout almost precisely as in S. notatus\"."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found; Wikipedia/HMW say only that the tail tip is black (\"tip of tail blackish\", Thomas 1898)."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Muzzle short and broad; nasals short.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "Skull with the muzzle excessively short and broad",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818722",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Glyphotes simus",
+       "quote": "It has a deep, short, blunt muzzle",
+       "verbatim": true
+      }
+     ],
+     "notes": "Short, blunt muzzle - the opposite of elongate."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth |, the pattern evidently not abnormal; P. 3 small.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman 1940 (only the type skull seen): P3 present but small. Thomas (1898) gives \"length of upper tooth-series (from p.4 only)\", consistent with a P3 being present (OCR of his premolar formula is illegible). Single-specimen basis."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper and lower incisors much broadened, the lower part of the upper teeth and the upper part of the lower teeth diverging from each other, their anterior surfaces without grooves.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman 1940 key couplet that defines Glyphotes."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Ellerman: \"tail rather narrow, relatively long\" - not a statement about distichous arrangement."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Thomas (1898): \"Cheek-teeth very small in proportion, their pattern as in Sciurus\" - crown height not stated."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "incisors_broad_divergent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "Upper incisors very broad transversely, shallow antero-posteriorly",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818722",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Glyphotes simus",
+       "quote": "lower incisors distinctively diverge to assist with feeding on exudates",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "Incisors broad; lower ones with anterior faces flat or concave",
+       "verbatim": true
+      }
+     ],
+     "notes": "Diagnostic of Glyphotes in Moore (1959) key to Callosciurina (\"Incisors broad ... genus Glyphotes\" vs \"Incisors not especially broad; lower ones with anterior faces convex\")."
+    },
+    "postauricular_patch": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "indistinct whitish postauricular patches present",
+       "verbatim": true
+      }
+     ],
+     "notes": "Described as indistinct."
+    }
+   },
+   "distinguishing_notes": "Small (HB 94-144 mm) Bornean squirrel coloured like Callosciurus notatus (white-over-black flank stripe) but with a very short broad muzzle and very broad, divergent incisors (Thomas 1898; Ellerman 1940; Moore 1959 key: \"Incisors broad; lower ones with anterior faces flat or concave\"). vs Callosciurus (notatus/orestes) the incisor/muzzle characters are the separators (Thomas 1898: \"the small size and stumpy nose would always serve to distinguish the species externally\"). vs Sundasciurus: flank stripe present in Glyphotes (Sundasciurus documented spp. unstriped) and incisors. vs Exilisciurus/Nannosciurus: larger, with flank stripe, no facial stripes. Only the type was available to Ellerman; dental data are from very few specimens."
+  },
+  "Hyosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 195,
+      "max": 250
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Hyosciurus heinrichi",
+      "Hyosciurus ileile"
+     ],
+     "per_species": {
+      "Hyosciurus heinrichi": {
+       "min": 195,
+       "max": 240
+      },
+      "Hyosciurus ileile": {
+       "min": 213,
+       "max": 250
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Hyosciurus heinrichi is a moderately large, long-nosed, dark brown, and short-tailed ground squirrel (length of head and body, 195–240 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Hyosciurus ileile is of moderate size with a short tail (length of head and body, 215–250 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818644",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Hyosciurus ileile",
+       "quote": "Head-body 213-250 mm, tail 70-125 mm; weight 293-520 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6840505",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Hyosciurus heinrichi",
+       "quote": "Head-body 195-240 mm",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 Table 3 gives H. ileile LHB 213-250 (text gives 215-250); HMW 213-250."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane. Terrestrial ground squirrel (Musser 2010: \"(1) diurnal and terrestrial\")."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(3) dark brown upperparts flecked with buff and black, without ear tufts, nape patches, or dorsal stripes, but with hair reversed on nape followed by a median parting for 10–40 mm",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 emended generic diagnosis."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Hyosciurus heinrichi"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/00a9997c-144d-4a78-a23a-3d72817a17c8",
+       "citation": "Archbold & Tate 1935, A new genus and species of squirrel from Celebes. Am. Mus. Novit. 801",
+       "quote": "No accessory strip3s or spots.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Archbold & Tate 1935 description of H. heinrichi (\"strip3s\" is OCR for \"stripes\"); the only pattern element is the white mid-ventral band. Not explicitly stated for H. ileile, though Musser (2010) diagnoses the genus as \"without ... dorsal stripes\"."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Hyosciurus heinrichi"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/00a9997c-144d-4a78-a23a-3d72817a17c8",
+       "citation": "Archbold & Tate 1935, A new genus and species of squirrel from Celebes. Am. Mus. Novit. 801",
+       "quote": "No accessory strip3s or spots.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Archbold & Tate 1935 (H. heinrichi)."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "without ear tufts, nape patches, or dorsal stripes",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Chocolate brown fur flecked with buff and black covers the upperparts from the head to the base of the tail, including the ears, which lack tufts.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Generic diagnosis plus H. heinrichi description."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated. Musser (H. heinrichi): \"the tail is very dark brown with buffy and black highlights, coloration similar to the upperparts\"; Archbold & Tate: \"Tail colored essentially as body\"."
+    },
+    "snout_elongate": {
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(1) diurnal and terrestrial; (2) elongate muzzle;",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/00a9997c-144d-4a78-a23a-3d72817a17c8",
+       "citation": "Archbold & Tate 1935, A new genus and species of squirrel from Celebes. Am. Mus. Novit. 801",
+       "quote": "nasals and premaxillae strongly produced in front of incisors",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis; Ellerman 1940 key (\"The rostrum extremely elongated\" -> Rhinosciurus, Hyosciurus). H. ileile has a shorter muzzle than H. heinrichi but still elongate (nasals 83-86% of frontal length; tube projecting beyond incisors)."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(22) third upper premolar present, fourth premolar and first and second molars wider (labial-lingual distance) than long",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "All three genera also possess third premolars and exhibit parallel upper tooth rows.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 emended generic diagnosis (53 H. heinrichi + 14 H. ileile examined). CONFLICT: the ADW account of H. heinrichi states \"The H. heinrichi dental formula is 1/1, 0/0, 1/1, 3/3\" (i.e., one upper premolar); this student-written account is contradicted by the primary revision and is not followed here, but a reviewer may wish to treat the state as [\"1\",\"2\"] for safety."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement on incisor surface found (Ellerman key separates Hyosciurus at the rostrum couplet, before the incisor-groove couplet). Ellerman: \"The upper incisors are not reduced, but are thick and strong\"."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Ellerman (1940): \"molars quite normal, Sciurine in pattern\" - crown height not stated."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not stated. Musser (H. heinrichi): \"the palmar and plantar surfaces are black\" (colour of skin, implying naked soles, but not explicit)."
+    }
+   },
+   "extra_characters": {
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(8) three pairs of teats (one abdominal and two inguinal)",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis; Rubrisciurus has 2 pairs."
+    },
+    "nape_hair_reversed": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "but with hair reversed on nape followed by a median parting for 10–40 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "have the hair in the mid-line of the nape reversed, often followed by a median parting of hair, about 3–4 cm long, between the shoulders, a condition shared only by Rhinosciurus amongst Indomalayan squirrels.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Second quote is Corbet & Hill (1992) as quoted by Musser et al. 2010."
+    },
+    "claws_greatly_elongated": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(7) claws very long relative to length of foot (25%–35% the length of the front foot) and only slightly shorter than the digits, thin, and slightly curved",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper incisors strong, not reduced; cheekteeth evidently without peculiarities; infraorbital foramen forming a long canal; claws much enlarged.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman key separates Hyosciurus (claws much enlarged) from Rhinosciurus (claws not enlarged)."
+    },
+    "upper_incisor_orientation": {
+     "possible_states": [
+      "opisthodont",
+      "orthodont",
+      "proodont"
+     ],
+     "states": [
+      "orthodont"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(20) upper incisors orthodont in configuration relative to the rostrum (emerging from the rostrum at a right angle)",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis."
+    },
+    "white_or_cream_midventral_band": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(4) underparts completely white or cream, or with white or cream swath marked by dark brownish gray strips and patches, or broken into segments separated by brownish gray ventral fur",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis."
+    }
+   },
+   "distinguishing_notes": "Sulawesi long-nosed ground squirrels. vs Rubrisciurus and Prosciurillus (Musser et al. 2010 generic diagnoses): elongate muzzle with nasals/premaxillae forming a tube beyond the incisors, no ear tufts/nape patches/dorsal stripe, white/cream ventral swath, tail <half HB (LT/LHB 45-49%), long slender hind feet with very long, slightly curved claws, orthodont incisors, 3 pairs of teats (one abdominal). Rubrisciurus is larger (HB 250-305) with black ear tufts and reddish underparts and 2 pairs of teats; Prosciurillus has short face, short recurved claws, proodont incisors. vs Rhinosciurus (Indonesia, Sunda): both have extremely elongated rostrum and reversed nape hair, but Rhinosciurus has much reduced upper incisors and claws not enlarged (Ellerman 1940 key), whereas Hyosciurus has strong upper incisors and greatly enlarged claws."
+  },
+  "Lariscus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 172,
+      "max": 230
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Lariscus hosei",
+      "Lariscus insignis",
+      "Lariscus niobe",
+      "Lariscus obscurus"
+     ],
+     "per_species": {
+      "Lariscus hosei": {
+       "min": 172,
+       "max": 192
+      },
+      "Lariscus insignis": {
+       "min": 187,
+       "max": 230
+      },
+      "Lariscus niobe": {
+       "min": 189,
+       "max": 205
+      },
+      "Lariscus obscurus": {
+       "min": 201,
+       "max": 202
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://de.wikipedia.org/wiki/Lariscus_hosei",
+       "citation": "German Wikipedia, article on Lariscus hosei (accessed 2026-10-03; cites Payne & Francis 1985, Medway 1977, Nowak 1999)",
+       "quote": "Das Vierstreifenhörnchen ist ein mittelgroßes Hörnchen, das eine Kopfrumpflänge von 172 bis 192 mm erreicht.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818714",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus insignis",
+       "quote": "Head-body mean 194 mm (males) and 187 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818718",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus niobe",
+       "quote": "Head-body mean 189 mm (males) and 194 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6834166",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus obscurus",
+       "quote": "Head-body mean 201 mm (males) and 202 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "Head and body 230 millim. ; tail 138 ; hind foot (wet) 46.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "Head and body 205 millim. ; tail imperfect ; hind foot 44:.",
+       "verbatim": true
+      }
+     ],
+     "notes": "True ranges available only for L. hosei (Wikipedia); others are means plus single type specimens, so actual ranges are probably wider than 172-230. Per-species notes: Lariscus hosei: German Wikipedia (sources Payne & Francis 1985 etc.); Lariscus insignis: HMW means 187-194; type of subsp. diversus 230 (Thomas 1898, skin); Lariscus niobe: HMW means 189-194; holotype 205 (Thomas 1898); Lariscus obscurus: HMW means only."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "present",
+      "absent"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Lariscus insignis",
+      "Lariscus hosei",
+      "Lariscus niobe",
+      "Lariscus obscurus"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The type and allies have three black stripes present; hosei is rather more brightly coloured, and has four black stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/18026445",
+       "citation": "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF)",
+       "quote": "with three black lines running down the back from shoulders to rump",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818718",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus niobe",
+       "quote": "The Niobe Ground Squirrelis the darkest species of the genus, with dorsum so dark that the black lateralstripes are not visible.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6834166",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus obscurus",
+       "quote": "The Mentawai Three-striped Squirrel can be distinguished from the other Lariscus species by its dark dorsum with faint longitudinalstripes.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Black dorsal stripes are a generic hallmark (3 in insignis group, 4 in hosei; Ellerman 1940, forms seen incl. niobe and siberu [=L. obscurus siberu]). \"absent\" is included ONLY because HMW (2016) says that in L. niobe the stripes are \"not visible\" on the very dark dorsum (German Wikipedia: \"kaum sichtbar\", barely visible) and they are faint in L. obscurus; Thomas (1898) described the L. niobe type with three black lines. A key should not rely on visible stripes for L. niobe/L. obscurus."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement. Thomas (1898) for L. insignis diversus describes brilliant rufous flanks contrasting with the ashy-grey fur between the black dorsal lines (no flank stripe mentioned); German Wikipedia for L. hosei says the inner and outer black stripes are separated by very pale lines. Whether the outer black stripes lie on the flanks is not clear."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_rings": {
+     "states": [
+      "present"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Lariscus hosei"
+     ],
+     "evidence": [
+      {
+       "url": "https://de.wikipedia.org/wiki/Lariscus_hosei",
+       "citation": "German Wikipedia, article on Lariscus hosei (accessed 2026-10-03; cites Payne & Francis 1985, Medway 1977, Nowak 1999)",
+       "quote": "Der Schwanz ist orangegrau mit schwarzen Ringeln.",
+       "verbatim": true
+      }
+     ],
+     "notes": "German Wikipedia (weaker source; presumably from Payne & Francis 1985). Not documented for other species; L. niobe has tail hairs ringed with black and yellow (Thomas 1898) and a dark mid-ventral tail line (HMW), which is hair banding rather than an annulated tail."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Rostrum tending to be long.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6834166",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Lariscus obscurus",
+       "quote": "Muzzle is also particularly long.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus and Hyosciurus have \"The rostrum extremely elongated\"; all other genera of his Sciurus group fall under \"The rostrum not extremely elongated.\" CAVEAT: Lariscus has a moderately long rostrum (\"tending to be long\", Ellerman), and L. obscurus and L. insignis rostratus have notably long muzzles (HMW), but none is described as extremely elongated/shrew-like like Rhinosciurus."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "but usually completely simple; P. 3 present.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman 1940 generic account of Lariscus: \"Upper cheekteeth with a vague pattern ... sometimes traceable, but usually completely simple; P. 3 present.\" Forms seen include insignis, hosei, niobe and siberu (=L. obscurus siberu)."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key to the Sciurus group: after the rostrum couplet, genera with grooved (Rheithrosciurus) or broadened (Glyphotes) incisors are separated from all remaining genera, whose upper incisors are \"without extreme abnormalities\" and whose anterior surfaces are without grooves. This node includes Nannosciurus s.l., Sciurillus (incl. P. murinus), Lariscus, Callosciurus s.l. (incl. Sundasciurus spp., leucomus, rubriventer) and Dremomys (incl. everetti)."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW (L. insignis): \"Furis thin on body and tail is relatively flat\" (German Wikipedia: \"der Schwanz ist abgeflacht\"); whether this amounts to a strongly flattened, distichous tail is not stated."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth hypsodont, almost completely simplified in pattern.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman 1940 generic characters. Moore (1959) key: in Lariscus \"Upper cheek tooth with largest occlusal area is the fourth premolar; occlusal surfaces of unworn cheek teeth are of mild relief\"."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Lariscus insignis",
+      "Lariscus hosei"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Mammae, type species 6 (Thomas).",
+       "verbatim": true
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Lariscus_hosei",
+       "citation": "German Wikipedia, article on Lariscus hosei (accessed 2026-10-03; cites Payne & Francis 1985, Medway 1977, Nowak 1999)",
+       "quote": "Das Weibchen hat drei Zitzenpaare.",
+       "verbatim": true
+      }
+     ],
+     "notes": "6 mammae = 3 pairs."
+    },
+    "p4_largest_upper_cheek_tooth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "Upper cheek tooth with largest occlusal area is the fourth premolar; occlusal surfaces of unworn cheek teeth are of mild relief",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore 1959 key to Callosciurina: defines genus Lariscus (vs Menetes, Dremomys)."
+    }
+   },
+   "distinguishing_notes": "Striped ground squirrels: 3 (insignis group) or 4 (hosei) black dorsal stripes (Ellerman 1940), faint/obscured in the very dark L. niobe and L. obscurus. Cheek teeth hypsodont and simplified, P4 the largest upper cheek tooth (Ellerman 1940; Moore 1959). Tail short (~60% of HB). vs Tamiops (also dorsally striped): not resolved here (Tamiops in another group); Lariscus is much larger (HB ~172-230 vs small Tamiops) and terrestrial. vs Rhinosciurus/Hyosciurus: rostrum not extremely elongated (Ellerman key). vs Sundasciurus/Callosciurus/Dremomys: dorsal black stripes and simplified hypsodont cheek teeth."
+  },
+  "Nannosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 62,
+      "max": 82
+     },
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Species of pygmy squirrels in Nannosciurus (length of head and body 5 62–82 mm)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818668",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Nannosciurus melanotis",
+       "quote": "Head—body mean 79-6 mm (males) and 79 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf",
+       "citation": "Hayssen 2008, Patterns of body and tail length and body mass in Sciuridae. J. Mammal. 89: 852-873",
+       "quote": "Exilisciurus and Nannosciurus are small (,100 mm), whereas Rubrisciurus is large (.250 mm).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic (N. melanotis). Musser et al. 2010 (citing Payne et al. 1985, Bornean animals) 62-82 mm; \"5\" is the PDF glyph for \"=\". HMW means 79-79.6 (\"79-6\" = 79.6). Javan/Sumatran populations may differ slightly."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Pelage plain agouti, except for four prominent facial stripes and two postauricular patches.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818668",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Nannosciurus melanotis",
+       "quote": "Dorsum of the Black-eared Squirrel is plain pale agouti, with a black stripe from nose to eye",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 generic diagnosis (OCR-corrected). Stripes are confined to the face."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Pelage plain agouti, except for four prominent facial stripes and two postauricular patches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Only facial stripes and postauricular patches interrupt the plain agouti pelage."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818668",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Nannosciurus melanotis",
+       "quote": "Dorsum of the Black-eared Squirrel is plain pale agouti",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    },
+    "ear_tufts": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Exilisciurus whiteheadi has elongate black and white hairs on its pinnae that form long gray tufts. These are unique among callosciurines.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 character 20 (ear tufts); in his Table 6 (read from page image) N. melanotis is coded 0 (absent). Back of ear black (no tuft described in any account)."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found. Heaney: \"Tail heavily furred, but only slightly bushy.\""
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus and Hyosciurus have \"The rostrum extremely elongated\"; all other genera of his Sciurus group fall under \"The rostrum not extremely elongated.\""
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "P. 3 present;",
+       "verbatim": true
+      },
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "P3 small, about one-third diameter of P4, with small antero-labial cusp and postero-lingual basin surrounded by continuous circumferential ridge.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940, Nannosciurus s.l.) and Heaney (1985, N. melanotis). No report of P3 absence in N. melanotis."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Incisors procumbent, but less so than in Exilisciurus. Anterior surf'ace smooth, yellow.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 (N. melanotis description; \"surf'ace\" is OCR in source)."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Heaney (1985): \"Teeth small, higher-crowned than in Exilisciurus\" - relative statement only."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "facial_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Nannosciurus melanotis has unique dark and light stripes that extend from the rhinarium to behind the ear; no other callosciurine has facial stripes beyond simple dark regions adjacent to the eyes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818668",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Nannosciurus melanotis",
+       "quote": "These stripes differentiate the Black-eared Squirrel from species of Exilisciurus.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 character 21. (Heaney's \"no other callosciurine\" overlooks Tamiops cheek stripes, which are a different pattern.)"
+    },
+    "postauricular_patch": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818668",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Nannosciurus melanotis",
+       "quote": "Back of ear and patch of fur just behind it are black.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    },
+    "hypothenar_pad_hindfoot": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "The hypothenar pad is a circular speck, proximal to the third plantar pad.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Reduced but present (absent in Exilisciurus)."
+    }
+   },
+   "distinguishing_notes": "Black-eared pygmy squirrel (HB 62-82 mm). vs Exilisciurus: prominent black-and-white facial stripes and black ear-backs/postauricular patch (Heaney 1985; HMW 2016), P3 always present, hypothenar pad present, maxillary toothrows parallel. vs all other co-occurring non-volant genera: much smaller. vs pygmy flying squirrels (Petaurillus): no patagium."
+  },
+  "Prosciurillus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 102,
+      "max": 195
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Prosciurillus leucomus",
+      "Prosciurillus alstoni",
+      "Prosciurillus topapuensis",
+      "Prosciurillus weberi",
+      "Prosciurillus rosenbergii",
+      "Prosciurillus murinus",
+      "Prosciurillus abstrusus"
+     ],
+     "per_species": {
+      "Prosciurillus leucomus": {
+       "min": 165,
+       "max": 188
+      },
+      "Prosciurillus alstoni": {
+       "min": 157,
+       "max": 195
+      },
+      "Prosciurillus topapuensis": {
+       "min": 155,
+       "max": 190
+      },
+      "Prosciurillus weberi": {
+       "min": 187,
+       "max": 187
+      },
+      "Prosciurillus rosenbergii": {
+       "min": 190,
+       "max": 190
+      },
+      "Prosciurillus murinus": {
+       "min": 102,
+       "max": 150
+      },
+      "Prosciurillus abstrusus": {
+       "min": 115,
+       "max": 148
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Squirrels of medium build (length of head and body 5 155–195 mm) exhibiting a combination of dorsal and ventral pelage coloration along with patterns associated with ear tufts, nape patches, and middorsal back striping comprise the P. leucomus group",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Small-size squirrels (length of head and body 5 102– 150 mm) with dark brown upperparts",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818660",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus weberi",
+       "quote": "Head-body 187 mm, tail 142 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818648",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus rosenbergii",
+       "quote": "Head-body 190 mm, tail 180 mm.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Per-species values from Musser et al. 2010 Table 3 / Table 12 (\"5\" = \"=\" glyph). Per-species notes: Prosciurillus weberi: single value; Prosciurillus rosenbergii: single value."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane. Ellerman placed leucomus/rosenbergi in Callosciurus and murinus in Sciurillus."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Prosciurillus weberi",
+      "Prosciurillus murinus",
+      "Prosciurillus leucomus",
+      "Prosciurillus alstoni",
+      "Prosciurillus topapuensis",
+      "Prosciurillus rosenbergii",
+      "Prosciurillus abstrusus"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "or exhibiting black ear tufts and prominent black middorsal stripe from neck to base of tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "It is distinguished from all the hitherto known East-Indian-Squirrels by having a rather broad black band along the spine of the back, running from the neck, increasing in broadness in the middle of the back and diminishing towards the root of the tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(2) lack of ear tufts, nape patches, middorsal black stripe, or any other patterning formed by different colored stripes and patches",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present only in P. weberi (broad black mid-dorsal stripe; Jentink 1890 as quoted by Musser; Musser Table 12 \"Mid-dorsal stripe: Not present\" for leucomus, alstoni, topapuensis, rosenbergii). Absent in P. murinus (third quote, P. murinus diagnosis) and the rest. NOTE: HMW 2016 rosenbergii account says \"presence of middorsal stripe, and nape patches\" - this conflicts with Musser Table 12 and appears to be a garbled sentence; Musser (primary revision) followed."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(2) upperpart dark brown or chestnut brown and without pattern, or lacking pattern except for black ear tufts, or possessing black ear tufts with nape patches behind ears, or exhibiting black ear tufts and prominent black middorsal stripe from neck to base of tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(2) lack of ear tufts, nape patches, middorsal black stripe, or any other patterning formed by different colored stripes and patches",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis enumerates all pattern elements in the genus (none is a flank stripe); P. murinus explicitly lacks any stripes."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Prosciurillus murinus"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(2) lack of ear tufts, nape patches, middorsal black stripe, or any other patterning formed by different colored stripes and patches",
+       "verbatim": true
+      }
+     ],
+     "notes": "Explicit for P. murinus. Generic diagnosis lists no spots for any species, but HMW/Musser describe sides as \"spotted with black and pale buff\" in the P. leucomus group, which is grizzling of individual hairs, not rows of spots."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Prosciurillus leucomus",
+      "Prosciurillus alstoni",
+      "Prosciurillus weberi",
+      "Prosciurillus topapuensis",
+      "Prosciurillus rosenbergii",
+      "Prosciurillus murinus",
+      "Prosciurillus abstrusus"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "possessing black ear tufts with nape patches behind ears",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818652",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus murinus",
+       "quote": "Pelage 1s dark brown on dorsum, without any ear tufts, nape patches, or dorsal stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818658",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus alstoni",
+       "quote": "Cheeks are buffy to ocherous and ears have conspicuous white tufts 5-8 mm long. Color of white tufts varies from pure white to whitish buff, but tufts can be absent in some individuals.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/b2bd5fb5-4645-4b39-aadc-0e0c5fe0a1c7",
+       "citation": "Moore 1958, A new species and a redefinition of the squirrel genus Prosciurillus of Celebes. Am. Mus. Novit. 1890",
+       "quote": "The presence or absence of ear tufts, therefore, is apparently not seasonal.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser Table 12: tufts black and prominent in leucomus and weberi, white (absent in some specimens) in alstoni, black prominent-to-faint in topapuensis, not present in rosenbergii; absent in murinus and abstrusus (abstrusus has white fur on backs of ears). Ellerman 1940 claimed tufts in rosenbergi - conflicts with Musser."
+    },
+    "tail_rings": {
+     "states": [
+      "present"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Prosciurillus leucomus",
+      "Prosciurillus topapuensis",
+      "Prosciurillus alstoni"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "The overall effect is rings of black and buff with buffy bands outlining margins of the tail and long black hairs forming a black terminal tuft.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818654",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus leucomus",
+       "quote": "tail is ringed black and buff with a black tuft at tip",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818656",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Prosciurillus topapuensis",
+       "quote": "Tail has black and buffy rings, with a black terminal tuft.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ringed in the P. leucomus group (leucomus, topapuensis; alstoni \"alternates black and buff bands\" per HMW). P. rosenbergii: \"blackish tail\" with \"undistinct rings\" (Jentink, quoted by Musser). P. murinus/abstrusus tails are described with banded hairs but not as ringed - absence not explicitly documented."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(1) short face and much smaller in body size",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(8) rostrum short and wide, nasals and premaxillaries not forming a tube projecting beyond faces of upper incisors",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis (vs Hyosciurus)."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "All three genera also possess third premolars and exhibit parallel upper tooth rows.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010, Prosciurillus generic account (statement covers Rubrisciurus, Prosciurillus and Hyosciurus)."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key to the Sciurus group: after the rostrum couplet, genera with grooved (Rheithrosciurus) or broadened (Glyphotes) incisors are separated from all remaining genera, whose upper incisors are \"without extreme abnormalities\" and whose anterior surfaces are without grooves. This node includes Nannosciurus s.l., Sciurillus (incl. P. murinus), Lariscus, Callosciurus s.l. (incl. Sundasciurus spp., leucomus, rubriventer) and Dremomys (incl. everetti)."
+    },
+    "tail_distichous": {
+     "states": [
+      "yes"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Prosciurillus rosenbergii"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "as the tail is distichous it is evident, that on the underside the red tinge prevails.",
+       "verbatim": true
+      }
+     ],
+     "notes": "From Jentink's (1879) original description of Sciurus rosenbergii, quoted by Musser et al. 2010. Not documented for other species."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found. Heaney (1985) describes P. leucomus hind-foot pads as large, like Sundasciurus."
+    }
+   },
+   "extra_characters": {
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(6) three pairs of teats, one postaxillary and two inguinal (two inguinal pairs in Rubrisciurus; one abdominal pair and two inguinal pairs in Hyosciurus)",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis."
+    },
+    "nape_patches": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "possessing black ear tufts with nape patches behind ears",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present only in P. leucomus (Musser Table 12: expansive white to whitish buff patches; not present on a few specimens)."
+    },
+    "upper_incisor_orientation": {
+     "possible_states": [
+      "opisthodont",
+      "orthodont",
+      "proodont"
+     ],
+     "states": [
+      "proodont"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(16) upper incisors proodont (procumbent), projecting forward (orthodont, oriented at right angle to rostrum in Hyosciurus)",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    }
+   },
+   "distinguishing_notes": "Sulawesi dwarf/tree squirrels (HB 102-195). vs Rubrisciurus: much smaller (Rubrisciurus 250-305), 3 pairs of teats (vs 2), no reddish limbs; vs Hyosciurus: short face, no nasal tube, short recurved claws, tail nearly as long as HB, proodont incisors (Musser 2010). vs Exilisciurus/Nannosciurus: much larger (Musser 2010). vs Sundasciurus/Callosciurus (both in Indonesia but not on Sulawesi mainland): no clean external character found; cranially Sundasciurus has the anteromesial bullar lobe formed by a Y/T-shaped septum (Moore 1958) and Prosciurillus a short orbit and no transbullar septa in >50% of skulls (Musser 2010). Ear tufts, nape patches and the black mid-dorsal stripe (P. weberi) vary among species."
+  },
+  "Rhinosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 185,
+      "max": 242
+     },
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/",
+       "citation": "Animal Diversity Web account, Rhinosciurus laticaudatus (cites Francis 1985; Lekagul 1977; Medway 1969; Nowak 1999)",
+       "quote": "The length of the head and the body of R. laticaudatus is approximately 185 to 242 mm, while the tail is 95 to 150 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "length of head and body 5 195–233 mm for R. laticaudatus [Payne et al., 1985: 242]",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818712",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rhinosciurus laticaudatus",
+       "quote": "Head-body 195-215 mm, tail 115-140 mm.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic. Union of ADW (185-242), Payne et al. via Musser (195-233, Borneo) and HMW (195-215)."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement. Descriptions give a plain dark/reddish-brown or grizzled olive-brown dorsum with white or yellowish-white sides and underparts (HMW; ADW) without mentioning stripes."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement (see dorsal_stripes)."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "ADW: \"The short, bushy tail is often held upwards and has gray fur with white tips.\" No statement on annulation."
+    },
+    "snout_elongate": {
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Skull highly abnormal, with immensely elongated rostrum;",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818712",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rhinosciurus laticaudatus",
+       "quote": "Muzzle is long and tail is held frequently upwards.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/",
+       "citation": "Animal Diversity Web account, Rhinosciurus laticaudatus (cites Francis 1985; Lekagul 1977; Medway 1969; Nowak 1999)",
+       "quote": "The most defining characteristic of Rhinosciurus is its elongated rostrum.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Common name shrew-faced squirrel."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "P. 3 large, well developed.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "The diameter of the third upper premolar is about two-thirds of that of the fourth upper premolar.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/",
+       "citation": "Animal Diversity Web account, Rhinosciurus laticaudatus (cites Francis 1985; Lekagul 1977; Medway 1969; Nowak 1999)",
+       "quote": "On each side of the upper jaw, there are two relatively simple premolars.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore 1959 generic diagnosis item 3; Ellerman 1940."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No explicit statement on grooves. Upper incisors \"much reduced, very narrow, nearly vestigial\" (Ellerman 1940)."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Ellerman: \"Tail bushy, considerably shorter than head and body length.\" Nothing on distichous arrangement (despite the name laticaudatus)."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not stated; Ellerman notes upper cheek teeth \"rapidly wearing down and simplifying\", which is not a statement about crown height."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "upper_incisors_reduced": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper incisors much reduced; cheekteeth tending to wear down to the roots in adult; infraorbital foramen barely forming a canal; claws not enlarged.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "The upper incisors are dwarfed (diameters about 1.0 mm. by 1.5 mm.).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman key separates Rhinosciurus from Hyosciurus (strong incisors, enlarged claws)."
+    },
+    "claws_greatly_elongated": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper incisors much reduced; cheekteeth tending to wear down to the roots in adult; infraorbital foramen barely forming a canal; claws not enlarged.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    },
+    "nape_hair_reversed": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "have the hair in the mid-line of the nape reversed, often followed by a median parting of hair, about 3–4 cm long, between the shoulders, a condition shared only by Rhinosciurus amongst Indomalayan squirrels.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Corbet & Hill (1992) quoted by Musser 2010 - said of Hyosciurus, with Rhinosciurus sharing it."
+    },
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/",
+       "citation": "Animal Diversity Web account, Rhinosciurus laticaudatus (cites Hayssen et al.; Nowak 1999)",
+       "quote": "Females have two pairs of mammae and their litters can range from one to two offspring.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    }
+   },
+   "distinguishing_notes": "Shrew-faced ground squirrel. Extremely elongated rostrum separates it from all co-occurring genera except Hyosciurus (Sulawesi); vs Hyosciurus: upper incisors dwarfed and claws not enlarged (Ellerman 1940; Moore 1959). vs Lariscus/Dremomys/Sundasciurus everetti (moderately long-nosed): rostrum extremely elongated (Ellerman key couplet 1). vs treeshrews (not squirrels): shorter gape, bushier tail (Wikipedia)."
+  },
+  "Rubrisciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 250,
+      "max": 305
+     },
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "Rubrisciurus rubriventer is the largestbodied of the species of tree squirrels endemic to Sulawesi (length of head and body, 250– 305 mm; length of hind foot, 67–77 mm; weight, 500–860 g; see tables 2, 7)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818646",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rubrisciurus rubriventer",
+       "quote": "Head-body 150-305 mm, tail 180-255 mm; weight 500-860 g.",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf",
+       "citation": "Hayssen 2008, Patterns of body and tail length and body mass in Sciuridae. J. Mammal. 89: 852-873",
+       "quote": "Exilisciurus and Nannosciurus are small (,100 mm), whereas Rubrisciurus is large (.250 mm).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser et al. 2010 adult range 250-305 (92 specimens). HMW 2016 gives 150-305; the 150 lower bound is inconsistent with Musser's adult data (possibly includes juveniles or a typo) and is not used."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane. Ellerman treated rubriventer in Callosciurus."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated. Musser (2010) diagnosis: \"(2) upperparts of head and back rich brown speckled with orange, buff, and black, surrounded by dark reddish fore legs and feet, shoulders, thighs, and hind legs and feet\" - no stripe mentioned, but absence is not stated explicitly."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated (see dorsal_stripes); sides of body are dark reddish maroon (Musser 2010)."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated; upperparts \"speckled\" (grizzled)."
+    },
+    "ear_tufts": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(5) back of ears densely covered with glossy black hairs that project beyond pinnae margins to form prominent black tufts",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818646",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rubrisciurus rubriventer",
+       "quote": "Ears have prominent glossy black tufts",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 emended generic diagnosis."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Musser: \"a reddish brown tail\"; Mueller & Schlegel (quoted by Musser): \"Hairs of the tail black, toward the tips with broad, faintly reddish-brown rings\" (hair banding). Annulation of the tail as a whole not stated."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(8) rostrum moderately long relative to rest of skull, nasals about as long as frontals and longer than width of interorbital region",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moderately long rostrum (cranial), not an extremely elongated/shrew-like snout; Ellerman's Callosciurus (incl. rubriventer) keys out under \"rostrum not extremely elongated\"."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(20) third upper premolar present, fourth premolar and three molars robust",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "All three genera also possess third premolars and exhibit parallel upper tooth rows.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 emended generic diagnosis."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key to the Sciurus group: after the rostrum couplet, genera with grooved (Rheithrosciurus) or broadened (Glyphotes) incisors are separated from all remaining genera, whose upper incisors are \"without extreme abnormalities\" and whose anterior surfaces are without grooves. This node includes Nannosciurus s.l., Sciurillus (incl. P. murinus), Lariscus, Callosciurus s.l. (incl. Sundasciurus spp., leucomus, rubriventer) and Dremomys (incl. everetti). Ellerman examined two skulls of rubriventer."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found (\"great bushy tail\", Musser)."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(5) back of ears densely covered with glossy black hairs that project beyond pinnae margins to form prominent black tufts; (6) two pairs of inguinal teats",
+       "verbatim": true
+      }
+     ],
+     "notes": "Musser 2010 generic diagnosis; contrasts with 3 pairs in Prosciurillus and Hyosciurus (\"all females show three pairs of teats\")."
+    },
+    "reddish_limbs_and_underparts": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(3) underparts bright reddish orange; (4) tail reddish brown and shorter than length of head and body",
+       "verbatim": true
+      }
+     ],
+     "notes": "With dark reddish fore and hind legs, shoulders and thighs (diagnosis item 2)."
+    },
+    "upper_incisor_orientation": {
+     "possible_states": [
+      "opisthodont",
+      "orthodont",
+      "proodont"
+     ],
+     "states": [
+      "proodont"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "(18) upper incisors strongly proodont (procumbent), emerging from the rostrum at an angle appreciably greater than 90u",
+       "verbatim": true
+      }
+     ],
+     "notes": "\"90u\" = 90 degrees (glyph)."
+    }
+   },
+   "distinguishing_notes": "Sulawesi giant red squirrel (HB 250-305). vs Prosciurillus and Hyosciurus: much larger, bright reddish-orange underparts and dark reddish limbs/shoulders/thighs, prominent glossy black ear tufts, 2 (not 3) pairs of teats, long sagittal crest (Musser 2010). vs Sundasciurus hippurus (similar size/colour, Sunda Shelf): Mueller & Schlegel (1844, quoted by Musser) distinguished it by \"the ears larger and much more strongly covered with black hairs, which are very long, hence protrude far above the ears\" (i.e., ear tufts). vs Ratufa and Rheithrosciurus: smaller (Musser 2010); vs Rheithrosciurus additionally smooth proodont incisors and no flank stripe."
+  },
+  "Sundasciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 109,
+      "max": 250
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Sundasciurus fraterculus",
+      "Sundasciurus robinsoni",
+      "Sundasciurus lowii",
+      "Sundasciurus natunensis",
+      "Sundasciurus hippurus",
+      "Sundasciurus everetti",
+      "Sundasciurus jentinki",
+      "Sundasciurus brookei",
+      "Sundasciurus altitudinis",
+      "Sundasciurus tahan",
+      "Sundasciurus davensis",
+      "Sundasciurus hoogstraali",
+      "Sundasciurus juvencus",
+      "Sundasciurus mindanensis",
+      "Sundasciurus moellendorffi",
+      "Sundasciurus philippinensis",
+      "Sundasciurus rabori",
+      "Sundasciurus samarensis",
+      "Sundasciurus steerii",
+      "Sundasciurus tenuis"
+     ],
+     "per_species": {
+      "Sundasciurus fraterculus": {
+       "min": 109,
+       "max": 125
+      },
+      "Sundasciurus robinsoni": {
+       "min": 112,
+       "max": 140
+      },
+      "Sundasciurus lowii": {
+       "min": 127,
+       "max": 169
+      },
+      "Sundasciurus natunensis": {
+       "min": 133,
+       "max": 152
+      },
+      "Sundasciurus hippurus": {
+       "min": 215,
+       "max": 250
+      },
+      "Sundasciurus everetti": {
+       "min": 155,
+       "max": 175
+      },
+      "Sundasciurus jentinki": {
+       "min": 126,
+       "max": 131
+      },
+      "Sundasciurus brookei": {
+       "min": 152,
+       "max": 169
+      },
+      "Sundasciurus tenuis": {
+       "min": 136,
+       "max": 141
+      },
+      "Sundasciurus altitudinis": {
+       "min": 150,
+       "max": 150
+      },
+      "Sundasciurus tahan": {
+       "min": 155,
+       "max": 155
+      },
+      "Sundasciurus davensis": {
+       "min": 198,
+       "max": 198
+      },
+      "Sundasciurus hoogstraali": {
+       "min": 202,
+       "max": 203
+      },
+      "Sundasciurus juvencus": {
+       "min": 195,
+       "max": 201
+      },
+      "Sundasciurus mindanensis": {
+       "min": 200,
+       "max": 203
+      },
+      "Sundasciurus moellendorffi": {
+       "min": 200,
+       "max": 200
+      },
+      "Sundasciurus philippinensis": {
+       "min": 193,
+       "max": 194
+      },
+      "Sundasciurus rabori": {
+       "min": 163,
+       "max": 183
+      },
+      "Sundasciurus samarensis": {
+       "min": 185,
+       "max": 191
+      },
+      "Sundasciurus steerii": {
+       "min": 199,
+       "max": 200
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://doi.org/10.3389/fevo.2020.00208",
+       "citation": "Hinckley, Hawkins, Achmadi, Maldonado & Leonard 2020, Ancient divergence driven by geographic isolation and ecological adaptation in forest dependent Sundaland tree squirrels. Front. Ecol. Evol. 8:208",
+       "quote": "S. robinsoni is smaller (head-body range: 112–140 mm; body mass range: 49–77 g) than S. lowii (head-body range: 127–169 mm; body mass range: 60–125 g), somewhat smaller but overlapping in size with S. natunensis (head-body range: 133–152 mm) and slightly larger but quite overlapping in size with S. fraterculus (head-body range: 109– 125 mm).",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sundasciurus_hippurus/",
+       "citation": "Animal Diversity Web account, Sundasciurus hippurus (cites Lekagul & McNeely 1977; Medway 1978)",
+       "quote": "Head and body length ranges from 21.5 cm to 25 cm and tail length from 24 to 29 cm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818704",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus everetti",
+       "quote": "Head-body 155-175 mm, tail 98-111 mm; weight c.130 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818684",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus hippurus",
+       "quote": "Head—body mean 247 mm (males) and 235 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818706",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus jentinki",
+       "quote": "Head-body mean 130 mm (males) and 126 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818702",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus brookei",
+       "quote": "Head-body mean 154 mm (males) and 152 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6840531",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus altitudinis",
+       "quote": "Head-body 150 mm, tail 115 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818688",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus tahan",
+       "quote": "Head-body 155 mm, tail 104 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818698",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus davensis",
+       "quote": "Head-body mean 198 mm, tail mean 182 mm (males).",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818670",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus hoogstraali",
+       "quote": "Head-body mean 203 mm (males) and 202 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818680",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus juvencus",
+       "quote": "Head-body mean 201 mm (males) and 195 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818694",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus mindanensis",
+       "quote": "Head-body mean 203 mm (males) and 200 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818676",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus moellendorffi",
+       "quote": "Head-body 200 mm, tail 190 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818672",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus philippinensis",
+       "quote": "Head-body mean 193 mm (males) and 194 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6835655",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus rabori",
+       "quote": "Head-body mean 183 mm (males) and 163 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818674",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus samarensis",
+       "quote": "Head-body mean 191 mm (males) and 185 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818682",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus steerii",
+       "quote": "Head-body mean 200 mm (males) and 199 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins et al. 2016, Mol. Phylogenet. Evol. 94: 752-764, Table 2 (columns: n, HB mean, Tail mean, T/HB, ...)",
+       "quote": "Sundasciurus tenuis 7 136.3 115.7 0.85",
+       "verbatim": true
+      }
+     ],
+     "notes": "Genus min/max = fraterculus range minimum (109; Hinckley 2020) and hippurus range maximum (250; ADW citing Lekagul & McNeely, Medway). HMW mean for male hippurus is 247. True ranges are available only for 6 species; for the rest only means/single specimens, so individuals may fall slightly outside 109-250. S. tenuis per-species values: Hawkins et al. 2016 Table 2 mean HB 136.3 (n=7); Hayssen 2008 means 138.9-140.7 (table row quoted: n=7, mean HB 136.3, mean tail 115.7). Per-species notes: Sundasciurus jentinki: means only (HMW; Hayssen 126.6-131.1); Sundasciurus brookei: means only (HMW; Hayssen 151.9-168.8); Sundasciurus tenuis: means only (Hawkins 2016 Table 2 mean 136.3; Hayssen 138.9-140.7); Sundasciurus altitudinis: single value; Sundasciurus tahan: single value; Sundasciurus davensis: mean; Sundasciurus hoogstraali: means; Sundasciurus juvencus: means; Sundasciurus mindanensis: means; Sundasciurus moellendorffi: single specimen; Sundasciurus philippinensis: means; Sundasciurus rabori: means; Sundasciurus samarensis: means; Sundasciurus steerii: means."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Sundasciurus davensis",
+      "Sundasciurus brookei",
+      "Sundasciurus philippinensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818698",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus davensis",
+       "quote": "The Davao Squirrel has buffy colored cheeks and a mid-dorsal stripe extending from nose to base of tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "frequently more or less unicolor, as in brookei",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present in S. davensis (Mindanao; dark russet-tipped mid-dorsal stripe). Ellerman (1940) describes his hippurus group (hippurus, pryeri, brookei, philippinensis, steerei, juvencus, mindanensis, samarensis) as \"frequently more or less unicolor, as in brookei, philippinensis, etc.\" HMW notes a darker mid-dorsal area in S. mindanensis and a rufous mid-dorsal wash in S. hippurus ornatus, which a user might read as a stripe."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sundasciurus brookei",
+      "Sundasciurus philippinensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "frequently more or less unicolor, as in brookei",
+       "verbatim": true
+      }
+     ],
+     "notes": "Only indirect: \"more or less unicolor\" species (brookei, philippinensis). No Sundasciurus account read mentions a flank stripe, but absence is not explicitly stated for most species."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sundasciurus brookei",
+      "Sundasciurus philippinensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "frequently more or less unicolor, as in brookei",
+       "verbatim": true
+      }
+     ],
+     "notes": "Indirect (unicolor)."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sundasciurus jentinki",
+      "Sundasciurus tenuis",
+      "Sundasciurus hippurus",
+      "Sundasciurus everetti"
+     ],
+     "evidence": [
+      {
+       "url": "https://hdl.handle.net/2027.42/56414",
+       "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
+       "quote": "Exilisciurus whiteheadi has elongate black and white hairs on its pinnae that form long gray tufts. These are unique among callosciurines.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13223327",
+       "citation": "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1)",
+       "quote": "but the ears larger and much more strongly covered with black hairs, which are very long, hence protrude far above the ears.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818704",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus everetti",
+       "quote": "The Bornean Mountain Ground Squirrel is a dark squirrel with rounded ears",
+       "verbatim": true
+      }
+     ],
+     "notes": "Heaney 1985 Table 6 (read from page image) codes ear tufts 0 for S. jentinki and S. tenuis. Mueller & Schlegel (1844, quoted by Musser 2010) separated Rubrisciurus from S. hippurus by its long black ear hairs, implying S. hippurus lacks such tufts. No Sundasciurus account read mentions ear tufts."
+    },
+    "tail_rings": {
+     "states": [
+      "present",
+      "absent"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Sundasciurus philippinensis",
+      "Sundasciurus tahan",
+      "Sundasciurus brookei",
+      "Sundasciurus jentinki",
+      "Sundasciurus hippurus"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818672",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus philippinensis",
+       "quote": "Venter varies from gray to dull orange-brown and tail is annulated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818688",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus tahan",
+       "quote": "venter is gray, and tail is annulated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818702",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus brookei",
+       "quote": "Tail is barred.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818706",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus jentinki",
+       "quote": "Tail is thin and has a banded dark and pale look, due to the reddish, black, and white hair bands.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818684",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Sundasciurus hippurus",
+       "quote": "venter is deep brick red and tail is extremely thick, bushy, and completely glassy black.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sundasciurus_hippurus/",
+       "citation": "Animal Diversity Web account, Sundasciurus hippurus (cites Payne 1985; Lekagul & McNeely 1977; Medway 1978; Corbet & Hill 1992)",
+       "quote": "The tail is glossy black or grey and black banded.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Annulated/barred in philippinensis, tahan, brookei, jentinki (and some hippurus); completely black (unringed) in Malay Peninsula S. hippurus."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764 (doi:10.1016/j.ympev.2015.10.023)",
+       "quote": "The plain long-nosed squirrels have relatively long rostra and short tails, whereas the Sunda squirrels have shorter rostra and variable tail lengths",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus and Hyosciurus have \"The rostrum extremely elongated\"; all other genera of his Sciurus group fall under \"The rostrum not extremely elongated.\" CAVEAT: S. everetti (formerly Dremomys everetti) has a relatively long rostrum like Dremomys (Hawkins 2016 Table 3: rostral length \"Long\"; ADW: \"relatively long snout\"); Ellerman keyed Dremomys (incl. everetti) under \"rostrum not extremely elongated\", so it is not considered shrew-like here."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764 (doi:10.1016/j.ympev.2015.10.023)",
+       "quote": "the relative size and position of the upper premolars, P3 and P4 (P3 regarded as small relative to, and situated lateral to, P4, in Dremomys, and larger and more directly anteriorly placed relative to P4 in Sundasciurus: Corbet and Hill, 1992)",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sundasciurus_hippurus/",
+       "citation": "Animal Diversity Web account, Sundasciurus hippurus (cites Payne 1985)",
+       "quote": "The dental formula is 1/1 0/0 2/1 3/3 = 22.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "further, P. 3 is strong as a rule",
+       "verbatim": true
+      }
+     ],
+     "notes": "Corbet & Hill (1992, via Hawkins 2016) characterise Sundasciurus by a relatively large P3 placed anterior to P4; ADW (Payne 1985) gives 2 upper premolars for S. hippurus; Ellerman 1940 for Callosciurus s.l. (then incl. Sundasciurus) \"P. 3 is strong as a rule\". ADW S. everetti account mentions deciduous third upper premolars in juveniles."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key to the Sciurus group: after the rostrum couplet, genera with grooved (Rheithrosciurus) or broadened (Glyphotes) incisors are separated from all remaining genera, whose upper incisors are \"without extreme abnormalities\" and whose anterior surfaces are without grooves. This node includes Nannosciurus s.l., Sciurillus (incl. P. murinus), Lariscus, Callosciurus s.l. (incl. Sundasciurus spp., leucomus, rubriventer) and Dremomys (incl. everetti)."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found. Heaney (1985) describes full complement of naked plantar pads in S. tenuis and S. jentinki, but not fur density."
+    }
+   },
+   "extra_characters": {
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+       "citation": "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914",
+       "quote": "The top of it remains in all individuals, however, fencing off the unique chamber, whether inflated or not, and distinguishes them from other Callosciurini.",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764 (doi:10.1016/j.ympev.2015.10.023)",
+       "quote": "The anteromedial expansion of the auditory bulla of the BMGS was generally intermediate between species of both genera",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore 1958 generic diagnosis of Sundasciurus: Y/T-shaped transbullar septum walling off an anteromesial third lobe of the bulla, said to distinguish it from all other Callosciurini (incl. Callosciurus, Prosciurillus, Lariscus, Glyphotes, Nannosciurus). CAVEAT: in S. everetti it is \"intermediate\" (Hawkins 2016)."
+    },
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "2",
+      "3"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sundasciurus hippurus"
+     ],
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Sundasciurus_hippurus/",
+       "citation": "Animal Diversity Web account, Sundasciurus hippurus (no specific citation for this sentence)",
+       "quote": "Females have two or three pairs of mammae.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Weak source; stated in the S. hippurus account apparently for the genus."
+    }
+   },
+   "distinguishing_notes": "Sunda tree squirrels, mostly plain-coloured (HB ~109-250). Generic diagnosis is cranial: anteromesial bullar lobe formed by a Y/T-shaped septum (Moore 1958). vs Callosciurus (often with flank stripes): no flank stripe documented in Sundasciurus, bulla lobe; vs Tamiops/Lariscus: no black dorsal stripes (except the Mindanao S. davensis mid-dorsal stripe); vs Glyphotes: no white flank stripe, normal incisors; vs Dremomys: shorter rostrum and no temporal foramen (Hawkins 2016), but S. everetti is morphologically intermediate (long rostrum, short tail) - an unresolved pair externally; vs Rubrisciurus (Indonesia): no long black ear tufts (Mueller & Schlegel via Musser), smaller; vs Prosciurillus: no clean external character found (cranial bulla lobe). vs Exilisciurus/Nannosciurus: much larger, no facial stripes."
+  },
+  "Rheithrosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 334,
+      "max": 352
+     },
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818806",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rheithrosciurus macrotis",
+       "quote": "Head-body 335-352 mm, tail 299-342 mm; weight 1.2-1.3 kg.",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf",
+       "citation": "Hayssen 2008, J. Mammal. 89: 852-873, Appendix table (columns: female HB, tail, mass; male HB, tail, mass; unsexed HB, tail, mass; refs)",
+       "quote": "Rheithrosciurus macrotis 334.2 294.7 1308.1 349.8 315.7 893.0 343.5 320.5 1225.0",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic. HMW 335-352 mm; Hayssen 2008 means (female 334.2, male 349.8, unsexed 343.5 mm HB); min set to 334 because the female mean is below HMW's 335. German Wikipedia gives 40 cm (not used)."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "This group differs from the Pteromys group in the invariable absence of flying-membrane.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) places all non-flying genera (his \"Sciurus group\", which includes Nannosciurus s.l. [incl. Exilisciurus], Sciurillus [incl. P. murinus], Callosciurus s.l. [incl. Sundasciurus spp., C. leucomus, C. rubriventer], Dremomys [incl. everetti], Lariscus, Glyphotes, Rheithrosciurus, Rhinosciurus and Hyosciurus) in a group defined by the invariable absence of a flying membrane."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not explicitly stated; HMW: \"Dorsum of the Tufted Ground Squirrel is brown, with slightly grizzled reddish tone.\""
+    },
+    "flank_stripe": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818806",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rheithrosciurus macrotis",
+       "quote": "White, buff, or yellow stripe runs longitudinally along flank, sometimes in tandem with dark brownish lateral stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Rheithrosciurus_macrotis",
+       "citation": "German Wikipedia, article on Rheithrosciurus macrotis (accessed 2026-10-03; cites Payne & Francis 1985, Medway 1977, Nowak 1999)",
+       "quote": "An der Flanke verlaufen zunächst ein weißer und darunter ein dunkelbrauner Längsstreifen.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818806",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rheithrosciurus macrotis",
+       "quote": "Ears are large, with exaggerated reddish to dark brownish tufts up to 30 mm long.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "ear large, with extremely enlarged ear-tufts.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW: \"Tail is grizzled charcoal, heavily frosted with white\"; no annulation described."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Rostrum lengthened.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus and Hyosciurus have \"The rostrum extremely elongated\"; all other genera of his Sciurus group fall under \"The rostrum not extremely elongated.\" Rheithrosciurus keys out under \"rostrum not extremely elongated\" although its rostrum is \"lengthened\"/\"much elongated\" (cranial); not a shrew-like snout."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "upper_premolars": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not found. Ellerman: \"Toothrow considerably reduced, the premolars of both upper and lower series smaller than the molars\" (ambiguous about P3). Moore (1959) Fig. 4 caption for the skull of \"Reithrosciurus macrotis\" labels the maxillary teeth as \"the fourth premolar and the first, second, and third molars\" (no P3 shown in that specimen) - suggestive of a single upper premolar but not a general statement."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "grooved"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818806",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rheithrosciurus macrotis",
+       "quote": "Tufted Ground Squirrels have distinctive longitudinal groove on incisors",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper and lower incisors much thickened anteroposteriorly, with many parallel grooves on their surfaces.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "The anterior surface of the upper incisor is sculptured with fine longitudinal striations.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Diagnostic for the genus (English common name groove-toothed squirrel)."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not stated; tail described as enormously bushy (130% of body volume, HMW)."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "All teeth brachyodont",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman 1940: \"All teeth brachyodont, basin-shaped, nearly simplified in pattern\"."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "upper_incisor_orientation": {
+     "possible_states": [
+      "opisthodont",
+      "orthodont",
+      "proodont"
+     ],
+     "states": [
+      "opisthodont"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "The extremely opisthodont upper incisors are compressed",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4)",
+       "quote": "Strong opisthodonty helps to show that Reithrosciurus is not closely related to the Callosciurini, which surround it in the IndoMalayan region",
+       "verbatim": true
+      }
+     ],
+     "notes": "Contrasts with the generally proodont Callosciurini/Nannosciurinae."
+    },
+    "baculum_type": {
+     "possible_states": [
+      "sciurus_type",
+      "callosciurine_type"
+     ],
+     "states": [
+      "sciurus_type"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818806",
+       "citation": "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Rheithrosciurus macrotis",
+       "quote": "Baculum resembles axe-like structures of other species of Sciurinae rather than species of Callosciurinae common to the Indo-Malayan Region.",
+       "verbatim": true
+      }
+     ],
+     "notes": ""
+    }
+   },
+   "distinguishing_notes": "Bornean tufted ground squirrel, the only Sciurini in SE Asia. Unique among all co-occurring genera in its upper incisors with many fine longitudinal grooves (Ellerman 1940; Moore 1959; HMW 2016). Also: very large (HB 335-352; only Ratufa comparable), huge ear tufts (up to 30 mm), pale flank stripe often with dark stripe below, enormous frosted tail, opisthodont incisors, Sciurus-type baculum. vs Rubrisciurus (also large, tufted, Indonesia): flank stripe and grooved opisthodont incisors vs smooth proodont incisors and reddish underparts."
+  }
+ },
+ "sources_consulted": [
+  "Musser, Durden, Holden & Light 2010, Systematic review of endemic Sulawesi squirrels (Rodentia, Sciuridae)... Bull. Am. Mus. Nat. Hist. 339 (doi:10.1206/695.1) - https://zenodo.org/records/13223327",
+  "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4) - https://digitallibrary.amnh.org/handle/2246/1265",
+  "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914 - https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+  "Moore 1958, A new species and a redefinition of the squirrel genus Prosciurillus of Celebes. Am. Mus. Novit. 1890 - https://digitallibrary.amnh.org/items/b2bd5fb5-4645-4b39-aadc-0e0c5fe0a1c7",
+  "Archbold & Tate 1935, A new genus and species of squirrel from Celebes. Am. Mus. Novit. 801 - https://digitallibrary.amnh.org/items/00a9997c-144d-4a78-a23a-3d72817a17c8",
+  "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text - https://archive.org/details/familiesgeneraof01elle",
+  "Thomas 1898, Descriptions of new Bornean and Sumatran mammals. Ann. Mag. Nat. Hist. (7) 2: 245-251 (OCR of scanned PDF) - https://zenodo.org/records/18026445",
+  "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR) - https://hdl.handle.net/2027.42/56414",
+  "Hinckley, Hawkins, Achmadi, Maldonado & Leonard 2020, Ancient divergence driven by geographic isolation and ecological adaptation in forest dependent Sundaland tree squirrels. Front. Ecol. Evol. 8:208 - https://doi.org/10.3389/fevo.2020.00208",
+  "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764 (doi:10.1016/j.ympev.2015.10.023) - https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+  "Hayssen 2008, Patterns of body and tail length and body mass in Sciuridae. J. Mammal. 89: 852-873 - http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf",
+  "Koprowski, Goldstein, Bennett & Pereira Mendes 2016, Family Sciuridae, in Wilson, Lacher & Mittermeier (eds) Handbook of the Mammals of the World 6 (species account via Plazi/Zenodo treatment) - Zenodo/Plazi treatments: Exilisciurus concinnus https://zenodo.org/records/6818636, Exilisciurus exilis https://zenodo.org/records/6818638, Exilisciurus whiteheadi https://zenodo.org/records/6818640, Glyphotes simus https://zenodo.org/records/6818722, Hyosciurus heinrichi https://zenodo.org/records/6840505, Hyosciurus ileile https://zenodo.org/records/6818644, Lariscus hosei https://zenodo.org/records/6818716, Lariscus insignis https://zenodo.org/records/6818714, Lariscus niobe https://zenodo.org/records/6818718, Lariscus obscurus https://zenodo.org/records/6834166, Nannosciurus melanotis https://zenodo.org/records/6818668, Prosciurillus abstrusus https://zenodo.org/records/6840511, Prosciurillus alstoni https://zenodo.org/records/6818658, Prosciurillus leucomus https://zenodo.org/records/6818654, Prosciurillus murinus https://zenodo.org/records/6818652, Prosciurillus rosenbergii https://zenodo.org/records/6818648, Prosciurillus topapuensis https://zenodo.org/records/6818656, Prosciurillus weberi https://zenodo.org/records/6818660, Rheithrosciurus macrotis https://zenodo.org/records/6818806, Rhinosciurus laticaudatus https://zenodo.org/records/6818712, Rubrisciurus rubriventer https://zenodo.org/records/6818646, Sundasciurus altitudinis https://zenodo.org/records/6840531, Sundasciurus brookei https://zenodo.org/records/6818702, Sundasciurus davensis https://zenodo.org/records/6818698, Sundasciurus everetti https://zenodo.org/records/6818704, Sundasciurus fraterculus https://zenodo.org/records/6818700, Sundasciurus hippurus https://zenodo.org/records/6818684, Sundasciurus hoogstraali https://zenodo.org/records/6818670, Sundasciurus jentinki https://zenodo.org/records/6818706, Sundasciurus juvencus https://zenodo.org/records/6818680, Sundasciurus lowii https://zenodo.org/records/6818686, Sundasciurus mindanensis https://zenodo.org/records/6818694, Sundasciurus moellendorffi https://zenodo.org/records/6818676, Sundasciurus philippinensis https://zenodo.org/records/6818672, Sundasciurus rabori https://zenodo.org/records/6835655, Sundasciurus samarensis https://zenodo.org/records/6818674, Sundasciurus steerii https://zenodo.org/records/6818682, Sundasciurus tahan https://zenodo.org/records/6818688",
+  "Animal Diversity Web species accounts: Rhinosciurus laticaudatus, Sundasciurus hippurus, Hyosciurus heinrichi, Dremomys (=Sundasciurus) everetti, Sundasciurus lowii - https://animaldiversity.org/accounts/<Genus_species>/ (other group species had no ADW text)",
+  "German Wikipedia articles (Lariscus hosei, Lariscus insignis/niobe/obscurus, Rheithrosciurus macrotis, Glyphotes simus, Rhinosciurus laticaudatus, Nannosciurus melanotis) - https://de.wikipedia.org/",
+  "English Wikipedia genus/species pages (Glyphotes, Rheithrosciurus, Exilisciurus, Lariscus, Sundasciurus, etc.) - https://en.wikipedia.org/",
+  "Hinckley et al. 2020 Supplementary Table S4 (craniodental measurements of S. fraterculus, lowii, natunensis, robinsoni) - https://www.frontiersin.org/api/v4/articles/539170/file/Table_4.XLSX/539170_supplementary-materials_tables_4_xlsx/1"
+ ],
+ "caveats": "(1) VERBATIM/OCR: all quotes marked verbatim were machine-checked (whitespace-insensitive) against the retrieved source text, except 18 quotes from OCR-only scans (17 from Heaney 1985, a scanned Univ. Michigan PDF with very poor OCR, and 1 from Moore 1959 where the OCR interleaves the key's right-hand column into the sentence); these were transcribed with OCR errors corrected and fuzzy-matched (similarity 0.73-0.94) to the OCR text. Heaney Tables 2 and 6 were read from rendered page images. Other OCR sources (Ellerman 1940 archive.org djvu text; Thomas 1898; Archbold & Tate 1935; HMW Plazi text) are quoted with their OCR artefacts left in (e.g. \"strip3s\", \"Ground Squirrelis\", \"79-6\" = 79.6, \"1s\" = is). In Musser et al. 2010 the PDF glyph \"5\" stands for \"=\", and \"90u\" for 90 degrees; in Hayssen 2008 \",100\"/\".250\" are \"<100\"/\">250\". (2) SIZE: true adult HB ranges exist only for some species (Hyosciurus, Prosciurillus spp., Rubrisciurus, Glyphotes, Rhinosciurus, Rheithrosciurus, Bornean Exilisciurus, Nannosciurus, and 6 Sundasciurus spp.); elsewhere (most Lariscus, many Sundasciurus, E. concinnus) only means or single types were available, so genus min/max may be too narrow. Rubrisciurus: HMW gives 150-305 but Musser (92 specimens) gives adults 250-305; Musser used. (3) GENUS-LEVEL KEY EVIDENCE: Ellerman (1940) key/group definitions are used as genus-level evidence for patagium absent (all genera), snout not extremely elongated (all but Rhinosciurus/Hyosciurus) and incisors without grooves (Lariscus, Prosciurillus, Rubrisciurus, Sundasciurus). Ellerman predates later splits (e.g. Prosciurillus topapuensis, Sundasciurus robinsoni/natunensis/tahan/altitudinis, transfer of everetti from Dremomys) but his characters are generic. (4) CONFLICTS: Hyosciurus upper premolars - Musser 2010 (primary revision) says P3 present; ADW H. heinrichi gives 1/1 premolars (not followed, flagged). P. rosenbergii mid-dorsal stripe/nape patches - HMW wording vs Musser Table 12 \"not present\" (Musser followed). P. rosenbergii ear tufts - Ellerman says present, Musser says not present (genus is polymorphic anyway). Lariscus niobe stripes - Thomas 1898 describes three black lines, HMW says stripes not visible; both states recorded. (5) INTERMEDIATE TAXON: Sundasciurus everetti (ex Dremomys) is morphologically intermediate between Sundasciurus and Dremomys (long rostrum, short tail, intermediate bullar lobe; Hawkins 2016); characters given for Sundasciurus may not hold for it. (6) NOT ACCESSED: Thorington et al. 2012 (Squirrels of the World), Payne & Francis 1985, Medway 1969/1977, Corbet & Hill 1992 and Lekagul & McNeely 1977 are restricted (lending-only) and were used only through secondary citations (Musser, Hinckley, Hawkins, ADW, de.wikipedia). A freely downloadable copy of Squirrels of the World on archive.org appeared to be an unauthorised upload and was deliberately not used. (7) UNKNOWNS: cheek_pouches and hairy_soles are unknown for every genus (no source addresses them); tail_distichous, hypsodont_cheek_teeth, dorsal_spots and tail_rings are mostly unknown. Absence of stripes/spots was recorded only where a source says \"plain\", \"patternless\", \"unicolor\", \"no ... stripes\" etc., not inferred from silence."
+}

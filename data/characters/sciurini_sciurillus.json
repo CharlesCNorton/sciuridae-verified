@@ -1,0 +1,2993 @@
+{
+ "group": "sciurini_sciurillus",
+ "genera": {
+  "Sciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 140,
+      "max": 370
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Sciurus aestuans",
+      "Sciurus alleni",
+      "Sciurus anomalus",
+      "Sciurus aureogaster",
+      "Sciurus carolinensis",
+      "Sciurus deppei",
+      "Sciurus granatensis",
+      "Sciurus griseus",
+      "Sciurus ignitus",
+      "Sciurus igniventris",
+      "Sciurus lis",
+      "Sciurus niger",
+      "Sciurus pachecoi",
+      "Sciurus pucheranii",
+      "Sciurus pyrrhinus",
+      "Sciurus richmondi",
+      "Sciurus spadiceus",
+      "Sciurus stramineus",
+      "Sciurus variegatoides",
+      "Sciurus vulgaris",
+      "Sciurus yucatanensis"
+     ],
+     "per_species": {
+      "Sciurus aestuans": {
+       "min": 155,
+       "max": 202
+      },
+      "Sciurus alleni": {
+       "min": 220,
+       "max": 254
+      },
+      "Sciurus anomalus": {
+       "min": 192,
+       "max": 248
+      },
+      "Sciurus aureogaster": {
+       "min": 232,
+       "max": 310
+      },
+      "Sciurus carolinensis": {
+       "min": 200,
+       "max": 315
+      },
+      "Sciurus deppei": {
+       "min": 181,
+       "max": 225
+      },
+      "Sciurus granatensis": {
+       "min": 200,
+       "max": 285
+      },
+      "Sciurus griseus": {
+       "min": 265,
+       "max": 323
+      },
+      "Sciurus ignitus": {
+       "min": 140,
+       "max": 220
+      },
+      "Sciurus igniventris": {
+       "min": 240,
+       "max": 295
+      },
+      "Sciurus lis": {
+       "min": 160,
+       "max": 220
+      },
+      "Sciurus niger": {
+       "min": 260,
+       "max": 370
+      },
+      "Sciurus pachecoi": {
+       "min": 180,
+       "max": 210
+      },
+      "Sciurus pucheranii": {
+       "min": 140,
+       "max": 184
+      },
+      "Sciurus pyrrhinus": {
+       "min": 240,
+       "max": 278
+      },
+      "Sciurus richmondi": {
+       "min": 160,
+       "max": 218
+      },
+      "Sciurus spadiceus": {
+       "min": 240,
+       "max": 290
+      },
+      "Sciurus stramineus": {
+       "min": 180,
+       "max": 320
+      },
+      "Sciurus variegatoides": {
+       "min": 220,
+       "max": 337
+      },
+      "Sciurus vulgaris": {
+       "min": 206,
+       "max": 250
+      },
+      "Sciurus yucatanensis": {
+       "min": 200,
+       "max": 322
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818786",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aestuans (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 160-186 mm, tail 163-250 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818790",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus gilvigularis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 155-177 mm",
+       "verbatim": true,
+       "note": "HMW Sciurus gilvigularis; MDD v2.5 S. aestuans \"includes gilvigularis\""
+      },
+      {
+       "url": "https://www.mammaldiversity.org/taxon/1001675/",
+       "citation": "Mammal Diversity Database taxon page: Sciurus aestuans (taxonomy notes)",
+       "quote": "previously included S. brasiliensis and includes gilvigularis",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "S. aestuans (length: 160–202 mm; mass 159–218 g)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818766",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus alleni (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 220-254 mm (males) and 220-254 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818754",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus anomalus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 192-248 mm (males) and 198-235 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818772",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aureogaster (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 232-310 mm, tail 215-284 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818756",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus carolinensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 200-315 mm,tail 150-250 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_deppei/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus deppei",
+       "quote": "Head and body length: 181-225 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818784",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus granatensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 200-285 mm, tail 140-280 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6833161",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus griseus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 265-323 mm, tail 240-309 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818798",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus ignitus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 140-220 mm, tail 150-230 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "HBL 201 ± 8 (180–210) 11 190 ± 10 (165–205) 16",
+       "verbatim": true,
+       "note": "Voss et al. 2024 Table 5: first value S. pachecoi, second S. ignitus"
+      },
+      {
+       "url": "https://zenodo.org/records/6818802",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus sanborni (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 152-175 mm, tail 161-184 mm",
+       "verbatim": true,
+       "note": "HMW S. sanborni; MDD v2.5 treats sanborni as part of S. ignitus"
+      },
+      {
+       "url": "https://www.mammaldiversity.org/taxon/1001687/",
+       "citation": "Mammal Diversity Database taxon page: Sciurus ignitus (taxonomy notes)",
+       "quote": "also including sanborni",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818792",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus igniventris (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 240-295 mm,",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818752",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus lis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 160-220 mm, tail 130-170 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818758",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus niger (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 260-370 mm,tail 200-330 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818788",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus pucheranii (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 140-184 mm, tail 119-160 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818800",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus pyrrhinus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 240-254 mm, tail 208-254 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Head-and-body length 96–111 mma 180–210 mm 268–278 mm 250–287 mm 139–145 mm",
+       "verbatim": true,
+       "note": "Voss et al. 2024 Table 2 columns: Sciurillus pusillus, Sciurus pachecoi, S. pyrrhinus, S. spadiceus, S. (\"Microsciurus\") flaviventer"
+      },
+      {
+       "url": "https://zenodo.org/records/6818782",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus richmondi (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 160-218 mm, tail 130-184 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818794",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus spadiceus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 240-290 mm, tail 235-340 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818796",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus stramineus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 180-320 mm, tail 250-330 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_variegatoides/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus variegatoides",
+       "quote": "Head and body length varies from 220 to 337 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6822965",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus vulgaris (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 206-250 mm,tail 150-205 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818778",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus yucatanensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 200-322 mm, tail 194-271 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818760",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aberti (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body mean 274 mm (males) and 262-3 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818762",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus arizonensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body mean 248-2 mm (males) and 259-1 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818764",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus colliaei (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body mean 248-6 mm (males) and 243-4 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818776",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus oculatus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 508-560 mm, tail 256-269 mm",
+       "verbatim": true,
+       "note": "Evidently an error in HMW/Plazi text (508-560 mm matches TOTAL length; ADW gives average total lengths 508-543 mm for the subspecies). Not used."
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_oculatus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus oculatus",
+       "quote": "The average total lengths for the subspecies are: S. o. oculatus 543mm, S. o. tolucae 531mm, and S. o. shawi 508mm. Average tail length of S. o. oculatus is 269 mm",
+       "verbatim": true
+      }
+     ],
+     "notes": "Union of per-species head-body ranges. Ranges found for 21 of 29 MDD species. Only means available for S. aberti (262.3-274), S. arizonensis (248.2-259.1), S. colliaei (243.4-248.6) and S. nayaritensis (HMW gives the same numbers as for S. arizonensis, probably a copy error); all inside the union. HMW value for S. oculatus (508-560 mm) is total length, not head-body, and was discarded (ADW average TL 508-543 mm, tail 256-269 mm, i.e. head-body roughly 240-290 mm, inside the union). No head-body data retrieved for S. meridionalis (said to be larger than Italian S. vulgaris; mass ~420 g), S. nebouxii (not separated from S. stramineus in HMW), or S. brasiliensis separately (HMW S. aestuans includes the Atlantic-forest subspecies garbei, henseli and ingrami that MDD now places in S. brasiliensis). S. aestuans range combines HMW aestuans, HMW gilvigularis (now in aestuans per MDD) and Emmons & Feer figures quoted in the M. flaviventer Mammalian Species account; S. ignitus includes sanborni (MDD) and Voss et al. 2024 Peruvian sample."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://doi.org/10.5479/si.00810282.638.1",
+       "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+       "quote": "The flying squirrels of the tribe Pteromyini within the rodent family Sciuridae represent the greatest diversity of gliding mammals, with a total of 48 species in 15 genera currently recognized",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+       "citation": "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas",
+       "quote": "20. Flying membrane between front leg and hind leg on each side; color wood brown above, white below. Glaucomys volans ( southern flying squirrel ). Legs normal, no flying membrane",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+       "citation": "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas",
+       "quote": "27. Belly reddish or rusty in color; upperparts grayish; hind foot > 70 mm. Sciurus niger ( eastern fox squirrel ).",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Tail bushy, but not particularly dorsoventrally flattened; no gliding membrane present;",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus",
+       "quote": "Tree squirrels in the genus Sciurus are small rodents that have long and bushy tails",
+       "verbatim": true
+      }
+     ],
+     "notes": "Keys explicitly route S. niger and S. carolinensis through \"no flying/gliding membrane\". Inference for species not covered by an explicit key couplet: Jackson & Thorington (2012) restrict gliding sciurids to the tribe Pteromyini, and MDD v2.5 places this genus outside Pteromyini (see context file). Retrieved sources describe the genus as a tree squirrel and none mentions a gliding membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_oculatus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus oculatus",
+       "quote": "25 to 50 mm wide black stripe that extends from the back of the head to the tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818776",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus oculatus (text as deposited by Plazi on Zenodo)",
+       "quote": "some subspecies have medial black band",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818784",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus granatensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Black median longitudinal stripe is sometimes present.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_aberti/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus aberti",
+       "quote": "Many of the subspecies have a red stripe that runs down their back",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818792",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus igniventris (text as deposited by Plazi on Zenodo)",
+       "quote": "cocalis has pale ocherous buff venter and dark blackish median band from head to tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818788",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus pucheranii (text as deposited by Plazi on Zenodo)",
+       "quote": "sometimes with dark midline",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818780",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus variegatoides (text as deposited by Plazi on Zenodo)",
+       "quote": "Subspecies atrirufus has broad black band on back",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+       "citation": "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas",
+       "quote": "21. Upperparts striped or distinctly spotted or both ......................... 22 Upperparts not striped or distinctly spotted",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Total body length more than 300 mm, dorsal pelage not striped;",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "uniformly grizzled brownish dorsally from nose to rump (fig. 13), without any markings",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present = a mid-dorsal stripe/median band in some species or subspecies (S. oculatus, S. aberti, S. granatensis, S. igniventris cocalis, S. pucheranii medellinensis, S. variegatoides atrirufus); none of these is a chipmunk-like multiple-stripe pattern. Absent in e.g. S. carolinensis/S. niger (Texas key leads to them via \"Upperparts not striped\") and S. pachecoi."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818760",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aberti (text as deposited by Plazi on Zenodo)",
+       "quote": "Nominate aberti has steel-gray back, usually with narrow medial reddish band and lateral black band.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818792",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus igniventris (text as deposited by Plazi on Zenodo)",
+       "quote": "sometimes delineated from dorsum by black lateral line",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818780",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus variegatoides (text as deposited by Plazi on Zenodo)",
+       "quote": "venter is white and separated from dorsum by dull red lateral line",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818780",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus variegatoides (text as deposited by Plazi on Zenodo)",
+       "quote": "brilliant rufous cinnamon on under parts that extends well up on sides, without any trace of lateral stripe",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.italian-journal-of-mammalogy.it/pdf-77104-18339?filename=New-endemic-mammal-specie.pdf",
+       "citation": "Wauters, L.A., Amori, G., Aloise, G., Gippoliti, S., Agnelli, P., Galimberti, A., Casiraghi, M., Preatoni, D. & Martinoli, A. 2017. New endemic mammal species for Europe: Sciurus meridionalis (Rodentia, Sciuridae). Hystrix 28(1):1-8",
+       "quote": "Between the white abdomen and black flanks there is often a slate-grey line.",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "eastern gray squirrels lack the distinctive lateral stripe present in T. mearnsi",
+       "verbatim": true
+      }
+     ],
+     "notes": "Lateral line present in some species/subspecies (S. aberti, some S. igniventris, S. variegatoides boothiae/underwoodi, often S. meridionalis); absent in others (S. carolinensis; S. variegatoides atrirufus)."
+    },
+    "dorsal_spots": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus carolinensis",
+      "Sciurus niger",
+      "Sciurus pachecoi"
+     ],
+     "evidence": [
+      {
+       "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+       "citation": "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas",
+       "quote": "28. Belly white; upperparts gray, unspotted. Sciurus carolinensis ( eastern gray squirrel ).",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+       "citation": "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas",
+       "quote": "21. Upperparts striped or distinctly spotted or both ......................... 22 Upperparts not striped or distinctly spotted",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "uniformly grizzled brownish dorsally from nose to rump (fig. 13), without any markings",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818772",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aureogaster (text as deposited by Plazi on Zenodo)",
+       "quote": "patches of varying size and color may occur on nape, shoulders, rump, and sides",
+       "verbatim": true
+      }
+     ],
+     "notes": "Only these species have an explicit statement. S. aureogaster has variable dorsal PATCHES (nape, shoulders, rump) which are not rows of spots; reviewer may wish to treat this character as unknown for Sciurus."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6822965",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus vulgaris (text as deposited by Plazi on Zenodo)",
+       "quote": "Ear tufts are pronounced in winter and reduced in summer.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818760",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aberti (text as deposited by Plazi on Zenodo)",
+       "quote": "Large ear tufts are conspicuous in winter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_niger/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus niger",
+       "quote": "Ear tufts often develop in winter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818778",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus yucatanensis (text as deposited by Plazi on Zenodo)",
+       "quote": "buff-to-white short ear tufts are often present",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/0396FD653F21FFD8FF5AFBFB5E04FD17",
+       "citation": "Koprowski, J.L., Gavish, L. & Doumas, S.L. 2016. Sciurus anomalus (Rodentia: Sciuridae). Mammalian Species 48(934):48-58 (Plazi treatment text)",
+       "quote": "Ears in winter may have small ( 10–12 mm) terminal tufts",
+       "verbatim": true
+      },
+      {
+       "url": "http://www.italian-journal-of-mammalogy.it/pdf-77104-18339?filename=New-endemic-mammal-specie.pdf",
+       "citation": "Wauters, L.A., Amori, G., Aloise, G., Gippoliti, S., Agnelli, P., Galimberti, A., Casiraghi, M., Preatoni, D. & Martinoli, A. 2017. New endemic mammal species for Europe: Sciurus meridionalis (Rodentia, Sciuridae). Hystrix 28(1):1-8",
+       "quote": "in winter there are always ear tufts, which are absent in summer",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818780",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus variegatoides (text as deposited by Plazi on Zenodo)",
+       "quote": "Ears have black tufts and ferruginous basal patches.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_griseus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus griseus",
+       "quote": "S. griseus has large ears without tufts.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_deppei/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus deppei",
+       "quote": "The ears are medium-sized and without long tufts.",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03C887A6B35ED4521E8493EAD62DFCA1",
+       "citation": "Koprowski, J.L., Nieto-Montes de Oca, A., Palmer, G.H., Ramos-Lara, N. & Timm, R.M. 2017. Sciurus aureogaster (Rodentia: Sciuridae). Mammalian Species 49(951):81-92 (Plazi treatment text)",
+       "quote": "S. aureogaster lacks pronounced ear tufts",
+       "verbatim": true
+      }
+     ],
+     "notes": "Seasonal (winter) tufts in S. vulgaris, S. meridionalis, S. anomalus, S. niger; tufts most of the year in S. aberti; some subspecies of S. variegatoides; absent in S. griseus, S. deppei, S. aureogaster."
+    },
+    "tail_rings": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818790",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus gilvigularis (text as deposited by Plazi on Zenodo)",
+       "quote": "Tail is sometimes faintly banded",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03C580387777FFEFFE90FC2CFDA3F95C",
+       "citation": "Palmer, R.R. & Koprowski, J.L. 2017. Sciurus sanborni (Rodentia: Sciuridae). Mammalian Species 49(952):93-96 (Plazi treatment text). NB: MDD v2.5 treats sanborni as a synonym of S. ignitus",
+       "quote": "Usually the tail is the same color as the dorsum but faint black banding can occur on the tail when individuals have a more grizzled appearance",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "The tail is lightly frosted with orange, but it is not banded or otherwise patterned.",
+       "verbatim": true
+      }
+     ],
+     "notes": "\"Present\" rests on FAINT tail banding reported for gilvigularis (= S. aestuans per MDD) and sanborni (= S. ignitus per MDD); conspicuous annulation is not reported for any Sciurus. Absent in S. pachecoi."
+    },
+    "snout_elongate": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source comments on snout shape; not stated."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source explicitly states presence/absence of internal cheek pouches for Sciurus (the Texas key couplet 1 concerns EXTERNAL fur-lined pouches only)."
+    },
+    "upper_premolars": {
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Sciurus aberti",
+      "Sciurus aestuans",
+      "Sciurus alleni",
+      "Sciurus anomalus",
+      "Sciurus arizonensis",
+      "Sciurus aureogaster",
+      "Sciurus brasiliensis",
+      "Sciurus carolinensis",
+      "Sciurus colliaei",
+      "Sciurus deppei",
+      "Sciurus granatensis",
+      "Sciurus griseus",
+      "Sciurus ignitus",
+      "Sciurus igniventris",
+      "Sciurus lis",
+      "Sciurus nayaritensis",
+      "Sciurus nebouxii",
+      "Sciurus niger",
+      "Sciurus oculatus",
+      "Sciurus pachecoi",
+      "Sciurus pucheranii",
+      "Sciurus pyrrhinus",
+      "Sciurus spadiceus",
+      "Sciurus stramineus",
+      "Sciurus variegatoides",
+      "Sciurus vulgaris",
+      "Sciurus yucatanensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Sciurus vulgaris 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Sciurus anomalus 1 5",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Parasciurus niger 1 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Neosciurus carolinensis 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Hadrosciurus spadiceus 1 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Echinosciurus variegatoides 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://doi.org/10.1186/s12862-020-01639-y",
+       "citation": "de Abreu-Jr, E.F., Pavan, S.E., Tsuchiya, M.T.N., Wilson, D.E., Percequillo, A.R. & Maldonado, J.E. 2020. Museomics of tree squirrels: a dense taxon sampling of mitogenomes reveals hidden diversity, phenotypic convergence, and the need of a taxonomic overhaul. BMC Evolutionary Biology 20:77 (full text via Europe PMC PMC7320592)",
+       "quote": "the loss of one upper premolar seem to have happened at least three independent times ( anomalus in C, granatensis in G, and pucheranii in H)",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03C887A6B35ED4521E8493EAD62DFCA1",
+       "citation": "Koprowski, J.L., Nieto-Montes de Oca, A., Palmer, G.H., Ramos-Lara, N. & Timm, R.M. 2017. Sciurus aureogaster (Rodentia: Sciuridae). Mammalian Species 49(951):81-92 (Plazi treatment text)",
+       "quote": "Dental formula is i 1/1, c 0/0, p 2/1, m 3/3, total 22; P3 is small and peglike",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/0396FD653F21FFD8FF5AFBFB5E04FD17",
+       "citation": "Koprowski, J.L., Gavish, L. & Doumas, S.L. 2016. Sciurus anomalus (Rodentia: Sciuridae). Mammalian Species 48(934):48-58 (Plazi treatment text)",
+       "quote": "Dental formula is i 1/1, c 0/0, p 1/1, m 3/3, total 20.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/5033252",
+       "citation": "Merrick, M.J., Ketcham, S.L. & Koprowski, J.L. 2014. Sciurus ignitus (Rodentia: Sciuridae). Mammalian Species 46(915):93-100 (PDF deposited on Zenodo)",
+       "quote": "The dental formula for S. ignitus is i 1/1, c 0/0, p 1/1, m 3/3, total 20",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "there is only a single premolar in each upper cheektooth row (P3 is absent).",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "five upper cheek teeth, anterior premolar minute. . . . . . . . . . . . . Sciurus carolinensis",
+       "verbatim": true
+      }
+     ],
+     "notes": "de Abreu-Jr et al. 2020 Additional file 7 codes 2 upper premolars for aberti, aureogaster, carolinensis, colliaei, deppei, griseus, lis, variegatoides, vulgaris, yucatanensis; 1 for aestuans, alleni, anomalus, arizonensis, brasiliensis, granatensis, ignitus, igniventris, nayaritensis, nebouxii, niger, pucheranii, pyrrhinus, spadiceus, stramineus (their generic names differ: Echinosciurus, Guerlinguetus, Hadrosciurus, Hesperosciurus, Leptosciurus, Neosciurus, Parasciurus, Simosciurus, \"Syntheosciurus\" granatensis). S. pachecoi has 1 (Voss et al. 2024). Not coded: S. meridionalis, S. richmondi; but both states are already present so the union is {1,2} regardless. Where P3 is present it is small/peg-like."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus stramineus"
+     ],
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_stramineus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus stramineus",
+       "quote": "Their dental formula is 1/1 0/0 1/1 3/3 = 20 and their teeth have smooth enamel.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The anterior surface of the upper incisor is sculptured with fine longitudinal striations.",
+       "verbatim": true,
+       "note": "Moore 1959 uses this as a diagnostic character of Reithrosciurus within subtribe Sciurina, implying it is absent in Sciurus/Guerlinguetus (inference)"
+      }
+     ],
+     "notes": "Only S. stramineus has a direct statement; treat as weak. No source reports grooved upper incisors in any Sciurus."
+    },
+    "tail_distichous": {
+     "states": [
+      "no"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus carolinensis",
+      "Sciurus niger"
+     ],
+     "evidence": [
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Tail bushy, but not particularly dorsoventrally flattened; no gliding membrane present;",
+       "verbatim": true
+      }
+     ],
+     "notes": "Key couplet contrasting the flattened tail of Glaucomys with Tamiasciurus/Sciurus (S. carolinensis, S. niger)."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/biostor-97496",
+       "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+       "quote": "Miosciurus resembles Protosciurus and Sciurus in possessing low-crowned cheek teeth",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-97496",
+       "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+       "quote": "The low-crowned heavier den- tition of the tree squirrels reflects the primary crushing function of the dentition",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_lis/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus lis",
+       "quote": "This species also has large eyes and ears, with low-crowned, lophodont teeth.",
+       "verbatim": true
+      }
+     ]
+    },
+    "hairy_soles": {
+     "states": [
+      "no",
+      "yes"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_nayaritensis/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus nayaritensis",
+       "quote": "Legs and feet are reddish or ochraceous in color, with naked soles that are dark purplish.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Sciurus_vulgaris/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus vulgaris",
+       "quote": "The winter coat covers more of the soles of the feet",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/0396FD653F21FFD8FF5AFBFB5E04FD17",
+       "citation": "Koprowski, J.L., Gavish, L. & Doumas, S.L. 2016. Sciurus anomalus (Rodentia: Sciuridae). Mammalian Species 48(934):48-58 (Plazi treatment text)",
+       "quote": "the soles of hind feet become covered sparsely with hair in the Caucasus",
+       "verbatim": true
+      }
+     ],
+     "notes": "Soles naked in S. nayaritensis; winter coat partly covers the soles in S. vulgaris and sparsely in S. anomalus. \"yes\" is included conservatively because the degree of winter furring in S. vulgaris is not quantified (may not meet \"densely furred\")."
+    }
+   },
+   "extra_characters": {
+    "mammae_pairs": {
+     "possible_states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Sciurus lis 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Syntheosciurus granatensis 1 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Echinosciurus deppei 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus pucheranii 1 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Hadrosciurus ignitus 1 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Sciurus vulgaris 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Sciurus anomalus 1 5",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "All adult female specimens with countable mammae (N = 4) have eight teats.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "parous adult females of ignitus with countable mammae (N = 26) invariably have just six teats.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Number of PAIRS of mammae per de Abreu-Jr et al. 2020 coding (S. pachecoi 4 pairs per Voss et al. 2024). Homoplastic within Sciurini."
+    },
+    "upper_incisors_procumbent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus pachecoi",
+      "Sciurus pyrrhinus",
+      "Sciurus spadiceus",
+      "Sciurus stramineus",
+      "Sciurus nebouxii",
+      "Sciurus granatensis",
+      "Sciurus anomalus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Upper incisorsf procumbent not procumbent not procumbent not procumbent procumbent",
+       "verbatim": true,
+       "note": "Voss et al. 2024 Table 2 columns: Sciurillus pusillus, Sciurus pachecoi, S. pyrrhinus, S. spadiceus, S. flaviventer (\"Microsciurus\")"
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "M. flaviventer is distinguishable from other Sciurus species by several cranial features. In M. flaviventer , the postorbital process is almost directly over the base of the posterior root of the zygomatic arch, the postglenoid foramen pierces the squamosal bone, the upper 3rd premolars are present and the upper incisors are pro-odont",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS SIMOSCIURUS DIAGNOSIS: 1. The orbit is long. 2. The upper incisors are opisthodont.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS MESOSCIURUS DIAGNOSIS: 1. The upper incisors are orthodont or mildly opisthodont.",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/0396FD653F21FFD8FF5AFBFB5E04FD17",
+       "citation": "Koprowski, J.L., Gavish, L. & Doumas, S.L. 2016. Sciurus anomalus (Rodentia: Sciuridae). Mammalian Species 48(934):48-58 (Plazi treatment text)",
+       "quote": "Incisors are orthodont, recurved, compressed laterally",
+       "verbatim": true
+      }
+     ],
+     "notes": "Procumbent = proodont sensu Thomas 1919. Not procumbent (orthodont/opisthodont) in all Sciurus for which a statement was found; no Sciurus reported proodont. Coverage partial."
+    },
+    "ears_project_above_crown": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus aestuans",
+      "Sciurus ignitus",
+      "Sciurus igniventris",
+      "Sciurus spadiceus"
+     ],
+     "evidence": [
+      {
+       "url": "https://treatment.plazi.org/id/03C580387777FFEFFE90FC2CFDA3F95C",
+       "citation": "Palmer, R.R. & Koprowski, J.L. 2017. Sciurus sanborni (Rodentia: Sciuridae). Mammalian Species 49(952):93-96 (Plazi treatment text). NB: MDD v2.5 treats sanborni as a synonym of S. ignitus",
+       "quote": "thinly haired ears that protrude above the crown",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818792",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus igniventris (text as deposited by Plazi on Zenodo)",
+       "quote": "Ears are thinly haired and extend above crown",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818794",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus spadiceus (text as deposited by Plazi on Zenodo)",
+       "quote": "Ears are thinly haired and protrude conspicuously",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "S. sanborni (length: 152–175 mm; mass not available), S. aestuans (length: 160–202 mm; mass 159–218 g), and S. ignitus (length: 180–195 mm; mass 225–240 g) are distinguishable from M. flaviventer by long ears that protrude above the crown of the head",
+       "verbatim": true
+      },
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "Sympatric species of Microsciurus and Sciurus have long ears that extend above crown",
+       "verbatim": true
+      }
+     ],
+     "notes": "Character used in Amazonian field identification (Emmons & Feer 1997) to separate Sciurus from Microsciurus and Sciurillus. Not documented for extra-Amazonian species."
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "By contrast, mature sciurines (e.g., Sciurus spp.) retain the frontoparietal suture but exhibit fusion between the basioccipital and basisphenoid.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "10. No frontoparietal suture is seen in the skulls of adults.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1, 2, 3, 5, 6, 7, 8, 9, 10, and 11; from the Microsciurina by 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore lists character 10 (no frontoparietal suture in adults) as a Sciurillina character separating Sciurillus from Sciurina and Microsciurina (which together contain all MDD Sciurus species)."
+    },
+    "masseteric_tubercle": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. There is no masseteric tubercle.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1, 2, 3, 5, 6, 7, 8, 9, 10, and 11; from the Microsciurina by 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The masseteric tubercle protrudes laterodorsally as a minute process constituting the anterior tip of the lip of the infraorbital foramen.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Absence of a masseteric tubercle is a Sciurillina (Sciurillus) character in Moore 1959; Sciurina and Microsciurina (all MDD Sciurus) differ by it, i.e. have a tubercle."
+    },
+    "jugal_frontal_contact": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus pachecoi",
+      "Sciurus pyrrhinus",
+      "Sciurus spadiceus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Jugal-frontal contact present absent absent absent absent",
+       "verbatim": true,
+       "note": "Voss et al. 2024 Table 2 columns: Sciurillus pusillus, Sciurus pachecoi, S. pyrrhinus, S. spadiceus, S. flaviventer"
+      }
+     ]
+    },
+    "interparietal_sutures_fused_in_adults": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no",
+      "yes"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "GENUS GUERLINGUETUS BRAZILIAN TREE SQUIRREL DIAGNOSIS: 1. The sutures bounding teh interparietals do not ankylose fully but remain distinct in the adult.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The failure of the suture bounding the interparietals to ankylose completely and disappear is not an exclusive character of Guerlinguetus, of course, for it also distinguishes Microsciurus, Atlantoxerus, Spermophilopsis, and Myosciurus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Microsciurus and Simosciurus, particularly, show close relationship to Guerlinguetus of the Sciurina in that the sutures bounding the interparietal are not ankylosed in adults.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "GENUS SYNTHEOSCIURUS DIAGNOSIS: The sutures that outline the interparietal bones ankylose so completely in adults that the sutures do not show.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Unfused in Moore's Guerlinguetus (incl. Hadrosciurus: aestuans group, igniventris/spadiceus group) and Simosciurus (stramineus/nebouxii); fused in Moore's genus Syntheosciurus, whose subgenus Mesosciurus contains granatensis (MDD Sciurus). \"yes\" for Sciurus therefore rests on S. granatensis (Moore's Mesosciurus) and, by implication, Sciurus s.str."
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS SCIURUS HOLARCTIC TREE SQUIRREL DIAGNOSIS: The transbullar septa are two in each auditory bulla",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS TENES PERSIAN SQUIRREL DIAGNOSIS: 1. The transbullar septa (see table 1) are most often three in each auditory bulla.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The number of transbullar septa varies between one and two per bulla.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS LEPTOSCIURUS DIAGNOSIS: 1. There are generally two pairs of transbullar septa.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore 1959 taxa mapped to MDD Sciurus: subgenus Sciurus (2), Tenes = S. anomalus (mostly 3), Microsciurina members now in Sciurus (Leptosciurus = pucheranii, Simosciurus = stramineus/nebouxii, Mesosciurus = granatensis etc.) 1-2."
+    },
+    "diploid_chromosome_number": {
+     "possible_states": [
+      "40",
+      "42",
+      "46"
+     ],
+     "states": [
+      "40",
+      "42"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus vulgaris",
+      "Sciurus carolinensis",
+      "Sciurus aberti",
+      "Sciurus griseus",
+      "Sciurus niger",
+      "Sciurus lis",
+      "Sciurus anomalus",
+      "Sciurus aestuans",
+      "Sciurus granatensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6822965",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus vulgaris (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosomal complementis 2n = 40 and FN = 70.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818756",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus carolinensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosomal complement is 2n = 40 and FN = 76.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818760",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aberti (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosome numberis 2n = 40",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818784",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus granatensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosomal complement is 2n = 42 and FN = 78.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Non-morphological; included because it cleanly separates Tamiasciurus (2n=46) from the Sciurus species karyotyped (2n=40 or 42)."
+    },
+    "anterior_orbit_border_ventral_view": {
+     "possible_states": [
+      "opposite_last_premolar",
+      "opposite_first_molar"
+     ],
+     "states": [
+      "opposite_first_molar"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Sciurus carolinensis",
+      "Sciurus niger"
+     ],
+     "evidence": [
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "in ventral view, anterior border of orbit opposite last premolar . . . . . . . . . . . . . . . Tamiasciurus hudsonius (Red squirrel)",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "anterior border of orbit opposite first molar",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Sciurus vs Tamiasciurus (N. America): Tamiasciurus smaller (key: total length <360 mm, tail <140 mm vs >360/>140 in S. carolinensis/S. niger; anterior border of orbit opposite last premolar vs opposite M1 - Chapman et al. 2007 key); Tamiasciurus has 3 transbullar septa (Moore 1959) and 2n=46 (HMW) vs 2 (Sciurus s.str.) and 2n=40/42; summer black lateral line typical of Tamiasciurus but also present in S. aberti. Sciurus vs Microsciurus/Sciurillus (Neotropics): larger (HB >=140 vs Sciurillus 89-115; Microsciurus 108-160 overlaps S. pucheranii/S. ignitus at 140-160); ears project above the crown (Emmons & Feer via Mammalian Species accounts); upper incisors not procumbent in all Sciurus examined vs procumbent in Microsciurus and Sciurillus (Voss et al. 2024); Sciurus skull retains frontoparietal suture and has a masseteric tubercle, unlike Sciurillus (Moore 1959; Voss et al. 2024). Number of upper premolars and mammae are homoplastic and do NOT separate Sciurus from Microsciurus (de Abreu-Jr et al. 2020). Sciurus vs Syntheosciurus: no clean external character found; Moore 1959 separates by cranial details (Syntheosciurus: interparietal sutures fused, upper incisors proodont, P3 present, P4 as large as M3) but these also partly occur in Sciurus. Sciurus vs flying-squirrel genera: patagium (absent). Sciurus vs chipmunks/ground squirrels: see dorsal stripes (Sciurus has at most a single mid-dorsal band) and low-crowned cheek teeth."
+  },
+  "Microsciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 108,
+      "max": 160
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Microsciurus alfari",
+      "Microsciurus flaviventer",
+      "Microsciurus mimulus",
+      "Microsciurus santanderensis",
+      "Microsciurus otinus",
+      "Microsciurus sabanillae",
+      "Microsciurus similis",
+      "Microsciurus simonsi",
+      "Microsciurus boquetensis",
+      "Microsciurus isthmius"
+     ],
+     "per_species": {
+      "Microsciurus alfari": {
+       "min": 108,
+       "max": 146
+      },
+      "Microsciurus flaviventer": {
+       "min": 120,
+       "max": 160
+      },
+      "Microsciurus mimulus": {
+       "min": 128,
+       "max": 150
+      },
+      "Microsciurus santanderensis": {
+       "min": 133,
+       "max": 160
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818808",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus alfari (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body 108-146 mm,tail 80-130 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818814",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus flaviventer (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 120-160 mm, tail 96-150 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "Length of head and body in M. flaviventer ranges between 120 and 160 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818810",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus mimulus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 135-148 mm, tail 94-116 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "compared to 128–150 mm in body length and mass of 120 g in M. mimulus",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818812",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus santanderensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 133-160 mm, tail 136-152 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Head-and-body length 96–111 mma 180–210 mm 268–278 mm 250–287 mm 139–145 mm",
+       "verbatim": true,
+       "note": "last column = S. (\"Microsciurus\") flaviventer, Peru"
+      },
+      {
+       "url": "https://zenodo.org/records/6818814",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus flaviventer (text as deposited by Plazi on Zenodo)",
+       "quote": "Subspecies otinus, sabanillae, and similis most often lack postauricular patches.",
+       "verbatim": true,
+       "note": "shows HMW flaviventer includes otinus, sabanillae, similis (now MDD species)"
+      },
+      {
+       "url": "https://zenodo.org/records/6818810",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus mimulus (text as deposited by Plazi on Zenodo)",
+       "quote": "Subspecies boquetensis is pale on dorsum, with ocherous rufous venter. Subspecies isthmius has yellowish dorsum",
+       "verbatim": true,
+       "note": "shows HMW mimulus includes boquetensis and isthmius (now MDD species)"
+      },
+      {
+       "url": "https://www.mammaldiversity.org/taxon/1001670/",
+       "citation": "Mammal Diversity Database taxon page: Microsciurus flaviventer (taxonomy notes)",
+       "quote": "previously included M. sabanillae, M. simonsi, M. otinus, and M. similis",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ranges are for HMW species sensu lato: M. flaviventer s.l. includes MDD otinus, sabanillae, similis, simonsi; M. mimulus s.l. includes MDD boquetensis, isthmius. Hence all 10 MDD species are covered, but only via pooled ranges. M. alfari includes venustulus (MDD)."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://doi.org/10.5479/si.00810282.638.1",
+       "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+       "quote": "The flying squirrels of the tribe Pteromyini within the rodent family Sciuridae represent the greatest diversity of gliding mammals, with a total of 48 species in 15 genera currently recognized",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03B7878D252379791553B5D6FB95FB3B",
+       "citation": "Hale, S.L., Greer, V.L., Koprowski, J.L. & Ramos-Lara, N. 2018. Microsciurus santanderensis (Rodentia: Sciuridae). Mammalian Species 50(970):166-169 (Plazi treatment text)",
+       "quote": "Microsciurus santanderensis is a small tree squirrel",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inference for species not covered by an explicit key couplet: Jackson & Thorington (2012) restrict gliding sciurids to the tribe Pteromyini, and MDD v2.5 places this genus outside Pteromyini (see context file). Retrieved sources describe the genus as a tree squirrel and none mentions a gliding membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818810",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus mimulus (text as deposited by Plazi on Zenodo)",
+       "quote": "occasionally with black mid-dorsal line",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818810",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus mimulus (text as deposited by Plazi on Zenodo)",
+       "quote": "Nominate mimulus has black mid-dorsal line.",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03B7878D252379791553B5D6FB95FB3B",
+       "citation": "Hale, S.L., Greer, V.L., Koprowski, J.L. & Ramos-Lara, N. 2018. Microsciurus santanderensis (Rodentia: Sciuridae). Mammalian Species 50(970):166-169 (Plazi treatment text)",
+       "quote": "mixed with black, and a black middorsal line",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818812",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus santanderensis (text as deposited by Plazi on Zenodo)",
+       "quote": "Santander Dwarf Squirrels have dark brownish dorsum, with black mid-dorsal stripe",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "In the Yavarí-Ucayali interfluve, Sciurus flaviventer is a small squirrel with very short (6–7 mm), uniformly grizzled-brownish or -olivaceous dorsal pelage.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Single black mid-dorsal line in M. mimulus (nominate; \"occasionally\") and M. santanderensis; uniform dorsum in M. flaviventer (Peru)."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Microsciurus flaviventer"
+     ],
+     "evidence": [
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "The ears are very short (below the crown of the head) and are covered in short, pale hairs.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferred absence from the description of ears covered in short hairs (M. flaviventer s.l.); no explicit statement for other species."
+    },
+    "tail_rings": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "M. flaviventer has an agouti brown dorsal pelage and a banded tail ( Fig. 1 View Fig ), whereas M. mimulus has a grizzled black dorsum with a pale orange buff on hair tips and no rings on its tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "is faintly banded with pale yellow to orange and frosted with white hair",
+       "verbatim": true
+      }
+     ],
+     "notes": "M. flaviventer tail faintly banded/ringed; M. mimulus without rings."
+    },
+    "snout_elongate": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "upper_premolars": {
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Microsciurus alfari",
+      "Microsciurus flaviventer",
+      "Microsciurus mimulus",
+      "Microsciurus boquetensis",
+      "Microsciurus isthmius",
+      "Microsciurus otinus",
+      "Microsciurus similis",
+      "Microsciurus sabanillae",
+      "Microsciurus santanderensis"
+     ],
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "“Microsciurus” flaviventer 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Microsciurus alfari 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus mimulus 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus boquetensis 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus isthmius 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus otinus 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Leptosciurus similis 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "“Microsciurus” sabanillae 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://doi.org/10.1186/s12862-020-01639-y",
+       "citation": "de Abreu-Jr, E.F., Pavan, S.E., Tsuchiya, M.T.N., Wilson, D.E., Percequillo, A.R. & Maldonado, J.E. 2020. Museomics of tree squirrels: a dense taxon sampling of mitogenomes reveals hidden diversity, phenotypic convergence, and the need of a taxonomic overhaul. BMC Evolutionary Biology 20:77 (full text via Europe PMC PMC7320592)",
+       "quote": "the genus Microsciurus sensu [ 1 , 2 , 18 , 21 ] was defined, among other traits (e.g. small size), by the presence of three pairs of mammae and two upper premolars",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "The dental formula for M. flaviventer is i 1/1, c 0/0, p 2/1, m 3/3, total 22 ( Allen 1914).",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03B7878D252379791553B5D6FB95FB3B",
+       "citation": "Hale, S.L., Greer, V.L., Koprowski, J.L. & Ramos-Lara, N. 2018. Microsciurus santanderensis (Rodentia: Sciuridae). Mammalian Species 50(970):166-169 (Plazi treatment text)",
+       "quote": "The dental formula is: i 1/1, c 0/0, p 2/1, m 3/3, total 22 (Pérez-Torres and Correa Q. 1997). The anterior premolar (PM3) is absent (Hernández-Camacho 1957).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "two premolars are consistently present in each upper cheektooth row.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Two upper premolars in all species coded by de Abreu-Jr et al. (2020). \"1\" is included only because the M. santanderensis Mammalian Species account reports P3 absent in the original description (Hernandez-Camacho 1957) while giving p 2/1 from another source. M. simonsi not separately coded (formerly part of flaviventer, which has 2)."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    }
+   },
+   "extra_characters": {
+    "mammae_pairs": {
+     "possible_states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Microsciurus alfari 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "“Microsciurus” flaviventer 2 3",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "these diminutive, small-eared, six-mammate sciurines with procumbent upper incisors and two upper premolars appear to belong to three separate lineages",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "Six mammae occur in females",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisors_procumbent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "these diminutive, small-eared, six-mammate sciurines with procumbent upper incisors and two upper premolars appear to belong to three separate lineages",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS MICROSCIURUS DIAGNOSIS: 1. The orbit is exceedingly short (the postorbital process of the frontal is generally over the base of the zygomatic process of the squamosal). 2. The upper incisors are proodont.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "procumbent (proodont sensu Thomas, 1919), and two premolars are consistently present in each upper cheektooth row.",
+       "verbatim": true,
+       "note": "S. (\"Microsciurus\") flaviventer; sentence begins \"The upper incisors are conspicuously\" before a page break"
+      }
+     ],
+     "notes": "Voss et al. 2024 statement refers to all species placed in Microsciurus by Vivo & Carmignotto 2015 (incl. alfari, boquetensis, isthmius, mimulus, otinus, similis, flaviventer, sabanillae)."
+    },
+    "ears_project_above_crown": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no",
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/5033252",
+       "citation": "Merrick, M.J., Ketcham, S.L. & Koprowski, J.L. 2014. Sciurus ignitus (Rodentia: Sciuridae). Mammalian Species 46(915):93-100 (PDF deposited on Zenodo)",
+       "quote": "In Microsciurus, the ears (the auricle does not extend above the crown)",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "The ears are very short (below the crown of the head)",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03C580387777FFEFFE90FC2CFDA3F95C",
+       "citation": "Palmer, R.R. & Koprowski, J.L. 2017. Sciurus sanborni (Rodentia: Sciuridae). Mammalian Species 49(952):93-96 (Plazi treatment text). NB: MDD v2.5 treats sanborni as a synonym of S. ignitus",
+       "quote": "with smaller ears that do not protrude above the crown",
+       "verbatim": true
+      },
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "Sympatric species of Microsciurus and Sciurus have long ears that extend above crown",
+       "verbatim": true
+      }
+     ],
+     "notes": "CONFLICT: three Mammalian Species accounts say Microsciurus ears do not reach above the crown, but the Sciurillus account (same lab, also citing Emmons & Feer 1997) groups Microsciurus with Sciurus as having ears that extend above the crown. Both states retained for safety; majority view is \"no\"."
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "10. No frontoparietal suture is seen in the skulls of adults.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Microsciurina by 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      }
+     ]
+    },
+    "masseteric_tubercle": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The masseteric tubercle protrudes laterodorsally as a minute process constituting the anterior tip of the lip of the infraorbital foramen.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Microsciurina subtribe character (Moore 1959)."
+    },
+    "jugal_frontal_contact": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Microsciurus flaviventer"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Jugal-frontal contact present absent absent absent absent",
+       "verbatim": true,
+       "note": "last column = S. (\"Microsciurus\") flaviventer"
+      }
+     ]
+    },
+    "interparietal_sutures_fused_in_adults": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "GENUS MICROSCIURUS DIAGNOSIS: The sutures bounding the interparietal bone do not ankylose completely in the adult, but remain quite distinct.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore's genus Microsciurus (subgenera Microsciurus, Leptosciurus, Simosciurus). Separates Microsciurus from Syntheosciurus (sutures fully fused)."
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The number of transbullar septa varies between one and two per bulla.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "4. There is one pair of transbullar septa. 5. The upper third premolars are present.",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Microsciurus vs Sciurus: small (HB 108-160 mm; Sciurus >=140), small ears generally not reaching above crown (conflicting statement in Sciurillus MS account), procumbent upper incisors, 6 mammae, 2 upper premolars (Voss et al. 2024) - but premolar and mammae counts overlap with several Sciurus species (de Abreu-Jr et al. 2020), and Microsciurus as traditionally defined is polyphyletic. Size overlaps S. pucheranii and S. ignitus (140-160 mm). Microsciurus vs Syntheosciurus: interparietal sutures remain distinct in adult Microsciurus but are completely fused in Syntheosciurus (Moore 1959); Syntheosciurus larger (HB 150-185). Microsciurus vs Sciurillus: Sciurillus smaller (HB 89-115 vs 108-160, overlap 108-115 only via M. alfari), pale gray vs brown/olivaceous (Mammalian Species accounts), skull of Sciurillus lacks masseteric tubercle and visible frontoparietal suture and has jugal-frontal contact (Moore 1959; Voss et al. 2024)."
+  },
+  "Syntheosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 150,
+      "max": 185
+     },
+     "scope": "genus",
+     "species_covered": [
+      "Syntheosciurus brochus"
+     ],
+     "per_species": {
+      "Syntheosciurus brochus": {
+       "min": 150,
+       "max": 185
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818816",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Syntheosciurus brochus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 150-185 mm, tail 120-152 mm",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic. Single source for the range (Mammalian Species 249 by Wells & Giacalone 1985 not accessible)."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://doi.org/10.5479/si.00810282.638.1",
+       "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+       "quote": "The flying squirrels of the tribe Pteromyini within the rodent family Sciuridae represent the greatest diversity of gliding mammals, with a total of 48 species in 15 genera currently recognized",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inference for species not covered by an explicit key couplet: Jackson & Thorington (2012) restrict gliding sciurids to the tribe Pteromyini, and MDD v2.5 places this genus outside Pteromyini (see context file). Retrieved sources describe the genus as a tree squirrel and none mentions a gliding membrane."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "snout_elongate": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "HMW description (grizzled brown olivaceous dorsum and tail, tail black below and at tip, venter grayish to pale orange) does not address this character; no other description retrieved."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Syntheosciurus brochus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS SYNTHEOSCIURUS DIAGNOSIS: (As known from the type of poasensis and three examples of brochus). 1. The upper incisors are pro6dont. 2. There is a pair of third upper premolars.",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Syntheosciurus brochus 2 3",
+       "verbatim": true
+      }
+     ],
+     "notes": "Based on few specimens (Moore: 4 skulls)."
+    }
+   },
+   "extra_characters": {
+    "mammae_pairs": {
+     "possible_states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Syntheosciurus brochus 2 3",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisors_procumbent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "SUBGENUS SYNTHEOSCIURUS DIAGNOSIS: (As known from the type of poasensis and three examples of brochus). 1. The upper incisors are pro6dont.",
+       "verbatim": true
+      }
+     ],
+     "notes": "\"pro6dont\" is OCR for \"proödont\"."
+    },
+    "interparietal_sutures_fused_in_adults": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "GENUS SYNTHEOSCIURUS DIAGNOSIS: The sutures that outline the interparietal bones ankylose so completely in adults that the sutures do not show.",
+       "verbatim": true
+      }
+     ]
+    },
+    "masseteric_tubercle": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe is made up of Neotropical tree squirrels of the genera and subgenera Microsciurus, Leptosciurus, Simosciurus, Syntheosciurus, and Mesosciurus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The masseteric tubercle protrudes laterodorsally as a minute process constituting the anterior tip of the lip of the infraorbital foramen.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Subtribe Microsciurina character applied to its member Syntheosciurus."
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Microsciurina by 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      }
+     ],
+     "notes": "Sciurillina (no visible frontoparietal suture) differ from Microsciurina (incl. Syntheosciurus) by character 10."
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The number of transbullar septa varies between one and two per bulla.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Microsciurina subtribe character."
+    }
+   },
+   "distinguishing_notes": "Syntheosciurus brochus (montane Costa Rica/W Panama, 1900-2300 m per HMW) vs Microsciurus: larger (HB 150-185 vs 108-160, overlap 150-160) and interparietal sutures completely fused in adults vs distinct (Moore 1959). vs Sciurus: no clean sourced external character; Moore 1959 cranial diagnosis (proodont upper incisors, P3 present, P4 equal in occlusal area to M3, large sphenopalatine vacuities) - but proodonty is not documented for any Sciurus examined, so upper-incisor procumbency (extra character) may separate it from Sciurus species with known state. HMW pelage: grizzled brown-olivaceous dorsum and tail, underside of tail charcoal to black, tail tip black. Phylogenetically nested near S. granatensis (de Abreu-Jr et al. 2020)."
+  },
+  "Tamiasciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 110,
+      "max": 293
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Tamiasciurus fremonti",
+      "Tamiasciurus hudsonicus",
+      "Tamiasciurus douglasii"
+     ],
+     "per_species": {
+      "Tamiasciurus fremonti": {
+       "min": 194,
+       "max": 219
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6835660",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 194-219 mm, tail 104-146 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818746",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body mean 187 mm (males) and 189-7 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818748",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo)",
+       "quote": "Head—body mean 181 mm (males) and 185 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "head and body length, 201.00 ± 13.22",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus",
+       "quote": "Their total length ranges from 270 to 385 mm, with an average of 327.5. Much of their length is their tail, which is 92 to 158 mm long.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_douglasii/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus douglasii",
+       "quote": "The adult body length ranges from 270 to 355 mm. The tail ranges from 100 to 160 mm.",
+       "verbatim": true
+      }
+     ],
+     "notes": "NO observed head-body RANGE was found for T. hudsonicus or T. douglasii (only means 181-189.7 mm; T. mearnsi, now in T. douglasii per MDD, mean 201 +/- 13.2). The genus min/max given here is a DERIVED CONSERVATIVE BOUND (total-length range minus tail range from ADW: hudsonicus 270-158=112 to 385-92=293; douglasii 270-160=110 to 355-100=255) united with the observed T. fremonti range 194-219. True adult range is certainly narrower; use only as a superset."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://doi.org/10.5479/si.00810282.638.1",
+       "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+       "quote": "The flying squirrels of the tribe Pteromyini within the rodent family Sciuridae represent the greatest diversity of gliding mammals, with a total of 48 species in 15 genera currently recognized",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Tail bushy, but not particularly dorsoventrally flattened; no gliding membrane present;",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "border of orbit opposite last premolar . . . . . . . . . . . . . . . Tamiasciurus hudsonius (Red squirrel)",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "Tamiasciurus mearnsi is a diurnal tree squirrel of small size",
+       "verbatim": true
+      }
+     ],
+     "notes": "Key explicitly routes T. hudsonicus through \"no gliding membrane present\". Inference for species not covered by an explicit key couplet: Jackson & Thorington (2012) restrict gliding sciurids to the tribe Pteromyini, and MDD v2.5 places this genus outside Pteromyini (see context file). Retrieved sources describe the genus as a tree squirrel and none mentions a gliding membrane."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Total body length more than 300 mm, dorsal pelage not striped;",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818746",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo)",
+       "quote": "with reddish medial band that is especially apparent in grayish forms",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818748",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo)",
+       "quote": "often with rust or chestnut medial band that extends length of body",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6835660",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo)",
+       "quote": "with bright to faint reddish medial band that is especially apparent on grayish forms",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "The body is dorsally pale gray-brown with reddish-yellow middorsal band",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "T. h. mogollonensis is a uniform reddish-brown dorsally without a central band",
+       "verbatim": true
+      }
+     ],
+     "notes": "\"present\" = a diffuse reddish/rust MEDIAL BAND along the back, most apparent in grayish forms; the Chapman et al. key treats T. hudsonicus as \"dorsal pelage not striped\". No chipmunk-like stripes. Both states kept so the key cannot rely on this character for Tamiasciurus."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818746",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo)",
+       "quote": "Venter is white to grayish and is separated from dorsum by charcoal to black longitudinal stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818748",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo)",
+       "quote": "In summer, lateral black stripe separates dorsal and ventral color from under parts, but it less apparent in winter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_douglasii/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus douglasii",
+       "quote": "Douglas squirrels have a black stripe that runs along their sides. This stripe is lacking in juveniles and faded or absent in winter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus",
+       "quote": "demarcated by dark lateral lines, which are especially visible in summer",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6835660",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo)",
+       "quote": "separated from dorsum by charcoal-to-black longitudinal stripe",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "a distinct black lateral stripe separates the dorsal and ventral pelage",
+       "verbatim": true
+      }
+     ],
+     "notes": "Black lateral line typical (all 3 species) but seasonal: faded or absent in winter pelage and in juveniles, hence both states."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not stated (T. mearnsi has scattered yellow spots on the VENTER only)."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818746",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo)",
+       "quote": "In winter, ears can have black tuft",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus",
+       "quote": "tufted ears are during the winter",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818748",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo)",
+       "quote": "Ear tufts of black tipped hairs can be visible, particularly in winter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6835660",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo)",
+       "quote": "In winter, ears can have black tuft",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "ears not tufted ( Lindsay 1981)",
+       "verbatim": true,
+       "note": "refers to T. h. mogollonensis (now T. fremonti)"
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "Ears are blackish and yellowish toward base, with slight tuft.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Seasonal winter tufts; reported absent in T. (h.) mogollonensis."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Tail described with longitudinal black banding near hair tips/edges (HMW douglasii; ADW hudsonicus), not annulation; no explicit statement on rings."
+    },
+    "snout_elongate": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "upper_premolars": {
+     "states": [
+      "1",
+      "2"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Tamiasciurus hudsonicus",
+      "Tamiasciurus douglasii"
+     ],
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus",
+       "quote": "Their dental formula is I 1/1, C 0/0, P 1/1 or 2/1, M 3/3. The total number of teeth is 20 or 22 depending on the presence of upper P3.",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+       "citation": "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii",
+       "quote": "The dental formula of T. mearnsi is i 1/1, c 0/0, p 1/1, m 3/3, total 20",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Tamiasciurus douglasii 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Tamiasciurus hudsonicus 2 4",
+       "verbatim": true
+      }
+     ],
+     "notes": "P3 variably present (T. hudsonicus) and reported absent in T. mearnsi (part of T. douglasii in MDD). T. fremonti not separately documented."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "tail_distichous": {
+     "states": [
+      "no"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Tamiasciurus hudsonicus"
+     ],
+     "evidence": [
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "(b) Tail bushy, but not particularly dorsoventrally flattened; no gliding membrane present;",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus",
+       "quote": "The tail is smaller and flatter than that of other tree squirrels",
+       "verbatim": true
+      }
+     ],
+     "notes": "Key contrasts T. hudsonicus tail (\"not particularly dorsoventrally flattened\") with Glaucomys; ADW notes it is flatter than in other tree squirrels."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/biostor-97496",
+       "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+       "quote": "Tooth structure within the North American Sciuridae falls into two rather distinct categories.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-97496",
+       "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+       "quote": "The low-crowned heavier den- tition of the tree squirrels reflects the primary crushing function of the dentition",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-97496",
+       "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+       "quote": "Tribe Sciurini Burmeister, 1854 Sciurus, MiosciuruSy Pi'otosciuruSy Tainiasciurus,",
+       "verbatim": true
+      }
+     ],
+     "notes": "Group-level statement for North American tree squirrels (Black included Tamiasciurus in Sciurini); no Tamiasciurus-specific statement found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    }
+   },
+   "extra_characters": {
+    "mammae_pairs": {
+     "possible_states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "states": [
+      "4"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Tamiasciurus douglasii",
+      "Tamiasciurus hudsonicus"
+     ],
+     "evidence": [
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Tamiasciurus douglasii 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+       "citation": "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement)",
+       "quote": "Tamiasciurus hudsonicus 2 4",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiasciurus_douglasii/",
+       "citation": "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus douglasii",
+       "quote": "Females have eight mammae",
+       "verbatim": true
+      }
+     ]
+    },
+    "diploid_chromosome_number": {
+     "possible_states": [
+      "40",
+      "42",
+      "46"
+     ],
+     "states": [
+      "46"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/6818746",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosome numberis 2n = 46.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818748",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosome numberis 2n = 46.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6835660",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo)",
+       "quote": "Chromosome number of 2n = 46.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Non-morphological."
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. Each auditory bulla has three transbullar septa.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The Tamiasciurini consist of only two genera, Tamiasciurus of the coniferous forests of North America and Sciurotamias of the mountains of China.",
+       "verbatim": true
+      }
+     ]
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Tamiasciurini by 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "10. No frontoparietal suture is seen in the skulls of adults.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Sciurillina differ from Tamiasciurini by character 10, i.e. Tamiasciurus retains a visible frontoparietal suture."
+    },
+    "masseteric_tubercle": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Tamiasciurini by 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. There is no masseteric tubercle.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Sciurillina differ from Tamiasciurini by character 3 (no masseteric tubercle), i.e. Tamiasciurus has one."
+    },
+    "anterior_orbit_border_ventral_view": {
+     "possible_states": [
+      "opposite_last_premolar",
+      "opposite_first_molar"
+     ],
+     "states": [
+      "opposite_last_premolar"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Tamiasciurus hudsonicus"
+     ],
+     "evidence": [
+      {
+       "url": "https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+       "citation": "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae",
+       "quote": "5. (a) Total body length less than 360 mm, tail length less than 140 mm; in ventral view, anterior border of orbit opposite last premolar",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Tamiasciurus vs Sciurus: smaller (Chapman et al. 2007 key: T. hudsonicus total length <360 mm and tail <140 mm vs >360/>140 in S. carolinensis, S. niger; anterior border of orbit opposite last premolar vs opposite M1); three transbullar septa per bulla (Moore 1959) vs two in Sciurus s.str. (but S. anomalus/Tenes usually three - not sympatric); 2n=46 vs 40/42 (HMW); black lateral stripe in summer pelage (absent in S. carolinensis per T. mearnsi MS; but S. aberti has a lateral black band). Mammae 4 pairs in both. vs flying squirrels (Glaucomys): no gliding membrane, tail not particularly flattened (key). vs chipmunks/ground squirrels: dorsal pelage not striped (key; only a diffuse medial band), low-crowned cheek teeth (Black 1963). Chapman et al. 2007 key also uses infraorbital opening piercing rostrum anterior to zygomatic plate (vs piercing zygomatic plate in Tamias)."
+  },
+  "Sciurillus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 89,
+      "max": 115
+     },
+     "scope": "genus",
+     "species_covered": [
+      "Sciurillus pusillus"
+     ],
+     "per_species": {
+      "Sciurillus pusillus": {
+       "min": 89,
+       "max": 115
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "length of head and back, 102 (89–115)",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818622",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurillus pusillus (text as deposited by Plazi on Zenodo)",
+       "quote": "Head-body 89-115 mm, tail 89-120 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Head-and-body length 96–111 mma",
+       "verbatim": true,
+       "note": "subadults; Voss et al. note adults probably a few mm longer"
+      }
+     ],
+     "notes": "Monotypic genus (MDD); HMW notes it probably represents several species."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://doi.org/10.5479/si.00810282.638.1",
+       "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+       "quote": "The flying squirrels of the tribe Pteromyini within the rodent family Sciuridae represent the greatest diversity of gliding mammals, with a total of 48 species in 15 genera currently recognized",
+       "verbatim": true
+      },
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "S. pusillus is an exceptionally small species of tree squirrel",
+       "verbatim": true
+      },
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "In French Guiana, the most frequent locomotor mode of S. pusillus was claw-climbing",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inference for species not covered by an explicit key couplet: Jackson & Thorington (2012) restrict gliding sciurids to the tribe Pteromyini, and MDD v2.5 places this genus outside Pteromyini (see context file). Retrieved sources describe the genus as a tree squirrel and none mentions a gliding membrane."
+    },
+    "dorsal_stripes": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Dorsum described as gray, grizzled (MS; HMW); no stripes mentioned, but no explicit statement of absence."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "snout_elongate": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No retrieved source states this character for this genus."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "The head is slightly reddish and has prominent white patches with white hairs that protrude over the rim of the short ears, which do not extend beyond the crown.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/6818622",
+       "citation": "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurillus pusillus (text as deposited by Plazi on Zenodo)",
+       "quote": "Ears are black-tipped with prominent white-to-buff post-auricular patches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Left unknown: the white hairs of the post-auricular patches protrude over the ear rim (and kuhlii generally lacks the patches per HMW); unclear whether this would be scored as an \"ear tuft\". No source describes tufts at the ear tip."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Sciurillus pusillus"
+     ],
+     "evidence": [
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "The dental formula for S. pusillus is i 1/1, c 0/0, p 2/1, m 3/3, total 22 (Husson 1978).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Upper premolarsg two one one one two",
+       "verbatim": true,
+       "note": "Table 2 columns: Sciurillus pusillus, Sciurus pachecoi, S. pyrrhinus, S. spadiceus, S. flaviventer"
+      }
+     ]
+    }
+   },
+   "extra_characters": {
+    "mammae_pairs": {
+     "possible_states": [
+      "3",
+      "4",
+      "5"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "Six mammae were counted in a lactating female collected from Igarape Bravo, Brazil",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Mammae six eight eight eight six",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisors_procumbent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Upper incisorsf procumbent not procumbent not procumbent not procumbent procumbent",
+       "verbatim": true
+      }
+     ]
+    },
+    "ears_project_above_crown": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+       "citation": "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79",
+       "quote": "short ears, which do not extend beyond the crown",
+       "verbatim": true
+      }
+     ]
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "10. No frontoparietal suture is seen in the skulls of adults.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Mature skulls of Sciurillus have completely fused dorsal braincase elements (e.g., lacking the frontoparietal suture; Moore, 1959), but the basicranial sutures remain open.",
+       "verbatim": true
+      }
+     ]
+    },
+    "masseteric_tubercle": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. There is no masseteric tubercle.",
+       "verbatim": true
+      }
+     ]
+    },
+    "jugal_frontal_contact": {
+     "possible_states": [
+      "present",
+      "absent"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+       "citation": "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi)",
+       "quote": "Jugal-frontal contact present absent absent absent absent",
+       "verbatim": true,
+       "note": "first column = Sciurillus pusillus"
+      }
+     ]
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "1"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The auditory bulla has a single bony transbullar septum.",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Sciurillus pusillus vs Sciurus and Microsciurus (Amazonia/Guianas): smallest Neotropical squirrel, HB 89-115 mm (Sciurus >=140; Microsciurus 108-160, i.e. overlap only with the smallest M. alfari, which is not sympatric - M. flaviventer 120-160); pale gray grizzled pelage with underparts not contrasting (MS account: only pale gray squirrel in the Amazon; Microsciurus brown); short ears not extending beyond crown (vs long ears in sympatric Sciurus). Cranially unique (Moore 1959; Voss et al. 2024): no masseteric tubercle, no visible frontoparietal suture in adults, jugal-frontal contact, single transbullar septum, infraorbital canal at least as long as maxillary toothrow. Two upper premolars and six mammae, like Microsciurus. Baculum axe-shaped (HMW)."
+  }
+ },
+ "sources_consulted": [
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus aberti | https://animaldiversity.org/accounts/Sciurus_aberti/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus deppei | https://animaldiversity.org/accounts/Sciurus_deppei/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus griseus | https://animaldiversity.org/accounts/Sciurus_griseus/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus lis | https://animaldiversity.org/accounts/Sciurus_lis/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus nayaritensis | https://animaldiversity.org/accounts/Sciurus_nayaritensis/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus niger | https://animaldiversity.org/accounts/Sciurus_niger/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus oculatus | https://animaldiversity.org/accounts/Sciurus_oculatus/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus stramineus | https://animaldiversity.org/accounts/Sciurus_stramineus/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus variegatoides | https://animaldiversity.org/accounts/Sciurus_variegatoides/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus vulgaris | https://animaldiversity.org/accounts/Sciurus_vulgaris/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Sciurus | https://animaldiversity.org/accounts/Sciurus/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus douglasii | https://animaldiversity.org/accounts/Tamiasciurus_douglasii/",
+  "Animal Diversity Web (University of Michigan Museum of Zoology), account: Tamiasciurus hudsonicus | https://animaldiversity.org/accounts/Tamiasciurus_hudsonicus/",
+  "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor) | https://archive.org/details/biostor-97496",
+  "Chapman, B.R., Castleberry, S.B. & Laerm, J. 2007. Dichotomous keys to the mammals of the South by order. In: The Land Manager's Guide to Mammals of the South (USDA Forest Service / The Nature Conservancy), Key to the Species of Sciuridae | https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf",
+  "Hale, S.L., Greer, V.L., Koprowski, J.L. & Ramos-Lara, N. 2018. Microsciurus santanderensis (Rodentia: Sciuridae). Mammalian Species 50(970):166-169 (Plazi treatment text) | https://treatment.plazi.org/id/03B7878D252379791553B5D6FB95FB3B",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus alfari (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818808",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus flaviventer (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818814",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus mimulus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818810",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Microsciurus santanderensis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818812",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurillus pusillus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818622",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aberti (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818760",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aestuans (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818786",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus alleni (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818766",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus anomalus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818754",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus arizonensis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818762",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus aureogaster (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818772",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus carolinensis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818756",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus colliaei (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818764",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus gilvigularis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818790",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus granatensis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818784",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus griseus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6833161",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus ignitus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818798",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus igniventris (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818792",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus lis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818752",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus niger (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818758",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus oculatus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818776",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus pucheranii (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818788",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus pyrrhinus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818800",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus richmondi (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818782",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus sanborni (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818802",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus spadiceus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818794",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus stramineus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818796",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus variegatoides (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818780",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus vulgaris (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6822965",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Sciurus yucatanensis (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818778",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Syntheosciurus brochus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818816",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus douglasii (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818748",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus fremonti (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6835660",
+  "Handbook of the Mammals of the World, Vol. 6, Lagomorphs and Rodents I (Wilson, Lacher & Mittermeier eds., Lynx Edicions 2016), family Sciuridae, species account for Tamiasciurus hudsonicus (text as deposited by Plazi on Zenodo) | https://zenodo.org/records/6818746",
+  "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF) | https://doi.org/10.5479/si.00810282.638.1",
+  "Jessen, R.R., Gwinn, R.N. & Koprowski, J.L. 2013. Sciurillus pusillus (Rodentia: Sciuridae). Mammalian Species 45(903):75-79 | https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf",
+  "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text) | https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+  "Koprowski, J.L., Gavish, L. & Doumas, S.L. 2016. Sciurus anomalus (Rodentia: Sciuridae). Mammalian Species 48(934):48-58 (Plazi treatment text) | https://treatment.plazi.org/id/0396FD653F21FFD8FF5AFBFB5E04FD17",
+  "Koprowski, J.L., Nieto-Montes de Oca, A., Palmer, G.H., Ramos-Lara, N. & Timm, R.M. 2017. Sciurus aureogaster (Rodentia: Sciuridae). Mammalian Species 49(951):81-92 (Plazi treatment text) | https://treatment.plazi.org/id/03C887A6B35ED4521E8493EAD62DFCA1",
+  "Koprowski, J.L., Steele, M.A. & Ramos-Lara, N. 2016. Tamiasciurus mearnsi (Rodentia: Sciuridae). Mammalian Species 48(936):66-72 (Plazi treatment text). NB: MDD v2.5 treats mearnsi as part of T. douglasii | https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F",
+  "Mammal Diversity Database taxon page: Microsciurus flaviventer (taxonomy notes) | https://www.mammaldiversity.org/taxon/1001670/",
+  "Mammal Diversity Database taxon page: Sciurus aestuans (taxonomy notes) | https://www.mammaldiversity.org/taxon/1001675/",
+  "Mammal Diversity Database taxon page: Sciurus ignitus (taxonomy notes) | https://www.mammaldiversity.org/taxon/1001687/",
+  "Merrick, M.J., Ketcham, S.L. & Koprowski, J.L. 2014. Sciurus ignitus (Rodentia: Sciuridae). Mammalian Species 46(915):93-100 (PDF deposited on Zenodo) | https://zenodo.org/records/5033252",
+  "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206 | https://digitallibrary.amnh.org/handle/2246/1265",
+  "Palmer, R.R. & Koprowski, J.L. 2017. Sciurus sanborni (Rodentia: Sciuridae). Mammalian Species 49(952):93-96 (Plazi treatment text). NB: MDD v2.5 treats sanborni as a synonym of S. ignitus | https://treatment.plazi.org/id/03C580387777FFEFFE90FC2CFDA3F95C",
+  "The Mammals of Texas, online edition (Natural Science Research Laboratory, Texas Tech University), Order Rodentia: Key to the Rodents of Texas | https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php",
+  "Voss, R.S., Fleck, D.W. & Giarla, T.C. 2024. Mammalian diversity and Matses ethnomammalogy in Amazonian Peru. Part 5: Rodents. Bulletin of the American Museum of Natural History 466 (Sciuridae accounts, incl. description of Sciurus pachecoi) | https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047",
+  "Wauters, L.A., Amori, G., Aloise, G., Gippoliti, S., Agnelli, P., Galimberti, A., Casiraghi, M., Preatoni, D. & Martinoli, A. 2017. New endemic mammal species for Europe: Sciurus meridionalis (Rodentia, Sciuridae). Hystrix 28(1):1-8 | http://www.italian-journal-of-mammalogy.it/pdf-77104-18339?filename=New-endemic-mammal-specie.pdf",
+  "de Abreu-Jr et al. 2020, BMC Evolutionary Biology 20:77, Additional file 7 (state coding of number of upper premolars and pairs of mammae per species; names follow their proposed generic arrangement) | https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf",
+  "de Abreu-Jr, E.F., Pavan, S.E., Tsuchiya, M.T.N., Wilson, D.E., Percequillo, A.R. & Maldonado, J.E. 2020. Museomics of tree squirrels: a dense taxon sampling of mitogenomes reveals hidden diversity, phenotypic convergence, and the need of a taxonomic overhaul. BMC Evolutionary Biology 20:77 (full text via Europe PMC PMC7320592) | https://doi.org/10.1186/s12862-020-01639-y",
+  "Context file research/mdd_genera.json (MDD v2.5 species lists, countries, co-occurring genera)",
+  "Unavailable (blocked/paywalled, NOT used): Mammalian Species accounts via academic.oup.com (Cloudflare), Smith College MSI archive (404), web.archive.org (connection reset), BHL (Cloudflare), Smithsonian repository (503); Patton et al. 2015 Mammals of South America vol. 2 (no online text found)."
+ ],
+ "caveats": "Taxonomy follows MDD v2.5 (context file), which keeps a broad Sciurus (29 spp.) and Microsciurus (10 spp.); many sources use other arrangements (de Abreu-Jr et al. 2020 genera Guerlinguetus, Hadrosciurus, Leptosciurus, Echinosciurus, etc.; HMW 2016 with 4 Microsciurus spp. and broad M. flaviventer/M. mimulus). Species coverage was mapped through MDD synonymy notes (e.g., gilvigularis in S. aestuans; sanborni in S. ignitus; mearnsi in T. douglasii; otinus/sabanillae/similis/simonsi formerly M. flaviventer; boquetensis/isthmius formerly M. mimulus). HMW text comes from Plazi OCR and contains artifacts (e.g. \"262-3\" = 262.3; \"pro6dont\" = proodont); quotes are verbatim from that text. HMW S. oculatus head-body (508-560 mm) is evidently total length and was discarded. Tamiasciurus hb_length_mm is a derived conservative superset (no observed HB range found for T. hudsonicus or T. douglasii). Patagium \"absent\" for all five genera rests partly on inference (gliding squirrels = Pteromyini per Jackson & Thorington 2012) plus explicit key couplets for S. niger, S. carolinensis and T. hudsonicus. Characters with scope \"partial\" are documented only for the listed species and should be treated as unknown for the genus if the key requires full coverage. The Microsciurus \"ears project above crown\" character has conflicting sources. Cheek pouches, snout elongation and upper-incisor grooves are essentially undocumented for this group (no source found stating them), although they are generally not reported in tree squirrels. Quotes were verified programmatically as exact substrings (whitespace-normalised) of the retrieved texts."
+}

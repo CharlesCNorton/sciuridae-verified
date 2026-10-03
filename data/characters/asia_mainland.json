@@ -1,0 +1,2894 @@
+{
+ "group": "asia_mainland",
+ "genera": {
+  "Ratufa": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 250,
+      "max": 500
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Ratufa affinis",
+      "Ratufa bicolor",
+      "Ratufa gigantea",
+      "Ratufa indica",
+      "Ratufa macroura"
+     ],
+     "per_species": {
+      "Ratufa affinis": {
+       "min": 310,
+       "max": 380
+      },
+      "Ratufa bicolor": {
+       "min": 305,
+       "max": 460
+      },
+      "Ratufa gigantea": {
+       "min": 397,
+       "max": 460
+      },
+      "Ratufa indica": {
+       "min": 250,
+       "max": 500
+      },
+      "Ratufa macroura": {
+       "min": 250,
+       "max": 450
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 384",
+       "quote": "Size large, usually over 250 mm. or even over 300 mm. up to 470 head and body length, or perhaps more.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED34FF69FD83F8DFF5D4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa indica (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 340-450 mm, tail 380-490 mm; weight 0.9-2.3 kg.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCEED34FAF6FE0EFD87F534",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa bicolor (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 335-365 mm, tail 409-424 mm; weight 1.1-2 kg.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCEED34FAF6FE0EFD87F534",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa bicolor (text via Plazi TreatmentBank)",
+       "quote": "Island endemic subspecies condorensis is significantly smaller (head-body 305 mm, tail 324 mm) than other subspecies of the Black Giant Squirrel.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC8ED35FFCDFC20F9F0F1F3",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa affinis (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 335-342 mm,tail 409-423 mm; weight 1.1-2 kg.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED35FA17FCF9FA94F493",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa macroura (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 323-396 mm,tail 350-362 mm; weight c.1-6 kg.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Indian_giant_squirrel",
+       "citation": "Wikipedia, \"Indian giant squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "The Indian giant squirrel is one of the largest squirrels, with a head–and–body length of {{convert|25-50|cm||0|abbr=on}}",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Ratufa_macroura/",
+       "citation": "Animal Diversity Web, Ratufa macroura account",
+       "quote": "have a head and body length of 25-45cm (Finn 1929, Nowak 1991).",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Ratufa_affinis/",
+       "citation": "Animal Diversity Web, Ratufa affinis account",
+       "quote": "their head and body length is 322 to 350 mm, not including their tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Cream-coloured_giant_squirrel",
+       "citation": "Wikipedia, \"Cream-coloured giant squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "It has a head–and–body length of {{cvt|31-38|cm|ftin}}",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Black_giant_squirrel",
+       "citation": "Wikipedia, \"Black giant squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "has a head–and–body length of {{cvt|34-37|cm|in}}",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The collector's measurements of phaeopepla were: length of head and body, 365-415 (average 386)",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "length of head and body, 300-380, average 340",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837), Table 2 (p. 32), Body and Skull Dimensions of Type Specimens [of Ratufa] (values transcribed from the scanned page image; pdftotext output of the rotated table is garbled)",
+       "quote": "Head & Body of type specimens: melanochra 355; dandolena 377; sinhala 344; superans 450; bengalensis 450; centralis 341; dealbata 369; lutrina 397; macruroides 460; felli 365; stigmosa 417; phaeopepla 405; marana 460; leucogenys 370; sinus 377; smithi 415",
+       "verbatim": false
+      }
+     ],
+     "notes": "Union over all sources. Narrowest modern species ranges (HMW 2016) span 305-450 mm; the 250 mm lower bound comes from Wikipedia (citing Thorington et al. 2012) for R. indica (25-50 cm) and ADW/Wikipedia for R. macroura (25-45 cm), and Ellerman's \"usually over 250 mm\". R. gigantea (split from R. bicolor in MDD) is covered only by Moore & Tate type specimens of lutrina (397) and macruroides (460), which Moore & Tate synonymise under subspecies gigantea. R. bicolor range here includes the Moore & Tate types of non-gigantea subspecies (felli 365 ... marana 460) and the Abbott series of phaeopepla 365-415. Note overlap with the upper end of Callosciurus (up to 291-300 mm), so size alone does not separate Ratufa from all Callosciurus under these conservative bounds."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(5) The dorsal pelage is longitudinally striped with 3 or 5 light stripes contrasted with brown or black pelage between stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above six characters distinguish Funambulus from other Sciurinae of the Indian and Indochinese subregions as follows: from Ratufa by 2, 3, 4, 5, and 6",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC8ED35FFCDFC20F9F0F1F3",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa affinis (text via Plazi TreatmentBank)",
+       "quote": "it is pale on venter with a darker dorsum, especially at midline",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC8ED35FFCDFC20F9F0F1F3",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa affinis (text via Plazi TreatmentBank)",
+       "quote": "Of the dark subspecies on Kalimantan, ephippium has the darkest dorsal midline with pale ungrizzled cream thighs.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate list character (5) (dorsal pelage striped with 3 or 5 light stripes) among those separating Funambulus from Ratufa, i.e. Ratufa lacks light dorsal stripes. CAVEAT: HMW describes R. affinis as darker \"especially at midline\" and some Bornean subspecies (ephippium, baramensis) with a \"dark midline\"; this is a darker saddle/midline rather than a discrete stripe, but a reviewer may prefer [\"absent\",\"present\"] for safety."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Ratufa macroura"
+     ],
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED35FA17FCF9FA94F493",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa macroura (text via Plazi TreatmentBank)",
+       "quote": "Subspecies macroura is distinguished byits black tail with white hair tips, and by a gray band separating black dorsum from yellowish venter.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED35FA17FCF9FA94F493",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa macroura (text via Plazi TreatmentBank)",
+       "quote": "Subspecies melanochra has a black dorsum and tail, butit lacks white hair tips and gray line separating dorsum from yellowish venter.",
+       "verbatim": true
+      }
+     ],
+     "notes": "R. macroura macroura has a gray band/line along the side separating dorsum from venter, which melanochra lacks. No flank stripe is mentioned in the detailed HMW pelage descriptions of R. indica, R. bicolor or R. affinis, but absence is not stated explicitly."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found that addresses spots for Ratufa."
+    },
+    "ear_tufts": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Ratufa indica",
+      "Ratufa macroura",
+      "Ratufa bicolor",
+      "Ratufa gigantea"
+     ],
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED34FF69FD83F8DFF5D4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa indica (text via Plazi TreatmentBank)",
+       "quote": "The Indian Giant Squirrel has a long, broad, haired tail and conspicuous ear tufts that are often as long as 20 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED35FA17FCF9FA94F493",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Ratufa macroura (text via Plazi TreatmentBank)",
+       "quote": "ear tufts, if present, are nearly inconspicuous",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) Ear tufts occur in gigantea and hainana but not in the other subspecies.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(4) Ear tufts are present but small and short, extending no more than 5 mm. beyond the skin of the ear tips.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 384",
+       "quote": "it may be mentioned that the ear is heavily tufted in indica",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 384",
+       "quote": "the ear also is tufted in gigantea, and more or less so in macroura.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Present and conspicuous in R. indica (~20 mm); small (<=5 mm) or inconspicuous in R. macroura; present (small, black) in gigantea and hainana, absent in other R. bicolor subspecies (Moore & Tate, who then treated gigantea as a subspecies of bicolor). R. affinis not addressed."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found describing an annulated tail in Ratufa."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 383",
+       "quote": "Rostrum short and broad; frontals very broad.",
+       "verbatim": true
+      }
+     ]
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found that addresses cheek pouches in Ratufa."
+    },
+    "upper_premolars": {
+     "states": [
+      "1"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 384",
+       "quote": "Cheekteeth 4/4.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(4) The third upper premolar is present.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Callosciurus is distinguished from the other genera of the Indian and Indochinese subregions by the above characters as follows: from Ratufa by 3, 4, 6, and 7",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman gives the cheek-tooth count as a fraction; the archive.org OCR renders it as \"Cheekteeth ^.\" and the value 4/4 was read from the page image of p. 384 (4 upper cheek teeth = P4 + M1-3). Moore & Tate list \"(4) The third upper premolar is present\" among the characters distinguishing Callosciurus from Ratufa, i.e. P3 absent in Ratufa."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 384",
+       "quote": "Incisors without special peculiarities.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Weak/inferential: Ellerman describes incisor grooves where present in other genera (e.g. Rheithrosciurus), and describes Ratufa incisors as without peculiarities. No source states \"ungrooved\" explicitly."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Tail described as long, broad and thickly bushy (Ellerman p. 384; HMW), but no source addresses distichous flattening."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 383",
+       "quote": "Very large arboreal Squirrels with heavy broad skull, very prominent postorbital processes, brachyodont cheekteeth in which the cusps are low and the pattern as a rule not clear, and feet considerably specialized for arboreal life.",
+       "verbatim": true
+      }
+     ]
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(5) The dorsal pelage is longitudinally striped with 3 or 5 light stripes contrasted with brown or black pelage between stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above six characters distinguish Funambulus from other Sciurinae of the Indian and Indochinese subregions as follows: from Ratufa by 2, 3, 4, 5, and 6",
+       "verbatim": true
+      }
+     ],
+     "notes": "Longitudinal light (pale) stripes in the dorsal pelage, as used in Moore & Tate 1965 generic diagnoses."
+    },
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "interorbital_broader"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(3) The length of the nasal bone exceeds the least interorbital breadth.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The genus Dremomys may be distinguished from other genera of Sciurinae of the Indian and Indochinese subregions by the above characteristics as follows: from Ratufa by 1, 2, 3, and 6; Funambulus by 5, 6, and 7; Callosciurus by 3; Tamiops by 3 and 7; Menetes by 4, 5, and 7; and Sciurotamias by 1 and 2.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Skull character: Moore & Tate list Dremomys character (3) (nasal length exceeds least interorbital breadth) as distinguishing Dremomys from Ratufa, so in Ratufa the nasal does not exceed the least interorbital breadth."
+    },
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The upper molars and fourth upper premolar possess extraordinarily high relief",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "the central valley sinking especially deep between them so that when the cusps are planed off by wear, the central valley persists filled with dirt and circled by a thin line of enamel.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above characters distinguish Menetes from other genera of the Sciurinae in the Indian and Indochinese subregions as follows: from Ratufa by 1, 2, 3, 4, and 5; Funambulus by 1 and 3; Callosciurus by 1, 4, and 5; Tamiops by 1, 4, and 5; Dremomys by 1 and 5; and Sciurotamias by 1, 2, and 5.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Menetes-type upper cheek teeth with extraordinarily high relief and a persistent deep, dirt-filled central valley; Moore & Tate list this character (1) as separating Menetes from Ratufa."
+    }
+   },
+   "distinguishing_notes": "Ratufa (giant squirrels) are the largest co-occurring tree squirrels: HB c. 305-460 mm in HMW 2016 species ranges and Moore & Tate type specimens (Ellerman: \"usually over 250 mm ... up to 470\"); all other genera in this group are <=230 mm except some Callosciurus (HMW max 291 mm for C. inornatus). Dentally Ratufa has only one upper premolar (cheek teeth 4/4, Ellerman 1940 p. 384; P3 absence listed by Moore & Tate 1965 as separating Callosciurus from Ratufa), whereas Callosciurus, Tamiops, Dremomys, Menetes and Funambulus all have P3 (Ellerman 1940; Moore & Tate 1965). Ratufa lacks the light dorsal stripes of Funambulus/Tamiops (Moore & Tate 1965 Funambulus diagnosis). Cheek teeth brachyodont with low cusps and the forefoot with a greatly expanded inner pad (Ellerman 1940). Ear tufts are conspicuous in R. indica, small in R. macroura and gigantea, absent in most R. bicolor (Moore & Tate 1965; HMW 2016) - so ear tufts are not a genus-level separator."
+  },
+  "Funambulus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 110,
+      "max": 195
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Funambulus layardi",
+      "Funambulus obscurus",
+      "Funambulus palmarum",
+      "Funambulus pennantii",
+      "Funambulus sublineatus",
+      "Funambulus tristriatus"
+     ],
+     "per_species": {
+      "Funambulus layardi": {
+       "min": 120,
+       "max": 170
+      },
+      "Funambulus obscurus": {
+       "min": 110,
+       "max": 130
+      },
+      "Funambulus palmarum": {
+       "min": 136,
+       "max": 168
+      },
+      "Funambulus pennantii": {
+       "min": 133,
+       "max": 156
+      },
+      "Funambulus sublineatus": {
+       "min": 110,
+       "max": 140
+      },
+      "Funambulus tristriatus": {
+       "min": 147,
+       "max": 195
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://animaldiversity.org/accounts/Funambulus_tristriatus/",
+       "citation": "Animal Diversity Web, Funambulus tristriatus account",
+       "quote": "The tail length of species in Funambulus is roughly equal to the head and body length, which ranges from 115 to 178 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF11FC0DFC9BFEC7",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus sublineatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 110-130 mm, tail 94-135 mm; weight mean 44.1 g. The Dusky Palm Squirrel is the smallest species of the genus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED38FACFF80CFBA4F4AF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus tristriatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 160 mm (males) and 159 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFC7F548F599F0AC",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus palmarum (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body mean 149 mm (males) and 147 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFCCFE0EFBBEFD64",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus pennantii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 134 mm (males) and 155 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF13F5D5F922F5D9",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus layardi (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body mean 144 mm (males) and 154 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Layard's_palm_squirrel",
+       "citation": "Wikipedia, \"Layard's palm squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Its head and body length is 12–17&nbsp;cm, with a 14-cm tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Dusky_striped_squirrel",
+       "citation": "Wikipedia, \"Dusky striped squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Its head and body length is 11–13&nbsp;cm, with a 10-cm tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837), Table 3 (p. 66), Dimensions in Millimeters of Type Specimens [of Funambulus] (caption: 1-3 species pennanti; 4-11 species palmarum; 12-16 species [tristriatus]...); values transcribed from the scanned page image",
+       "quote": "Head & Body of type specimens: 1. pennanti 156; 2. lutescens 140; 3. argentescens 133; 4. olympius 154; 5. brodiei 140±; 6. favonicus 143; 7. matugamensis 136 (tag possibly in error); 8. comorinus 153; 9. gossei 138; 10. bellaricus 168 (tag possibly in error); 11. robertsoni 140; 12. tristriatus 190±; 13. dussumieri 170±; 14. wroughtoni 195; 15. numarius 155; 16. thomasi 147; 17. signatus 155; 18. sublineatus 130±; 19. delesserti 140±; 20. kathleenae 125",
+       "verbatim": false
+      }
+     ],
+     "notes": "HMW gives only means for most species; per-species ranges here combine HMW ranges, Wikipedia, and single type-specimen values from Moore & Tate Table 3 (so true species ranges are wider than the per_species spans shown for palmarum/pennantii/tristriatus). Rows 17-20 of Table 3 assigned using Moore & Tate's classification (signatus under layardi; sublineatus + delesserti under sublineatus; kathleenae under obscurus). HMW 2016 treats F. obscurus as F. sublineatus obscurus; its 110-130 mm range covers both. Genus range 115-178 mm in ADW."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(5) The dorsal pelage is longitudinally striped with 3 or 5 light stripes contrasted with brown or black pelage between stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 377",
+       "quote": "Externally with three prominent white stripes usually present (five in pennanti); the central one is mid-dorsal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 377",
+       "quote": "In sublineatus, a small thick-furred type with the tail normally more narrow than is usual, these stripes much reduced.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF11FC0DFC9BFEC7",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus sublineatus (text via Plazi TreatmentBank)",
+       "quote": "It has three dorsal stripes, obscured by long brown fur.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFCCFE0EFBBEFD64",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus pennantii (text via Plazi TreatmentBank)",
+       "quote": "Dorsum of the Northern Palm Squirrel is brown with five paler longitudinalstripes.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Genus diagnosis (Moore & Tate). Stripes are reduced/obscured in F. sublineatus (and F. obscurus) but still described as present."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFCCFE0EFBBEFD64",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus pennantii (text via Plazi TreatmentBank)",
+       "quote": "Middle stripe extends from neck to tail, and outer stripes extend from ears to base oftail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFC7F548F599F0AC",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus palmarum (text via Plazi TreatmentBank)",
+       "quote": "Subspecies brodiei is more colorful than other subspecies and lateral stripes are more orange",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The lateral ones separated by 11 to 12 mm. from the middle stripe, extend from back of the shoulders onto the rump",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Five to 7 mm. below the lateral lines, the Mummy Brown dorsal area changes abruptly to the agouti sides",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Indian_palm_squirrel",
+       "citation": "Wikipedia, \"Indian palm squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "The two outer stripes run from the forelegs to the hind legs only.",
+       "verbatim": true
+      }
+     ],
+     "notes": "AMBIGUOUS boundary: the outer (\"lateral\") pale stripes of Funambulus lie dorsolaterally. In F. palmarum Moore & Tate place them inside the dark dorsal area (5-7 mm above the agouti sides), whereas F. pennantii has 5 stripes whose outer pair is lower on the body. Both states recorded so the key does not rely on this character for Funambulus; use pale_dorsal_stripes / mid_dorsal_stripe_colour instead."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found that addresses spots for Funambulus."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found. (Wikipedia, Indian palm squirrel: \"The ears are small and triangular\"; Wikipedia Tamiops page contrasts Tamiops' white-tipped ear hairs with Funambulus, but no source states tufts absent in Funambulus.)"
+    },
+    "tail_rings": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Funambulus palmarum",
+      "Funambulus sublineatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "these give the tail as a whole an appearance of jumbled annulation (with about 15 black rings in one instance).",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "tail ringed black and yellow.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Annulated appearance documented for F. p. palmarum (Moore & Tate colour description, banded tail hairs giving \"jumbled annulation\") and in the original description of F. sublineatus (quoted by Moore & Tate: \"tail ringed black and yellow\"). Not documented for other species; \"absent\" is included because annulation is not reported as a genus character, not because a source states absence."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 311",
+       "quote": "Rostrum never consistently elongated throughout every species of a genus, at extreme development never abnormal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 376",
+       "quote": "Skull with more or less elongate rostrum",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Layard's_palm_squirrel",
+       "citation": "Wikipedia, \"Layard's palm squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "and its snout is small.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman's key places Funambulus (with Callosciurus and Sciurus) in the branch \"Rostrum never consistently elongated ... never abnormal\", contrasted with Dremomys; his genus account nonetheless says \"more or less elongate rostrum\" (cranial, moderate). Not markedly / shrew-like elongated."
+    },
+    "cheek_pouches": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found that addresses cheek pouches in Funambulus."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 376",
+       "quote": "P. 3 well developed",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Ellerman (p. 377) quotes Forsyth Major: \"the less semihypsodont oriental S. tristriatus and S. palmarum tend to connect the Xerus type with the Sciurus vulgaris type (of tooth)\"; Ellerman notes \"noticeably high cusps\" in the young. Not clear enough to code."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(5) The dorsal pelage is longitudinally striped with 3 or 5 light stripes contrasted with brown or black pelage between stripes.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Genus diagnosis character (5) of Moore & Tate 1965."
+    },
+    "mid_dorsal_stripe_colour": {
+     "possible_states": [
+      "none",
+      "pale",
+      "dark"
+     ],
+     "states": [
+      "pale"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The midstripe and two additional pairs of stripes which are the same color as the midstripe, are the white ones in Funambulus, but the black ones in Tamiops.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 377",
+       "quote": "Externally with three prominent white stripes usually present (five in pennanti); the central one is mid-dorsal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFC7F548F599F0AC",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus palmarum (text via Plazi TreatmentBank)",
+       "quote": "Middle dorsal stripe and venter are pale buffy",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF13F5D5F922F5D9",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus layardi (text via Plazi TreatmentBank)",
+       "quote": "with three longitudinal stripes on dorsum, in which middle stripe, and sometimes outerstripes, are a bright orange-yellow.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF11FC0DFC9BFEC7",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Funambulus sublineatus (text via Plazi TreatmentBank)",
+       "quote": "Subspecies sublineatus has narrower dark brown stripes (3-5 mm) between the pale dorsal stripes than obscurus (6-8 mm).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Colour of the mid-dorsal (central) stripe. Funambulus: pale (white/buff/orange-yellow) mid-dorsal stripe; Tamiops: black. Key separator Funambulus vs Tamiops (Moore & Tate 1965)."
+    },
+    "dark_interstripe_pattern": {
+     "possible_states": [
+      "uniform",
+      "paired_dark_and_pale"
+     ],
+     "states": [
+      "uniform"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(2) The color of the pelage in between these stripes appears to be a rather uniformly colored area in Funambulus whereas in Tamiops it appears to be two pairs of stripes, the inner pair usually differing markedly in color",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "are the five including the middle one; in Tamiops the predominating stripes are the outer pair of the four interspaced between those five, and secondarily, the middle one of the five.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate 1965: pelage between the pale stripes is a uniformly coloured area in Funambulus, but appears as two pairs of differently coloured stripes in Tamiops; predominating stripes are the five (incl. middle) in Funambulus vs the outer pale pair in Tamiops."
+    },
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The upper molars and fourth upper premolar possess extraordinarily high relief",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above characters distinguish Menetes from other genera of the Sciurinae in the Indian and Indochinese subregions as follows: from Ratufa by 1, 2, 3, 4, and 5; Funambulus by 1 and 3; Callosciurus by 1, 4, and 5; Tamiops by 1, 4, and 5; Dremomys by 1 and 5; and Sciurotamias by 1, 2, and 5.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate list Menetes character (1) as separating Menetes from Funambulus."
+    }
+   },
+   "distinguishing_notes": "Funambulus (Indian/Sri Lankan palm squirrels) has 3 (or 5 in F. pennantii) PALE longitudinal stripes on a darker back, with a pale mid-dorsal stripe (Moore & Tate 1965 diagnosis char. 5; Ellerman 1940). This separates it from co-occurring Ratufa, Callosciurus and Dremomys (no pale dorsal stripes) and from Tamiops, whose mid-dorsal stripe and its paired stripes are BLACK, with the predominant pale stripes being the outer pair (Moore & Tate 1965 pp. 233-234; Wikipedia/Thorington et al. 2012). Other Moore & Tate characters: baculum a single unit (vs two-part in Callosciurus/Tamiops/Dremomys/Menetes), only two pairs of functional mammae, low, weakly falcate coronoid process. Size (HB 110-195 mm) is far below Ratufa (>=250-305 mm). F. sublineatus/obscurus have reduced, fur-obscured stripes (HMW 2016; Ellerman 1940)."
+  },
+  "Tamiops": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 100,
+      "max": 155
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Tamiops barbei",
+      "Tamiops maritimus",
+      "Tamiops mcclellandii",
+      "Tamiops minshanicus",
+      "Tamiops rodolphii",
+      "Tamiops swinhoei"
+     ],
+     "per_species": {
+      "Tamiops barbei": {
+       "min": 114,
+       "max": 114
+      },
+      "Tamiops maritimus": {
+       "min": 100,
+       "max": 145
+      },
+      "Tamiops mcclellandii": {
+       "min": 112,
+       "max": 125
+      },
+      "Tamiops minshanicus": {
+       "min": 122,
+       "max": 140
+      },
+      "Tamiops rodolphii": {
+       "min": 105,
+       "max": 120
+      },
+      "Tamiops swinhoei": {
+       "min": 120,
+       "max": 155
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Asiatic_striped_squirrel",
+       "citation": "Wikipedia, \"Asiatic striped squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Their head to body length measured from 10 to 13&nbsp;cm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "Measurements of Holotype. Weight 95 g; HBL 140 mm;",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "Measurements of paratypes. Weight 73–85 g; HBL 122–136 mm;",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "The body size of T. minshanica sp. nov. falls intermediate between T. swinhoei and T. maritimus .",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3DFFF0FE5BFD8DFFD5",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops swinhoei (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body mean 131 mm (males and females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3DFFF5F6E4F9B1F3BE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops maritimus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 119 mm (males) and 121 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3EFAFCFB1FFB25F5F0",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops mcclellandii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body mean 114 mm (males) and 113 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF65FCC3FE59FFBE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops rodolphii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 117 mm (males) and 118 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837), Table 12 (p. 232), Dimensions of Some Type Specimens of the Genus Tamiops (values transcribed from the scanned page image)",
+       "quote": "Head & Body of type specimens: 1 mcclellandi 115±; 2 manipurensis 115±; 3 collinus 125; 4 inconstans 112; 5 kongensis 122; 6 barbei 114; 7 novemlineatus 114; 8 liantis 118; 9 holti (=lylei) 105; 10 elbeli 120; 11 swinhoei 140±; 12 clarkei 155±; 13 forresti 125±; 14 olivaceus 120; 15 vestitus 123; 16 maritimus 145±; 17 monticolus 125±; 18 hainanus 100; 19 laotum 113; 20 moi 123. Footnote: Nos. 1 to 7 are included in species mcclellandi, 8-10 in species rodolphei, 11-15 in swinhoei, 16-20 in maritimus.",
+       "verbatim": false
+      }
+     ],
+     "notes": "No modern source with full species ranges was retrievable (HMW gives means only). Per-species spans are mostly from single type specimens (Moore & Tate Table 12), so true ranges are wider; T. swinhoei is the largest species (HMW) and its maximum is probably under-represented. T. barbei (MDD species; HMW treats it as T. mcclellandii barbei) is represented only by its type (114 mm). Treat max=155 as a soft bound."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "prominent basic dorsal pattern of five longitudinal black stripes separated by four lighter stripes, and these are subject to some geographic and seasonal variations in number and intensity.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 350",
+       "quote": "The size is small. Back with conspicuous black stripes (usually five in number, though these vary in development).",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Asiatic_striped_squirrel",
+       "citation": "Wikipedia, \"Asiatic striped squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "A black longitudinal stripe is present in the middle of the back, which is parallel on both sides with two pairs of pale longitudinal stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "winter pelage with 1 middorsal black stripe, 4 light stripes identically bright brown in all seasons",
+       "verbatim": true
+      }
+     ]
+    },
+    "flank_stripe": {
+     "states": [
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Tamiops mcclellandii",
+      "Tamiops maritimus",
+      "Tamiops swinhoei",
+      "Tamiops rodolphii",
+      "Tamiops minshanicus"
+     ],
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3EFAFCFB1FFB25F5F0",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops mcclellandii (text via Plazi TreatmentBank)",
+       "quote": "Nominate subspecies mecclellandii has a 4mm wide mid-dorsal black stripe from nape to rump,lateral black stripes extend from shoulders to rump and pale stripes are vivid buffy yellow, extending from rostrum, below eyes and ears, ending at the rump.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3DFFF5F6E4F9B1F3BE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops maritimus (text via Plazi TreatmentBank)",
+       "quote": "with shorter stripes, a more discrete mid-dorsalstripe, and more narrow dull white lateral stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3DFFF0FE5BFD8DFFD5",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops swinhoei (text via Plazi TreatmentBank)",
+       "quote": "the most lateral pale stripe is broader, less brilliant, and usually stops at the shoulder rather than being continuous with the cheek stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF65FCC3FE59FFBE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops rodolphii (text via Plazi TreatmentBank)",
+       "quote": "Pairs of lateral stripes have the same pale brown color and are equally wide.",
+       "verbatim": true
+      }
+     ],
+     "notes": "AMBIGUOUS boundary: the outermost pale stripe (and its dark border) of the 5-dark/4-pale Tamiops pattern runs along the upper side and is called \"lateral\" in HMW; observers may regard the whole pattern as dorsal. In T. minshanicus the outermost dark pair is vague in summer and grey-brown in winter, but the 4 light stripes persist in all seasons (Liu et al. 2022). Not recommended as a Tamiops-vs-Funambulus separator."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found that addresses spots for Tamiops."
+    },
+    "ear_tufts": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "In this genus there is characteristically a small white ear tuft.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Tamiops_swinhoei/",
+       "citation": "Animal Diversity Web, Tamiops swinhoei account",
+       "quote": "It also has characterisic white tufts of hair at the posterior tips of the ears.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "back of ear with a pure white tuft",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Asiatic_striped_squirrel",
+       "citation": "Wikipedia, \"Asiatic striped squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "they have smaller rounded ears with white-tipped hairs.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Small white tuft / white-tipped hairs at the (posterior) ear tip; small rather than long pencils, so \"conspicuous\" is a judgement call."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "Rostrum is relatively short, steeply narrowing.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 311",
+       "quote": "Rostrum never consistently elongated throughout every species of a genus, at extreme development never abnormal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 350",
+       "quote": "The skull is not abnormal.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Liu et al. 2022 describes T. minshanica; Ellerman (who ranked Tamiops as a subgenus of Callosciurus) places Callosciurus incl. Tamiops in the key branch \"Rostrum never consistently elongated\"."
+    },
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Sciurotamias has three bony septa across the chamber of the auditory bulla; whereas members of the tribe Callosciurini have one or none.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "differs also in having cheek pouches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferential: in the comparison of Sciurotamias with Dremomys / the tribe Callosciurini (which in Moore & Tate 1965 contains Callosciurus, Tamiops, Dremomys and Menetes), Moore & Tate state that \"Sciurotamias differs also in having cheek pouches\" (pdftotext places the word \"Sciurotamias\" on a separate line after the sentence), implying that the Callosciurini lack them. No source found that states absence directly for this genus."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 350",
+       "quote": "P.3 is relatively large, as in Callosciurus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+       "citation": "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank)",
+       "quote": "Two upper premolars and 3 upper molars are cream-white",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman OCR reads \"P. -5\"; the page image of p. 350 reads \"P.3 is relatively large, as in Callosciurus.\""
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found (Liu et al. 2022 describe T. minshanica upper incisors as \"narrow, exhibiting orange enamel\", without mentioning grooves)."
+    },
+    "tail_distichous": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 350",
+       "quote": "Tail usually much narrowed.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The tail as well as the stripes is somewhat chipmunk-like, being quite short-haired for a tree squir",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferred from \"much narrowed\", \"short-haired\" tail; no source uses the word distichous for Tamiops."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "In addition to the light stripes of the dorsal pelage, which so strongly distinguish Tamiops from all other Callosciurini",
+       "verbatim": true
+      }
+     ]
+    },
+    "mid_dorsal_stripe_colour": {
+     "possible_states": [
+      "none",
+      "pale",
+      "dark"
+     ],
+     "states": [
+      "dark"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The midstripe and two additional pairs of stripes which are the same color as the midstripe, are the white ones in Funambulus, but the black ones in Tamiops.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF65FCC3FE59FFBE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Tamiops rodolphii (text via Plazi TreatmentBank)",
+       "quote": "The Cambodian Striped Squirrel has a thin, pale brown longitudinal stripe dividing the mid-dorsal black stripe.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Black mid-dorsal stripe in all species; in T. rodolphii it is bisected by a thin pale line."
+    },
+    "dark_interstripe_pattern": {
+     "possible_states": [
+      "uniform",
+      "paired_dark_and_pale"
+     ],
+     "states": [
+      "paired_dark_and_pale"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(2) The color of the pelage in between these stripes appears to be a rather uniformly colored area in Funambulus whereas in Tamiops it appears to be two pairs of stripes, the inner pair usually differing markedly in color",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "are the five including the middle one; in Tamiops the predominating stripes are the outer pair of the four interspaced between those five, and secondarily, the middle one of the five.",
+       "verbatim": true
+      }
+     ]
+    },
+    "orbit_length_over_13mm": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) Small size associated with relatively fairly short orbit distinguishes Tamiops from Callosciurus; i.e., an orbit length of less than 13 mm. is Tamiops, more than 13 mm. is Callosciurus.",
+       "verbatim": true
+      }
+     ]
+    },
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "interorbital_broader"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(3) The length of the nasal bone exceeds the least interorbital breadth.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The genus Dremomys may be distinguished from other genera of Sciurinae of the Indian and Indochinese subregions by the above characteristics as follows: from Ratufa by 1, 2, 3, and 6; Funambulus by 5, 6, and 7; Callosciurus by 3; Tamiops by 3 and 7; Menetes by 4, 5, and 7; and Sciurotamias by 1 and 2.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate list Dremomys character (3) (nasal exceeds interorbital breadth) as separating Dremomys from Tamiops."
+    },
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The upper molars and fourth upper premolar possess extraordinarily high relief",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above characters distinguish Menetes from other genera of the Sciurinae in the Indian and Indochinese subregions as follows: from Ratufa by 1, 2, 3, 4, and 5; Funambulus by 1 and 3; Callosciurus by 1, 4, and 5; Tamiops by 1, 4, and 5; Dremomys by 1 and 5; and Sciurotamias by 1, 2, and 5.",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Tamiops: small (HB c. 100-155 mm) striped tree squirrels with a BLACK mid-dorsal stripe flanked by paired dark and pale stripes (5 dark / 4 pale), a pale facial stripe from the rostrum beneath the eye, and small white ear tufts (Moore & Tate 1965; Ellerman 1940; Liu et al. 2022). Vs Funambulus: in Funambulus the mid-stripe and stripes of the same colour are WHITE/pale on a uniformly coloured ground; in Tamiops they are black and the ground between them forms two differently-coloured pairs (Moore & Tate 1965 p. 234). Vs Callosciurus: light dorsal stripes (absent in Callosciurus), orbit <13 mm vs >13 mm, flat rostral profile (Moore & Tate 1965). Vs Dremomys: light dorsal stripes, nasal shorter than interorbital breadth, smaller size (Dremomys >=165 mm). Vs Menetes: Menetes has high-relief cheek teeth with a persistent deep central valley, nasal > interorbital breadth and a markedly elongated rostrum (Moore & Tate 1965; Ellerman 1940); its dark mid-dorsal stripe is variable/absent. Vs Ratufa: size, stripes, P3 present."
+  },
+  "Callosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 130,
+      "max": 300
+     },
+     "scope": "partial",
+     "species_covered": [
+      "Callosciurus adamsi",
+      "Callosciurus baluensis",
+      "Callosciurus caniceps",
+      "Callosciurus erythraeus",
+      "Callosciurus finlaysonii",
+      "Callosciurus inornatus",
+      "Callosciurus melanogaster",
+      "Callosciurus nigrovittatus",
+      "Callosciurus notatus",
+      "Callosciurus orestes",
+      "Callosciurus phayrei",
+      "Callosciurus prevostii",
+      "Callosciurus pygerythrus",
+      "Callosciurus quinquestriatus"
+     ],
+     "per_species": {
+      "Callosciurus adamsi": {
+       "min": 150,
+       "max": 170
+      },
+      "Callosciurus baluensis": {
+       "min": 231,
+       "max": 244
+      },
+      "Callosciurus caniceps": {
+       "min": 215,
+       "max": 222
+      },
+      "Callosciurus erythraeus": {
+       "min": 160,
+       "max": 280
+      },
+      "Callosciurus finlaysonii": {
+       "min": 191,
+       "max": 212
+      },
+      "Callosciurus inornatus": {
+       "min": 218,
+       "max": 291
+      },
+      "Callosciurus nigrovittatus": {
+       "min": 184,
+       "max": 199
+      },
+      "Callosciurus notatus": {
+       "min": 152,
+       "max": 300
+      },
+      "Callosciurus orestes": {
+       "min": 148,
+       "max": 153
+      },
+      "Callosciurus phayrei": {
+       "min": 215,
+       "max": 237
+      },
+      "Callosciurus prevostii": {
+       "min": 200,
+       "max": 270
+      },
+      "Callosciurus pygerythrus": {
+       "min": 187,
+       "max": 230
+      },
+      "Callosciurus quinquestriatus": {
+       "min": 200,
+       "max": 222
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Callosciurus",
+       "citation": "Wikipedia, \"Callosciurus\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "These squirrels range in length from {{convert|13|to|27|cm|abbr=on}}, not including the tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFA17FB84F92DFE7B",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus inornatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 218-291 mm, tail 176-210 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFAF1FE1AF6E1F1FE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus orestes (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 148-153 mm, tail 139-157 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC8FAF0FA82FE45",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus adamsi (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 150-170 mm, tail 140-160 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC2F65AF624F6BA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus baluensis (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 231-244 mm, tail 236-251 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2BFFC1F7F6F674F2C2",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus caniceps (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 215-222 mm,tail 219-243 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD4ED29FFCBFE59F804F095",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus erythraeus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 209-227 mm, tail 176-216 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2BFA13F658FB27F0A9",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus finlaysonii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 191-212 mm, tail 173-222 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFACAF8DDF92AFA61",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus melanogaster (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 209 mm (males) and 212 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2CFACFF9D1FD0AF6AA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus nigrovittatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 184-199 mm,tail 159-182 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2CFF6BFDF6F825F565",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus notatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 201-238 mm, tail 175-186 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF17F40DF598F335",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus phayrei (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 215-237 mm, tail 200-249 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2DFA11FD33FE25F3A1",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus prevostii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 237-241 mm,tail ¢.230 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD4ED2AFACAF824FCC3F296",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus pygerythrus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 187-230 mm,tail 110-220 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF6BFA2CFAF8FCAF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus quinquestriatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 200-222 mm,tail 180-210 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Callosciurus_notatus/",
+       "citation": "Animal Diversity Web, Callosciurus notatus account",
+       "quote": "lengths range from head and body 152-224 mm, tail 146-211 mm, and hind foot 38-47 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Pallas's_squirrel",
+       "citation": "Wikipedia, \"Pallas's squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "with a head-body length of {{convert|16|to|28|cm|abbr=on}}",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Plantain_squirrel",
+       "citation": "Wikipedia, \"Plantain squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Its body is about {{cvt|20-30|cm|in|0}} long with a similar-sized tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Prevost's_squirrel",
+       "citation": "Wikipedia, \"Prevost's squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "The head-and-body of the Prevost's squirrel typically is {{cvt|20-27|cm|0}} long",
+       "verbatim": true
+      },
+      {
+       "url": "https://academic.oup.com/jmammal/article-abstract/99/4/813/5036103",
+       "citation": "Nguyen et al. 2018, A new species of squirrel (Sciuridae: Callosciurus) from an isolated island off the Indochina Peninsula in southern Vietnam. Journal of Mammalogy 99(4): 813-825 (abstract)",
+       "quote": "Compared to other Callosciurus occurring on the Indochina Peninsula, the new species (Callosciurus honkhoaiensis) is strikingly small, especially head and body length, body mass, and hind foot length.",
+       "verbatim": false
+      }
+     ],
+     "notes": "Union of HMW 2016 species ranges (148-291 mm), ADW and Wikipedia (genus 13-27 cm, citing Francis 2008 / Payne & Francis 1985; C. notatus \"about 20-30 cm\", uncited approximate statement - drives the 300 max; C. erythraeus 16-28 cm). Not covered: C. honkhoaiensis (abstract says strikingly small vs. other Indochinese Callosciurus; numeric HB not retrieved verbatim - abstract quote is from WebFetch rendering, hence verbatim=false), C. concolor (MDD species; HMW treats as C. caniceps concolor, covered by caniceps 215-222), C. melanogaster (means only, 209/212)."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Callosciurus erythraeus",
+      "Callosciurus finlaysonii"
+     ],
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(2) There are no pronounced longitudinal stripes on the back",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "One striking character that shows the relationship between the subspecies atrodorsalis and thai is, of course, the broad (20-30 mm.) band of pure black pelage on the posterior two-thirds of the mid-dorsum.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Many subspecies of flavimanus have an incipient manifestation of the black band but only atrodorsalis and thai have it pure black.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Finlayson's_squirrel",
+       "citation": "Wikipedia, \"Finlayson's squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "''C.&nbsp;f. cinnamomeus'' is overall reddish with a dark mid-back",
+       "verbatim": true
+      }
+     ],
+     "notes": "Genus diagnosis: no pronounced longitudinal (light) stripes on the back. But C. erythraeus atrodorsalis and thai (Moore & Tate's \"flavimanus\" group, now C. erythraeus subspecies) have a broad pure-black mid-dorsal band on the posterior two-thirds of the back, and some C. finlaysonii have a dark mid-back; recorded as \"present\" for safety."
+    },
+    "flank_stripe": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Callosciurus notatus",
+      "Callosciurus nigrovittatus",
+      "Callosciurus adamsi",
+      "Callosciurus orestes",
+      "Callosciurus baluensis",
+      "Callosciurus phayrei",
+      "Callosciurus melanogaster",
+      "Callosciurus prevostii",
+      "Callosciurus caniceps",
+      "Callosciurus erythraeus"
+     ],
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(although there may be on the sides and venter).",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Callosciurus",
+       "citation": "Wikipedia, \"Callosciurus\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Most are rather dull [[Olive (color)|olive]]-brown to gray and several have a pale and dark stripe on their side, however a few are very colorful.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2CFF6BFDF6F825F565",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus notatus (text via Plazi TreatmentBank)",
+       "quote": "The Plantain Squirrel is a red-bellied squirrel, with brown dorsum, orange or reddish-todeep chestnut venter, and two lateral stripes of white over black.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2CFACFF9D1FD0AF6AA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus nigrovittatus (text via Plazi TreatmentBank)",
+       "quote": "with a buff stripe superimposed on a black stripe along each flank",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC8FAF0FA82FE45",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus adamsi (text via Plazi TreatmentBank)",
+       "quote": "a lateral white stripe with a dark stripe above it",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFAF1FE1AF6E1F1FE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus orestes (text via Plazi TreatmentBank)",
+       "quote": "lateral stripes that are buffy white over black.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC2F65AF624F6BA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus baluensis (text via Plazi TreatmentBank)",
+       "quote": "It has short lateral stripes that are white over black.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF17F40DF598F335",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus phayrei (text via Plazi TreatmentBank)",
+       "quote": "delineated from venter color by a lateral black stripe between forelimb and hindlimb.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFACAF8DDF92AFA61",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus melanogaster (text via Plazi TreatmentBank)",
+       "quote": "with a black head and obscure lateral stripes",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2DFA11FD33FE25F3A1",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus prevostii (text via Plazi TreatmentBank)",
+       "quote": "commonly with a red belly delineated from a black or dark dorsum by a white stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2DFA11FD33FE25F3A1",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus prevostii (text via Plazi TreatmentBank)",
+       "quote": "Subspecies pluto is all black on dorsum, without a lateral white stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2BFFC1F7F6F674F2C2",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus caniceps (text via Plazi TreatmentBank)",
+       "quote": "it has gray orsilvery gray underparts, which may be washed with red, lateral stripes are absent.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "the black lines which demark separation between the dorsal and ventral pelage really strongly developed 29 of the specimens have them",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "weak and indistinct; and in 12 the lines are absent.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Polymorphic: present (pale and/or dark) in C. notatus, nigrovittatus, adamsi, orestes, baluensis, phayrei (black), melanogaster (obscure), most C. prevostii; absent in C. caniceps (explicit), C. prevostii pluto/caedis/rufonigra/piceus (explicit), and variable within C. erythraeus haringtoni (black lateral line strong in 8, weak in 29, absent in 12 of a series - Moore & Tate). C. quinquestriatus has black-and-white stripes on the VENTER (see notes under tail_rings/extra). Not documented: C. finlaysonii, inornatus, pygerythrus, honkhoaiensis, concolor."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found for the MDD Callosciurus species. (Ellerman 1940 p. 350 notes prominent ear tufts in Sulawesi species leucomus, rubriventer and rosenbergi, which are now in Prosciurillus/Rubrisciurus, not Callosciurus.)"
+    },
+    "tail_rings": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "partial",
+     "species_covered": [
+      "Callosciurus quinquestriatus",
+      "Callosciurus erythraeus"
+     ],
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF6BFA2CFAF8FCAF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus quinquestriatus (text via Plazi TreatmentBank)",
+       "quote": "Tail is like dorsum, but annulated with black and rufous, and hair has a black tip.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(3) tails not tipped with a contrasting color, but unusually disposed to show transverse annulations, numbering about ten",
+       "verbatim": true
+      }
+     ],
+     "notes": "Annulated tail in C. quinquestriatus (HMW) and in C. erythraeus griseimanus (Moore & Tate, under their C. flavimanus; \"unusually disposed\" implies other forms usually are not)."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 311",
+       "quote": "Rostrum never consistently elongated throughout every species of a genus, at extreme development never abnormal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 310-311",
+       "quote": "Rostrum progressively elongated throughout every species of the genus, at its extreme development becoming abnormal. Dremomys",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 349",
+       "quote": "in some species there is a tendency for the rostrum to be slightly elongated",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The least interorbital breadth exceeds the greatest length of nasal.",
+       "verbatim": true
+      }
+     ],
+     "notes": "At most slightly elongated rostrum in some species (Ellerman); Moore & Tate separate Callosciurus from Dremomys solely by nasal length < interorbital breadth."
+    },
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Sciurotamias has three bony septa across the chamber of the auditory bulla; whereas members of the tribe Callosciurini have one or none.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "differs also in having cheek pouches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferential: in the comparison of Sciurotamias with Dremomys / the tribe Callosciurini (which in Moore & Tate 1965 contains Callosciurus, Tamiops, Dremomys and Menetes), Moore & Tate state that \"Sciurotamias differs also in having cheek pouches\" (pdftotext places the word \"Sciurotamias\" on a separate line after the sentence), implying that the Callosciurini lack them. No source found that states absence directly for this genus."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(4) The third upper premolar is present.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 349",
+       "quote": "further, P. 3 is strong as a rule, whereas in most members of Sciurus it is vestigial.",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Callosciurus_notatus/",
+       "citation": "Animal Diversity Web, Callosciurus notatus account",
+       "quote": "There are 2 upper premolars and 1 lower premolar on each side of the jaw",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No genus-level source found (Moore & Tate note for one C. erythraeus form: \"Tail not perceptably distichous below\")."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(2) There are no pronounced longitudinal stripes on the back",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(although there may be on the sides and venter).",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "2 and 8; Dremomys 1; Menetes by 1 and 2; and Sciurotamias by",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate genus diagnosis (2): no pronounced longitudinal stripes on the back (stripes may occur on the sides and venter). Note pale FLANK stripes in many species."
+    },
+    "mid_dorsal_stripe_colour": {
+     "possible_states": [
+      "none",
+      "pale",
+      "dark"
+     ],
+     "states": [
+      "none",
+      "dark"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "One striking character that shows the relationship between the subspecies atrodorsalis and thai is, of course, the broad (20-30 mm.) band of pure black pelage on the posterior two-thirds of the mid-dorsum.",
+       "verbatim": true
+      }
+     ]
+    },
+    "postauricular_patch": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC8FAF0FA82FE45",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus adamsi (text via Plazi TreatmentBank)",
+       "quote": "and a buffy patch behind each ear that distinguishes it from the slightly larger Plantain Squirrel (C. notatus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFAF1FE1AF6E1F1FE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus orestes (text via Plazi TreatmentBank)",
+       "quote": "It has a buffy spot behind its small rounded ear",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2CFACFF9D1FD0AF6AA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus nigrovittatus (text via Plazi TreatmentBank)",
+       "quote": "Subspecies bocki has a bright and clearly delineated buff lateral line, and some individuals have a pale patch behind ear.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2CFACFF9D1FD0AF6AA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus nigrovittatus (text via Plazi TreatmentBank)",
+       "quote": "but it is not as brightly colored and lacks a pale patch behind ear.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Pale patch behind the ear (cf. Dremomys). Present in C. adamsi, C. orestes, some C. nigrovittatus bocki; absent in C. notatus and C. n. klossi."
+    },
+    "orbit_length_over_13mm": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(8) Orbit length exceeds 13 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) Small size associated with relatively fairly short orbit distinguishes Tamiops from Callosciurus; i.e., an orbit length of less than 13 mm. is Tamiops, more than 13 mm. is Callosciurus.",
+       "verbatim": true
+      }
+     ]
+    },
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "interorbital_broader"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The least interorbital breadth exceeds the greatest length of nasal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "2 and 8; Dremomys 1; Menetes by 1 and 2; and Sciurotamias by",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate: the only diagnostic character separating Callosciurus from Dremomys (\"Dremomys 1\")."
+    },
+    "ventral_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF6BFA2CFAF8FCAF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus quinquestriatus (text via Plazi TreatmentBank)",
+       "quote": "The venter has two whitestripes, separated by a mid-ventral black stripe and flanked by two other longitudinal black stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(although there may be on the sides and venter).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Black-and-white longitudinal stripes on the underside (C. quinquestriatus)."
+    },
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The upper molars and fourth upper premolar possess extraordinarily high relief",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above characters distinguish Menetes from other genera of the Sciurinae in the Indian and Indochinese subregions as follows: from Ratufa by 1, 2, 3, 4, and 5; Funambulus by 1 and 3; Callosciurus by 1, 4, and 5; Tamiops by 1, 4, and 5; Dremomys by 1 and 5; and Sciurotamias by 1, 2, and 5.",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Callosciurus (\"beautiful squirrels\") are medium tree squirrels (HB c. 148-291 mm, HMW 2016) with extremely variable colouration: many species have a pale and/or dark FLANK stripe (C. notatus, nigrovittatus, adamsi, orestes, baluensis, prevostii, phayrei), others have none (C. caniceps, several C. prevostii subspecies, some C. erythraeus); C. quinquestriatus has black-and-white VENTRAL stripes and an annulated tail; C. finlaysonii ranges from all white to all red to all black. Moore & Tate 1965 genus diagnosis: no pronounced longitudinal stripes on the back (vs Funambulus, Tamiops, Menetes), P3 present (vs Ratufa), least interorbital breadth exceeds nasal length (sole character vs Dremomys), orbit >13 mm (vs Tamiops), baculum of two parts. Caution: a broad black mid-dorsal band occurs in C. erythraeus atrodorsalis/thai, and a pale postauricular patch (otherwise a Dremomys mark) occurs in C. adamsi, C. orestes and some C. nigrovittatus."
+  },
+  "Dremomys": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 165,
+      "max": 230
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Dremomys gularis",
+      "Dremomys lokriah",
+      "Dremomys ornatus",
+      "Dremomys pernyi",
+      "Dremomys pyrrhomerus",
+      "Dremomys rufigenis"
+     ],
+     "per_species": {
+      "Dremomys gularis": {
+       "min": 216,
+       "max": 220
+      },
+      "Dremomys lokriah": {
+       "min": 165,
+       "max": 205
+      },
+      "Dremomys ornatus": {
+       "min": 186,
+       "max": 186
+      },
+      "Dremomys pernyi": {
+       "min": 170,
+       "max": 230
+      },
+      "Dremomys pyrrhomerus": {
+       "min": 165,
+       "max": 215
+      },
+      "Dremomys rufigenis": {
+       "min": 168,
+       "max": 228
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys lokriah (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 165-205 mm,tail 135-220 mm; weight 150-200 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF66F658F728F14D",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pernyi (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 170-203 mm, tail 138-180 mm; weight 160-225 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCBFC41FE0AFFCF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pyrrhomerus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 194-210 mm, tail 140-162 mm; weight c.245 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCEF6EEF629F4A4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys rufigenis (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 170-228 mm, tail 130-180 mm; weight 190-335 g.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFAF6FBF4FA74FF9E",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys gularis (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 216 mm, tail 168 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCEF6EEF629F4A4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys rufigenis (text via Plazi TreatmentBank)",
+       "quote": "Subspecies ornatusis larger than rufigenis and it is more brightly colored than belfieldi.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837), Table 13 (p. 262), Dimensions of Some Type Specimens of Dremomys (caption: nos. 1-4 in lokriah, nos. 5-12 in pernyi, 13-17 in rufigenis ...); values transcribed from the scanned page image",
+       "quote": "Head & Body of type specimens: 1. lokriah 195±; 2. bhotia 171; 3. garonum 190; 4. macmillani 180; 5. griselda 201; 6. lichiensis 170±; 7. howelli 199; 8. mentosus 184; 9. imus 203; 10. senex 202; 11. calidior 230±; 12. owstoni 220±; 13. laomache 168; 14. ornatus 186; 15. fuscus 190±; 16. belfieldi 203; 17. opimus 210; 18. pyrrhomerus 215±; 19. riudonensis 165; 20. gularis 220; 21. everetti 160± (Nos. 4-6 are young adults)",
+       "verbatim": false
+      }
+     ],
+     "notes": "D. everetti (Table 13 no. 21) is now Sundasciurus everetti (Hawkins et al. 2016) and is excluded. D. ornatus (MDD species, formerly D. rufigenis ornatus) is covered only by its type (186 mm) and by HMW's statement that it is larger than rufigenis; the HMW rufigenis range (170-228) was compiled when ornatus was a subspecies. Moore & Tate placed gularis and riudonensis under pyrrhomerus; MDD gularis is a separate species."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Dremomys pernyi",
+      "Dremomys lokriah"
+     ],
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Dremomys is a long-nosed squirrel, characteristically with plain, drab dorsal pelage.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(7) The dorsal pelage has no longitudinal light stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Dremomys p. howelli as recognized here is characterized by a blackish middorsal line in the pelage, fainter in the eastern leg of",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "like the latter is distinguished from its own conspecific relatives in part by a blackish middorsal stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys lokriah (text via Plazi TreatmentBank)",
+       "quote": "Subspecies macmillani has a coarsely grizzled olive-gray dorsum; nape and crown are tawnier, with a thin black line extending from nape to lower back",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF66F658F728F14D",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pernyi (text via Plazi TreatmentBank)",
+       "quote": "Subspecies howelli is generally darker above than the other subspecies, with a short mid-dorsal stripe and a darker anal patch.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Usually plain (no stripes, never light stripes), but D. pernyi howelli (and faintly imus) and D. lokriah macmillani have a thin blackish mid-dorsal line."
+    },
+    "flank_stripe": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source describes a flank stripe for Dremomys, but none states absence either. The original description of D. gularis (quoted by Moore & Tate 1965) says \"flank patch obsolescent and reduced to a narrow line scarcely more evident than in rufigenis\" (refers to the red hip/thigh flash mark of the pyrrhomerus group). Moore & Tate: \"plain, drab dorsal pelage\" with no longitudinal light stripes."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found for ear-tip tufts. (Hodgson, quoted by Moore & Tate, mentions in lokriah \"a small whitish tuft behind the ear\" - this is the postauricular patch, see extra_characters.)"
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "snout_elongate": {
+     "states": [
+      "no",
+      "yes"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins et al. 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Molecular Phylogenetics and Evolution 94: 752-764",
+       "quote": "The plain long-nosed squirrels are drab brown animals with elongate rostra and short bushy tails",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Dremomys is a long-nosed squirrel, characteristically with plain, drab dorsal pelage.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 310-311",
+       "quote": "Rostrum progressively elongated throughout every species of the genus, at its extreme development becoming abnormal. Dremomys",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 380",
+       "quote": "The rostrum becomes progressively elongated until at extreme development it is abnormal, being second only to the extreme genus",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 380",
+       "quote": "the rostrum is probably not longer than in some forms of",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Dremomys_rufigenis/",
+       "citation": "Animal Diversity Web, Dremomys rufigenis account",
+       "quote": "typically have elongated rostra and short bushy tails.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Genus is \"long-nosed\"; rostrum most extreme in the rufigenis group (Ellerman). But Ellerman: \"in D. lokriah, which is the shortest-nosed species of the genus, the rostrum is probably not longer than in some forms of Callosciurus\" - so \"no\" is included for D. lokriah. A reviewer wanting a usable separator could restrict \"no\" to lokriah only."
+    },
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Sciurotamias has three bony septa across the chamber of the auditory bulla; whereas members of the tribe Callosciurini have one or none.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "differs also in having cheek pouches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferential: in the comparison of Sciurotamias with Dremomys / the tribe Callosciurini (which in Moore & Tate 1965 contains Callosciurus, Tamiops, Dremomys and Menetes), Moore & Tate state that \"Sciurotamias differs also in having cheek pouches\" (pdftotext places the word \"Sciurotamias\" on a separate line after the sentence), implying that the Callosciurini lack them. No source found that states absence directly for this genus. Here the comparison is made directly between Sciurotamias and Dremomys."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 380",
+       "quote": "P. 3 present.",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins et al. 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Molecular Phylogenetics and Evolution 94: 752-764",
+       "quote": "the relative size and position of the upper premolars, P3 and P4 (P3 regarded as small relative to, and situated lateral to, P4, in Dremomys",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found (tails described as \"short bushy\")."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found (Ellerman: cheek teeth \"evidently not essentially different from Sciurus\")."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "postauricular_patch": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Its species all have a small, rather inconspicuous, whitish or buffy patch of contrasting pelage immediately behind the ear.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCEF6EEF629F4A4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys rufigenis (text via Plazi TreatmentBank)",
+       "quote": "Nominate subspecies rufigenis is dull olive-gray agouti above, with buff or whitish ear patches.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys lokriah (text via Plazi TreatmentBank)",
+       "quote": "deep ocherous buffy patches behind ears",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF66F658F728F14D",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pernyi (text via Plazi TreatmentBank)",
+       "quote": "Subspecies senex has a whiter patch behind ear than nominate pernyi",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate 1965 (whose Dremomys then included gularis and ornatus as subspecies) state it for all species. NB also present in some Callosciurus (adamsi, orestes, some nigrovittatus)."
+    },
+    "red_cheeks": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCEF6EEF629F4A4",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys rufigenis (text via Plazi TreatmentBank)",
+       "quote": "The Asian Red-cheeked Squirrel is distinguished by its reddish cheeks",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF66F658F728F14D",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pernyi (text via Plazi TreatmentBank)",
+       "quote": "Perny’s Long-nosed Squirrel has an agouti gray dorsum; it lacks a reddish cheek and a reddish hip patch.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys lokriah (text via Plazi TreatmentBank)",
+       "quote": "The Orange-bellied Himalayan Squirrel has a dull agouti dorsum and lacks red coloration on cheeks and hips.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCBFC41FE0AFFCF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Dremomys pyrrhomerus (text via Plazi TreatmentBank)",
+       "quote": "riudonensis also has conspicuous reddish hip patches, but its head is completely red.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Red cheeks in rufigenis (and ornatus), head red in pyrrhomerus riudonensis; absent in pernyi and lokriah. Not a genus-level character."
+    },
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(7) The dorsal pelage has no longitudinal light stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The genus Dremomys may be distinguished from other genera of Sciurinae of the Indian and Indochinese subregions by the above characteristics as follows: from Ratufa by 1, 2, 3, and 6; Funambulus by 5, 6, and 7; Callosciurus by 3; Tamiops by 3 and 7; Menetes by 4, 5, and 7; and Sciurotamias by 1 and 2.",
+       "verbatim": true
+      }
+     ]
+    },
+    "mid_dorsal_stripe_colour": {
+     "possible_states": [
+      "none",
+      "pale",
+      "dark"
+     ],
+     "states": [
+      "none",
+      "dark"
+     ],
+     "scope": "species-union",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Dremomys p. howelli as recognized here is characterized by a blackish middorsal line in the pelage, fainter in the eastern leg of",
+       "verbatim": true
+      }
+     ]
+    },
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "nasal_longer"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(3) The length of the nasal bone exceeds the least interorbital breadth.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The genus Dremomys may be distinguished from other genera of Sciurinae of the Indian and Indochinese subregions by the above characteristics as follows: from Ratufa by 1, 2, 3, and 6; Funambulus by 5, 6, and 7; Callosciurus by 3; Tamiops by 3 and 7; Menetes by 4, 5, and 7; and Sciurotamias by 1 and 2.",
+       "verbatim": true
+      }
+     ]
+    },
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(4) The upper cheek teeth are not specialized with an extremely deep valley that remains as a dirt-filled lake after the cusps have been planed away by use.",
+       "verbatim": true
+      }
+     ]
+    },
+    "temporal_foramen": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins et al. 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Molecular Phylogenetics and Evolution 94: 752-764",
+       "quote": "is absent in the BMGS but consistently present (albeit usually very small) in other species of plain longnosed squirrels.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Cranial: temporal foramen consistently present (small) in all Dremomys (Hawkins et al. 2016, citing Moore & Tate 1965)."
+    }
+   },
+   "distinguishing_notes": "Dremomys (plain long-nosed squirrels): drab brown, montane, partly terrestrial squirrels with elongate rostra and short bushy tails (Hawkins et al. 2016), plain dorsum without light stripes (Moore & Tate 1965 char. 7), a small whitish/buffy postauricular patch in all species (Moore & Tate 1965), and in several species red cheeks (rufigenis, ornatus), red throat (gularis), red hip patches (pyrrhomerus) and/or red under-tail/perianal patch (HMW 2016). Vs Callosciurus: nasal length exceeds least interorbital breadth (Moore & Tate's only separating character); shorter tail. Vs Funambulus/Tamiops: no light dorsal stripes. Vs Menetes: no deep dirt-filled valley in the upper cheek teeth, strongly falcate coronoid, no light stripes (Moore & Tate 1965). Vs Ratufa: size, P3 present. Caveats: D. lokriah's rostrum is not longer than in some Callosciurus (Ellerman 1940); a thin black mid-dorsal line occurs in D. pernyi howelli and D. lokriah macmillani; a postauricular patch also occurs in some Callosciurus."
+  },
+  "Menetes": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 160,
+      "max": 210
+     },
+     "scope": "genus",
+     "species_covered": [
+      "Menetes berdmorei"
+     ],
+     "per_species": {
+      "Menetes berdmorei": {
+       "min": 160,
+       "max": 210
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837), Table 15 (p. 298), Dimensions of Some Type Specimens of [Menetes and Sciurotamias]; footnote: \"The types of moerescens and consularis are yo[ung]\"; values transcribed from the scanned page image",
+       "quote": "Head & Body of type specimens: amotus 200; peninsularis 196; moerescens 210± (young); decoratus 188; consularis 179 (young); mouhotei 200±; koratensis 160± (the remaining rows davidianus, owstoni, thayeri, forresti are Sciurotamias)",
+       "verbatim": false
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body mean 182 mm (males and females), tail mean 138 mm (males) and 133 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Berdmore's_ground_squirrel",
+       "citation": "Wikipedia, \"Berdmore's ground squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Its length is {{convert|20|cm|abbr=on}}, not including the {{convert|15|cm|abbr=on}} long tail.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Monotypic. No published min-max range was found; bounds are the extreme type-specimen values (Moore & Tate Table 15), HMW mean 182 mm. Treat as soft bounds."
+    },
+    "patagium": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The scope of the present paper is revision of the Sciurinae of the Indian and Indochinese subregions.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The gliding squirrels, Petauristinae, which with the Sciurinae constitute the family Sciuridae, are nocturnal and thus more difficult for mammal collectors to obtain.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate (1965) treat this genus among the non-gliding Sciurinae, explicitly contrasted with the gliding Petauristinae; no source describes a gliding membrane for any species. Inference from classification + absence of any report."
+    },
+    "dorsal_stripes": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "there may be two or three black stripes on each side and one black middorsal stripe, or some or all of the black stripes may be missing.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "Number of dark lines varies from none, in individuals found in some dry forests, to three lateral lines and a mid-dorsal line, in individuals inhabiting the wettest forests.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 390",
+       "quote": "in M. b. decoratus the pattern takes on a superficial resemblance to Tamias, including a black mid-dorsal stripe.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Black mid-dorsal stripe present in some populations/subspecies (decoratus, moerescens, pyrrocephalus), absent in others (nominate usually lacks it). NB Moore & Tate also treat the constant whitish stripes as stripes of the back (their Callosciurus and Dremomys diagnoses list \"no longitudinal stripes on the back\"/\"no light stripes\" as separating them from Menetes) - see pale_dorsal_stripes."
+    },
+    "flank_stripe": {
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "two whitish longitudinal stripes mark each side of this squirrel with great constancy, there may be two or three black stripes on each side",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 390",
+       "quote": "Black and white flank-stripes present, usually strong;",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "with two whitish lateral lines, and a variable number of dark or black lines, on each side of body.",
+       "verbatim": true
+      }
+     ],
+     "notes": "The two whitish lateral stripes are constant; black lateral lines vary from none to three (seasonal and geographic; Moore & Tate Table 14)."
+    },
+    "dorsal_spots": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "ear_tufts": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_rings": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found (original description quoted by Moore & Tate describes tail hairs \"with two broad black rings and a white tip\" - banding of individual hairs, not an annulated tail)."
+    },
+    "snout_elongate": {
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 390",
+       "quote": "Skull long and narrow, with markedly elongated rostrum",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "of nasal exceeds the least interorbital breadth.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Berdmore's_ground_squirrel",
+       "citation": "Wikipedia, \"Berdmore's ground squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "The head is pointy, so this squirrel resembles a mouse or a [[treeshrew]].",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate quote is the end of Menetes diagnosis character (4) \"The length of nasal exceeds the least interorbital breadth\" (pdftotext scrambles the line order). Ellerman's statement is cranial (\"markedly elongated rostrum\"); the external \"pointy\", treeshrew-like head is from an uncited Wikipedia sentence."
+    },
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "Sciurotamias has three bony septa across the chamber of the auditory bulla; whereas members of the tribe Callosciurini have one or none.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "differs also in having cheek pouches.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferential: in the comparison of Sciurotamias with Dremomys / the tribe Callosciurini (which in Moore & Tate 1965 contains Callosciurus, Tamiops, Dremomys and Menetes), Moore & Tate state that \"Sciurotamias differs also in having cheek pouches\" (pdftotext places the word \"Sciurotamias\" on a separate line after the sentence), implying that the Callosciurini lack them. No source found that states absence directly for this genus."
+    },
+    "upper_premolars": {
+     "states": [
+      "2"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 390",
+       "quote": "P. 3 present, strong.",
+       "verbatim": true
+      }
+     ]
+    },
+    "upper_incisor_groove": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "tail_distichous": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    },
+    "hypsodont_cheek_teeth": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "Not coded: Moore & Tate describe extraordinarily HIGH-RELIEF cusps with a deep persistent central valley (see extra_characters.cheekteeth_deep_central_valley); this is cusp relief, not crown height, and no source calls Menetes hypsodont."
+    },
+    "hairy_soles": {
+     "states": "unknown",
+     "scope": "genus",
+     "evidence": [],
+     "notes": "No source found."
+    }
+   },
+   "extra_characters": {
+    "cheekteeth_deep_central_valley": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(1) The upper molars and fourth upper premolar possess extraordinarily high relief",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "the central valley sinking especially deep between them so that when the cusps are planed off by wear, the central valley persists filled with dirt and circled by a thin line of enamel.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The above characters distinguish Menetes from other genera of the Sciurinae in the Indian and Indochinese subregions as follows: from Ratufa by 1, 2, 3, 4, and 5; Funambulus by 1 and 3; Callosciurus by 1, 4, and 5; Tamiops by 1, 4, and 5; Dremomys by 1 and 5; and Sciurotamias by 1, 2, and 5.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History), p. 390",
+       "quote": "The central depression in the upper main teeth remains in adult as a well-marked re-entrant fold",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore & Tate: character (1) separates Menetes from every other genus in the region."
+    },
+    "pale_dorsal_stripes": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(7) The dorsal pelage has no longitudinal light stripes.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "The genus Dremomys may be distinguished from other genera of Sciurinae of the Indian and Indochinese subregions by the above characteristics as follows: from Ratufa by 1, 2, 3, and 6; Funambulus by 5, 6, and 7; Callosciurus by 3; Tamiops by 3 and 7; Menetes by 4, 5, and 7; and Sciurotamias by 1 and 2.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "(2) There are no pronounced longitudinal stripes on the back",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "2 and 8; Dremomys 1; Menetes by 1 and 2; and Sciurotamias by",
+       "verbatim": true
+      }
+     ],
+     "notes": "Inferred from Moore & Tate: Dremomys character (7) \"no longitudinal light stripes\" and Callosciurus character (2) \"no pronounced longitudinal stripes on the back\" are both listed as separating those genera from Menetes; the whitish stripes are dorsolateral."
+    },
+    "mid_dorsal_stripe_colour": {
+     "possible_states": [
+      "none",
+      "pale",
+      "dark"
+     ],
+     "states": [
+      "none",
+      "dark"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "Nominate subspecies berdmore: has lateral black stripes, but usually lacks mid-dorsal stripe.",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "Pelage of decoratus has an olive",
+       "verbatim": true
+      }
+     ]
+    },
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "nasal_longer"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837)",
+       "quote": "of nasal exceeds the least interorbital breadth.",
+       "verbatim": true
+      }
+     ]
+    }
+   },
+   "distinguishing_notes": "Menetes berdmorei (Indochinese ground squirrel): two constant whitish stripes on each side plus 0-3 black lateral lines and sometimes a black mid-dorsal line (Moore & Tate 1965; HMW 2016); markedly elongated rostrum (Ellerman 1940); upper cheek teeth with extraordinarily high relief and a deep, persistent, dirt-filled central valley - Moore & Tate's character (1), which separates Menetes from Ratufa, Funambulus, Callosciurus, Tamiops and Dremomys. Vs Callosciurus: also nasal > interorbital breadth and weakly falcate coronoid; vs Dremomys: light stripes and coronoid; vs Tamiops: larger (HB c. 160-210 vs 100-155 mm), nasal > interorbital, mid-dorsal stripe variable/absent rather than constant black (Ellerman notes that in M. b. decoratus the pattern superficially resembles the chipmunk Tamias, including a black mid-dorsal stripe)."
+  }
+ },
+ "sources_consulted": [
+  "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351 (BHL part 38837) - https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf (BHL: https://www.biodiversitylibrary.org/part/38837)",
+  "Ellerman 1940, The families and genera of living rodents, Vol. 1. British Museum (Natural History) - https://archive.org/details/familiesgeneraof01elle (OCR text: https://archive.org/download/familiesgeneraof01elle/familiesgeneraof01elle_djvu.txt; page images checked for pp. 350, 384)",
+  "Hawkins et al. 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Molecular Phylogenetics and Evolution 94: 752-764 - https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+  "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6, Sciuridae species accounts (33 species in this group) via Plazi TreatmentBank - https://tb.plazi.org/GgServer/summary/FA747E18FFCDED30FFAAFFF7FF95F71E",
+  "Liu et al. 2022, A new species of Tamiops (Rodentia, Sciuridae) from Sichuan, China. Zootaxa 5116(3): 301-333 (Tamiops minshanica treatment via Plazi TreatmentBank) - https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26",
+  "Nguyen et al. 2018, A new species of squirrel (Sciuridae: Callosciurus) from an isolated island off the Indochina Peninsula in southern Vietnam. Journal of Mammalogy 99(4): 813-825 (abstract) - https://academic.oup.com/jmammal/article-abstract/99/4/813/5036103",
+  "Animal Diversity Web species accounts (Ratufa indica, R. bicolor, R. affinis, R. macroura, Funambulus pennantii, F. tristriatus, Callosciurus erythraeus, C. notatus, C. prevostii, C. finlaysonii, Tamiops swinhoei, T. rodolphii, Dremomys rufigenis) - https://animaldiversity.org/accounts/<Genus_species>/",
+  "Wikipedia (raw wikitext via action=raw): Callosciurus; Asiatic striped squirrel (Tamiops); Indian giant squirrel; Cream-coloured giant squirrel; Black giant squirrel; Pallas's squirrel; Plantain squirrel; Prevost's squirrel; Finlayson's squirrel; Layard's palm squirrel; Dusky striped squirrel; Indian palm squirrel; Berdmore's ground squirrel - https://en.wikipedia.org/wiki/<title>"
+ ],
+ "caveats": "1) Verbatim checking: every quote with verbatim=true was machine-checked against the retrieved raw text (pdftotext for Moore & Tate 1965 and Hawkins 2016; archive.org OCR for Ellerman 1940; Plazi HTML for HMW 2016 and Liu et al. 2022; ADW HTML; Wikipedia raw wikitext) after whitespace normalisation and re-joining of line-end hyphenation. Plazi/HMW text contains OCR artefacts (e.g. \"oftail\", \"byits\", \"¢.\") that are kept as retrieved. Ellerman OCR errors were corrected before matching (hea\\y->heavy, e\\ery/everj->every, Oremomys->Dremomys, bodv->body, decoidtus->decoratus, Tiuiiicis->Tamias (checked on page image p. 390), \"Cheekteeth ^.\"->\"Cheekteeth 4/4.\" and \"P. -5\"->\"P.3\" both checked on page images pp. 384 and 350). Wikipedia quotes are raw wikitext, including {{convert}} templates. 2) Table values from Moore & Tate Tables 2, 3, 12, 13, 15 were transcribed by reading the scanned page images (pdftotext output of these rotated tables is garbled) and are marked verbatim=false; they are single type specimens, so they extend but do not define species ranges. 3) Taxonomy mismatch: HMW 2016 / Moore & Tate predate MDD v2.5 splits (Ratufa gigantea, Dremomys ornatus, Tamiops barbei, Funambulus obscurus, Callosciurus concolor, C. honkhoaiensis, Tamiops minshanicus); these are covered via their former parent species or type specimens, as noted per character. 4) Several states are inferential and flagged in notes: cheek_pouches=absent for the Callosciurini (Moore & Tate's Sciurotamias comparison), patagium=absent (classification among non-gliding Sciurinae), Ratufa upper_premolars=1 (cheek-tooth formula 4/4 + Moore & Tate contrast), Ratufa incisors smooth, Tamiops tail not distichous. 5) The dorsal vs flank boundary is ambiguous for the striped genera (Funambulus, Tamiops, Menetes); prefer the extra characters pale_dorsal_stripes, mid_dorsal_stripe_colour and dark_interstripe_pattern for separating them. 6) Where only some taxa are documented as having a state and absence is undocumented, both states were recorded (conservative = \"any state\") and this is stated in notes (Ratufa flank_stripe, Funambulus tail_rings/flank_stripe). 7) Smith & Xie (2008) Guide to the Mammals of China and Thorington et al. (2012) Squirrels of the World were not accessible legitimately online and were not used except as cited inside Wikipedia. 8) HB bounds use the union of all sources, including weak ones (Wikipedia uncited statements), so they are deliberately wide: notably Ratufa min 250 and Callosciurus max 300 overlap."
+}

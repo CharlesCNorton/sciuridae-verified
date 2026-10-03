@@ -1,0 +1,564 @@
+{
+ "description": "Fossil sciurid genera formerly mixed into the extant genus list. Structured fields are curated from the sourced research record kept under 'evidence' and 'notes'. Ages in Ma.",
+ "caveats": "Ages in age_ma are PBDB interval bounds (coarse stage/NALMA bins) unless noted; see age_notes. Emry & Korth 1996/2001/2007 full texts and Vianey-Liaud 1974 were not accessible; their content is taken from the Emry & Korth 2007 abstract (via WebFetch, flagged verbatim:false) and from later papers that cite them (Casanovas-Vilar et al. 2018; Li et al. 2023). Quotes from OCR texts (Black 1963; Emry & Thorington 1982) retain OCR errors.",
+ "genera": {
+  "Douglassciurus": {
+   "type_species": "Douglassciurus jeffersoni (Douglass, 1901)",
+   "continents": [
+    "North America"
+   ],
+   "material": "skeleton",
+   "gliding_evidence": false,
+   "genus_range_ma": {
+    "max": 41.03,
+    "min": 29.5,
+    "source": "Paleobiology Database taxon record (fea 41.03, lla 29.5)"
+   },
+   "oldest_dated": {
+    "taxon": "Douglassciurus jeffersoni",
+    "max_ma": 36.6,
+    "min_ma": 35.8,
+    "source": "Casanovas-Vilar et al. 2018: 'late Eocene (middle Chadronian, 36.6 - 35.8 Ma)'"
+   },
+   "placements": [
+    {
+     "opinion": "stem",
+     "source": "Casanovas-Vilar et al. 2018 (most basal sciurid; 'not a Sciurinae')"
+    },
+    {
+     "opinion": "subfamily:Sciurinae",
+     "source": "Korth 2014 (Paleobiology Database opinion); Li et al. 2023 list it among Sciurinae"
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "Douglassciurus is a replacement name for Douglassia Emry and Korth (1996) ( Emry and Korth, 2001 ). This genus consists of four species: D. jeffersoni (late Eocene), D. sapphirus (late Oligocene), D. bjorki (middle Oligocene), and D. oaxacaensis (late middle Eocene)",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "The type species is D . jeffersoni from the Chadronian NALMA (late Eocene) Pipestone Springs Formation, Montana (USA), and it was originally referred to the genus Sciurus by Douglass (1901) .",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "Its generic and familial allocations were uncertain for a long time, attributed to Prosciurus ( Matthew, 1903 ) of the Aplodontidae ( Osborn and Matthew, 1909 ; Wood, 1937 ) or to Cedromus or Protosciurus of the Sciuridae ( Wood, 1962 ; Black, 1963 ; Wood, 1980 ; Emry and Thorington, 1982 ).",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "Douglassciurus oaxacaensis from late middle Eocene (about 40 Ma) in Oaxaca, southeastern Mexico, is possibly the earliest squirrel ( Ferrusquia-Villafranca et al., 2018 ). Due to the lack of upper molars, the morphotype of D. oaxacaensis is uncertain.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "differs from Kherem of Xerinae and Palaeosciurus , Oligopetes , Protospermophilus , Miospermophilus , Protosciurus , Nototamias , Douglassciurus , Plesiosciurus aff. sinensis , and Marmotini gen. et sp. of Sciurinae",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Douglassciurus jeffersoni dates back to the late Eocene (middle Chadronian, 36.6 – 35.8 Ma) of Wyoming and is the oldest-known tree squirrel",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Although it is not a Sciurinae, the postcranial skeleton of Douglassciurus is surprisingly similar to that of extant tree squirrels such as Sciurus ( Emry and Thorington, 1982 ; Emry and Thorington, 1984 ), but the archaic protrogomorphous zygomasseteric structure of the skull ( Emry and Korth, 1996 ; Emry and Thorington, 1982 ) is shared with aplodontiids and other primitive rodent groups such as ischyromids. Consequently, Douglassciurus is generally considered the most basal sciurid",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "This basal position is confirmed by our results",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Douglassciurus jeffersoni Renova Formation, Pipestone Springs, Montana, USA",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "A nearly complete skeleton, recently discovered in early Oligocene deposits of Wyoming,",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "It consists of the palate with complete maxillary dentition, both auditory bullae with petrosals attached, and numerous other skull frag¬ ments, both mandibular rami with complete den¬ tition, and most of the postcranial skeleton",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "The specimen was found in the White River Formation in the head of Little Lone Tree Gulch, in the Flagstaff Rim area of Natrona County, Wyoming",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "Except for minor differences in joint construction, the skeleton is strikingly similar to that of Sciurus mger , the living fox squirrel.",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "This early member of the squirrel family was clearly an arboreal squirrel, with morphology, and presumably habits, very similar to those of extant Sciurinae.",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Douglassciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Douglassciurus (retrieved 2026-10-03)",
+     "quote": "\"nam\":\"Douglassciurus\",\"att\":\"Emry and Korth 2001\",\"par\":\"txn:41486\",\"prl\":\"Sciuridae\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Douglassciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Douglassciurus (retrieved 2026-10-03)",
+     "quote": "\"fea\":41.03,\"fla\":37.71,\"lea\":31.8,\"lla\":29.5,\"tei\":\"Bartonian\",\"tli\":\"Rupelian\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Douglassciurus&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Douglassciurus (retrieved 2026-10-03)",
+     "quote": "\"Douglassciurus oaxacaensis\",\"species\",\"378795\",\"Bartonian\",\"\",\"41.03\",\"37.71\",\"67358\",\"MX\",\"Oaxaca\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Douglassciurus&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Douglassciurus (retrieved 2026-10-03)",
+     "quote": "\"Douglassciurus jeffersoni\",\"species\",\"51485\",\"Chadronian\",\"\",\"37\",\"33.9\",\"6294\",\"CA\",\"Saskatchewan\"",
+     "verbatim": true
+    }
+   ],
+   "notes": {
+    "age_epoch": "middle Eocene (Bartonian; D. oaxacaensis, ~40 Ma) to Oligocene (Whitneyan; D. bjorki, D. sapphirus); type species late Eocene (Chadronian)",
+    "age_notes": "PBDB genus range: first appearance 41.03-37.71 Ma (Bartonian), last appearance 31.8-29.5 Ma (Rupelian/Whitneyan bin). D. jeffersoni dated 36.6-35.8 Ma (middle Chadronian) by Casanovas-Vilar et al. 2018. Emry & Thorington (1982) called the Chadronian \"early Oligocene\" (older usage); Chadronian is now late Eocene.",
+    "placement_notes": "Casanovas-Vilar et al. 2018: \"not a Sciurinae\", protrogomorphous zygomasseteric structure, most basal sciurid (confirmed by their total-evidence analysis). PBDB classification: Sciuridae (Emry & Korth 2001; Korth et al. 2022), but Korth 2014 (PBDB unselected opinion) placed it in Sciurinae, and Li et al. 2023 list it among Sciurinae in comparisons. Historically referred to Prosciurus (Aplodontidae), Cedromus, and Protosciurus (Emry & Thorington 1982, as Protosciurus jeffersoni). Mercer & Roth 2003 used it to date the base of the crown radiation (per Casanovas-Vilar et al. 2018).",
+    "material": "Dental material (teeth; D. oaxacaensis known without upper molars) plus a nearly complete skeleton (USNM 243981; palate with maxillary dentition, auditory bullae, skull fragments, both mandibular rami, most of the postcranial skeleton) from Flagstaff Rim, Wyoming. D. oaxacaensis lacks known upper molars.",
+    "gliding_evidence": "None. The postcranial skeleton is strikingly similar to that of the fox squirrel (Sciurus niger) and was interpreted as that of an arboreal (tree) squirrel; no gliding adaptations reported.",
+    "locality": {
+     "country": [
+      "United States",
+      "Canada",
+      "Mexico"
+     ],
+     "continent": "North America",
+     "details": "USA: Montana (Pipestone Springs, type locality of D. jeffersoni), Wyoming (Flagstaff Rim, skeleton USNM 243981), Nebraska, North Dakota, South Dakota; Canada: Saskatchewan (Cypress Hills); Mexico: Oaxaca (Yolomecatl, D. oaxacaensis) - per PBDB occurrences and cited papers."
+    }
+   }
+  },
+  "Hesperopetes": {
+   "type_species": "Hesperopetes thoringtoni Emry & Korth, 2007",
+   "continents": [
+    "North America"
+   ],
+   "material": "teeth",
+   "gliding_evidence": false,
+   "genus_range_ma": {
+    "max": 37.0,
+    "min": 29.5,
+    "source": "Paleobiology Database taxon record and Whitneyan occurrences (see notes)"
+   },
+   "oldest_dated": {
+    "taxon": "Hesperopetes thoringtoni",
+    "max_ma": 36.6,
+    "min_ma": 35.8,
+    "source": "Casanovas-Vilar et al. 2018: 'from the late Eocene (36.6 - 35.8 Ma) of North America'"
+   },
+   "placements": [
+    {
+     "opinion": "incertae_sedis",
+     "source": "Emry & Korth 2007 (not assigned to a subfamily); Casanovas-Vilar et al. 2018"
+    },
+    {
+     "opinion": "stem_tribe:Pteromyini",
+     "source": "Emry & Korth 2007: may represent the earliest occurrence of the lineage leading to flying squirrels"
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://bioone.org/journals/journal-of-vertebrate-paleontology/volume-27/issue-3/0272-4634_2007_27_693_ANGOSR_2.0.CO_2/A-NEW-GENUS-OF-SQUIRREL-RODENTIA-SCIURIDAE-FROM-THE-MID/10.1671/0272-4634(2007)27%5B693:ANGOSR%5D2.0.CO;2.short",
+     "citation": "Emry, R.J. & Korth, W.W. 2007. A new genus of squirrel (Rodentia, Sciuridae) from the mid-Cenozoic of North America. Journal of Vertebrate Paleontology 27(3):693-698 (abstract)",
+     "quote": "A new genus of sciurid, Hesperopetes, contains three species: H. thoringtoni (type species), H. jamesi, and H. blacki. H. thoringtoni is from the early Chadronian (late Eocene) White River Formation of central Wyoming and represents the earliest recognized species of sciurid. The other species are from the latest Whitneyan or earliest Arikareean (late Oligocene) Blue Ash local fauna of South Dakota. Hesperopetes is closest in dental morphology to Oligopetes Heissig, which is known only from the early Oligocene of Europe. Hesperopetes may also represent the earliest occurrence of a lineage leading to pteromyine sciurids (\"flying\" squirrels).",
+     "verbatim": false,
+     "note": "Abstract text obtained through a WebFetch summarisation step (publisher page blocks direct download); appears verbatim but could not be checked against raw text."
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Indeed, one of the earliest sciurids, Hesperopetes thoringtoni from the late Eocene (36.6 – 35.8 Ma) of North America, has been related to the lineage leading to flying squirrels according to dental morphology ( Emry and Korth, 2007 ). In the light of molecular results, it was conceded that Hesperopetes unlikely represented a pteromyin and was not assigned to any squirrel subfamily ( Emry and Korth, 2007 ).",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Hesperopetes is last recorded during the earliest Oligocene (Orellan; Korth, 2017 ), coinciding with the oldest record of Sciurion ( Bell, 2004 ), yet another alleged flying squirrel. Isolated cheek teeth are the only material available for all these taxa, which have been related to flying squirrels exclusively based on dental morphology.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Unfortunately, dental features commonly used to recognize flying squirrels are not unique but also present in other sciurids ( Thorington et al., 2005 ), so it is uncertain if any of the extinct ‘flying’ squirrels belonged to this group.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.5479/si.00810282.638.1",
+     "citation": "Jackson, S.M. & Thorington, R.W. Jr. 2012. Gliding Mammals: Taxonomy of Living and Extinct Species. Smithsonian Contributions to Zoology 638 (abstract and introduction; text extracted from the Smithsonian PDF)",
+     "quote": "none of these can categorically be allocated as gliders since most features used to describe them are also found in at least some tree squirrels (Thorington et al., 2005).",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Hesperopetes&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Hesperopetes (retrieved 2026-10-03)",
+     "quote": "\"nam\":\"Hesperopetes\",\"att\":\"Emry and Korth 2007\",\"par\":\"txn:41486\",\"prl\":\"Sciuridae\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Hesperopetes&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Hesperopetes (retrieved 2026-10-03)",
+     "quote": "\"fea\":37,\"fla\":33.9,\"lea\":29.5,\"lla\":18.5,\"tei\":\"Priabonian\",\"tli\":\"Burdigalian\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Hesperopetes&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Hesperopetes (retrieved 2026-10-03)",
+     "quote": "\"ttl\":\"Hesperopetes thoringtoni\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Hesperopetes&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Hesperopetes (retrieved 2026-10-03)",
+     "quote": "\"? Hesperopetes sp.\",\"genus\",\"\",\"\",\"Hesperopetes\",\"genus\",\"322083\",\"late Early Arikareean\",\"\",\"29.5\",\"18.5\",\"94175\",\"US\",\"Mississippi\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Hesperopetes&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Hesperopetes (retrieved 2026-10-03)",
+     "quote": "\"Hesperopetes thoringtoni\",\"species\",\"333391\",\"Late Chadronian\",\"\",\"37\",\"33.9\",\"93645\",\"US\",\"Colorado\"",
+     "verbatim": true
+    }
+   ],
+   "notes": {
+    "age_epoch": "late Eocene (early Chadronian) to late Oligocene (latest Whitneyan / earliest Arikareean); one questionable record (\"? Hesperopetes sp.\") from the late early Arikareean Catahoula Formation, Mississippi",
+    "age_notes": "max = PBDB first-appearance interval 37-33.9 Ma (Priabonian/Chadronian); H. thoringtoni dated 36.6-35.8 Ma by Casanovas-Vilar et al. 2018. min = lower bound of PBDB Whitneyan bin (31.8-29.5 Ma) for H. jamesi and H. blacki (Blue Ash l.f.); PBDB extends the genus last appearance to 29.5-18.5 Ma only because of coarse Arikareean-bin occurrences incl. the questionable Mississippi record. NB Casanovas-Vilar et al. 2018 state the genus is \"last recorded during the earliest Oligocene (Orellan)\", which conflicts with Emry & Korth 2007 and PBDB (late Oligocene species).",
+    "placement_notes": "Emry & Korth 2007: dentally closest to Oligopetes (an alleged early Oligocene flying squirrel) and \"may\" represent the earliest occurrence of the lineage leading to pteromyine (\"flying\") squirrels. Casanovas-Vilar et al. 2018: Emry & Korth conceded it unlikely represented a pteromyin and did not assign it to a subfamily; their total-evidence divergence estimate does not exclude late Eocene alleged flying squirrels. PBDB: Sciuridae. Not listed among fossil gliding taxa in Jackson & Thorington 2012 (genus name absent from that text).",
+    "material": "Isolated cheek teeth only (per Casanovas-Vilar et al. 2018); no cranial or postcranial skeleton reported.",
+    "gliding_evidence": "None direct. Only dental material is known; the flying-squirrel-like dental features are not diagnostic of gliding (also present in other sciurids). Gliding would require postcranial evidence.",
+    "locality": {
+     "country": [
+      "United States",
+      "Canada"
+     ],
+     "continent": "North America",
+     "details": "USA: Wyoming (White River Fm, type of H. thoringtoni), South Dakota (Blue Ash l.f.; Brule Fm), Nebraska, Colorado (Florissant), ?Mississippi; Canada: Saskatchewan (Cypress Hills) - PBDB."
+    }
+   }
+  },
+  "Palaeosciurus": {
+   "type_species": "Palaeosciurus feignouxi Pomel, 1853",
+   "continents": [
+    "Europe",
+    "Asia"
+   ],
+   "material": "teeth_and_limb_bones",
+   "gliding_evidence": false,
+   "genus_range_ma": {
+    "max": 33.9,
+    "min": 11.63,
+    "source": "Paleobiology Database taxon record (fea 33.9, lla 11.63)"
+   },
+   "oldest_dated": {
+    "taxon": "Palaeosciurus (first appearance)",
+    "max_ma": 33.9,
+    "min_ma": 27.3,
+    "source": "Paleobiology Database first-appearance interval (fea 33.9, fla 27.3)"
+   },
+   "placements": [
+    {
+     "opinion": "incertae_sedis",
+     "source": "Casanovas-Vilar et al. 2018 (lacks diagnostic features of any extant group); McKenna & Bell 1997"
+    },
+    {
+     "opinion": "subfamily:Sciurinae",
+     "source": "Li et al. 2023 (tree-squirrel morphotype, listed under Sciurinae)"
+    },
+    {
+     "opinion": "subfamily:Xerinae",
+     "source": "Vianey-Liaud 1974, 1975 ('ecureuil terrestre', ground squirrel from limb proportions)"
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.palaeodiversity.org/pdf/06/S-05_DeBruijn.pdf",
+     "citation": "de Bruijn, H., Markovic, Z. & Wessels, W. 2013. Late Oligocene rodents from Banovici (Bosnia and Herzegovina). Palaeodiversity 6:63-105",
+     "quote": "Family Sciuridae Fischer de Waldheim, 1817 Genus Palaeosciurus Pomel, 1853 S p e c i e s i n c l u d e d : Palaeosciurus feignouxi Pomel, 1853; Palaeosciurus fissurae (Dehm, 1950); Pal aeosciurus goti Vianey-Liaud, 1974; Palaeosciurus sutteri Ziegler & Fahlbusch, 1986; Palaeosciurus ultimus Mein & Ginsburg, 2002; and Palaeosciurus nov. sp. Fejfar & Kaiser, 2005.",
+     "verbatim": true
+    },
+    {
+     "url": "https://www.palaeodiversity.org/pdf/06/S-05_DeBruijn.pdf",
+     "citation": "de Bruijn, H., Markovic, Z. & Wessels, W. 2013. Late Oligocene rodents from Banovici (Bosnia and Herzegovina). Palaeodiversity 6:63-105",
+     "quote": "The type of Palaeosciurus feignoux (Pomel, 1853), from Langy (France) is missing, Montaigu-le-Blin (France) is now considered as the reference assemblage (Werner 1994).",
+     "verbatim": true
+    },
+    {
+     "url": "https://www.palaeodiversity.org/pdf/06/S-05_DeBruijn.pdf",
+     "citation": "de Bruijn, H., Markovic, Z. & Wessels, W. 2013. Late Oligocene rodents from Banovici (Bosnia and Herzegovina). Palaeodiversity 6:63-105",
+     "quote": "Palaeosciurus feignouxi: Germany MN1– 3; France MN1–2; Spain MP30– MN2; Switzerland MN2; Turkey Zone B and C (~MN1–2).",
+     "verbatim": true
+    },
+    {
+     "url": "https://www.palaeodiversity.org/pdf/06/S-05_DeBruijn.pdf",
+     "citation": "de Bruijn, H., Markovic, Z. & Wessels, W. 2013. Late Oligocene rodents from Banovici (Bosnia and Herzegovina). Palaeodiversity 6:63-105",
+     "quote": "The small collection of isolated Palaeosciurus cheek teeth from Banovići",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "Palaeosciurus Pomel, 1853 comprises five European species: P. feignouxi (type species), P. fissurae ( Dehm, 1950 ), P. goti ( Vianey-Liaud, 1974 ), P. sutteri ( Ziegler and Fahlbusch, 1986 ), and P. ultimus ( Mein and Ginsburg, 2002 ), and a Chinese species P. jiangi ( Qiu, 2015 ). This genus ranges temporally from the earliest Oligocene to the early Miocene in Eurasia ( de Bruijn, 1999 ; Qiu, 2015 ). Palaeosciurus goti from Mas de Got of France (MP22) was once regarded as the earliest sciurid in Europe ( Vianey-Liaud, 1985 ).",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "represented by Heteroxerus (ground) and Palaeosciurus (tree) in Europe",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "differs from Kherem of Xerinae and Palaeosciurus , Oligopetes , Protospermophilus , Miospermophilus , Protosciurus , Nototamias , Douglassciurus , Plesiosciurus aff. sinensis , and Marmotini gen. et sp. of Sciurinae",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Ground squirrels (sensu lato) have a rich fossil record and include some of the oldest-known squirrels, such as Palaeosciurus goti from the early Oligocene of France ( Vianey-Liaud, 1974 ; Vianey-Liaud, 1975 ), the earliest squirrel to be recorded in Eurasia.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "The same can be argued about the genus Palaeosciurus , which is recognized as a ‘ground squirrel’ on the basis of limb proportions ( Vianey-Liaud, 1974 ; Vianey-Liaud, 1975 ), but does not show the diagnostic features of extant groups.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Vianey-Liaud M. Palaeosciurus goti nov. sp., écureuil terrestre de l’Oligocène moyen du Quercy: donnés nouvelles sur l’apparition des Sciuridés en Europe.",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Palaeosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Palaeosciurus (retrieved 2026-10-03)",
+     "quote": "\"nam\":\"Palaeosciurus\",\"att\":\"Pomel 1853\",\"par\":\"txn:41486\",\"prl\":\"Sciuridae\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Palaeosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Palaeosciurus (retrieved 2026-10-03)",
+     "quote": "\"fea\":33.9,\"fla\":27.3,\"lea\":15.98,\"lla\":11.63,\"tei\":\"Rupelian\",\"tli\":\"Serravallian\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Palaeosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Palaeosciurus (retrieved 2026-10-03)",
+     "quote": "\"ttl\":\"Palaeosciurus feignouxi\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Palaeosciurus&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Palaeosciurus (retrieved 2026-10-03)",
+     "quote": "\"Palaeosciurus sp.\",\"genus\",\"\",\"\",\"Palaeosciurus\",\"genus\",\"41510\",\"Late Oligocene\",\"\",\"27.3\",\"23.04\",\"57669\",\"KZ\"",
+     "verbatim": true
+    }
+   ],
+   "notes": {
+    "age_epoch": "early Oligocene (earliest Oligocene, MP21-22; P. goti) to early Miocene (literature summary) - PBDB records extend into the middle Miocene (MN4-MN5, Langhian; P. sutteri, P. ultimus, P. cf. fissurae)",
+    "age_notes": "PBDB genus range: first appearance 33.9-27.3 Ma (Rupelian), last appearance 15.98-11.63 Ma (Langhian-Serravallian bin, from P. cf. fissurae, Poland); most youngest records are MN5 (15.98-13.82 Ma). Li et al. 2023 summarise the range as \"earliest Oligocene to the early Miocene in Eurasia\".",
+    "placement_notes": "Vianey-Liaud (1974, 1975) described P. goti as a terrestrial squirrel (\"ecureuil terrestre\") on the basis of limb proportions; Casanovas-Vilar et al. 2018 note it lacks the diagnostic features of any extant group. Li et al. 2023 instead class Palaeosciurus as a tree-squirrel morphotype and list it under Sciurinae. de Bruijn et al. 2013 and PBDB (McKenna & Bell 1997) place it only in Sciuridae. Disagreement therefore exists between \"ground squirrel\" and \"tree squirrel\" interpretations.",
+    "material": "Mostly isolated cheek teeth (e.g. 8 teeth from Banovici); limb bones of P. goti were used by Vianey-Liaud to assess limb proportions (postcranial material therefore exists for at least that species).",
+    "gliding_evidence": "None. Interpreted as terrestrial from limb proportions (P. goti); no gliding interpretation found in the literature retrieved.",
+    "locality": {
+     "country": [
+      "France",
+      "Germany",
+      "Spain",
+      "Switzerland",
+      "Austria",
+      "Czech Republic",
+      "Poland",
+      "Hungary",
+      "Greece",
+      "Bosnia and Herzegovina",
+      "Turkey",
+      "Kazakhstan",
+      "China"
+     ],
+     "continent": [
+      "Europe",
+      "Asia"
+     ],
+     "details": "Mainly Europe (PBDB occurrences in the listed European countries); Anatolia (Turkey); Kazakhstan (Aral, Late Oligocene, Palaeosciurus sp., PBDB); China (P. jiangi Qiu, 2015, per Li et al. 2023)."
+    }
+   }
+  },
+  "Protosciurus": {
+   "type_species": "Protosciurus condoni Black, 1963",
+   "continents": [
+    "North America"
+   ],
+   "material": "skull_and_teeth",
+   "gliding_evidence": false,
+   "genus_range_ma": {
+    "max": 37.0,
+    "min": 12.5,
+    "source": "Paleobiology Database taxon record (fea 37, lla 12.5); the oldest records are 'cf.' referrals"
+   },
+   "oldest_dated": {
+    "taxon": "Protosciurus (Oligocene records)",
+    "max_ma": 33.9,
+    "min_ma": 23.03,
+    "source": "Casanovas-Vilar et al. 2018: 'recorded from the Oligocene of North America'; the Oligocene ends at 23.03 Ma (conservative bound)"
+   },
+   "placements": [
+    {
+     "opinion": "tribe:Sciurini",
+     "source": "Black 1963 (Tribe Sciurini: Sciurus, Miosciurus, Protosciurus); Paleobiology Database parent"
+    },
+    {
+     "opinion": "stem",
+     "source": "Casanovas-Vilar et al. 2018 ('better regarded as stem sciurids')"
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Protosciurus n. gen. Type species, Protosciurus concloni n. sp.",
+     "verbatim": true,
+     "note": "\"concloni\" is OCR for \"condoni\""
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Range. Middle Oligocene of Nebraska, late Oligocene or early Miocene of Oregon, early Miocene of California. Discussion. Protosciurus condoni, the type species, is based on an excellent skull that affords a good understanding of the genus.",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Type. U.O.M.N.H. F-5171, nearly complete skull lacking only the zygomatic arches and rostrum anterior to the incisive foramina and the right mandible lacking the incisor and angle.",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Type. U.M.M.P. No. 39559, portion of left horizontal ramus with P 4 -AI 3 . Hypodigm. Type only. Horizon and locality. Lower Orellan, Aliddle Oligocene. A. ]\\Ieng Ranch",
+     "verbatim": true,
+     "note": "type of P. mengi (OCR garbled)"
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Type. U.C.M.P. No. 23611, partial right mandible with IMi-Mo.",
+     "verbatim": true,
+     "note": "type of P. tecuyensis"
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Type. A.M.N.H. No. 7241, a partial left maxilla and pre- maxilla with I,",
+     "verbatim": true,
+     "note": "type of P. rachelae"
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "They agree with P. condoni in having cheek teeth of tree squirrel type com- bined with at least some indication that the zygomasseteric struc- ture had not yet attained the complete sciuromorph condition.",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Discussion. P. mengi is the oldest known sciurid. It resembles Recent tree squirrels in many respects and seems certainly to belong with that group of sciurids.",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/biostor-97496",
+     "citation": "Black, C.C. 1963. A review of the North American Tertiary Sciuridae. Bulletin of the Museum of Comparative Zoology 130(3):109-248 (OCR text, archive.org/BioStor)",
+     "quote": "Tribe Sciurini Burmeister, 1854 Sciurus, MiosciuruSy Pi'otosciuruSy",
+     "verbatim": true,
+     "note": "OCR of \"Sciurus, Miosciurus, Protosciurus\" in Black's classification"
+    },
+    {
+     "url": "https://doi.org/10.7554/eLife.39270",
+     "citation": "Casanovas-Vilar, I., Garcia-Porta, J., Fortuny, J., Sanisidro, O., Prieto, J., Querejeta, M., Llacer, S., Robles, J.M., Bernardini, F. & Alba, D.M. 2018. Oldest skeleton of a fossil flying squirrel casts new light on the phylogeny of the group. eLife 7:e39270 (full text via Europe PMC PMC6177260)",
+     "quote": "Protosciurus and Miosciurus , which are recorded from the Oligocene of North America, have been considered sciurins ( Black, 1963 ; Goodwin, 2008 ), but their archaic zygomasseteric structure indicates that they should be better regarded as stem sciurids.",
+     "verbatim": true
+    },
+    {
+     "url": "https://doi.org/10.3389/feart.2022.1004509",
+     "citation": "Li, Q., Ni, X., Stidham, T.A., Qin, C., Gong, H. & Zhang, L. 2023. Two large squirrels (Rodentia, Mammalia) from the Junggar Basin of northwestern China demonstrate early radiation among squirrels and suggest forested paleoenvironment in the late Eocene of Central Asia. Frontiers in Earth Science 10:1004509",
+     "quote": "Protosciurus ( Black, 1963 ) includes P. condoni (type species), P. mengi , P. rachelae , and P. tecuyensis ( Bryant, 1945 ). The genus ranges from early Orellan to early Hemingfordian NALMA (early Oligocene to late early Miocene), and it may have survived into the early Barstovian NALMA (early middle Miocene) ( Goodwin, 2008 ).",
+     "verbatim": true
+    },
+    {
+     "url": "https://archive.org/details/descriptivecomp47emry",
+     "citation": "Emry, R.J. & Thorington, R.W. Jr. 1982. Descriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae). Smithsonian Contributions to Paleobiology 47:1-35 (OCR text, archive.org)",
+     "quote": "whereas Protosciurus condoni (the genotypic species) and other referred species are more clearly members of the squirrel family.",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Protosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Protosciurus (retrieved 2026-10-03)",
+     "quote": "\"nam\":\"Protosciurus\",\"att\":\"Black 1963\",\"par\":\"txn:92505\",\"prl\":\"Sciurini\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Protosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Protosciurus (retrieved 2026-10-03)",
+     "quote": "\"fea\":37,\"fla\":33.9,\"lea\":16.3,\"lla\":12.5,\"tei\":\"Priabonian\",\"tli\":\"Serravallian\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Protosciurus&show=full",
+     "citation": "Paleobiology Database API, taxa/single record for Protosciurus (retrieved 2026-10-03)",
+     "quote": "\"ttl\":\"Protosciurus condoni\"",
+     "verbatim": true
+    },
+    {
+     "url": "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Protosciurus&show=loc,strat&vocab=pbdb",
+     "citation": "Paleobiology Database API, occurrence list for Protosciurus (retrieved 2026-10-03)",
+     "quote": "\"Protosciurus sp.\",\"genus\",\"\",\"\",\"Protosciurus\",\"genus\",\"41519\",\"Early Barstovian\",\"\",\"16.3\",\"12.5\",\"934\",\"US\",\"Texas\"",
+     "verbatim": true
+    }
+   ],
+   "notes": {
+    "age_epoch": "early Oligocene (early Orellan) to early Miocene (early Hemingfordian), possibly to early middle Miocene (early Barstovian); PBDB also lists Chadronian (late Eocene) records referred to P. cf. mengi / P. mengi",
+    "age_notes": "PBDB genus range: first appearance 37-33.9 Ma (Priabonian; Chadronian records), last appearance 16.3-12.5 Ma (Early Barstovian, Protosciurus sp., Fleming Fm, Texas). Black 1963 gave \"Middle Oligocene of Nebraska, late Oligocene or early Miocene of Oregon, early Miocene of California\" (older epoch usage).",
+    "placement_notes": "Black 1963 placed Protosciurus in tribe Sciurini (with cheek teeth of tree-squirrel type but an incompletely sciuromorphous zygomasseteric structure); PBDB parent = Sciurini (Black 1963), other opinions Sciuridae (McKenna & Bell 1997; Korth et al. 2022). Casanovas-Vilar et al. 2018: archaic zygomasseteric structure indicates it is better regarded as a stem sciurid. Li et al. 2023 list it among Sciurinae. \"Protosciurus\" jeffersoni (Emry & Thorington 1982 skeleton) is now Douglassciurus.",
+    "material": "Cranial and dental material: holotype of P. condoni a nearly complete skull and right mandible; other species based on mandible/maxilla fragments with teeth. No postcranial skeleton referred to Protosciurus s.str. in the sources retrieved (the 1982 skeleton belongs to Douglassciurus jeffersoni).",
+    "gliding_evidence": "None. Known from skulls/jaws/teeth; dentition of tree-squirrel type (Black 1963); no postcranial evidence of gliding.",
+    "locality": {
+     "country": [
+      "United States",
+      "Canada"
+     ],
+     "continent": "North America",
+     "details": "USA: Oregon (John Day Fm; type of P. condoni), Nebraska (Meng Ranch, type of P. mengi), South Dakota, Wyoming, California (Tecuya Canyon), Texas, Florida; Canada: Saskatchewan - PBDB."
+    }
+   }
+  }
+ }
+}

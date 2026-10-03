@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  generated-data:
+    name: Generated Coq data matches data/
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tools/gen_coq.py --check
+
+  build:
+    name: Build and audit (Coq ${{ matrix.coq }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        coq: ['8.18']   # the version the development is tested with locally
+    container:
+      image: coqorg/coq:${{ matrix.coq }}
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          eval $(opam env)
+          make -j2
+      - name: Axiom audit
+        run: |
+          eval $(opam env)
+          sh tools/check_assumptions.sh

@@ -1,0 +1,22 @@
+-R theories Sciuridae
+-arg -w -arg -abstract-large-number
+
+theories/Lib/Base.v
+theories/Phylo/Clusters.v
+theories/Phylo/Tree.v
+theories/Key/Key.v
+theories/Key/Matrix.v
+theories/Data/Geography.v
+theories/Data/Taxonomy.v
+theories/Data/Species.v
+theories/Data/Upham2019.v
+theories/Classification.v
+theories/Biogeography.v
+theories/Conservation.v
+theories/Phylogeny.v
+theories/Data/Fossils.v
+theories/Paleontology.v
+theories/Data/Characters.v
+theories/Data/GenusKey.v
+theories/Identification.v
+theories/SciuridaeFormalis.v
