@@ -20,3 +20,4 @@ theories/Data/Characters.v
 theories/Data/GenusKey.v
 theories/Identification.v
 theories/SciuridaeFormalis.v
+theories/Examples.v
