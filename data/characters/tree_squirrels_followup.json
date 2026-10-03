@@ -1,0 +1,1815 @@
+{
+ "group": "tree_squirrels_followup",
+ "genera": {
+  "Sciurus": {
+   "characters": {
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "Cheek pouches not developed.",
+       "verbatim": true,
+       "note": "Genus Sciurus diagnosis (Ognev 1940, Russian p. 285-286 / transl.). Ognev's genus Sciurus is worldwide (Palearctic, Nearctic, Neotropical, Oriental) and explicitly includes the North American subgenus Tamiasciurus."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "The following subgenera occur in North America: Tamiasciurus (which is in some re spects transitional to the chipmunks), Baiosciurus, Sciurus, Guerlinguetus.",
+       "verbatim": true,
+       "note": "Same genus account: shows that Ognev's genus Sciurus (whose diagnosis states cheek pouches not developed) includes Tamiasciurus and the Neotropical subgenus Guerlinguetus."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "Claws short, curved, adapted for clinging to the bark of trees. No cheek pouches.",
+       "verbatim": true,
+       "note": "Subfamily Sciurinae description (squirrels: \"Arboreal animals which build their nests on trees or in hollows\")."
+      },
+      {
+       "url": "https://file.lacounty.gov/SDSInter/acwm/215273_t_treesquirrel_pdf.pdf",
+       "citation": "Los Angeles County Agricultural Commissioner/Weights & Measures, Pest Information Series: Tree Squirrels (extension leaflet; weak source)",
+       "quote": "As is the case with all true tree squirrels both of these species also lack internal cheek pouches",
+       "verbatim": true,
+       "note": "Refers to Sciurus griseus and S. niger in California; generalises to \"all true tree squirrels\". Weak (extension leaflet), given as corroboration only."
+      }
+     ],
+     "notes": "Genus-level diagnosis (Ognev) stating that cheek pouches are not developed in Sciurus; Ognev's genus covers the Palearctic, Nearctic and Neotropical species (subgenera incl. Guerlinguetus and Tamiasciurus). Corroborated by Ognev's subfamily key/diagnosis and an extension leaflet (\"all true tree squirrels ... lack internal cheek pouches\"). The diagnosis was evidently written mainly from Palearctic and North American material; no source reports cheek pouches in any Sciurus."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "The length of the rostrum is in the genus variable, but never tends to become extreme.",
+       "verbatim": true,
+       "note": "Genus Sciurus account."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group; Sciurus falls in this branch (as do Lariscus, Nannosciurus etc., coded \"no\" from the same couplet in earlier files)."
+      }
+     ],
+     "notes": "Same convention as earlier files that coded snout_elongate \"no\" from this Ellerman key couplet."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Upper incisors not pro-odont, plain.",
+       "verbatim": true,
+       "note": "Terminal couplet of Ellerman's key for genus Sciurus (contrasted with Syntheosciurus: \"Upper incisors pro-odont, one-grooved\"). OCR line break \"pro-/odont\"."
+      }
+     ],
+     "notes": "Genus-level key statement covering Ellerman's broad Sciurus (subgenera Sciurus, Tenes, Neosciurus, Otosciurus, Hesperosciurus, Parasciurus, Guerlinguetus, Notosciurus, Hadrosciurus), i.e. all MDD Sciurus species."
+    }
+   },
+   "extra_characters": {
+    "upper_incisors_procumbent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Upper incisors not pro-odont, plain.",
+       "verbatim": true,
+       "note": "Ellerman 1940 key, terminal couplet for genus Sciurus (worldwide genus incl. Neotropical subgenera Guerlinguetus, Notosciurus, Hadrosciurus)."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Upper incisors not projecting forward",
+       "verbatim": true,
+       "note": "Howell 1938 key: \"e2. Upper incisors not projecting forward Genus Sciurus\", vs \"e1. Upper incisors projecting forward (to or beyond plane of tip of nasals)\" -> Syntheosciurus, Microsciurus."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Upper incisors projecting forward (to or beyond plane of tip of nasals).",
+       "verbatim": true
+      },
+      {
+       "url": "https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+       "citation": "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text)",
+       "quote": "M. flaviventer is distinguishable from other Sciurus species by several cranial features. In M. flaviventer , the postorbital process is almost directly over the base of the posterior root of the zygomatic arch, the postglenoid foramen pierces the squamosal bone, the upper 3rd premolars are present and the upper incisors are pro-odont",
+       "verbatim": true,
+       "note": "Implies the other Sciurus species are not pro-odont."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "DIAGNOSIS: 1. The orbit is long. 2. The upper incisors are opisthodont.",
+       "verbatim": true,
+       "note": "Subgenus Simosciurus = S. stramineus, S. nebouxii."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "DIAGNOSIS: 1. The upper incisors are orthodont or mildly opisthodont.",
+       "verbatim": true,
+       "note": "Subgenus Mesosciurus (granatensis group) of Moore's Syntheosciurus; these species are in Sciurus in MDD."
+      }
+     ],
+     "notes": "Procumbent = proodont (projecting forward to/beyond the plane of the nasal tips). Upgrades the earlier \"partial\" coding to genus scope using two genus-level key couplets (Ellerman 1940 worldwide; Howell 1938 North America). Caveat: Moore 1959 gives no incisor statement for Leptosciurus (S. pucheranii); Ellerman placed pucheranii in Sciurus (subgenus Guerlinguetus) under the \"not pro-odont\" couplet."
+    },
+    "infraorbital_canal": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "The infraorbital foramen always forms a canal",
+       "verbatim": true,
+       "note": "Genus Sciurus account."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Antorbital canal present.",
+       "verbatim": true,
+       "note": "Howell 1938 key couplet a2, under which Sciurus, Tamiasciurus, Microsciurus, Syntheosciurus, Glaucomys, Marmota, Cynomys and Citellus are keyed; a1 (\"No antorbital canal, the antorbital foramen piercing the zygomatic plate of the maxillary\") = Tamias, Eutamias."
+      }
+     ],
+     "notes": "Same meaning as the existing infraorbital_canal coding (Tamias/Neotamias/Eutamias \"absent\" from Howell's couplet a1)."
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "7. In fully adult individuals the sagittal suture and frontoparietal suture ankylose completely, so that there remain no visible sutures on the dorsal surface of the skull from the anterior edge of the frontals to the posterior edge of the parietals.",
+       "verbatim": true,
+       "note": "Character 7 of tribe Ratufini (= genus Ratufa)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1, 2, 3, 4, 5, 6, and 7; from the Microsciurina by 1, 2, 4, 5, 6, and 7; from the Marmotini by 1, 2, 3, 4, 5, 8, and 9; from the Tamiasciurini by 1, 2, 3, 4, 5, 6, 7, 8, and 9;",
+       "verbatim": true,
+       "note": "Diagnosis of the tribe Ratufini: Sciurina and Microsciurina (together containing all MDD Sciurus species) and Tamiasciurini (Tamiasciurus + Sciurotamias) differ from Ratufa in character 7, i.e. their frontoparietal suture does NOT ankylose completely. (Marmotini are NOT listed as differing in 7: consistent with Marmotina/Spermophilina also ankylosing it.)"
+      }
+     ],
+     "notes": "Re-states the existing coding with direct evidence: Sciurina and Microsciurina (all MDD Sciurus) differ from Ratufa in not ankylosing the frontoparietal suture."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "In the forefoot, D.4 is longer than D.3 (slightly);",
+       "verbatim": true,
+       "note": "Genus Sciurus account."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Feet with fourth digit the longest;",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Sciurinae (Sciurus incl. all American subgenera except Tamiasciurus)."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "Fourthdigit longest on both fore- and hind legs.",
+       "verbatim": true,
+       "note": "Subfamily Sciurinae description; OCR \"Fourthdigit\" = Fourth digit."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "semi-terrestrial or arboreal in external characters; D.3 in manus never constantly longer than D.4",
+       "verbatim": true,
+       "note": "Alternative branch of the same couplet (leads to Tamias, Sciurotamias, Ratufa, Microsciurus, Tamiasciurus, Callosciurus, Sciurus, Syntheosciurus etc.)."
+      }
+     ],
+     "notes": "NEW character: is the third digit (D.3) the longest/main digit of the forefoot (manus)? In ground squirrels and marmots it is (terrestrial type); in arboreal squirrels D.4 is longest."
+    },
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum large, with compressed terminal blade hollowed on the right side, which carries inferiorly a short downwardly directed process.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Sciurinae (Sciurus incl. all American subgenera except Tamiasciurus): a single large bone whose distal end is shaped as a blade/spatula; no separate hinged accessory blade."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "In the collection of the British Museum the bacula of the following species demonstrate this truth:",
+       "verbatim": true,
+       "note": "Followed by: vulgaris, persicus (= anomalus), lis, niger, carolinensis, nayaritensis, langsdorfi (= spadiceus), ingrami (= aestuans/brasiliensis group), variabilis (= granatensis) - all with the Sciurus vulgaris type of baculum (Thomas 1915)."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "It is, however, when present, always a simple bone without the spatulate expansion at the apex seen in the Sciurine, without the accessory blade of the Tomeutine,",
+       "verbatim": true,
+       "note": "Subfamily Funambulinae (Funambulus, Ratufa, African genera); OCR \"Sciurine\"/\"Tomeutine\" = Sciurinae/Tomeutinae (i.e. Callosciurinae)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "It is believed that this common possession of the Sciurus type of baculum indicates a natural relationship and remains the sole means of characterizing the tribe Sciurini.",
+       "verbatim": true,
+       "note": "Moore's Sciurini = Sciurina + Sciurillina + Microsciurina, i.e. all MDD Sciurus, Microsciurus, Syntheosciurus and Sciurillus."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "proposed to separate the Indo-Malayan tree squirrel from the Holarctic genus Sciurus as Callosciurus (and partly also Tomeutes), because they have a separate blade on the baculum.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "by the presence of a separate bony blade associated with the shaft of",
+       "verbatim": true,
+       "note": "\"Thomas (1915) separated Indochinese and Malaysian tree squirrel species from the genus Sciurus, noting that they are distinguished by the presence of a separate bony blade associated with the shaft of ... the os penis\" (sentence interrupted by OCR line interleaving)."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofchinamo02alle",
+       "citation": "Allen, G.M. 1940. The Mammals of China and Mongolia, Part 2. Natural History of Central Asia 11 (archive.org OCR text)",
+       "quote": "In the genus Sciurus the baculum is of characteristic form, and is likened by Thomas to a spatula",
+       "verbatim": true,
+       "note": "Allen 1940, genus Sciurus account."
+      }
+     ],
+     "notes": "NEW character: baculum compound, with a separate accessory blade hinged/movably jointed to the shaft (two separate parts). Sciurus has a single bone of the \"Sciurus type\" (distal end spatulate/blade-shaped, but not a separate hinged blade; Howell 1938 likewise describes single bones of 10.5-16.6 mm for NA subgenera). Tribe-level statement (Moore: the Sciurus-type baculum characterizes the whole tribe Sciurini incl. Microsciurina; Didier 1955 figured bacula of South American Sciurina/Microsciurina). Scored on males only."
+    },
+    "baculum_well_developed": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum large, with compressed terminal blade hollowed on the right side, which carries inferiorly a short downwardly directed process.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Sciurinae (Sciurus incl. all American subgenera except Tamiasciurus): a single large bone whose distal end is shaped as a blade/spatula; no separate hinged accessory blade."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Baculum, so lar as known, retained.",
+       "verbatim": true,
+       "note": "Ellerman key couplet covering Dremomys, Funambulus, Callosciurus, Sciurus and Syntheosciurus (OCR \"lar\" = far); contrasted with \"Baculum, so far as known, suppressed or vestigial\" (Heliosciurus, Tamiasciurus)."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "It is 10.5 mm in length,",
+       "verbatim": true,
+       "note": "Sciurus carolinensis baculum (Howell 1938); S. vulgaris \"essentially like\" it; S. griseus 16.6 mm; S. aberti 16.1 mm; S. niger group \"closely similar in shape to that of Sciurus carolinensis\"."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "The bone measuring 16.6 mm in length,",
+       "verbatim": true,
+       "note": "S. griseus."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "It is believed that this common possession of the Sciurus type of baculum indicates a natural relationship and remains the sole means of characterizing the tribe Sciurini.",
+       "verbatim": true,
+       "note": "Moore's Sciurini = Sciurina + Sciurillina + Microsciurina, i.e. all MDD Sciurus, Microsciurus, Syntheosciurus and Sciurillus."
+      }
+     ],
+     "notes": "NEW character: a well-formed os penis present (yes) vs baculum absent or only rudimentary/vestigial (no). Scored on males only."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true,
+       "note": "Character 1 of tribe Funambulini."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Callosciurina by 1; from the Sciurillina by 1; from the Sciurina by 1; from the Microsciurina by 1;",
+       "verbatim": true,
+       "note": "Diagnosis of tribe Funambulini: Sciurina and Microsciurina (together all MDD Sciurus) differ in character 1, i.e. possess the dorso-anterior premaxillary process abutting the nasal."
+      }
+     ],
+     "notes": "NEW character: dorso-anterior process of the premaxilla present and rising to abut the anterolateral angle of the nasal (yes) vs lacking or overshot by the nasal (no, Funambulini)."
+    },
+    "lower_p4_paraconulid": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "partial",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Anterior lower premolar without a paraconulid.",
+       "verbatim": true,
+       "note": "Howell 1938 key couplet b2 (all North American genera except Marmota), under which Sciurus is keyed."
+      }
+     ],
+     "notes": "Howell keys genus Sciurus as represented in North America (plus the Palaearctic subgenus Sciurus); South American species not explicitly covered, hence \"partial\".",
+     "species_covered": [
+      "Sciurus aberti",
+      "Sciurus alleni",
+      "Sciurus arizonensis",
+      "Sciurus aureogaster",
+      "Sciurus carolinensis",
+      "Sciurus colliaei",
+      "Sciurus deppei",
+      "Sciurus griseus",
+      "Sciurus nayaritensis",
+      "Sciurus niger",
+      "Sciurus oculatus",
+      "Sciurus variegatoides",
+      "Sciurus yucatanensis",
+      "Sciurus vulgaris"
+     ]
+    }
+   },
+   "distinguishing_notes": "Separators found for the listed pairs: vs ground squirrels (Ammospermophilus, Callospermophilus, Notocitellus, Otospermophilus, Poliocitellus) - cheek_pouches (absent vs present), frontoparietal_suture_in_adults (visible vs fused) and manus_digit3_longest (no vs yes); vs Xerospermophilus and Marmota - frontoparietal_suture_in_adults and manus_digit3_longest; vs Tamias, Neotamias, Eutamias - cheek_pouches and infraorbital_canal (present vs absent); vs Sciurotamias - cheek_pouches; vs Ratufa - frontoparietal_suture_in_adults (visible vs fused); vs Microsciurus - upper_incisors_procumbent (no vs yes); vs Syntheosciurus - upper_incisors_procumbent and upper_incisor_groove (smooth vs grooved); vs Tamiasciurus - baculum_well_developed (yes vs no); vs Callosciurus, Dremomys, Menetes, Tamiops - baculum_accessory_blade (no vs yes) (Menetes also snout_elongate given the existing Menetes coding); vs Funambulus - premaxilla_process_abuts_nasal (yes vs no)."
+  },
+  "Tamiasciurus": {
+   "characters": {
+    "cheek_pouches": {
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "Cheek pouches not developed.",
+       "verbatim": true,
+       "note": "Genus Sciurus diagnosis (Ognev 1940, Russian p. 285-286 / transl.). Ognev's genus Sciurus is worldwide (Palearctic, Nearctic, Neotropical, Oriental) and explicitly includes the North American subgenus Tamiasciurus."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "The following subgenera occur in North America: Tamiasciurus (which is in some re spects transitional to the chipmunks), Baiosciurus, Sciurus, Guerlinguetus.",
+       "verbatim": true,
+       "note": "Same genus account: shows that Ognev's genus Sciurus (whose diagnosis states cheek pouches not developed) includes Tamiasciurus and the Neotropical subgenus Guerlinguetus."
+      },
+      {
+       "url": "https://archive.org/details/mammalsofeastern04ogne",
+       "citation": "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text)",
+       "quote": "Claws short, curved, adapted for clinging to the bark of trees. No cheek pouches.",
+       "verbatim": true,
+       "note": "Subfamily Sciurinae description (squirrels: \"Arboreal animals which build their nests on trees or in hollows\")."
+      }
+     ],
+     "notes": "Evidence is Ognev's genus diagnosis of Sciurus, in which Tamiasciurus is explicitly included as a North American subgenus (the same diagnosis discusses T. hudsonicus skull features). No Tamiasciurus-specific primary statement was found; no source reports cheek pouches in Tamiasciurus."
+    },
+    "snout_elongate": {
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "The rostrum not extremely elongated.",
+       "verbatim": true,
+       "note": "Ellerman key to genera of the Sciurus group; Tamiasciurus keys in this branch."
+      }
+     ],
+     "notes": "Same convention as earlier files."
+    }
+   },
+   "extra_characters": {
+    "infraorbital_canal": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "present"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Antorbital canal present.",
+       "verbatim": true,
+       "note": "Howell 1938 key couplet a2; Tamiasciurus keys out under it (\"h2. Anterior upper premolar (pm3) vestigial - often absent; baculum absent Genus Tamiasciurus\")."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Infraorbital foramen less open, always forming at least a short canal.",
+       "verbatim": true,
+       "note": "Ellerman key; Tamiasciurus is keyed in this branch."
+      }
+     ],
+     "notes": "Separates Tamiasciurus from Tamias/Neotamias/Eutamias (no antorbital canal)."
+    },
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "7. In fully adult individuals the sagittal suture and frontoparietal suture ankylose completely, so that there remain no visible sutures on the dorsal surface of the skull from the anterior edge of the frontals to the posterior edge of the parietals.",
+       "verbatim": true,
+       "note": "Character 7 of tribe Ratufini (= genus Ratufa)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1, 2, 3, 4, 5, 6, and 7; from the Microsciurina by 1, 2, 4, 5, 6, and 7; from the Marmotini by 1, 2, 3, 4, 5, 8, and 9; from the Tamiasciurini by 1, 2, 3, 4, 5, 6, 7, 8, and 9;",
+       "verbatim": true,
+       "note": "Diagnosis of the tribe Ratufini: Sciurina and Microsciurina (together containing all MDD Sciurus species) and Tamiasciurini (Tamiasciurus + Sciurotamias) differ from Ratufa in character 7, i.e. their frontoparietal suture does NOT ankylose completely. (Marmotini are NOT listed as differing in 7: consistent with Marmotina/Spermophilina also ankylosing it.)"
+      }
+     ],
+     "notes": "Tamiasciurini differ from Ratufini in character 7 (complete frontoparietal ankylosis), i.e. the suture stays visible in Tamiasciurus. Re-states the existing coding."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Digits normal (arboreal type).",
+       "verbatim": true,
+       "note": "Genus Tamiasciurus account; Ellerman's arboreal type = D.4 longest in the forefoot (genus Sciurus account: \"In the forefoot, D.4 is longer than D.3 (slightly)\")."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "semi-terrestrial or arboreal in external characters; D.3 in manus never constantly longer than D.4",
+       "verbatim": true,
+       "note": "Alternative branch of the same couplet (leads to Tamias, Sciurotamias, Ratufa, Microsciurus, Tamiasciurus, Callosciurus, Sciurus, Syntheosciurus etc.)."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "which it resembles in cranial and other external characters, by the structure of the penis",
+       "verbatim": true,
+       "note": "Subfamily Tamiasciurinae: resembles Sciurinae (whose diagnosis has \"Feet with fourth digit the longest\") except in the penis."
+      }
+     ],
+     "notes": "Caveat: Ellerman's key branch says D.3 is \"never constantly longer than D.4\" in this group, which does not by itself exclude occasional individuals; the genus account calls the digits of normal arboreal type."
+    },
+    "baculum_well_developed": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "flexible throughout owing to the suppression of the baculum.",
+       "verbatim": true,
+       "note": "Subfamily Tamiasciurinae diagnosis."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "have no baculum, and the penis is long and slender, tapering to a point.",
+       "verbatim": true,
+       "note": "Howell 1938, genus Tamiasciurus (\"the red squirrels\"); preceding word OCR \"Tlaey\" = They."
+      },
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Anterior upper premolar (pm^) vestigial — often absent; baculum absent",
+       "verbatim": true,
+       "note": "Howell 1938 key couplet for genus Tamiasciurus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "The generic difference between this and Sciurus is the complete suppression of the baculum (Pocock, TuUberg, Howell), though whether all the forms have been examined in this respect 1 do not know.",
+       "verbatim": true,
+       "note": "OCR \"1\" = I."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "It has recently been shown by Layne (1952) that Tamiasciurus hudsonicus loquax does in fact possess a rudimentary baculum, averaging 0.26 mm. in length.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Baculum absent (Pocock, Howell) or rudimentary, ca. 0.26 mm (Layne 1952 via Moore 1959) - hence the existing \"baculum\" key (absent/present) cannot separate it from Sciurus, but \"well developed\" can. Coverage: T. hudsonicus (incl. loquax) examined; Howell states it for the red squirrels as a genus (T. douglasii and T. fremonti then in his genus); Ellerman notes not all forms examined."
+    },
+    "lower_p4_paraconulid": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Anterior lower premolar without a paraconulid.",
+       "verbatim": true,
+       "note": "Howell 1938 key couplet b2 (all genera except Marmota, incl. Tamiasciurus)."
+      }
+     ],
+     "notes": "Separates Tamiasciurus from Marmota (paraconulid present, existing coding)."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Tamiasciurini by 1 and 2; from the Marmotini by 1; and from the Xerini by 1 and 2.",
+       "verbatim": true,
+       "note": "Diagnosis of tribe Funambulini (character 1 = dorso-anterior premaxillary process lacking/overshot)."
+      }
+     ],
+     "notes": "Not needed for the listed pairs; included for completeness."
+    },
+    "transbullar_septa_per_bulla": {
+     "possible_states": [
+      "1",
+      "2",
+      "3"
+     ],
+     "states": [
+      "2",
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Tamiasciurus: 3 specimens with 2 pairs, 5 with 2 1/2, 128 with 3, 1 with 3 1/2, 1 with 4 pairs of transbullar septa",
+       "verbatim": false,
+       "note": "Read from the page image of Moore 1959 Table 1 (p. 163, \"Incidence of various numbers of transbullar septa\"); the PDF text layer of the table is garbled, so not verbatim."
+      }
+     ],
+     "notes": "CORRECTION/WIDENING of the existing coding [\"3\"]: Moore's Table 1 shows 2 to 4 pairs (mostly 3). Values 2.5, 3.5 and 4 cannot be expressed in the existing state set; the character should not be relied on for Tamiasciurus."
+    }
+   },
+   "distinguishing_notes": "vs Ammospermophilus, Callospermophilus, Notocitellus, Otospermophilus, Poliocitellus: cheek_pouches (absent vs present), frontoparietal_suture_in_adults (visible vs fused), manus_digit3_longest (no vs yes); vs Xerospermophilus: frontoparietal_suture_in_adults, manus_digit3_longest; vs Marmota: frontoparietal_suture_in_adults, manus_digit3_longest, lower_p4_paraconulid (absent vs present); vs Neotamias, Tamias: cheek_pouches, infraorbital_canal (present vs absent); vs Sciurus: baculum_well_developed (no vs yes)."
+  },
+  "Ratufa": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "7. In fully adult individuals the sagittal suture and frontoparietal suture ankylose completely, so that there remain no visible sutures on the dorsal surface of the skull from the anterior edge of the frontals to the posterior edge of the parietals.",
+       "verbatim": true,
+       "note": "Character 7 of tribe Ratufini (= genus Ratufa)."
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "(5) In fully adult individuals both the sagittal suture and the frontoparietal suture ankylose completely, so that there remain no visible sutures on the dorsal surface of the skull from the anterior edge of",
+       "verbatim": true,
+       "note": "Genus Ratufa diagnosis, character 5."
+      }
+     ],
+     "notes": "Applies to fully adult individuals (as does the existing character, e.g. Sciurillus \"fused\"). Ratufini = Ratufa only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "D.4 longer than D.3;",
+       "verbatim": true,
+       "note": "Genus Ratufa account (forefoot)."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    },
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "2. Ratufa, Funambulus, and Tamiodes, with simple bacula.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "the absence of the third upper premolar, and the absence of a blade on the baculum.",
+       "verbatim": true,
+       "note": "Similarities of Ratufa to Protoxerini."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Ratufini by 1 and 2;",
+       "verbatim": true,
+       "note": "Diagnosis of tribe Funambulini: Ratufini differ in character 1 (premaxillary process) and 2."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and vs Sciurotamias: frontoparietal_suture_in_adults (fused in adult Ratufa; visible in Sciurus and Sciurotamias) - Moore 1959 and Moore & Tate 1965 (the latter compares Ratufa directly with Sciurotamias). Cheek pouches of Ratufa remain undocumented (no source found either way; an unreliable web page claims Indian giant squirrels have them), so cheek_pouches was NOT coded for Ratufa."
+  },
+  "Sciurotamias": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "from other Sciurinae of the Indian and Indochinese subregions as follows: Sciurotamias by 1, 2, 3, 4, 5, and 6;",
+       "verbatim": true,
+       "note": "Ratufa differs from Sciurotamias in character 5 (complete ankylosis of the frontoparietal suture in adults), i.e. Sciurotamias keeps a visible suture. Moore & Tate treat both S. davidianus and S. (Rupestes) forresti."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1, 2, 3, 4, 5, 6, and 7; from the Microsciurina by 1, 2, 4, 5, 6, and 7; from the Marmotini by 1, 2, 3, 4, 5, 8, and 9; from the Tamiasciurini by 1, 2, 3, 4, 5, 6, 7, 8, and 9;",
+       "verbatim": true,
+       "note": "Diagnosis of the tribe Ratufini: Sciurina and Microsciurina (together containing all MDD Sciurus species) and Tamiasciurini (Tamiasciurus + Sciurotamias) differ from Ratufa in character 7, i.e. their frontoparietal suture does NOT ankylose completely. (Marmotini are NOT listed as differing in 7: consistent with Marmotina/Spermophilina also ankylosing it.)"
+      }
+     ],
+     "notes": "Both sources state the difference from Ratufa (complete frontoparietal ankylosis) comparatively. Moore 1959 had only one subadult skull of S. forresti (Rupestes); Moore & Tate 1965 cover both species."
+    }
+   },
+   "distinguishing_notes": "vs Ratufa: frontoparietal_suture_in_adults (visible vs fused). vs Sciurus: cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Marmota": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The chipmunk subtribe is distinguishable from the subtribe Marmotina by the above enumerated characters, as follows: 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Subtribe Marmotina = Marmota (incl. Marmotops). Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Forefoot with D.3 the main digit;",
+       "verbatim": true,
+       "note": "Genus Marmota account."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      }
+     ],
+     "notes": "NEW character (see Sciurus)."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); vs Tamiasciurus also lower_p4_paraconulid (present vs absent)."
+  },
+  "Ammospermophilus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\"."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); also cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Callospermophilus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "(Includes Otospermophilus Brandt, 1844; Ictidomys Allen, 1877; Xerospermophilus Merriam, 1892; Callospermophilus Merriam, 1897; Poliocitellus Howell, 1938.) Holarctic ground squirrel.",
+       "verbatim": true,
+       "note": "Moore's classification: Spermophilus s.l. includes Otospermophilus, Ictidomys (which then contained spilosoma and perotensis, now Xerospermophilus), Xerospermophilus, Callospermophilus and Poliocitellus."
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Subgenus h. Callospermophilus, Merriam.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\"."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); also cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Notocitellus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Spermophilus annulatus, A.M.N.H. No. 2107,",
+       "verbatim": true,
+       "note": "Appendix of specimens examined: Notocitellus annulatus treated within Moore's Spermophilus (Spermophilina)."
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\"."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); also cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Otospermophilus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "(Includes Otospermophilus Brandt, 1844; Ictidomys Allen, 1877; Xerospermophilus Merriam, 1892; Callospermophilus Merriam, 1897; Poliocitellus Howell, 1938.) Holarctic ground squirrel.",
+       "verbatim": true,
+       "note": "Moore's classification: Spermophilus s.l. includes Otospermophilus, Ictidomys (which then contained spilosoma and perotensis, now Xerospermophilus), Xerospermophilus, Callospermophilus and Poliocitellus."
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Subgenus d. Otospermophilus, Brandt.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\"."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); also cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Poliocitellus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "(Includes Otospermophilus Brandt, 1844; Ictidomys Allen, 1877; Xerospermophilus Merriam, 1892; Callospermophilus Merriam, 1897; Poliocitellus Howell, 1938.) Holarctic ground squirrel.",
+       "verbatim": true,
+       "note": "Moore's classification: Spermophilus s.l. includes Otospermophilus, Ictidomys (which then contained spilosoma and perotensis, now Xerospermophilus), Xerospermophilus, Callospermophilus and Poliocitellus."
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Subgenus c. Poliocitellus, How'ell.",
+       "verbatim": true,
+       "note": "OCR \"How'ell\" = Howell."
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\"."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no); also cheek_pouches (present, existing coding, vs absent)."
+  },
+  "Xerospermophilus": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "fused"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The subtribe consists of the Holarctic genus Spermophilus and the Nearctic genera Ammospermophilus and Cynomys.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "(Includes Otospermophilus Brandt, 1844; Ictidomys Allen, 1877; Xerospermophilus Merriam, 1892; Callospermophilus Merriam, 1897; Poliocitellus Howell, 1938.) Holarctic ground squirrel.",
+       "verbatim": true,
+       "note": "Moore's classification: Spermophilus s.l. includes Otospermophilus, Ictidomys (which then contained spilosoma and perotensis, now Xerospermophilus), Xerospermophilus, Callospermophilus and Poliocitellus."
+      }
+     ],
+     "notes": "Moore 1959: subtribe Spermophilina (Spermophilus s.l. incl. Otospermophilus, Ictidomys, Xerospermophilus, Callospermophilus, Poliocitellus; plus Ammospermophilus and Cynomys) keys out under \"frontoparietal suture ankyloses completely in adults\"; chipmunks (Tamiina) differ by not ankylosing it \"even in adults\". Adults only."
+    },
+    "manus_digit3_longest": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "always in the whole genus so far as I have seen characterized by the fact that the digits are arranged in the manner of terrestrial forms, D.3 being in the manus the main digit.",
+       "verbatim": true,
+       "note": "Genus Citellus account. Ellerman's Citellus = Spermophilus s.l. with subgenera Citellus, Ictidomys (incl. spilosoma group), Poliocitellus, Otospermophilus, Notocitellus, Ammospermophilus, Xerospermophilus, Callospermophilus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Externally modified for terrestrial life; D.3 in the manus always (so far as seen, possibly excepting Atlantoxerus) longer than D.4.",
+       "verbatim": true,
+       "note": "Key to genera of the Sciurus group: this branch leads to Spermophilopsis, Xerus, Atlantoxerus, Cynomys, Marmota and Citellus."
+      }
+     ],
+     "notes": "Ellerman's genus Citellus (= Spermophilus s.l.) includes this taxon as a subgenus; his statement covers \"the whole genus so far as I have seen\". MDD Xerospermophilus spilosoma/perotensis were in Ellerman's subgenus Ictidomys (spilosoma group) of Citellus, also covered."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: frontoparietal_suture_in_adults (fused vs visible) and manus_digit3_longest (yes vs no). Cheek pouches of Xerospermophilus remain unsourced (no authoritative statement found; only a non-authoritative web page for X. tereticaudus)."
+  },
+  "Tamias": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      }
+     ],
+     "notes": "Subtribe Tamiina = Tamias + Eutamias (Moore's Eutamias includes Neotamias). Not needed for the listed pairs (cheek_pouches and infraorbital_canal already separate them from Sciurus/Tamiasciurus); included for completeness."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: cheek_pouches (present vs absent) and infraorbital_canal (absent vs present), both with existing codings for this genus."
+  },
+  "Neotamias": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      }
+     ],
+     "notes": "Subtribe Tamiina = Tamias + Eutamias (Moore's Eutamias includes Neotamias). Not needed for the listed pairs (cheek_pouches and infraorbital_canal already separate them from Sciurus/Tamiasciurus); included for completeness."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: cheek_pouches (present vs absent) and infraorbital_canal (absent vs present), both with existing codings for this genus."
+  },
+  "Eutamias": {
+   "characters": {},
+   "extra_characters": {
+    "frontoparietal_suture_in_adults": {
+     "possible_states": [
+      "visible",
+      "fused"
+     ],
+     "states": [
+      "visible"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The frontoparietal suture is not ankylosed even in adults.",
+       "verbatim": true,
+       "note": "Character 3 of subtribe Tamiina (Tamias, Eutamias incl. Neotamias), which distinguishes Tamiina from both Marmotina and Spermophilina (\"from the subtribe Marmotina ... 1, 2, 3, 4, 5, 6, 7, and 8; and from the Spermophilina by 1, 2, 3, 4, and 5\")."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "5. The frontoparietal suture ankyloses completely in adults, and the infraorbital foramen opens anterior to the maxillary plate, not through it . . . . . . . . .6 The frontoparietal suture remains open in adults, and the infraorbital foramen opens fenestra-like through the maxillary plate",
+       "verbatim": true,
+       "note": "Key couplet 5 within tribe Marmotini: the first alternative leads (couplet 6) to subtribes Marmotina (Marmota) and Spermophilina (Spermophilus s.l., Ammospermophilus, Cynomys); the second to Tamiina (chipmunks)."
+      }
+     ],
+     "notes": "Subtribe Tamiina = Tamias + Eutamias (Moore's Eutamias includes Neotamias). Not needed for the listed pairs (cheek_pouches and infraorbital_canal already separate them from Sciurus/Tamiasciurus); included for completeness."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus and Tamiasciurus: cheek_pouches (present vs absent) and infraorbital_canal (absent vs present), both with existing codings for this genus."
+  },
+  "Microsciurus": {
+   "characters": {},
+   "extra_characters": {
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Sciurina by 1; from the Microsciurina by 1;",
+       "verbatim": true,
+       "note": "Funambulini diagnosis; Microsciurina (Moore) = Microsciurus, Leptosciurus, Simosciurus, Syntheosciurus, Mesosciurus."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: upper_incisors_procumbent (yes, existing coding, vs no - newly coded at genus scope for Sciurus)."
+  },
+  "Syntheosciurus": {
+   "characters": {
+    "upper_incisor_groove": {
+     "states": [
+      "grooved"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/revisionofnortha56howe",
+       "citation": "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text)",
+       "quote": "Upper incisors grooved",
+       "verbatim": true,
+       "note": "Howell 1938 key: \"f1. Upper incisors grooved Genus Syntheosciurus\" vs \"f2. Upper incisors not grooved Genus Microsciurus\"."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Upper incisors pro-odont, extending beyond plane of tip of nasals, and one-grooved.",
+       "verbatim": true,
+       "note": "Genus Syntheosciurus account (Ellerman questions its generic value but not the observation)."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text)",
+       "quote": "Upper incisors pro- odont, one- grooved.",
+       "verbatim": true,
+       "note": "Ellerman key terminal couplet for Syntheosciurus (OCR layout)."
+      }
+     ],
+     "notes": "Monotypic genus (S. brochus). Ellerman saw only two skulls; Moore 1959 does not mention the groove."
+    }
+   },
+   "extra_characters": {},
+   "distinguishing_notes": "vs Sciurus: upper_incisors_procumbent (yes, existing, vs no) and upper_incisor_groove (grooved vs smooth)."
+  },
+  "Callosciurus": {
+   "characters": {},
+   "extra_characters": {
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum long and slender or short and stout, slightly or strongly upturned distally, and always provided with an accessory blade, movably jointed to the concavity of the upper surface.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Callosciurinae."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Genera: Callosciurus, Menetes, Tomeutes, Rhinosciurus, Lariscus, Dremomys, Tamiops, Nannosciurus, and probably others.",
+       "verbatim": true,
+       "note": "Tomeutes is now part of Callosciurus (e.g. C. pygerythrus, C. phayrei)."
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "(7) The baculum consists of two separate parts, a shaft and a blade.",
+       "verbatim": true,
+       "note": "Genus Callosciurus diagnosis."
+      }
+     ],
+     "notes": "Pocock examined C. prevostii, C. notatus, C. castaneoventris (= erythraeus) and several \"Tomeutes\" (now Callosciurus) species, all with the hinged blade; subfamily diagnosis says \"always provided\"."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Callosciurina by 1; from the Sciurillina by 1;",
+       "verbatim": true,
+       "note": "Funambulini diagnosis."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: baculum_accessory_blade (yes vs no)."
+  },
+  "Dremomys": {
+   "characters": {},
+   "extra_characters": {
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum long and slender or short and stout, slightly or strongly upturned distally, and always provided with an accessory blade, movably jointed to the concavity of the upper surface.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Callosciurinae."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Genera: Callosciurus, Menetes, Tomeutes, Rhinosciurus, Lariscus, Dremomys, Tamiops, Nannosciurus, and probably others.",
+       "verbatim": true,
+       "note": "Tomeutes is now part of Callosciurus (e.g. C. pygerythrus, C. phayrei)."
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "(6) The baculum is composed of two separate parts, shaft and blade.",
+       "verbatim": true,
+       "note": "Genus Dremomys diagnosis."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The occurrence of separate blades on the known bacula of long-nosed squirrels,",
+       "verbatim": true
+      }
+     ],
+     "notes": "Pocock described hinged blades in four Dremomys forms (lokriah, rufigenis, rufigenis fuscus, dawsoni)."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Callosciurina by 1; from the Sciurillina by 1;",
+       "verbatim": true,
+       "note": "Funambulini diagnosis; Callosciurina includes Dremomys."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: baculum_accessory_blade (yes vs no)."
+  },
+  "Menetes": {
+   "characters": {},
+   "extra_characters": {
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum long and slender or short and stout, slightly or strongly upturned distally, and always provided with an accessory blade, movably jointed to the concavity of the upper surface.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Callosciurinae."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Genera: Callosciurus, Menetes, Tomeutes, Rhinosciurus, Lariscus, Dremomys, Tamiops, Nannosciurus, and probably others.",
+       "verbatim": true,
+       "note": "Tomeutes is now part of Callosciurus (e.g. C. pygerythrus, C. phayrei)."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "The baculum of a specimen of Menetes berdmorei from Kokareet (Tenasserim) in the British Museum very closely resembles that of C. prevosti described above,",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "consists of two separate parts, a shaft and a blade.",
+       "verbatim": true,
+       "note": "Genus Menetes diagnosis, character 3 (\"(3) The baculum ... consists of two separate parts, a shaft and a blade\"); the OCR interleaves another line inside the sentence."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Pocock (1923, p. 221) illustrates the baculum of Menetes berdmorei with a separate dorsal blade, Pocock's work is accepted as correct.",
+       "verbatim": true,
+       "note": "Moore notes that Didier (1952) figured a Menetes baculum WITHOUT the blade, and rejects it."
+      }
+     ],
+     "notes": "Monotypic genus. Conflict noted: Didier 1952 illustrated a bladeless baculum for M. berdmorei; Moore 1959 and Moore & Tate 1965 accept Pocock's bladed baculum. If the reviewer prefers a strict union over all reports, code [\"no\",\"yes\"] and rely on snout_elongate for Sciurus vs Menetes."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Callosciurina by 1; from the Sciurillina by 1;",
+       "verbatim": true,
+       "note": "Funambulini diagnosis; Moore's Callosciurina includes Menetes."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: baculum_accessory_blade (yes vs no); also snout_elongate (existing Menetes \"yes\" from Ellerman's Menetes account vs Sciurus \"no\") - but note Ellerman's key itself places Menetes under \"rostrum not extremely elongated\", so the snout separation is weaker."
+  },
+  "Tamiops": {
+   "characters": {},
+   "extra_characters": {
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Baculum long and slender or short and stout, slightly or strongly upturned distally, and always provided with an accessory blade, movably jointed to the concavity of the upper surface.",
+       "verbatim": true,
+       "note": "Diagnosis of subfamily Callosciurinae."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "Genera: Callosciurus, Menetes, Tomeutes, Rhinosciurus, Lariscus, Dremomys, Tamiops, Nannosciurus, and probably others.",
+       "verbatim": true,
+       "note": "Tomeutes is now part of Callosciurus (e.g. C. pygerythrus, C. phayrei)."
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "3. Callosciurus, Tomeutes, Tamiops, Lariscus, Nannosciurus, etc., which have compound bacula provided with a blade.",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "The blade has a long hinge but is short, the point being very narrow, with a notch and tooth near its apex.",
+       "verbatim": true,
+       "note": "Specimen of Tamiops maclellandi barbei (= T. mcclellandii)."
+      }
+     ],
+     "notes": "Only one Tamiops species examined (T. mcclellandii); scope rests on Pocock's subfamily diagnosis (\"always provided with an accessory blade\") and Moore's placement of Tamiops in Callosciurina."
+    },
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "from the Callosciurina by 1; from the Sciurillina by 1;",
+       "verbatim": true,
+       "note": "Funambulini diagnosis; Callosciurina includes Tamiops."
+      }
+     ],
+     "notes": "Not needed for the listed pairs."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: baculum_accessory_blade (yes vs no). (Pale dorsal stripes would also separate, but no genus-wide source states their absence in Sciurus; Ognev's \"Back of one color without stripes\" conflicts with the mid-dorsal bands reported for some Neotropical Sciurus, so it was not used.)"
+  },
+  "Funambulus": {
+   "characters": {},
+   "extra_characters": {
+    "premaxilla_process_abuts_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true,
+       "note": "Tribe Funambulini character 1."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The lateral edge of the nasal bone extends forward, free of the premaxillary bone, so that the anterolateral angle of the nasal is forward of, and not in contact with, the premaxillary bone.",
+       "verbatim": true,
+       "note": "Subtribe Funambulina (= Funambulus) character 2."
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "no dorso-anterior process of the premaxillary bone rising to abut upon the anterolateral angle of the nasal bone (Moore, 1959, p. 170).",
+       "verbatim": true,
+       "note": "Genus Funambulus diagnosis, character 2."
+      }
+     ],
+     "notes": "NEW character (see Sciurus)."
+    },
+    "baculum_accessory_blade": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351",
+       "quote": "(1) The baculum of Funambulus is a single unit, lacking the separate bony blade characteristic of some squirrels (Pocock,",
+       "verbatim": true
+      },
+      {
+       "url": "https://zenodo.org/records/13674531",
+       "citation": "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext)",
+       "quote": "2. Ratufa, Funambulus, and Tamiodes, with simple bacula.",
+       "verbatim": true,
+       "note": "Tamiodes = Funambulus tristriatus."
+      }
+     ],
+     "notes": "Does not separate Funambulus from Sciurus (both no)."
+    }
+   },
+   "distinguishing_notes": "vs Sciurus: premaxilla_process_abuts_nasal (no vs yes). Cheek pouches of Funambulus remain unsourced."
+  }
+ },
+ "sources_consulted": [
+  "Ellerman, J.R. 1940. The Families and Genera of Living Rodents, Vol. I. British Museum (Natural History), London (archive.org OCR text) https://archive.org/details/familiesgeneraof01elle",
+  "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206 https://digitallibrary.amnh.org/handle/2246/1265",
+  "Moore, J.C. & Tate, G.H.H. 1965. A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48:1-351 https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+  "Howell, A.H. 1938. Revision of the North American ground squirrels, with a classification of the North American Sciuridae. North American Fauna 56 (archive.org OCR text) https://archive.org/details/revisionofnortha56howe",
+  "Ognev, S.I. 1940 (English translation 1966, Israel Program for Scientific Translations). Mammals of the U.S.S.R. and adjacent countries, Vol. IV, Rodents (archive.org OCR text) https://archive.org/details/mammalsofeastern04ogne",
+  "Pocock, R.I. 1923. The classification of the Sciuridae. Proceedings of the Zoological Society of London 1923:209-246 (BHL part 71994, PDF via Zenodo/Plazi; pdftotext) https://zenodo.org/records/13674531",
+  "Allen, G.M. 1940. The Mammals of China and Mongolia, Part 2. Natural History of Central Asia 11 (archive.org OCR text) https://archive.org/details/mammalsofchinamo02alle",
+  "Krystufek, B. & Vohralik, V. 2013. Taxonomic revision of the Palaearctic rodents (Rodentia). Part 2. Sciuridae: Urocitellus, Marmota and Sciurotamias. Lynx n.s. (Praha) 44:27-138 https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf",
+  "Jessen, T.G., Kilanowski, A.L., Gwinn, R.N., Merrick, M.J. & Koprowski, J.L. 2016. Microsciurus flaviventer (Rodentia: Sciuridae). Mammalian Species 48(935):59-65 (Plazi treatment text) https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94",
+  "Los Angeles County Agricultural Commissioner/Weights & Measures, Pest Information Series: Tree Squirrels (extension leaflet; weak source) https://file.lacounty.gov/SDSInter/acwm/215273_t_treesquirrel_pdf.pdf",
+  "de Abreu-Jr et al. 2020, Museomics of tree squirrels, BMC Evol. Biol. 20:77, Additional file 7 (codes only upper premolars and mammae pairs; no new separator) https://doi.org/10.1186/s12862-020-01639-y",
+  "Vander Wall & Dittel 2021, J. Biogeogr. 48:2708-2714, data on Zenodo (https://zenodo.org/records/6613963) - only site richness counts, no per-species pouch list; not used",
+  "Voss, Fleck & Giarla 2024, Bull. AMNH 466 (Sciuridae accounts) https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047 - checked for incisor/mammae data; nothing beyond earlier file"
+ ],
+ "caveats": "Quotes are verbatim substrings (whitespace-normalised; line-break hyphenation joined) of the retrieved OCR/pdftotext texts, verified programmatically; OCR errors are kept as in the text (e.g. \"so lar\" = so far, \"Fourthdigit\", \"TuUberg\", \"Sciurine\" = Sciurinae). Several codings rest on comparative diagnoses (\"taxon X differs from taxon Y by character n\") rather than on a direct statement about the genus; this is flagged in the notes. Frontoparietal-suture states refer to fully adult skulls. Baculum characters can only be scored on males. Cheek-pouch ABSENCE for Sciurus and Tamiasciurus rests mainly on Ognev's genus diagnosis of Sciurus (which includes subgenus Tamiasciurus), corroborated by his subfamily key and a weak extension leaflet; no source reports pouches in any tree squirrel. No acceptable source was found for cheek pouches in Ratufa, Funambulus, Microsciurus, Syntheosciurus or Sciurillus (left uncoded), nor for presence in Xerospermophilus. Data-quality warning about the existing transbullar_septa_per_bulla codings: Moore 1959 Table 1 (read from page image) gives Tamiasciurus 2-4 pairs (mostly 3; coded here as [\"2\",\"3\"] to widen the existing [\"3\"]), Microsciurus 0-2 pairs (5 specimens with 0 and 2 with 1/2, not representable in the 1/2/3 state set), Syntheosciurus incl. Mesosciurus 1/2-2, Sciurus 1-3, Callosciurus 0-2 1/2, Dremomys 0-1, Ratufa 0 (196) or 1 (2). The existing Microsciurus [\"1\",\"2\"] and Tamiasciurus [\"3\"] codings therefore overstate separability. Menetes baculum: Didier 1952 figured it without a blade (rejected by Moore 1959). Tamiops baculum: one species examined by Pocock. No separator was attempted via pale dorsal stripes for Sciurus vs Tamiops/Funambulus/Menetes because no genus-wide statement of their absence in Sciurus is consistent with the mid-dorsal bands reported in some Neotropical Sciurus. NEW extra characters defined in this file: manus_digit3_longest: Forefoot (manus): third digit (D.3) is the longest / main digit (terrestrial type: ground squirrels, marmots) = yes; fourth digit longest (arboreal type) = no. Sources: Ellerman 1940 key and genus accounts; Pocock 1923; Ognev 1940. baculum_accessory_blade: Os penis compound: a separate accessory blade hinged (movably jointed) to the upper side of the shaft, i.e. two separate parts (Callosciurinae sensu Pocock 1923; Moore & Tate 1965) = yes; single bone (Sciurus type with terminal spatulate blade, or simple rod) = no. Males only. baculum_well_developed: A well-formed os penis present = yes; baculum absent or only rudimentary (Tamiasciurus: absent or ca. 0.26 mm) = no. Males only. Needed because the existing \"baculum\" (absent/present) key cannot represent the rudimentary Tamiasciurus baculum reported by Layne (1952). premaxilla_process_abuts_nasal: Lateral view of rostrum: the dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (yes, most squirrels) vs process lacking or substantially overshot by the nasal, which projects forward free of the premaxilla (no, Funambulini). Moore 1959."
+}

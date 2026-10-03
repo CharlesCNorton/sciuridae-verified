@@ -322,7 +322,8 @@
        "url": "https://hdl.handle.net/2027.42/56414",
        "citation": "Heaney 1985, Systematics of Oriental pygmy squirrels of the genera Exilisciurus and Nannosciurus (Mammalia: Sciuridae). Misc. Publ. Mus. Zool. Univ. Michigan 170 (scanned PDF, OCR)",
        "quote": "Exilisciurus differs from Nannosciurus in that 1) all species lack facial stripes",
-       "verbatim": true
+       "verbatim": false,
+       "audit_note": "audit 2026-10-03: transcribed from OCR-damaged text of Heaney (1985); best match in the retrieved scan 0.81, source PDF not retrievable for re-checking"
       }
      ],
      "notes": "Heaney 1985 generic comparison (OCR-corrected). Key character separating Exilisciurus from Nannosciurus."
@@ -393,7 +394,8 @@
        "url": "https://en.wikipedia.org/wiki/Glyphotes",
        "citation": "English Wikipedia, Glyphotes (wikitext; accessed 2026-10-03)",
        "quote": "The body is 95 to 145 mm long",
-       "verbatim": true
+       "verbatim": false,
+       "audit_note": "audit 2026-10-03: not found on the current Wikipedia page (now a redirect); the range rests on the HMW account above"
       }
      ],
      "notes": "Monotypic (G. simus). HMW range 94-144; holotype 129 mm (Thomas 1898); Wikipedia 95-145. Hayssen (2008) means 114.9-119.5."

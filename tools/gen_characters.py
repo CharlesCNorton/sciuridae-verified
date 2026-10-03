@@ -131,14 +131,16 @@ class Matrix:
                 for k, x in gd.get('extra_characters', {}).items():
                     self._set(g, k, x, fn)
         for adj in curation:
-            g, k = adj['genus'], adj['character']
-            if k == 'hb_length_mm':
-                self.length[g] = (adj['states']['min'], adj['states']['max'])
-            else:
-                states = self.chars[self.char_index[k]][1]
-                self.profiles[g][k] = {states.index(str(s)) for s in adj['states']}
-            self.evidence[g].setdefault(k, [])
-            self.evidence[g][k] = self.evidence[g][k] + [{'curation': adj['reason']}]
+            k = adj['character']
+            targets = genera if adj['genus'] == '*' else [adj['genus']]
+            for g in targets:
+                if k == 'hb_length_mm':
+                    self.length[g] = (adj['states']['min'], adj['states']['max'])
+                else:
+                    states = self.chars[self.char_index[k]][1]
+                    self.profiles[g][k] = (set(range(len(states))) if adj['states'] == 'all'
+                                           else {states.index(str(s)) for s in adj['states']})
+                self.evidence[g][k] = self.evidence[g].get(k, []) + [{'curation': adj['reason']}]
         # unknown = every state
         for g in genera:
             for k, st, _, _ in self.chars:
@@ -345,7 +347,9 @@ Definition genus_key : @key Genus (question Character) :=
                 return (f'head-and-body length at most {q[1]} mm' if yes
                         else f'head-and-body length more than {q[1]} mm')
             st, desc = names[q[1]]
-            chosen = [st[i] for i in q[2]] if yes else [x for i, x in enumerate(st) if i not in q[2]]
+            used = set().union(*(self.profiles[g][q[1]] for g in self.genera))
+            idx = q[2] if yes else [i for i in range(len(st)) if i not in q[2]]
+            chosen = [st[i] for i in idx if i in used]
             if q[1] == 'country' and not yes:
                 return f'{desc}: any other country'
             return f'{desc}: ' + ' or '.join(chosen)

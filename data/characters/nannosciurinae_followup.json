@@ -1,0 +1,889 @@
+{
+ "group": "nannosciurinae_followup",
+ "genera": {
+  "Callosciurus": {
+   "characters": {
+    "hb_length_mm": {
+     "states": {
+      "min": 130,
+      "max": 300
+     },
+     "scope": "species-union",
+     "species_covered": [
+      "Callosciurus adamsi",
+      "Callosciurus baluensis",
+      "Callosciurus caniceps",
+      "Callosciurus concolor",
+      "Callosciurus erythraeus",
+      "Callosciurus finlaysonii",
+      "Callosciurus honkhoaiensis",
+      "Callosciurus inornatus",
+      "Callosciurus melanogaster",
+      "Callosciurus nigrovittatus",
+      "Callosciurus notatus",
+      "Callosciurus orestes",
+      "Callosciurus phayrei",
+      "Callosciurus prevostii",
+      "Callosciurus pygerythrus",
+      "Callosciurus quinquestriatus"
+     ],
+     "per_species": {
+      "Callosciurus adamsi": {
+       "min": 150,
+       "max": 170
+      },
+      "Callosciurus baluensis": {
+       "min": 231,
+       "max": 244
+      },
+      "Callosciurus caniceps": {
+       "min": 215,
+       "max": 222
+      },
+      "Callosciurus erythraeus": {
+       "min": 160,
+       "max": 280
+      },
+      "Callosciurus finlaysonii": {
+       "min": 191,
+       "max": 212
+      },
+      "Callosciurus honkhoaiensis": {
+       "min": 175,
+       "max": 175
+      },
+      "Callosciurus inornatus": {
+       "min": 218,
+       "max": 291
+      },
+      "Callosciurus melanogaster": {
+       "min": 209,
+       "max": 212
+      },
+      "Callosciurus nigrovittatus": {
+       "min": 184,
+       "max": 199
+      },
+      "Callosciurus notatus": {
+       "min": 152,
+       "max": 300
+      },
+      "Callosciurus orestes": {
+       "min": 148,
+       "max": 153
+      },
+      "Callosciurus phayrei": {
+       "min": 215,
+       "max": 237
+      },
+      "Callosciurus prevostii": {
+       "min": 200,
+       "max": 270
+      },
+      "Callosciurus pygerythrus": {
+       "min": 187,
+       "max": 230
+      },
+      "Callosciurus quinquestriatus": {
+       "min": 200,
+       "max": 222
+      }
+     },
+     "evidence": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Callosciurus",
+       "citation": "Wikipedia, \"Callosciurus\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "These squirrels range in length from {{convert|13|to|27|cm|abbr=on}}, not including the tail",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFA17FB84F92DFE7B",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus inornatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 218-291 mm, tail 176-210 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFAF1FE1AF6E1F1FE",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus orestes (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 148-153 mm, tail 139-157 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC8FAF0FA82FE45",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus adamsi (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 150-170 mm, tail 140-160 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFFC2F65AF624F6BA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus baluensis (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 231-244 mm, tail 236-251 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2BFFC1F7F6F674F2C2",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus caniceps (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 215-222 mm,tail 219-243 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD4ED29FFCBFE59F804F095",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus erythraeus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 209-227 mm, tail 176-216 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2BFA13F658FB27F0A9",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus finlaysonii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 191-212 mm, tail 173-222 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFACAF8DDF92AFA61",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus melanogaster (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body mean 209 mm (males) and 212 mm (females)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD6ED2CFACFF9D1FD0AF6AA",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus nigrovittatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 184-199 mm,tail 159-182 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2CFF6BFDF6F825F565",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus notatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 201-238 mm, tail 175-186 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF17F40DF598F335",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus phayrei (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 215-237 mm, tail 200-249 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD1ED2DFA11FD33FE25F3A1",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus prevostii (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 237-241 mm,tail ¢.230 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD4ED2AFACAF824FCC3F296",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus pygerythrus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head-body 187-230 mm,tail 110-220 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFF6BFA2CFAF8FCAF",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Callosciurus quinquestriatus (text via Plazi TreatmentBank)",
+       "quote": "Descriptive notes. Head—body 200-222 mm,tail 180-210 mm",
+       "verbatim": true
+      },
+      {
+       "url": "https://animaldiversity.org/accounts/Callosciurus_notatus/",
+       "citation": "Animal Diversity Web, Callosciurus notatus account",
+       "quote": "lengths range from head and body 152-224 mm, tail 146-211 mm, and hind foot 38-47 mm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Pallas's_squirrel",
+       "citation": "Wikipedia, \"Pallas's squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "with a head-body length of {{convert|16|to|28|cm|abbr=on}}",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Plantain_squirrel",
+       "citation": "Wikipedia, \"Plantain squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "Its body is about {{cvt|20-30|cm|in|0}} long with a similar-sized tail.",
+       "verbatim": true
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Prevost's_squirrel",
+       "citation": "Wikipedia, \"Prevost's squirrel\" (wikitext retrieved 2026-10-03; quote is raw wikitext)",
+       "quote": "The head-and-body of the Prevost's squirrel typically is {{cvt|20-27|cm|0}} long",
+       "verbatim": true
+      },
+      {
+       "url": "https://de.wikipedia.org/wiki/Hon-Koai-Sch%C3%B6nh%C3%B6rnchen",
+       "citation": "German Wikipedia, \"Hon-Koai-Schönhörnchen\" (raw wikitext retrieved 2026-10-03; cites Nguyen et al. 2018, J. Mammal. 99: 813-825)",
+       "quote": "Der [[Holotyp]] hat eine [[Kopf-Rumpf-Länge]] von 17,5 Zentimeter, der Schwanz ist 18 Zentimeter lang und das Gewicht liegt bei 152 Gramm.",
+       "verbatim": true
+      },
+      {
+       "url": "https://ca.wikipedia.org/wiki/Esquirol_de_Hon_Khoai",
+       "citation": "Catalan Wikipedia, \"Esquirol de Hon Khoai\" (raw wikitext retrieved 2026-10-03; cites Nguyen et al. 2018, J. Mammal. 99: 813-825)",
+       "quote": "L'[[holotip]] tenia una [[llargada de cap a gropa]] de 175 mm, la [[cua (anatomia)|cua]] de 180 mm i un pes de 152 g.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Union over all 16 MDD v2.5 species. Per-species ranges re-used from research/asia_mainland.json (HMW 2016 ranges, ADW, Wikipedia; see that file for details), plus: C. honkhoaiensis - holotype (IEBR-M-6439, adult female) head-body 175 mm, tail 180 mm, 152 g, as reported from the original description (Nguyen, Oshida, Dang, Bui & Motokawa 2018, J. Mammal. 99: 813-825, doi:10.1093/jmammal/gyy061) by German and Catalan Wikipedia; the original paper is paywalled (OUP and ResearchGate returned 403; Wayback unreachable), so the full Hon Khoai sample range could not be read. A search-engine summary (not retrievable text, NOT used) gave 165.0-175.0 mm for the sample; either way the species lies well inside 130-300. C. melanogaster - HMW gives only means (209 mm males, 212 mm females); entered as 209-212. C. concolor - not a separate HMW account: HMW treats it as C. caniceps concolor, so it is covered by the C. caniceps range (215-222 mm). Genus min 130 and max 300 come from the weaker Wikipedia statements kept from asia_mainland (genus \"13 to 27 cm\", C. notatus \"about 20-30 cm\"), deliberately wide; the narrowest well-sourced per-species union would be 148-291 mm. Separation from Exilisciurus (62-93), Nannosciurus (62-82) and Rheithrosciurus (334-352) holds with these wide bounds."
+    },
+    "upper_incisor_groove": {
+     "states": [
+      "smooth"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key to the Sciurus group: after Rheithrosciurus (many parallel grooves) and Glyphotes are keyed out, all remaining genera, including Callosciurus s.l. (with Tamiops as subgenus and the species now in Sundasciurus/Prosciurillus/Rubrisciurus), have upper incisors \"without extreme abnormalities\" whose anterior surfaces are without grooves. Same evidence and standard as the island group used for Lariscus/Sundasciurus. Caveat: in his Syntheosciurus remarks Ellerman notes that \"grooves may appear from time to time, as in, for instance, Heliosciurus, in other genera\" (no Callosciurus case cited)."
+    }
+   },
+   "extra_characters": {
+    "upper_incisor_orientation": {
+     "possible_states": [
+      "opisthodont",
+      "orthodont",
+      "proodont"
+     ],
+     "states": [
+      "orthodont",
+      "proodont"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "The subtribe Callosciurina consists of the Indo-Malayan genera and subgenera Callosciurus, Tamiops, Sundasciurus, Glyphotes, Lariscus, Paralariscus, Menetes, Dremomys, Nannosciurus, and Rhinosciurus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "The upper incisor teeth are generally proo\"dont and only occasionally orthodont.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Also often, but not always, in the present genus the upper incisors tend to become proodont.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) subtribe Callosciurina character 6 (applies to all its genera, incl. Callosciurus with Tamiops). OCR artefact \"proo\\\"dont\" kept as retrieved. Both states recorded. Separates Callosciurus from Rheithrosciurus (opisthodont; island file)."
+    },
+    "incisors_broad_divergent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors not especially broad; lower ones with anterior faces convex",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors broad; lower ones with anterior faces",
+       "verbatim": true,
+       "note": "Couplet 3 first lead; the OCR interleaves the key label \"genus Glyphotes\" before the lead ends with \"flat or concave\"."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Upper and lower incisors much broadened, the lower part of the upper teeth and the upper part of the lower teeth diverging from each other, their anterior surfaces without grooves.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key to the Callosciurina, couplet 3: Glyphotes (\"Incisors broad; lower ones with anterior faces flat or concave\") vs all later genera (Sundasciurus, Callosciurus incl. subgenus Tamiops, Lariscus, Menetes, Dremomys): \"Incisors not especially broad; lower ones with anterior faces convex\". Ellerman (1940) key likewise separates Glyphotes (incisors much broadened and diverging) from the genera whose upper incisors are \"without extreme abnormalities\". Separates Callosciurus from Glyphotes."
+    },
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum without fork",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum broadly forked medially",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+       "citation": "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914: 1-5",
+       "quote": "The top of it remains in all individuals, however, fencing off the unique chamber, whether inflated or not, and distinguishes them from other Callosciurini.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 4: Sundasciurus (\"Transbullar septum broadly forked medially\") vs Callosciurus (incl. Tamiops), Lariscus, Menetes, Dremomys (\"Transbullar septum without fork\"). Moore (1958): the Y/T-shaped septum fencing off the third lobe \"distinguishes them from other Callosciurini\". NOTE: this no longer separates Callosciurus from Sundasciurus because S. everetti (in Dremomys until 2016) mostly lacks the lobe (see Sundasciurus entry)."
+    },
+    "cheekteeth_pattern_lost_from_birth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth not simplified, not losing all traces of normal pattern till adult or usually late in life.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth simplified, losing all traces of normal pattern practically from birth.",
+       "verbatim": true
+      }
+     ],
+     "notes": "NEW CHARACTER: cheek teeth simplified, losing all traces of the normal cusp/ridge pattern practically from birth (Ellerman 1940 key). Lariscus = yes; every genus in the alternative lead, which includes Callosciurus s.l. (Ellerman's Callosciurus also contained Tamiops and the species now in Sundasciurus) and Dremomys, = no. Separates Callosciurus from Lariscus."
+    }
+   },
+   "distinguishing_notes": "vs Exilisciurus, Nannosciurus: head-body length (Callosciurus 130-300 mm over all 16 species vs 62-93 / 62-82). vs Rheithrosciurus: incisors proodont/orthodont and smooth (Moore 1959; Ellerman 1940) vs opisthodont and finely grooved; also smaller (<=300 vs 334-352 mm). vs Glyphotes: incisors not broad (Moore 1959 key couplet 3). vs Lariscus: interorbital breadth exceeds nasal length (Moore 1959 key couplet 6) and cheek teeth with normal pattern (Ellerman 1940). vs Sundasciurus: NONE that holds over all species - the bullar anteromesial lobe (Moore 1958, 1959) fails for S. everetti (Moore & Tate 1965; Hawkins et al. 2016)."
+  },
+  "Tamiops": {
+   "characters": {},
+   "extra_characters": {
+    "incisors_broad_divergent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors not especially broad; lower ones with anterior faces convex",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors broad; lower ones with anterior faces",
+       "verbatim": true,
+       "note": "Couplet 3 first lead; the OCR interleaves the key label \"genus Glyphotes\" before the lead ends with \"flat or concave\"."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) treats Tamiops as a subgenus of Callosciurus and keys it out after couplet 3 under \"Incisors not especially broad; lower ones with anterior faces convex\" (couplet 7: \"Orbital length is less than 13 mm ... subgenus Tamiops\"). Ellerman (1940) also has Tamiops as a subgenus of Callosciurus, in the lead whose upper incisors are \"without extreme abnormalities\". Separates Tamiops from Glyphotes."
+    },
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum without fork",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+       "citation": "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914: 1-5",
+       "quote": "The top of it remains in all individuals, however, fencing off the unique chamber, whether inflated or not, and distinguishes them from other Callosciurini.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 4: subgenus Tamiops keys out under \"Transbullar septum without fork\" (couplet 4 -> 6 -> 7). Does not separate Tamiops from Sundasciurus because of S. everetti (see Sundasciurus)."
+    }
+   },
+   "distinguishing_notes": "vs Glyphotes: incisors not broad (Moore 1959; Ellerman 1940). vs Sundasciurus: NONE found that holds over all species (bulla lobe fails for S. everetti; pelage stripes plausible but no source states absence of pale dorsal stripes for every Sundasciurus species)."
+  },
+  "Dremomys": {
+   "characters": {},
+   "extra_characters": {
+    "p4_largest_upper_cheek_tooth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Upper cheek tooth with largest occlusal area is the first or second molar",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Upper cheek tooth with largest occlusal area is the fourth premolar; occlusal surfaces of unworn cheek teeth are of mild relief",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 8: Lariscus (P4 the largest upper cheek tooth) vs Menetes + Dremomys (\"Upper cheek tooth with largest occlusal area is the first or second molar; surfaces of unworn cheek teeth have strong relief\"). Moore's Dremomys included everetti (now Sundasciurus), which does not affect the statement for the remaining species. Separates Dremomys from Lariscus."
+    },
+    "cheekteeth_pattern_lost_from_birth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth not simplified, not losing all traces of normal pattern till adult or usually late in life.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth evidently not essentially different from Sciurus.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940): Dremomys keys out in the lead \"Cheekteeth not simplified...\" (vs Lariscus), and his genus account says the cheek teeth are not essentially different from Sciurus. Separates Dremomys from Lariscus."
+    },
+    "upper_incisors_reduced": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The rostrum not extremely elongated. (Upper incisors not abnormally reduced; the cheekteeth never tending to wear down to the roots during life.)",
+       "verbatim": true
+      }
+     ],
+     "notes": "Ellerman (1940) key, first couplet: only Rhinosciurus (upper incisors much reduced) and Hyosciurus are in the \"rostrum extremely elongated\" lead; Dremomys is in the alternative lead, which is characterised as \"(Upper incisors not abnormally reduced; ...)\". Moore (1959) gives Rhinosciurus upper incisors as dwarfed (c. 1.0 x 1.5 mm). Separates Dremomys from Rhinosciurus."
+    },
+    "occiput_median_keel_pronounced": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Occiput not prominently keeled; length of infraorbital canal more than half of that of",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Occiput has pronounced median keel and two",
+       "verbatim": true
+      }
+     ],
+     "notes": "NEW CHARACTER (skull): occiput with a pronounced median keel and two fairly prominent lateral ones (Moore 1959). Moore (1959) key to the Callosciurina, couplet 2: Rhinosciurus (keeled; infraorbital canal less than half the maxillary toothrow) vs all later genera (Glyphotes, Sundasciurus, Callosciurus incl. Tamiops, Lariscus, Menetes, Dremomys): \"Occiput not prominently keeled; length of infraorbital canal more than half of that of maxillary tooth row\" (the OCR interleaves the key number \". . .3\" before \"maxillary tooth row\", so the quote stops there). Separates Dremomys from Rhinosciurus."
+    },
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum without fork",
+       "verbatim": true
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764",
+       "quote": "with the ‘‘bullar septae Y-shaped, forming anterior-mesial lobe” (Corbet and Hill, 1992) in Sunda but not in plain long-nosed squirrels",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 4 (Dremomys under \"Transbullar septum without fork\"); Hawkins et al. (2016) quoting Corbet & Hill (1992): lobe in Sundasciurus but not in Dremomys (their Table 3: anteromedial expansion \"Not pronounced\" in Dremomys). Does not separate Dremomys from Sundasciurus because of S. everetti."
+    }
+   },
+   "distinguishing_notes": "vs Lariscus: largest upper cheek tooth M1/M2 not P4 (Moore 1959 couplet 8) and cheek teeth not simplified (Ellerman 1940). vs Rhinosciurus: upper incisors not reduced (Ellerman 1940) and occiput not keeled (Moore 1959 couplet 2). vs Sundasciurus: NONE found - S. everetti was a Dremomys until 2016 and is convergent (long rostrum, short tail); temporal foramen is variably present in most Sundasciurus (Hawkins et al. 2016) and the bulla lobe is unreliable in everetti."
+  },
+  "Menetes": {
+   "characters": {},
+   "extra_characters": {
+    "teat_pairs": {
+     "possible_states": [
+      "2",
+      "3"
+     ],
+     "states": [
+      "3"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Mammae 6 (Thomas).",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220",
+       "citation": "Wilson, Lacher & Mittermeier (eds) 2016, Handbook of the Mammals of the World Vol. 6 (Lagomorphs and Rodents I), Sciuridae: species account of Menetes berdmorei (text via Plazi TreatmentBank)",
+       "quote": "female Indochinese Ground Squirrels have three pairs of teats.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Menetes is monotypic (M. berdmorei). Ellerman (1940, citing Thomas) gives 6 mammae; HMW (2016) three pairs of teats. Rhinosciurus has 2 pairs (island file, ADW). Separates Menetes from Rhinosciurus."
+    },
+    "occiput_median_keel_pronounced": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Occiput not prominently keeled; length of infraorbital canal more than half of that of",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Occiput has pronounced median keel and two",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 2: Menetes is among the genera keyed out under \"Occiput not prominently keeled; length of infraorbital canal more than half of that of maxillary tooth row\" (vs Rhinosciurus). Separates Menetes from Rhinosciurus."
+    },
+    "p4_largest_upper_cheek_tooth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Upper cheek tooth with largest occlusal area is the first or second molar",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 8 second lead (Menetes + Dremomys): largest upper cheek tooth is M1 or M2."
+    },
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum without fork",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 4: Menetes keys out under \"Transbullar septum without fork\". Moore & Tate (1965) Menetes diagnosis: \"There is one bony septum crossing the chamber of the auditory bulla.\""
+    }
+   },
+   "distinguishing_notes": "vs Rhinosciurus: 3 pairs of teats (Ellerman 1940; HMW 2016) vs 2 (ADW), and occiput not keeled (Moore 1959 couplet 2). Also cheek teeth with a persistent deep central valley (Moore 1959; Moore & Tate 1965), but no source states Rhinosciurus lacks it. Ellerman notes Menetes upper incisors are \"rather shortened\", so upper_incisors_reduced was NOT coded for Menetes."
+  },
+  "Lariscus": {
+   "characters": {},
+   "extra_characters": {
+    "nasal_vs_interorbital": {
+     "possible_states": [
+      "nasal_longer",
+      "interorbital_broader"
+     ],
+     "states": [
+      "nasal_longer"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Least interorbital breadth is less than greatest length of nasal",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Least interorbital breadth exceeds greatest",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 6: genus Callosciurus (incl. subgenus Tamiops) has least interorbital breadth exceeding greatest nasal length; the alternative \"Least interorbital breadth is less than greatest length of nasal\" leads (couplets 8-10) to Lariscus (incl. subgenus Paralariscus = L. hosei), Menetes and Dremomys. Same key/evidence used by asia_mainland for Callosciurus/Tamiops (interorbital_broader) and Dremomys/Menetes (nasal_longer). Separates Lariscus from Callosciurus."
+    },
+    "cheekteeth_pattern_lost_from_birth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth simplified, losing all traces of normal pattern practically from birth.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth hypsodont, almost completely simplified in pattern. The lower series are roughly two-lobed, and even in the very young the pattern is nearly lost.",
+       "verbatim": true
+      }
+     ],
+     "notes": "NEW CHARACTER (see Callosciurus). Ellerman (1940) key and genus account; forms seen include hosei, insignis, niobe and siberu (L. obscurus siberu), i.e. all four MDD species. Moore (1959) similarly: occlusal surfaces of unworn cheek teeth of \"mild relief\" in Lariscus. Separates Lariscus from Callosciurus, Sundasciurus and Dremomys."
+    },
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Transbullar septum without fork",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+       "citation": "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914: 1-5",
+       "quote": "The top of it remains in all individuals, however, fencing off the unique chamber, whether inflated or not, and distinguishes them from other Callosciurini.",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 4: Lariscus keys out under \"Transbullar septum without fork\". Does not separate Lariscus from Sundasciurus because of S. everetti."
+    }
+   },
+   "distinguishing_notes": "vs Callosciurus: nasal longer than least interorbital breadth (Moore 1959 couplet 6) and cheek teeth simplified from birth (Ellerman 1940). vs Dremomys: P4 the largest upper cheek tooth (Moore 1959 couplet 8) and cheek teeth simplified. vs Sundasciurus: cheek teeth simplified, losing their pattern practically from birth, vs not simplified (Ellerman 1940 key; genus-level statement covering Callosciurus s.l. and Dremomys incl. everetti)."
+  },
+  "Sundasciurus": {
+   "characters": {},
+   "extra_characters": {
+    "bulla_anteromesial_lobe": {
+     "possible_states": [
+      "absent",
+      "present"
+     ],
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Sundasciurus everetti"
+     ],
+     "evidence": [
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351",
+       "quote": "It is interesting that six of the 27 skulls of D. everetti have this canal inflated quite like those in some forms of subgenus Aletesciurus.",
+       "verbatim": true,
+       "note": "OCR of this page interleaves lines (\"1959, Figure 1, a.)\" falls between \"D.\" and \"everetti\"); quote checked against the rendered page image, p. 291."
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351",
+       "quote": "all agree with the other species in having a single septum in each bulla.",
+       "verbatim": true
+      },
+      {
+       "url": "https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf",
+       "citation": "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48: 1-351",
+       "quote": "The generic character of Sundasciurus is produced, according to D. Dwight Davis (in litt.), by inflation of the musculotubular canal where it leaves the auditory bulla anteromesially, and thus constitutes the apparent third division of the auditory chamber, between the forks of the otherwise single transbullar septum.",
+       "verbatim": true,
+       "note": "OCR interleaves this sentence with the neighbouring one; checked against the rendered page image, p. 291."
+      },
+      {
+       "url": "https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf",
+       "citation": "Hawkins, Helgen, Maldonado, Rockwood, Tsuchiya & Leonard 2016, Phylogeny, biogeography and systematic revision of plain long-nosed squirrels (genus Dremomys, Nannosciurinae). Mol. Phylogenet. Evol. 94: 752-764",
+       "quote": "The anteromedial expansion of the auditory bulla of the BMGS was generally intermediate between species of both genera (Fig. 4), and showed considerable variation, generally in the morphological direction of the Sunda squirrels",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d",
+       "citation": "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914: 1-5",
+       "quote": "The top of it remains in all individuals, however, fencing off the unique chamber, whether inflated or not, and distinguishes them from other Callosciurini.",
+       "verbatim": true
+      }
+     ],
+     "notes": "DELIBERATE WIDENING of the island-group coding (\"present\", genus). The Moore (1958/1959) lobe defines Sundasciurus as it stood before 2016, but S. everetti (Bornean mountain ground squirrel, transferred from Dremomys by Hawkins et al. 2016) does not reliably show it: Moore & Tate (1965: 291) found the inflated anteromesial chamber in only 6 of 27 MCZ skulls, the rest agreeing with the other Dremomys species (single, unforked septum); Hawkins et al. (2016, Table 3) score everetti as \"Intermediate\" with \"considerable variation\". So the union over all species is {absent, present}. With S. everetti excluded, the lobe would separate Sundasciurus from Callosciurus, Tamiops, Lariscus, Menetes and Dremomys (Moore 1958, 1959; Hinckley et al. 2020 restate the genus definition as \"the presence of a Y-shaped trans-bullar bony septum\" and note S. rabori has an \"intermediate antero-mesial lobe\")."
+    },
+    "cheekteeth_pattern_lost_from_birth": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth not simplified, not losing all traces of normal pattern till adult or usually late in life.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "Cheekteeth simplified, losing all traces of normal pattern practically from birth.",
+       "verbatim": true
+      }
+     ],
+     "notes": "NEW CHARACTER (see Callosciurus). In Ellerman (1940) all Sundasciurus species then known were in Callosciurus (forms seen include brookei, fraterculus, hippurus, jentinki, juvencus, lowii, mindanensis, mollendorffi, philippinensis, samarensis, steerii, tenuis) and everetti was in Dremomys (forms seen \"everetii\"); both genera key out under \"Cheekteeth not simplified, not losing all traces of normal pattern till adult or usually late in life\", vs Lariscus. Later-described or later-split species (davensis, hoogstraali, rabori, altitudinis, tahan, robinsoni, natunensis) are covered only by this genus-level statement. Separates Sundasciurus from Lariscus."
+    },
+    "incisors_broad_divergent": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors not especially broad; lower ones with anterior faces convex",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Incisors broad; lower ones with anterior faces",
+       "verbatim": true,
+       "note": "Couplet 3 first lead; the OCR interleaves the key label \"genus Glyphotes\" before the lead ends with \"flat or concave\"."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 (British Museum (Natural History)); archive.org OCR text",
+       "quote": "The upper incisors without extreme abnormalities; (in genera in which these teeth are becoming thickened, their anterior surfaces are without grooves).",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) key couplet 3: genus Sundasciurus keys out under \"Incisors not especially broad; lower ones with anterior faces convex\" (as did Dremomys, which then contained everetti); Ellerman (1940): Callosciurus s.l. (incl. Sundasciurus spp.) and Dremomys (incl. everetti) have upper incisors \"without extreme abnormalities\". Separates Sundasciurus from Glyphotes."
+    }
+   },
+   "distinguishing_notes": "vs Glyphotes: incisors not broad (Moore 1959; Ellerman 1940). vs Lariscus: cheek teeth not simplified (Ellerman 1940). vs Callosciurus, Tamiops, Dremomys: NONE found that holds over all 20 species; the generic bulla character fails in S. everetti (6/27 skulls with the lobe; Moore & Tate 1965), so the island coding is widened to {absent, present}."
+  },
+  "Rhinosciurus": {
+   "characters": {},
+   "extra_characters": {
+    "occiput_median_keel_pronounced": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "The occiput has a very strong median keel and two fairly prominent lateral ones.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4): 157-206 (OCR text of AMNH PDF)",
+       "quote": "Occiput has pronounced median keel and two",
+       "verbatim": true
+      }
+     ],
+     "notes": "Moore (1959) genus diagnosis of Rhinosciurus (character 6) and key couplet 2. Monotypic genus. Separates Rhinosciurus from Menetes and Dremomys."
+    }
+   },
+   "distinguishing_notes": "vs Menetes and Dremomys: occiput with a pronounced median keel (Moore 1959), upper incisors dwarfed (island file), 2 pairs of teats vs 3 in Menetes."
+  }
+ },
+ "sources_consulted": [
+  "Moore 1959, Relationships among the living squirrels of the Sciurinae. Bull. Am. Mus. Nat. Hist. 118(4) - https://digitallibrary.amnh.org/handle/2246/1265 (subtribe Callosciurina characters, key to genera, Rhinosciurus diagnosis)",
+  "Moore 1958, New genera of East Indian squirrels. Am. Mus. Novit. 1914 - https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d (Sundasciurus, Exilisciurus)",
+  "Ellerman 1940, The Families and Genera of Living Rodents, Vol. 1 - https://archive.org/details/familiesgeneraof01elle (key to the Sciurus group; Callosciurus, Dremomys, Lariscus, Menetes accounts)",
+  "Moore & Tate 1965, A study of the diurnal squirrels, Sciurinae, of the Indian and Indochinese subregions. Fieldiana: Zoology 48 - https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf (Dremomys everetti skull, p. 291, checked on page image; Menetes diagnosis; mammae)",
+  "Hawkins et al. 2016, Mol. Phylogenet. Evol. 94: 752-764 - https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf (transfer of everetti to Sundasciurus; Table 3)",
+  "Hinckley et al. 2020, Front. Ecol. Evol. 8:208 - https://doi.org/10.3389/fevo.2020.00208 (no new genus-level diagnosis; restates Moore 1958 bulla definition, synonymises Aletesciurus)",
+  "Wilson, Lacher & Mittermeier (eds) 2016, HMW Vol. 6, Sciuridae species accounts via Plazi (re-used from asia_mainland for Callosciurus HB; Menetes berdmorei teats)",
+  "Nguyen, Oshida, Dang, Bui & Motokawa 2018, A new species of squirrel (Sciuridae: Callosciurus) from an isolated island off the Indochina Peninsula in southern Vietnam. J. Mammal. 99: 813-825, doi:10.1093/jmammal/gyy061 - full text NOT accessible (OUP 403/paywall, ResearchGate 403); abstract only",
+  "German Wikipedia \"Hon-Koai-Schönhörnchen\" and Catalan Wikipedia \"Esquirol de Hon Khoai\" (raw wikitext; holotype measurements citing Nguyen et al. 2018)",
+  "Also checked without usable measurements: MDD species page https://www.mammaldiversity.org/taxon/1001540/, VAST news releases (articleId 5017, 9286), Vietnamese/French/Ukrainian Wikipedia, Wildlife at Risk 2024 Hon Khoai mammal checklist PDF, Mammalia 2021 (C. finlaysonii honnghensis; De Gruyter blocked)"
+ ],
+ "caveats": "(1) VERBATIM: all quotes marked verbatim were machine-checked (whitespace-normalised, line-end hyphenation re-joined) against the retrieved text (nannosrc_work/moore1959.txt, moore1958.txt, ellerman1940.txt, hawkins2016.txt; asia_work/mt.txt and HMW/ADW/Wikipedia texts; followup_work/wiki_de.txt, wiki_ca.txt), except two Moore & Tate (1965: 291) sentences whose OCR interleaves lines; those were checked on the rendered page image. OCR artefacts are kept as retrieved (e.g. Moore 1959 'proo\"dont'). (2) SUNDASCIURUS BULLA: this file deliberately ADDS \"absent\" to Sundasciurus bulla_anteromesial_lobe (island file: \"present\", genus) because S. everetti shows the generic lobe in only 6/27 skulls (Moore & Tate 1965) and is \"intermediate\" (Hawkins et al. 2016). After the union, the lobe separates nothing from Sundasciurus; the \"absent\" codings added for Callosciurus, Tamiops, Lariscus, Menetes and Dremomys are sourced but currently non-separating. If the project ever excludes S. everetti, the lobe would separate Sundasciurus from all five. (3) KEY-LEAD EVIDENCE: several codings rest on genus keys (Moore 1959 key to the Callosciurina; Ellerman 1940 key to the Sciurus group), i.e. on which lead a genus is keyed under. Those keys predate later splits (e.g. Sundasciurus davensis/hoogstraali/rabori/altitudinis/tahan/robinsoni/natunensis, Tamiops minshanicus, Callosciurus honkhoaiensis) and the transfer of everetti from Dremomys to Sundasciurus; their characters are generic and the same standard was used by the island and mainland groups. (4) NEW CHARACTER KEYS: cheekteeth_pattern_lost_from_birth (Ellerman 1940) and occiput_median_keel_pronounced (Moore 1959) are new; all other keys reuse existing ones exactly (incisors_broad_divergent, bulla_anteromesial_lobe, p4_largest_upper_cheek_tooth, upper_incisors_reduced, teat_pairs, upper_incisor_orientation, nasal_vs_interorbital, upper_incisor_groove, hb_length_mm). (5) C. HONKHOAIENSIS SIZE: only the holotype value (HB 175 mm) could be read, via Wikipedia citing the original description; the paper itself is paywalled. It does not change the Callosciurus union (130-300 mm). (6) NOT CODED (deliberately): Menetes upper_incisors_reduced (Ellerman calls them \"rather shortened\"); facial_stripes for Tamiops/Sundasciurus/Callosciurus (Heaney 1985 says no other callosciurine has facial stripes, which conflicts with the pale cheek stripes of Tamiops, so that statement was not used); pale_dorsal_stripes absent for Sundasciurus (no source states it for all species)."
+}

@@ -157,7 +157,7 @@ Qed.
 (* ======================== Size of the key ======================== *)
 
 Theorem genus_key_shape :
-  couplets (question Character) genus_key = 110 /\ depth (question Character) genus_key = 10.
+  couplets (question Character) genus_key = 104 /\ depth (question Character) genus_key = 10.
 Proof. vm_compute. split; reflexivity. Qed.
 
 (* ======================== Using the key ======================== *)

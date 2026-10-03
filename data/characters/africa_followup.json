@@ -1,0 +1,1016 @@
+{
+ "group": "africa_followup",
+ "genera": {
+  "Heliosciurus": {
+   "characters": {
+    "tail_rings": {
+     "states": [
+      "absent",
+      "present"
+     ],
+     "scope": "species-union",
+     "species_covered": [
+      "Heliosciurus gambianus",
+      "Heliosciurus mutabilis",
+      "Heliosciurus punctatus",
+      "Heliosciurus rufobrachium",
+      "Heliosciurus ruwenzorii",
+      "Heliosciurus undulatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/biostor-136576",
+       "citation": "Grubb, P. 1982. Systematics of sun-squirrels (Heliosciurus) in eastern Africa. Bonner zoologische Beitraege 33(2-4):191-204 (BioStor/archive.org OCR text)",
+       "quote": "The hair bands may or may not form discrete dark and light rings encircling the tail along its length.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-136576",
+       "citation": "Grubb, P. 1982. Systematics of sun-squirrels (Heliosciurus) in eastern Africa. Bonner zoologische Beitraege 33(2-4):191-204 (BioStor/archive.org OCR text)",
+       "quote": "The tail hairs in these more intensely pigmented specimens retain the light bands, or at least the more distal ones, which become relatively narrow; rarely they may lose them altogether (two specimens, Mlanje and Chiradzulu).",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-136576",
+       "citation": "Grubb, P. 1982. Systematics of sun-squirrels (Heliosciurus) in eastern Africa. Bonner zoologische Beitraege 33(2-4):191-204 (BioStor/archive.org OCR text)",
+       "quote": "up to 16 light tail rings (very vague in Chowo skin)",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-136576",
+       "citation": "Grubb, P. 1982. Systematics of sun-squirrels (Heliosciurus) in eastern Africa. Bonner zoologische Beitraege 33(2-4):191-204 (BioStor/archive.org OCR text)",
+       "quote": "10-14 black tail rings;",
+       "verbatim": true
+      }
+     ],
+     "notes": "Grubb 1982 (H. mutabilis and H. undulatus): the agouti bands of the tail hairs \"may or may not form discrete dark and light rings\"; in melanistic H. m. mutabilis the tail hairs rarely lose the light bands altogether (2 specimens), i.e. no tail rings; rings are \"very vague\" in a H. m. shirensis skin. Rings are present in most specimens (up to 16 light rings; 10-14 black rings in H. undulatus). This adds documented intraspecific variation (state \"absent\") to the earlier coding (present in all six species, HMW 2016), so tail_rings should NOT be used as a Heliosciurus diagnostic."
+    }
+   },
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Heliosciurus gambianus",
+      "Heliosciurus mutabilis",
+      "Heliosciurus punctatus",
+      "Heliosciurus rufobrachium",
+      "Heliosciurus ruwenzorii",
+      "Heliosciurus undulatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The supraorbital notch is obsolescent as a notch, being closed at the margin of the orbit so that it exists as a foramen piercing the frontal (and the masseteric fossa extends forward on the rostrum to the",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "premaxilla) . . . . . . tribe Protoxerini",
+       "verbatim": true,
+       "note": "Continuation of the previous quote (key couplet 13) after a page-header break in the OCR text."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "By its character 1, the subtribe Funisciurina further shows its remoteness of relationship to the geographically associated Protoxerini as well as to all other Sciurinae.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "Anterior ridge of zygoma-root strongly marked, Stopping abruptly just at the maxillo-premaxillary suture.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "Secondly, the zygomatic plate, which seems to me to be constantly more strongly ridged, and with an extremely powerful masseter knob present, in typical Heliosciurus and in Aethosciurus ruwenzorii.",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "P. 3 minute, zvgomatic plate more as in typical Heliosciurus",
+       "verbatim": true,
+       "note": "ruwenzorii group of subgenus Aethosciurus; OCR 'zvgomatic' = zygomatic."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "the upper part of the zygomatic plate prominently ridged, approaching the Xerus type though less extreme, slanting upwards far forwards, and there is a very strong masseter knob present.",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Coverage: Moore 1959 key couplet 13 gives the state for tribe Protoxerini (Protoxerus, Epixerus, Heliosciurus) and explicitly puts ruwenzori in Heliosciurus, outside the Funisciurina whose ridge stops well short of the premaxilla. Thomas 1909 (Heliosciurus: gambianus, mutabilis, punctatus, rufobrachium, undulatus and synonyms; ridge stops \"just at the maxillo-premaxillary suture\"). Ellerman 1940: zygomatic plate \"constantly more strongly ridged ... in typical Heliosciurus and in Aethosciurus ruwenzorii\", in contrast to the \"curiously shortened zygomatic plate\" of Paraxerus, Funisciurus and the other Aethosciurus. All 6 MDD species covered (H. ruwenzorii via Ellerman and Moore). Thomas 1909 places the Heliosciurus ridge AT the suture and the Protoxerus ridge BEYOND it; both are \"yes\" here."
+    },
+    "sphenopalatine_foramen_size": {
+     "possible_states": [
+      "small",
+      "large"
+     ],
+     "states": [
+      "large"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Heliosciurus gambianus",
+      "Heliosciurus mutabilis",
+      "Heliosciurus punctatus",
+      "Heliosciurus rufobrachium",
+      "Heliosciurus ruwenzorii",
+      "Heliosciurus undulatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The sphenopalatine foramen is large, occasionally quite as large as the sphenoid fissure.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The Protoxerini differ from the other tribes and subtribes of the Sciurinae by the above characters, as follows: from the Ratufini by 1, 2, and 4; from the Hyosciurina by 1, 3, and 5; from the Funambulini by 1, 3, and 5;",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "the variability of characters of the skull in one of them, the sun squirrel genus Heliosciurus, is so great that distinctive characters which occur consistently in all three genera are not impressive",
+       "verbatim": true
+      }
+     ],
+     "notes": "sphenopalatine_foramen_size: large = \"large, occasionally quite as large as the sphenoid fissure\" (Moore 1959, tribe Protoxerini); small = \"very much smaller than the sphenoid fissure\" (Moore 1959, subtribe Funisciurina). Tribe-level character of Moore's Protoxerini (which includes all Heliosciurus, ruwenzori included). Caveat: Moore stresses that skull characters are unusually variable in Heliosciurus; only one source (Moore 1959) for this character."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Heliosciurus gambianus",
+      "Heliosciurus mutabilis",
+      "Heliosciurus punctatus",
+      "Heliosciurus rufobrachium",
+      "Heliosciurus ruwenzorii",
+      "Heliosciurus undulatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The tribe Funambulini is distinguished from the other tribes and subtribes of the Sciurinae by the above enumerated characters, as follows: from the Ratufini by 1 and 2; from the Hyosciurina by 1 and 2; from the Protoxerini by 1;",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Heliosciurus state is read from Moore's differential diagnosis: the Funambulini (Paraxerus, Funisciurus, Myosciurus, Funambulus) are distinguished \"from the Protoxerini by 1\", character 1 being the lacking/overshot premaxillary process, which \"in most squirrels rises to abut evenly\" with the nasal. Only one source (Moore 1959); Heliosciurus state is by contrast, not an explicit positive description."
+    },
+    "buccinator_masticatory_foramina_separate": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Heliosciurus gambianus",
+      "Heliosciurus mutabilis",
+      "Heliosciurus punctatus",
+      "Heliosciurus rufobrachium",
+      "Heliosciurus ruwenzorii",
+      "Heliosciurus undulatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The buccinator and masticatory foramina are widely separate.",
+       "verbatim": true,
+       "note": "Genus Heliosciurus diagnosis, character 3."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The separation of the buccinator foramen from the masticatory foramen in Heliosciurus and Epixerus of the Protoxerini and Xerus and Atlantoxerus of the Xerini lends this suggestion further support.",
+       "verbatim": true
+      }
+     ],
+     "notes": "buccinator_masticatory_foramina_separate: yes = buccinator and masticatory foramina separate openings; no = a single (elongate) aperture (Moore 1959). Genus diagnosis of Heliosciurus (Moore 1959; his Heliosciurus includes ruwenzori)."
+    }
+   },
+   "distinguishing_notes": "vs Paraxerus (no disjoint character before this follow-up): the anterior ridge of the zygomatic plate reaches the maxillo-premaxillary suture in Heliosciurus (all 6 species) but stops well short of the premaxilla in Paraxerus (all 11 species, incl. the former Aethosciurus poensis/lucifer/vexillarius) - Thomas 1909, Ellerman 1940, Moore 1959 independently; Moore 1959 also gives a large sphenopalatine foramen (Protoxerini) vs one very much smaller than the sphenoid fissure (Funisciurina) and a premaxillary dorso-anterior process meeting the nasal vs lacking/overshot. vs Funisciurus: same three characters, plus basin-shaped vs flat ridged lower molars (earlier file). vs Protoxerus: buccinator and masticatory foramina widely separate (Heliosciurus) vs a single elongate aperture (Protoxerus) (Moore 1959 genus diagnoses), in addition to the infraorbital canal character in the earlier file. Tail rings are NOT diagnostic: Grubb 1982 documents H. mutabilis without discrete tail rings."
+  },
+  "Paraxerus": {
+   "characters": {},
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Paraxerus alexandri",
+      "Paraxerus boehmi",
+      "Paraxerus cepapi",
+      "Paraxerus cooperi",
+      "Paraxerus flavovittis",
+      "Paraxerus lucifer",
+      "Paraxerus ochraceus",
+      "Paraxerus palliatus",
+      "Paraxerus poensis",
+      "Paraxerus vexillarius",
+      "Paraxerus vincenti"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The sharp anterolateral edge of the zygomatic arch continues forward as a sharp ridge onto the rostrum but stops well short of the premaxillary bone and rises no higher than the lower edge of the lacrimal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Paraxerus Major, 1893. (Includes Aethosciurus Thomas, 1916; Tamiscus Thomas, 1918.)",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The masseteric fossa stops well short of the maxillopremaxillary suture, and rises no higher than the lower edge of the lacrimal",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "Anteorbital foramen and zygomatic ridge as in Funisciurus,",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "anterior ridge of zygoma-root falling far short of the maxillo- premaxillary suture",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "The other species referred to Aethosciurus agree with Faraxerus and Funisciurus in the curiously shortened zygomatic plate, with the ridge stopping abruptly over the infraorbital foramen, and not approaching the superior border of rostrum.",
+       "verbatim": true,
+       "note": "OCR 'Faraxerus' = Paraxerus."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "rather large; zygomatic plate as in Paraxerus",
+       "verbatim": true,
+       "note": "poensis group of subgenus Aethosciurus (P. 3 rather large; zygomatic plate as in Paraxerus)."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "poensis, though agreeing in zygomatic plate formation with Funisciurus and Paraxerus",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "and the lucifer group, zygomatic plate and P. 3 as in poensis",
+       "verbatim": true,
+       "note": "lucifer group = lucifer and vexillarius (Ellerman 1940 list nos. 50-51)."
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "Skull essentially as in Funisciiirus (next to be described), except that the rostrum does not tend to become elongated.",
+       "verbatim": true,
+       "note": "OCR 'Funisciiirus' = Funisciurus."
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69",
+       "citation": "Banotai, Mazzamuto & Koprowski 2023, Paraxerus cepapi (Rodentia: Sciuridae), Mammalian Species 55(1030):1-11 (doi:10.1093/mspecies/sead005), text via Plazi",
+       "quote": "There is a sharp edge on the rostrum formed by the anterolateral edge of the zygomatic arch. The arch terminates before the premaxilla and does not rise above the lower edge of the lachrymal ( Moore 1959).",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/6502AA63E064FF8019D2FE99FC8C48B6",
+       "citation": "Denys et al. 2014, African highlands as mammal diversity hotspots: new records ... from Mt Oku, Cameroon, Zoosystema 36(3):647-690 (doi:10.5252/z2014n3a6), text via Plazi [P. cooperi]",
+       "quote": "Paraxerus cooperi was placed in the genus Aethosciurus Thomas, 1916 by Moore (1959)",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Coverage by MDD species: Moore 1959 gives it as subtribal character 1 of the Funisciurina, i.e. Funisciurus + Paraxerus including Tamiscus (boehmi group) and Aethosciurus (poensis, lucifer, vexillarius; not ruwenzori), synoptic series P. cepapi, alexandri, palliatus, boehmi (+ vulcanorum, emini, antoniae); MS 1030 repeats it for P. cepapi. Thomas 1909 Paraxerus (alexandri, boehmi, cepapi, ochraceus, palliatus and synonyms): \"zygomatic ridge as in Funisciurus\", whose ridge falls \"far short of the maxillo-premaxillary suture\". Ellerman 1940: Paraxerus (cepapi, ochraceus, palliatus, flavovittis, boehmi, alexandri, byatti = vexillarius byatti) skull \"essentially as in Funisciurus\"; poensis \"zygomatic plate as in Paraxerus\"; lucifer group (lucifer, vexillarius) \"zygomatic plate ... as in poensis\"; all non-ruwenzorii Aethosciurus have the \"curiously shortened zygomatic plate\". P. cooperi and P. vincenti (both described by Hayman 1950) are NOT individually described by any source found; they are covered only by Moore's genus/subtribe-level statement (Denys et al. 2014 note that Moore placed cooperi in Aethosciurus, which Moore includes in Paraxerus/Funisciurina). Scope \"genus\" rests on that."
+    },
+    "sphenopalatine_foramen_size": {
+     "possible_states": [
+      "small",
+      "large"
+     ],
+     "states": [
+      "small"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Paraxerus alexandri",
+      "Paraxerus boehmi",
+      "Paraxerus cepapi",
+      "Paraxerus cooperi",
+      "Paraxerus flavovittis",
+      "Paraxerus lucifer",
+      "Paraxerus ochraceus",
+      "Paraxerus palliatus",
+      "Paraxerus poensis",
+      "Paraxerus vexillarius",
+      "Paraxerus vincenti"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "phasized by the following taxonomic skull characters of the Funisciurina: (1) The sphenopalatine foramen is very much smaller than the sphenoid fissure.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Paraxerus Major, 1893. (Includes Aethosciurus Thomas, 1916; Tamiscus Thomas, 1918.)",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The Protoxerini differ from the other tribes and subtribes of the Sciurinae by the above characters, as follows: from the Ratufini by 1, 2, and 4; from the Hyosciurina by 1, 3, and 5; from the Funambulini by 1, 3, and 5;",
+       "verbatim": true
+      }
+     ],
+     "notes": "sphenopalatine_foramen_size: large = \"large, occasionally quite as large as the sphenoid fissure\" (Moore 1959, tribe Protoxerini); small = \"very much smaller than the sphenoid fissure\" (Moore 1959, subtribe Funisciurina). Subtribe-level character of Moore's Funisciurina (Paraxerus incl. Tamiscus and Aethosciurus). Single source; P. cooperi and P. vincenti covered only at genus level."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Paraxerus alexandri",
+      "Paraxerus boehmi",
+      "Paraxerus cepapi",
+      "Paraxerus cooperi",
+      "Paraxerus flavovittis",
+      "Paraxerus lucifer",
+      "Paraxerus ochraceus",
+      "Paraxerus palliatus",
+      "Paraxerus poensis",
+      "Paraxerus vexillarius",
+      "Paraxerus vincenti"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of African tree squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus; the African pygmy squirrels, Myosciurus; and the Indian striped squirrels, Funambulus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The anterolateral corner of the nasal bone overshoots the nasal process of the premaxilla, so that the latter makes an indentation in the lateral margin of the nasal.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Paraxerus Major, 1893. (Includes Aethosciurus Thomas, 1916; Tamiscus Thomas, 1918.)",
+       "verbatim": true
+      },
+      {
+       "url": "https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69",
+       "citation": "Banotai, Mazzamuto & Koprowski 2023, Paraxerus cepapi (Rodentia: Sciuridae), Mammalian Species 55(1030):1-11 (doi:10.1093/mspecies/sead005), text via Plazi",
+       "quote": "Anterolateral part of the nasal extends beyond the nasal process of the premaxilla, and the premaxila makes an indentation in the lateral margin of the nasal ( De Graaff 1981).",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Tribe Funambulini character 1 and subtribe Funisciurina character 2 (Moore 1959); MS 1030 (citing De Graaff 1981) confirms for P. cepapi. P. cooperi and P. vincenti covered only at genus level."
+    }
+   },
+   "distinguishing_notes": "vs Heliosciurus: zygomatic ridge stops well short of the premaxilla (Paraxerus) vs reaches the maxillo-premaxillary suture (Heliosciurus) - Thomas 1909, Ellerman 1940, Moore 1959; sphenopalatine foramen very much smaller than the sphenoid fissure vs large (Moore 1959); premaxillary dorso-anterior process lacking/overshot by the nasal vs meeting the nasal (Moore 1959). Tail rings do not separate them (both genera have ringed and unringed tails). vs Protoxerus/Epixerus: same zygomatic, sphenopalatine and premaxilla characters. vs Funisciurus: none of these characters (shared Funisciurina characters); use the dental/rostral characters of the earlier file."
+  },
+  "Funisciurus": {
+   "characters": {},
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Funisciurus anerythrus",
+      "Funisciurus bayonii",
+      "Funisciurus carruthersi",
+      "Funisciurus congicus",
+      "Funisciurus duchaillui",
+      "Funisciurus isabella",
+      "Funisciurus lemniscatus",
+      "Funisciurus leucogenys",
+      "Funisciurus pyrropus",
+      "Funisciurus substriatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "anterior ridge of zygoma-root falling far short of the maxillo- premaxillary suture",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/familiesgeneraof01elle",
+       "citation": "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text)",
+       "quote": "but short, the ridge stopping abruptly above the upper border of the infraorbital foramen, not approaching the superior border of the rostrum.",
+       "verbatim": true,
+       "note": "Genus Funisciurus 'Characters': 'Zygomatic plate well ridged, but short, ...' (OCR garbles 'well')."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The sharp anterolateral edge of the zygomatic arch continues forward as a sharp ridge onto the rostrum but stops well short of the premaxillary bone and rises no higher than the lower edge of the lacrimal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The masseteric fossa stops well short of the maxillopremaxillary suture, and rises no higher than the lower edge of the lacrimal",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Genus-level statements in Thomas 1909 and Ellerman 1940 (genus Characters) and Moore 1959 (subtribe Funisciurina)."
+    },
+    "sphenopalatine_foramen_size": {
+     "possible_states": [
+      "small",
+      "large"
+     ],
+     "states": [
+      "small"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Funisciurus anerythrus",
+      "Funisciurus bayonii",
+      "Funisciurus carruthersi",
+      "Funisciurus congicus",
+      "Funisciurus duchaillui",
+      "Funisciurus isabella",
+      "Funisciurus lemniscatus",
+      "Funisciurus leucogenys",
+      "Funisciurus pyrropus",
+      "Funisciurus substriatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "phasized by the following taxonomic skull characters of the Funisciurina: (1) The sphenopalatine foramen is very much smaller than the sphenoid fissure.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe consists of African squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus (but not Aethosciurus ruwenzori, which belongs in Heliosciurus).",
+       "verbatim": true
+      }
+     ],
+     "notes": "sphenopalatine_foramen_size: large = \"large, occasionally quite as large as the sphenoid fissure\" (Moore 1959, tribe Protoxerini); small = \"very much smaller than the sphenoid fissure\" (Moore 1959, subtribe Funisciurina). Subtribe-level character (Moore 1959). Single source."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Funisciurus anerythrus",
+      "Funisciurus bayonii",
+      "Funisciurus carruthersi",
+      "Funisciurus congicus",
+      "Funisciurus duchaillui",
+      "Funisciurus isabella",
+      "Funisciurus lemniscatus",
+      "Funisciurus leucogenys",
+      "Funisciurus pyrropus",
+      "Funisciurus substriatus"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of African tree squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus; the African pygmy squirrels, Myosciurus; and the Indian striped squirrels, Funambulus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "2. The anterolateral corner of the nasal bone overshoots the nasal process of the premaxilla, so that the latter makes an indentation in the lateral margin of the nasal.",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Tribe Funambulini character 1 / subtribe Funisciurina character 2 (Moore 1959)."
+    }
+   },
+   "distinguishing_notes": "vs Heliosciurus: zygomatic ridge stops well short of the premaxilla vs reaches the suture (Thomas 1909, Ellerman 1940, Moore 1959); small vs large sphenopalatine foramen and premaxillary process overshot vs meeting the nasal (Moore 1959). vs Protoxerus: zygomatic ridge falls far short of vs passes beyond the maxillo-premaxillary suture (Thomas 1909)."
+  },
+  "Protoxerus": {
+   "characters": {},
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Protoxerus aubinnii",
+      "Protoxerus stangeri"
+     ],
+     "evidence": [
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "zygoma-root bowed over as in Xerus, its front edge surpassing the maxillo- premaxillary suture",
+       "verbatim": true
+      },
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "upper part of anterior zygoma-root bowed over as in the Spiny Squirrels [Xerus, &c.), its ridge carried forward beyond the maxlllo-premaxillary suture",
+       "verbatim": true,
+       "note": "OCR reads 'maxlllo' for 'maxillo'."
+      },
+      {
+       "url": "https://archive.org/details/biostor-86430",
+       "citation": "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text)",
+       "quote": "maxillary masseteric fossa large, its upper ridge extending some way past the maxillo-premaxillary suture,",
+       "verbatim": true,
+       "note": "Genus Myrsilus Thomas 1909 (type M. aubinnii) = Protoxerus aubinnii of MDD."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The supraorbital notch is obsolescent as a notch, being closed at the margin of the orbit so that it exists as a foramen piercing the frontal (and the masseteric fossa extends forward on the rostrum to the",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "premaxilla) . . . . . . tribe Protoxerini",
+       "verbatim": true,
+       "note": "Continuation of the previous quote (key couplet 13) after a page-header break in the OCR text."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Protoxerus Major, 1893. (Including Allosciurus Conisbee, 1953, for Myrsilus Thomas, 1909, preoccupied.)",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Thomas 1909: P. stangeri (Protoxerus) ridge carried beyond the maxillo-premaxillary suture; P. aubinnii (as Myrsilus) upper ridge extending some way past it. Moore 1959 Protoxerini (Protoxerus incl. Allosciurus = Myrsilus)."
+    },
+    "sphenopalatine_foramen_size": {
+     "possible_states": [
+      "small",
+      "large"
+     ],
+     "states": [
+      "large"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Protoxerus aubinnii",
+      "Protoxerus stangeri"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The sphenopalatine foramen is large, occasionally quite as large as the sphenoid fissure.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Protoxerus Major, 1893. (Including Allosciurus Conisbee, 1953, for Myrsilus Thomas, 1909, preoccupied.)",
+       "verbatim": true
+      }
+     ],
+     "notes": "sphenopalatine_foramen_size: large = \"large, occasionally quite as large as the sphenoid fissure\" (Moore 1959, tribe Protoxerini); small = \"very much smaller than the sphenoid fissure\" (Moore 1959, subtribe Funisciurina). Tribe-level character (Moore 1959). Single source."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Protoxerus aubinnii",
+      "Protoxerus stangeri"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The tribe Funambulini is distinguished from the other tribes and subtribes of the Sciurinae by the above enumerated characters, as follows: from the Ratufini by 1 and 2; from the Hyosciurina by 1 and 2; from the Protoxerini by 1;",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Protoxerus Major, 1893. (Including Allosciurus Conisbee, 1953, for Myrsilus Thomas, 1909, preoccupied.)",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Read from Moore's differential diagnosis (Funambulini distinguished from the Protoxerini by character 1). Single source."
+    },
+    "buccinator_masticatory_foramina_separate": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Protoxerus aubinnii",
+      "Protoxerus stangeri"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The buccinator and masticatory foramina form a single, though elongate aperture.",
+       "verbatim": true,
+       "note": "Genus Protoxerus diagnosis, character 3."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Protoxerus Major, 1893. (Including Allosciurus Conisbee, 1953, for Myrsilus Thomas, 1909, preoccupied.)",
+       "verbatim": true
+      }
+     ],
+     "notes": "buccinator_masticatory_foramina_separate: yes = buccinator and masticatory foramina separate openings; no = a single (elongate) aperture (Moore 1959). Genus diagnosis of Protoxerus (Moore 1959, Protoxerus incl. Allosciurus/Myrsilus = P. aubinnii; synoptic series P. stangeri only)."
+    }
+   },
+   "distinguishing_notes": "vs Heliosciurus: buccinator and masticatory foramina a single elongate aperture (Protoxerus) vs widely separate (Heliosciurus) (Moore 1959); infraorbital foramen an open oval fenestra without canal vs a short canal (earlier file). Thomas 1909 also contrasts the zygomatic ridge passing beyond the maxillo-premaxillary suture (Protoxerus) with stopping just at it (Heliosciurus), but H. ruwenzorii is not covered at that resolution, so both are coded \"yes\" for zygomatic_ridge_reaches_premaxilla."
+  },
+  "Epixerus": {
+   "characters": {},
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Epixerus ebii"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The supraorbital notch is obsolescent as a notch, being closed at the margin of the orbit so that it exists as a foramen piercing the frontal (and the masseteric fossa extends forward on the rostrum to the",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "premaxilla) . . . . . . tribe Protoxerini",
+       "verbatim": true,
+       "note": "Continuation of the previous quote (key couplet 13) after a page-header break in the OCR text."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Moore 1959 tribe Protoxerini key couplet (Epixerus wilsoni = E. ebii in MDD). Single source for Epixerus."
+    },
+    "sphenopalatine_foramen_size": {
+     "possible_states": [
+      "small",
+      "large"
+     ],
+     "states": [
+      "large"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Epixerus ebii"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The sphenopalatine foramen is large, occasionally quite as large as the sphenoid fissure.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      }
+     ],
+     "notes": "sphenopalatine_foramen_size: large = \"large, occasionally quite as large as the sphenoid fissure\" (Moore 1959, tribe Protoxerini); small = \"very much smaller than the sphenoid fissure\" (Moore 1959, subtribe Funisciurina). Tribe-level character (Moore 1959). Single source."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Epixerus ebii"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The tribe Funambulini is distinguished from the other tribes and subtribes of the Sciurinae by the above enumerated characters, as follows: from the Ratufini by 1 and 2; from the Hyosciurina by 1 and 2; from the Protoxerini by 1;",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of the genera Protoxerus, Epixerus, and Heliosciurus, which are endemics of the Ethiopian region.",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Read from Moore's differential diagnosis. Single source."
+    },
+    "buccinator_masticatory_foramina_separate": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "yes"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Epixerus ebii"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "3. The buccinator and masticatory foramina are separate (but not so widely so as in Heliosciurus).",
+       "verbatim": true,
+       "note": "Genus Epixerus diagnosis, character 3."
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "The separation of the buccinator foramen from the masticatory foramen in Heliosciurus and Epixerus of the Protoxerini and Xerus and Atlantoxerus of the Xerini lends this suggestion further support.",
+       "verbatim": true
+      }
+     ],
+     "notes": "buccinator_masticatory_foramina_separate: yes = buccinator and masticatory foramina separate openings; no = a single (elongate) aperture (Moore 1959). Genus diagnosis of Epixerus (Moore 1959)."
+    }
+   },
+   "distinguishing_notes": "Coded only to complete the new Moore 1959 characters across the African tree squirrels."
+  },
+  "Myosciurus": {
+   "characters": {},
+   "extra_characters": {
+    "zygomatic_ridge_reaches_premaxilla": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Myosciurus pumilio"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Believed by the writer to outweigh these, however, are tribal character 1 of the Funambulini, subtribal character 1 of the Funisciurina (which the Myosciurina share),",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The sharp anterolateral edge of the zygomatic arch continues forward as a sharp ridge onto the rostrum but stops well short of the premaxillary bone and rises no higher than the lower edge of the lacrimal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This subtribe is constituted by the single, tropical, West African genus Myosciurus.",
+       "verbatim": true
+      }
+     ],
+     "notes": "zygomatic_ridge_reaches_premaxilla: does the sharp anterior ridge of the zygomatic plate (upper edge of the masseteric fossa) continue forward on the rostrum to the maxillo-premaxillary suture or beyond (yes), or stop well short of the premaxilla, above the infraorbital foramen and no higher than the lower edge of the lacrimal (no)? Thomas 1909, Ellerman 1940 and Moore 1959 all use this character to separate Heliosciurus/Protoxerus/Epixerus from Paraxerus/Funisciurus. Moore 1959: the Myosciurina share subtribal character 1 of the Funisciurina. Single source."
+    },
+    "premaxilla_dorsoanterior_process_meets_nasal": {
+     "possible_states": [
+      "no",
+      "yes"
+     ],
+     "states": [
+      "no"
+     ],
+     "scope": "genus",
+     "species_covered": [
+      "Myosciurus pumilio"
+     ],
+     "evidence": [
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "1. The dorso-anterior process of the premaxillary bone, which in most squirrels rises to abut evenly with the anterolateral angle of the nasal bone, is entirely lacking, or where only obsolescent (as in some Funisciurina), is substantially overshot by the nasal bone.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "This tribe consists of African tree squirrels of the genera and subgenera Funisciurus, Paraxerus, Tamiscus, and Aethosciurus; the African pygmy squirrels, Myosciurus; and the Indian striped squirrels, Funambulus.",
+       "verbatim": true
+      },
+      {
+       "url": "https://digitallibrary.amnh.org/handle/2246/1265",
+       "citation": "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206",
+       "quote": "Believed by the writer to outweigh these, however, are tribal character 1 of the Funambulini, subtribal character 1 of the Funisciurina (which the Myosciurina share),",
+       "verbatim": true
+      }
+     ],
+     "notes": "premaxilla_dorsoanterior_process_meets_nasal: yes = a dorso-anterior process of the premaxilla rises to abut the anterolateral angle of the nasal (the usual squirrel condition, Moore 1959); no = the process is lacking or obsolescent and substantially overshot by the nasal (Moore 1959, tribe Funambulini). Tribe Funambulini character 1 (Myosciurus is in the Funambulini). Single source."
+    }
+   },
+   "distinguishing_notes": "Coded only to complete the new Moore 1959 characters across the African tree squirrels."
+  }
+ },
+ "sources_consulted": [
+  "Moore, J.C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118(4):153-206 - https://digitallibrary.amnh.org/handle/2246/1265 (PDF text, scratchpad research/src/moore1959.txt)",
+  "Thomas 1909, The generic arrangement of the African squirrels, Annals and Magazine of Natural History (8) 3:467-475 (BHL/BioStor scan, OCR text) - https://archive.org/details/biostor-86430",
+  "Ellerman 1940, The Families and Genera of Living Rodents, Vol. I, British Museum (Natural History) (BHL/archive.org OCR text) - https://archive.org/details/familiesgeneraof01elle",
+  "Grubb, P. 1982. Systematics of sun-squirrels (Heliosciurus) in eastern Africa. Bonner zoologische Beitraege 33(2-4):191-204 (BioStor/archive.org OCR text) - https://archive.org/details/biostor-136576",
+  "Banotai, Mazzamuto & Koprowski 2023, Paraxerus cepapi (Rodentia: Sciuridae), Mammalian Species 55(1030):1-11 (doi:10.1093/mspecies/sead005), text via Plazi - https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69",
+  "Denys et al. 2014, African highlands as mammal diversity hotspots: new records ... from Mt Oku, Cameroon, Zoosystema 36(3):647-690 (doi:10.5252/z2014n3a6), text via Plazi [P. cooperi] - https://tb.plazi.org/GgServer/xhtml/6502AA63E064FF8019D2FE99FC8C48B6",
+  "Thomas, O. 1918. On the striped squirrels hitherto referred to the genus Paraxerus. Ann. Mag. Nat. Hist. (9) 1:33-36 - https://archive.org/details/biostor-87268 (checked; Tamiscus vs Paraxerus characters only, nothing on the zygomatic ridge; not used)",
+  "Koprowski et al. 2016, HMW vol. 6 species accounts for P. cooperi and P. vincenti via Plazi (checked; external characters only, no cranial data; not used)",
+  "Thomas, Best & Agwanda 2019, Heliosciurus rufobrachium, Mammalian Species 978, via Plazi (checked; mammae 3 pairs as in P. cepapi, no zygomatic-ridge statement; not used)",
+  "Consulted but not reachable: Hayman 1950 original descriptions of Sciurus cooperi and Paraxerus vincenti (Ann. Mag. Nat. Hist. (12) 3, Taylor & Francis, paywalled); Rosevear 1969 Rodents of West Africa, Amtmann 1975, Kingdon 1974/2013 (not online as full text; BHL search behind a Cloudflare challenge)."
+ ],
+ "caveats": "1) Separator found: zygomatic_ridge_reaches_premaxilla (Heliosciurus yes; Paraxerus no) is stated independently by Thomas 1909, Ellerman 1940 and Moore 1959, and corroborated for P. cepapi by Mammalian Species 1030. Coverage is explicit for all 6 Heliosciurus species and 9 of 11 Paraxerus species; P. cooperi and P. vincenti (described 1950) rest only on Moore's genus/subtribe-level diagnosis (scope \"genus\"). 2) sphenopalatine_foramen_size and premaxilla_dorsoanterior_process_meets_nasal come from Moore 1959 alone; the Heliosciurus/Protoxerus/Epixerus state of the premaxilla character is read from Moore's differential diagnosis (Funambulini \"distinguished ... from the Protoxerini by 1\") rather than from a positive description. Moore warns that Heliosciurus skull characters are unusually variable. Prefer zygomatic_ridge_reaches_premaxilla in the key. 3) tail_rings for Heliosciurus now includes \"absent\": Grubb 1982 documents H. mutabilis tails without discrete rings (melanistic specimens whose tail hairs lose the light bands). The union with the earlier file makes Heliosciurus tail_rings uninformative, which is the sound coding. 4) Not changed but worth knowing: Moore 1959 says the open oval infraorbital foramen of Protoxerus/Epixerus is \"very closely approached also in Heliosciurus, but only in one form\" (still a canal, so the earlier infraorbital_foramen_forms_canal coding stands); Moore also notes Didier (1953) figured a Sciurus-like baculum attributed to H. rufobrachium, contradicting Pocock's \"no baculum\" (the earlier baculum coding is partial and unused, which is appropriate). Mammae (3 pairs in both H. rufobrachium and P. cepapi) do not separate the genera. 5) Moore 1959 and Ellerman 1940 used older generic limits (Aethosciurus = poensis, lucifer, vexillarius, ruwenzorii; Myrsilus/Allosciurus = Protoxerus aubinnii); species coverage above is mapped to MDD v2.5 names."
+}

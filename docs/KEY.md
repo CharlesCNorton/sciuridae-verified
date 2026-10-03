@@ -12,16 +12,16 @@ a character, or whose state is undocumented, keys out on both sides of that coup
 ## Key
 
 1a. biogeographic realm of origin (native range, MDD v2.5): Indomalaya or Palearctic ... go to 2
-1b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Antarctic or Australasia or Nearctic or Neotropic or Oceania ... go to 76
+1b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Australasia or Nearctic or Neotropic ... go to 68
 
 2a. gliding membrane between fore- and hind-limbs: absent ... go to 3
-2b. gliding membrane between fore- and hind-limbs: present ... go to 42
+2b. gliding membrane between fore- and hind-limbs: present ... go to 52
 
 3a. country of origin (native range, MDD v2.5): Brunei or Indonesia or Malaysia or Philippines or Singapore or Thailand ... go to 4
-3b. country of origin (native range, MDD v2.5): any other country ... go to 17
+3b. country of origin (native range, MDD v2.5): any other country ... go to 23
 
 4a. head-and-body length at most 152 mm ... go to 5
-4b. head-and-body length more than 152 mm ... go to 9
+4b. head-and-body length more than 152 mm ... go to 10
 
 5a. pale or dark line along the side of the body: absent ... go to 6
 5b. pale or dark line along the side of the body: present ... go to 8
@@ -29,317 +29,299 @@ a character, or whose state is undocumented, keys out on both sides of that coup
 6a. head-and-body length at most 101 mm ... go to 7
 6b. head-and-body length more than 101 mm ... *Callosciurus / Sundasciurus (not separated)*
 
-7a. facial stripes: absent ... *Exilisciurus / Callosciurus (not separated)*
-7b. facial stripes: present ... *Callosciurus / Nannosciurus (not separated)*
+7a. facial stripes: absent ... *Exilisciurus*
+7b. facial stripes: present ... *Nannosciurus*
 
-8a. orbit length over 13mm: no ... *Glyphotes / Sundasciurus / Tamiops (not separated)*
-8b. orbit length over 13mm: yes ... *Callosciurus / Glyphotes / Sundasciurus (not separated)*
+8a. incisors broad divergent: no ... go to 9
+8b. incisors broad divergent: yes ... *Glyphotes*
 
-9a. markedly elongated, shrew-like snout: no ... go to 10
-9b. markedly elongated, shrew-like snout: yes ... go to 16
+9a. orbit length over 13mm: no ... *Sundasciurus / Tamiops (not separated)*
+9b. orbit length over 13mm: yes ... *Callosciurus / Sundasciurus (not separated)*
 
-10a. upper premolars per side: 1 ... go to 11
-10b. upper premolars per side: 2 ... go to 12
+10a. nasal vs interorbital: nasal_longer ... go to 11
+10b. nasal vs interorbital: interorbital_broader ... go to 18
 
-11a. longitudinal groove on the front of the upper incisors: smooth ... *Ratufa*
-11b. longitudinal groove on the front of the upper incisors: grooved ... *Rheithrosciurus*
+11a. head-and-body length at most 292 mm ... go to 12
+11b. head-and-body length more than 292 mm ... *Rheithrosciurus*
 
-12a. head-and-body length at most 292 mm ... go to 13
-12b. head-and-body length more than 292 mm ... *Callosciurus / Rheithrosciurus (not separated)*
+12a. markedly elongated, shrew-like snout: no ... go to 13
+12b. markedly elongated, shrew-like snout: yes ... go to 16
 
-13a. nasal vs interorbital: nasal_longer ... *Dremomys / Lariscus / Sundasciurus (not separated)*
-13b. nasal vs interorbital: interorbital_broader ... go to 14
+13a. cheekteeth pattern lost from birth: no ... go to 14
+13b. cheekteeth pattern lost from birth: yes ... go to 15
 
-14a. head-and-body length at most 163 mm ... go to 15
-14b. head-and-body length more than 163 mm ... *Callosciurus / Lariscus / Sundasciurus (not separated)*
+14a. cheekteeth deep central valley: no ... *Dremomys / Sundasciurus (not separated)*
+14b. cheekteeth deep central valley: yes ... *Menetes / Sundasciurus (not separated)*
 
-15a. orbit length over 13mm: no ... *Sundasciurus / Tamiops (not separated)*
-15b. orbit length over 13mm: yes ... *Callosciurus / Sundasciurus (not separated)*
+15a. p4 largest upper cheek tooth: no ... *Menetes*
+15b. p4 largest upper cheek tooth: yes ... *Lariscus*
 
-16a. cheekteeth deep central valley: no ... *Dremomys / Rhinosciurus (not separated)*
-16b. cheekteeth deep central valley: yes ... *Menetes / Rhinosciurus (not separated)*
+16a. occiput median keel pronounced: no ... go to 17
+16b. occiput median keel pronounced: yes ... *Rhinosciurus*
 
-17a. internal cheek pouches: absent ... go to 18
-17b. internal cheek pouches: present ... go to 31
+17a. cheekteeth deep central valley: no ... *Dremomys*
+17b. cheekteeth deep central valley: yes ... *Menetes*
 
-18a. country of origin (native range, MDD v2.5): Bangladesh or Bhutan or Brunei or Cambodia or China or India or Indonesia or Laos or Malaysia or Myanmar or Nepal or Singapore or Taiwan or Thailand or Vietnam ... go to 19
-18b. country of origin (native range, MDD v2.5): any other country ... go to 25
+18a. markedly elongated, shrew-like snout: no ... go to 19
+18b. markedly elongated, shrew-like snout: yes ... *Rhinosciurus*
 
-19a. pale dorsal stripes: absent ... go to 20
-19b. pale dorsal stripes: present ... go to 22
+19a. head-and-body length at most 317 mm ... go to 20
+19b. head-and-body length more than 317 mm ... go to 22
 
-20a. upper premolars per side: 1 ... *Ratufa / Sciurus (not separated)*
+20a. upper premolars per side: 1 ... *Ratufa*
 20b. upper premolars per side: 2 ... go to 21
 
-21a. nasal vs interorbital: nasal_longer ... *Dremomys / Sciurus / Marmota (not separated)*
-21b. nasal vs interorbital: interorbital_broader ... *Callosciurus / Sciurus / Marmota (not separated)*
+21a. orbit length over 13mm: no ... *Sundasciurus / Tamiops (not separated)*
+21b. orbit length over 13mm: yes ... *Callosciurus / Sundasciurus (not separated)*
 
-22a. markedly elongated, shrew-like snout: no ... go to 23
-22b. markedly elongated, shrew-like snout: yes ... *Menetes / Sciurus (not separated)*
+22a. longitudinal groove on the front of the upper incisors: smooth ... *Ratufa*
+22b. longitudinal groove on the front of the upper incisors: grooved ... *Rheithrosciurus*
 
-23a. tufts of long hair at the ear tips: absent ... *Funambulus / Sciurus / Marmota (not separated)*
-23b. tufts of long hair at the ear tips: present ... go to 24
+23a. internal cheek pouches: absent ... go to 24
+23b. internal cheek pouches: present ... go to 43
 
-24a. dark interstripe pattern: uniform ... *Funambulus / Sciurus (not separated)*
-24b. dark interstripe pattern: paired_dark_and_pale ... *Tamiops / Sciurus (not separated)*
+24a. baculum accessory blade: no ... go to 25
+24b. baculum accessory blade: yes ... go to 35
 
 25a. country of origin (native range, MDD v2.5): Afghanistan or Albania or Argentina or Armenia or Austria or Azerbaijan or Bangladesh or Belarus or Belgium or Belize or Bhutan or Bolivia or Bosnia and Herzegovina or Brazil or Brunei or Bulgaria or Cambodia or Canada or China or Colombia or Costa Rica or Croatia or Czech Republic or Denmark or Ecuador or El Salvador or Estonia or Finland or France or French Guiana or Georgia or Germany or Greece or Guatemala or Guyana or Honduras or Hungary or India or Indonesia or Iran or Iraq or Ireland or Israel or Italy or Japan or Jordan or Kazakhstan or Kosovo or Kyrgyzstan or Laos or Latvia or Lebanon or Liechtenstein or Lithuania or Luxembourg or Malaysia or Mexico or Moldova or Mongolia or Montenegro or Myanmar or Nepal or Netherlands or Nicaragua or North Korea or North Macedonia or Norway or Pakistan or Palestine or Panama or Paraguay or Peru or Poland or Portugal or Romania or Russia or Serbia or Slovakia or Slovenia or South Korea or Spain or Sri Lanka or Suriname or Sweden or Switzerland or Syria or Tajikistan or Thailand or Trinidad and Tobago or Turkey or Turkmenistan or Ukraine or United Kingdom or United States or Uzbekistan or Venezuela or Vietnam ... go to 26
-25b. country of origin (native range, MDD v2.5): any other country ... go to 30
+25b. country of origin (native range, MDD v2.5): any other country ... go to 34
 
-26a. upper premolars per side: 1 ... *Ratufa / Sciurus (not separated)*
-26b. upper premolars per side: 2 ... go to 27
+26a. upper premolars per side: 1 ... go to 27
+26b. upper premolars per side: 2 ... go to 28
 
-27a. longitudinal stripes along the back: absent ... go to 28
-27b. longitudinal stripes along the back: present ... *Funambulus / Sciurus / Marmota (not separated)*
+27a. frontoparietal suture in adults: visible ... *Sciurus*
+27b. frontoparietal suture in adults: fused ... *Ratufa*
 
-28a. soles of the hind feet densely furred: no ... *Sciurus / Marmota (not separated)*
-28b. soles of the hind feet densely furred: yes ... go to 29
+28a. longitudinal stripes along the back: absent ... go to 29
+28b. longitudinal stripes along the back: present ... go to 32
 
-29a. high-crowned cheek teeth: no ... *Sciurus*
-29b. high-crowned cheek teeth: yes ... *Spermophilopsis*
+29a. soles of the hind feet densely furred: no ... go to 30
+29b. soles of the hind feet densely furred: yes ... go to 31
 
-30a. high-crowned cheek teeth: no ... *Atlantoxerus*
-30b. high-crowned cheek teeth: yes ... *Euxerus*
+30a. frontoparietal suture in adults: visible ... *Sciurus*
+30b. frontoparietal suture in adults: fused ... *Marmota*
 
-31a. high-crowned cheek teeth: no ... go to 32
-31b. high-crowned cheek teeth: yes ... go to 37
+31a. high-crowned cheek teeth: no ... *Sciurus*
+31b. high-crowned cheek teeth: yes ... *Spermophilopsis*
 
-32a. longitudinal stripes along the back: absent ... go to 33
-32b. longitudinal stripes along the back: present ... go to 35
+32a. frontoparietal suture in adults: visible ... go to 33
+32b. frontoparietal suture in adults: fused ... *Funambulus / Marmota (not separated)*
 
-33a. upper premolars per side: 1 ... *Ratufa / Sciurus / Sciurotamias (not separated)*
-33b. upper premolars per side: 2 ... go to 34
+33a. premaxilla process abuts nasal: no ... *Funambulus*
+33b. premaxilla process abuts nasal: yes ... *Sciurus*
 
-34a. mammae three pairs: no ... *Sciurus / Marmota (not separated)*
-34b. mammae three pairs: yes ... *Sciurus / Sciurotamias (not separated)*
+34a. high-crowned cheek teeth: no ... *Atlantoxerus*
+34b. high-crowned cheek teeth: yes ... *Euxerus*
 
-35a. soles of the hind feet densely furred: no ... *Funambulus / Sciurus / Marmota (not separated)*
-35b. soles of the hind feet densely furred: yes ... go to 36
+35a. country of origin (native range, MDD v2.5): Bangladesh or Bhutan or Brunei or Cambodia or China or India or Indonesia or Laos or Malaysia or Myanmar or Nepal or Singapore or Taiwan or Thailand or Vietnam ... go to 36
+35b. country of origin (native range, MDD v2.5): any other country ... go to 40
 
-36a. country of origin (native range, MDD v2.5): China or Japan or Kazakhstan or Mongolia or North Korea or Russia or South Korea ... *Sciurus / Eutamias (not separated)*
-36b. country of origin (native range, MDD v2.5): any other country ... *Funambulus / Sciurus (not separated)*
+36a. nasal vs interorbital: nasal_longer ... go to 37
+36b. nasal vs interorbital: interorbital_broader ... go to 38
 
-37a. longitudinal stripes along the back: absent ... go to 38
-37b. longitudinal stripes along the back: present ... *Funambulus / Marmota (not separated)*
+37a. cheekteeth deep central valley: no ... *Dremomys / Marmota (not separated)*
+37b. cheekteeth deep central valley: yes ... *Menetes / Marmota (not separated)*
 
-38a. mammae three pairs: no ... go to 39
-38b. mammae three pairs: yes ... go to 41
+38a. tufts of long hair at the ear tips: absent ... *Callosciurus / Marmota (not separated)*
+38b. tufts of long hair at the ear tips: present ... go to 39
 
-39a. lower p4 paraconulid: absent ... *Spermophilus / Urocitellus / Spermophilopsis (not separated)*
-39b. lower p4 paraconulid: present ... go to 40
+39a. orbit length over 13mm: no ... *Tamiops*
+39b. orbit length over 13mm: yes ... *Callosciurus*
 
-40a. soles of the hind feet densely furred: no ... *Marmota*
-40b. soles of the hind feet densely furred: yes ... *Spermophilopsis*
+40a. country of origin (native range, MDD v2.5): Afghanistan or Austria or Canada or China or France or Germany or India or Iran or Italy or Kazakhstan or Kyrgyzstan or Liechtenstein or Mongolia or Nepal or Pakistan or Poland or Romania or Russia or Slovakia or Slovenia or Spain or Switzerland or Tajikistan or Turkmenistan or Ukraine or United States or Uzbekistan ... go to 41
+40b. country of origin (native range, MDD v2.5): any other country ... go to 42
 
-41a. country of origin (native range, MDD v2.5): Afghanistan or Iran or Kazakhstan or Tajikistan or Turkmenistan or Uzbekistan ... *Spermophilopsis*
-41b. country of origin (native range, MDD v2.5): any other country ... *Sciurotamias*
+41a. soles of the hind feet densely furred: no ... *Marmota*
+41b. soles of the hind feet densely furred: yes ... *Spermophilopsis*
 
-42a. biogeographic realm of origin (native range, MDD v2.5): Indomalaya ... go to 43
-42b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Antarctic or Australasia or Nearctic or Neotropic or Oceania or Palearctic ... go to 69
+42a. high-crowned cheek teeth: no ... *Atlantoxerus*
+42b. high-crowned cheek teeth: yes ... *Euxerus*
 
-43a. head-and-body length at most 232 mm ... go to 44
-43b. head-and-body length more than 232 mm ... go to 54
+43a. longitudinal stripes along the back: absent ... go to 44
+43b. longitudinal stripes along the back: present ... go to 50
 
-44a. head-and-body length at most 152 mm ... go to 45
-44b. head-and-body length more than 152 mm ... go to 48
+44a. upper premolars per side: 1 ... go to 45
+44b. upper premolars per side: 2 ... go to 46
 
-45a. molar enamel sculptured: no ... go to 46
-45b. molar enamel sculptured: yes ... *Hylopetes / Petinomys (not separated)*
+45a. frontoparietal suture in adults: visible ... *Sciurotamias*
+45b. frontoparietal suture in adults: fused ... *Ratufa*
 
-46a. bullae inflation: inflated ... go to 47
-46b. bullae inflation: low_flattened ... *Hylopetes / Olisthomys (not separated)*
+46a. mammae three pairs: no ... go to 47
+46b. mammae three pairs: yes ... go to 49
 
-47a. p4 vs m1: p4_smaller ... *Petaurillus*
-47b. p4 vs m1: p4_equal_or_larger ... *Hylopetes*
+47a. lower p4 paraconulid: absent ... *Spermophilus / Urocitellus / Spermophilopsis (not separated)*
+47b. lower p4 paraconulid: present ... go to 48
 
-48a. upper cheekteeth hypocone distinct: no ... go to 49
-48b. upper cheekteeth hypocone distinct: yes ... go to 50
+48a. soles of the hind feet densely furred: no ... *Marmota*
+48b. soles of the hind feet densely furred: yes ... *Spermophilopsis*
 
-49a. bulla septa honeycomb: no ... *Hylopetes / Petinomys / Priapomys (not separated)*
-49b. bulla septa honeycomb: yes ... *Hylopetes / Petinomys / Belomys (not separated)*
+49a. country of origin (native range, MDD v2.5): Afghanistan or Iran or Kazakhstan or Tajikistan or Turkmenistan or Uzbekistan ... *Spermophilopsis*
+49b. country of origin (native range, MDD v2.5): any other country ... *Sciurotamias*
 
-50a. upper premolars per side: 1 ... go to 51
-50b. upper premolars per side: 2 ... go to 52
+50a. soles of the hind feet densely furred: no ... *Funambulus / Marmota (not separated)*
+50b. soles of the hind feet densely furred: yes ... go to 51
 
-51a. bullar septa: lt4 ... *Iomys*
-51b. bullar septa: honeycomb_gt4 or cobweb_gt4 ... *Pteromyscus*
+51a. country of origin (native range, MDD v2.5): China or Japan or Kazakhstan or Mongolia or North Korea or Russia or South Korea ... *Eutamias*
+51b. country of origin (native range, MDD v2.5): any other country ... *Funambulus*
 
-52a. bulla septa honeycomb: no ... go to 53
-52b. bulla septa honeycomb: yes ... *Belomys / Pteromyscus (not separated)*
+52a. bullar septa: lt4 ... go to 53
+52b. bullar septa: honeycomb_gt4 or cobweb_gt4 ... go to 63
 
-53a. country of origin (native range, MDD v2.5): Brunei or Indonesia or Malaysia or Thailand ... *Pteromyscus*
-53b. country of origin (native range, MDD v2.5): any other country ... *Priapomys*
+53a. biogeographic realm of origin (native range, MDD v2.5): Indomalaya ... go to 54
+53b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Australasia or Nearctic or Neotropic or Palearctic ... go to 59
 
-54a. bullar septa: lt4 ... go to 55
-54b. bullar septa: honeycomb_gt4 or cobweb_gt4 ... go to 63
+54a. interfemoral membrane: well_developed ... go to 55
+54b. interfemoral membrane: not_well_developed ... go to 56
 
-55a. upper premolars per side: 1 ... go to 56
-55b. upper premolars per side: 2 ... go to 57
+55a. upper molar posterior flexus distinct: no ... *Aeromys*
+55b. upper molar posterior flexus distinct: yes ... *Petaurista*
 
-56a. upper cheekteeth hypocone distinct: no ... *Hylopetes*
+56a. upper cheekteeth hypocone distinct: no ... go to 57
 56b. upper cheekteeth hypocone distinct: yes ... *Iomys*
 
-57a. head-and-body length at most 367 mm ... go to 58
-57b. head-and-body length more than 367 mm ... go to 61
+57a. p4 vs m1: p4_smaller ... go to 58
+57b. p4 vs m1: p4_equal_or_larger ... *Hylopetes / Priapomys (not separated)*
 
-58a. soles of the hind feet densely furred: no ... go to 59
-58b. soles of the hind feet densely furred: yes ... go to 60
+58a. head-and-body length at most 138 mm ... *Petaurillus*
+58b. head-and-body length more than 138 mm ... *Priapomys*
 
-59a. interfemoral membrane: well_developed ... *Aeromys / Petaurista (not separated)*
-59b. interfemoral membrane: not_well_developed ... *Hylopetes / Petaurista (not separated)*
+59a. coronoid process reduced: no ... go to 60
+59b. coronoid process reduced: yes ... go to 62
 
-60a. bulla septa honeycomb: no ... *Hylopetes / Petaurista (not separated)*
-60b. bulla septa honeycomb: yes ... *Hylopetes / Belomys (not separated)*
+60a. upper molar posterior flexus distinct: no ... *Eoglaucomys / Hylopetes (not separated)*
+60b. upper molar posterior flexus distinct: yes ... go to 61
 
-61a. bulla septa honeycomb: no ... *Aeromys / Petaurista (not separated)*
-61b. bulla septa honeycomb: yes ... go to 62
+61a. interfemoral membrane: well_developed ... *Petaurista*
+61b. interfemoral membrane: not_well_developed ... *Aeretes*
 
-62a. country of origin (native range, MDD v2.5): Brunei or Indonesia or Malaysia or Thailand ... *Aeromys*
-62b. country of origin (native range, MDD v2.5): any other country ... *Biswamoyopterus*
+62a. head-and-body length at most 323 mm ... *Pteromys*
+62b. head-and-body length more than 323 mm ... *Eupetaurus*
 
-63a. head-and-body length at most 367 mm ... go to 64
-63b. head-and-body length more than 367 mm ... go to 67
+63a. upper cheekteeth paraconule: absent ... go to 64
+63b. upper cheekteeth paraconule: reduced or developed ... go to 66
 
-64a. cheekteeth excessively wrinkled: no ... go to 65
-64b. cheekteeth excessively wrinkled: yes ... go to 66
+64a. upper cheekteeth hypocone distinct: no ... go to 65
+64b. upper cheekteeth hypocone distinct: yes ... *Biswamoyopterus*
 
-65a. bulla septa honeycomb: no ... *Hylopetes / Petinomys / Petaurista (not separated)*
-65b. bulla septa honeycomb: yes ... *Hylopetes / Petinomys / Belomys (not separated)*
+65a. molar enamel sculptured: no ... *Olisthomys*
+65b. molar enamel sculptured: yes ... *Petinomys*
 
-66a. bulla septa honeycomb: no ... *Petaurista / Pteromyscus (not separated)*
-66b. bulla septa honeycomb: yes ... *Belomys / Pteromyscus (not separated)*
+66a. ear base tufts: absent ... *Pteromyscus*
+66b. ear base tufts: present ... go to 67
 
-67a. bulla septa honeycomb: no ... *Petinomys / Petaurista (not separated)*
-67b. bulla septa honeycomb: yes ... go to 68
+67a. p4 greatly enlarged: no ... *Belomys*
+67b. p4 greatly enlarged: yes ... *Trogopterus*
 
-68a. head-and-body length at most 387 mm ... *Petinomys*
-68b. head-and-body length more than 387 mm ... *Biswamoyopterus*
+68a. biogeographic realm of origin (native range, MDD v2.5): Nearctic or Palearctic ... go to 69
+68b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Australasia or Indomalaya or Neotropic ... go to 89
 
-69a. bulla septa honeycomb: no ... go to 70
-69b. bulla septa honeycomb: yes ... go to 74
+69a. high-crowned cheek teeth: no ... go to 70
+69b. high-crowned cheek teeth: yes ... go to 85
 
-70a. coronoid process reduced: no ... go to 71
-70b. coronoid process reduced: yes ... go to 73
+70a. frontoparietal suture in adults: visible ... go to 71
+70b. frontoparietal suture in adults: fused ... go to 76
 
-71a. interfemoral membrane well developed: no ... go to 72
-71b. interfemoral membrane well developed: yes ... *Hylopetes / Petaurista (not separated)*
+71a. internal cheek pouches: absent ... go to 72
+71b. internal cheek pouches: present ... go to 74
 
-72a. longitudinal groove on the front of the upper incisors: smooth ... *Eoglaucomys / Hylopetes (not separated)*
-72b. longitudinal groove on the front of the upper incisors: grooved ... *Hylopetes / Aeretes (not separated)*
+72a. gliding membrane between fore- and hind-limbs: absent ... go to 73
+72b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-73a. head-and-body length at most 374 mm ... *Hylopetes / Pteromys (not separated)*
-73b. head-and-body length more than 374 mm ... *Eupetaurus*
+73a. baculum well developed: no ... *Tamiasciurus*
+73b. baculum well developed: yes ... *Sciurus*
 
-74a. head-and-body length at most 367 mm ... go to 75
-74b. head-and-body length more than 367 mm ... *Biswamoyopterus*
+74a. gliding membrane between fore- and hind-limbs: absent ... go to 75
+74b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-75a. p4 greatly enlarged: no ... *Hylopetes / Belomys (not separated)*
-75b. p4 greatly enlarged: yes ... *Hylopetes / Trogopterus (not separated)*
+75a. upper premolars per side: 1 ... *Tamias*
+75b. upper premolars per side: 2 ... *Neotamias*
 
-76a. biogeographic realm of origin (native range, MDD v2.5): Nearctic or Palearctic ... go to 77
-76b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Antarctic or Australasia or Indomalaya or Neotropic or Oceania ... go to 97
+76a. upper p3 gt quarter p4: no ... go to 77
+76b. upper p3 gt quarter p4: yes ... go to 83
 
-77a. high-crowned cheek teeth: no ... go to 78
-77b. high-crowned cheek teeth: yes ... go to 93
+77a. pale shoulder crescents: absent ... go to 78
+77b. pale shoulder crescents: present ... go to 81
 
-78a. pale or dark line along the side of the body: absent ... go to 79
-78b. pale or dark line along the side of the body: present ... go to 86
+78a. gliding membrane between fore- and hind-limbs: absent ... go to 79
+78b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-79a. upper p3 gt quarter p4: no ... go to 80
-79b. upper p3 gt quarter p4: yes ... go to 84
+79a. pale or dark line along the side of the body: absent ... go to 80
+79b. pale or dark line along the side of the body: present ... *Ammospermophilus*
 
-80a. gliding membrane between fore- and hind-limbs: absent ... go to 81
-80b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
+80a. mammae three pairs: no ... *Xerospermophilus*
+80b. mammae three pairs: yes ... *Notocitellus*
 
-81a. infraorbital canal: absent ... *Sciurus / Tamiasciurus / Neotamias (not separated)*
-81b. infraorbital canal: present ... go to 82
+81a. gliding membrane between fore- and hind-limbs: absent ... go to 82
+81b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-82a. mammae three pairs: no ... go to 83
-82b. mammae three pairs: yes ... *Sciurus / Tamiasciurus / Notocitellus (not separated)*
+82a. pale lateral stripe black bordered: absent ... *Otospermophilus*
+82b. pale lateral stripe black bordered: present ... *Callospermophilus*
 
-83a. pale shoulder crescents: absent ... *Sciurus / Tamiasciurus / Xerospermophilus (not separated)*
-83b. pale shoulder crescents: present ... *Sciurus / Tamiasciurus / Otospermophilus (not separated)*
+83a. gliding membrane between fore- and hind-limbs: absent ... go to 84
+83b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-84a. gliding membrane between fore- and hind-limbs: absent ... go to 85
-84b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
+84a. lower p4 paraconulid: absent ... *Poliocitellus*
+84b. lower p4 paraconulid: present ... *Marmota*
 
-85a. lower p4 paraconulid: absent ... *Sciurus / Tamiasciurus / Poliocitellus (not separated)*
-85b. lower p4 paraconulid: present ... *Sciurus / Tamiasciurus / Marmota (not separated)*
+85a. country of origin (native range, MDD v2.5): Afghanistan or Austria or Canada or China or France or Germany or India or Italy or Kazakhstan or Kyrgyzstan or Liechtenstein or Mexico or Mongolia or Nepal or Pakistan or Poland or Romania or Russia or Slovakia or Slovenia or Spain or Switzerland or Tajikistan or Ukraine or United States or Uzbekistan ... go to 86
+85b. country of origin (native range, MDD v2.5): any other country ... *Euxerus*
 
-86a. infraorbital canal: absent ... go to 87
-86b. infraorbital canal: present ... go to 89
+86a. lower p4 paraconulid: absent ... go to 87
+86b. lower p4 paraconulid: present ... *Marmota*
 
-87a. gliding membrane between fore- and hind-limbs: absent ... go to 88
-87b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
+87a. upper toothrows strongly convergent: no ... go to 88
+87b. upper toothrows strongly convergent: yes ... *Cynomys*
 
-88a. upper premolars per side: 1 ... *Sciurus / Tamiasciurus / Tamias (not separated)*
-88b. upper premolars per side: 2 ... *Sciurus / Tamiasciurus / Neotamias (not separated)*
+88a. p4 metaloph continuous: no ... *Ictidomys*
+88b. p4 metaloph continuous: yes ... *Urocitellus*
 
-89a. gliding membrane between fore- and hind-limbs: absent ... go to 90
-89b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
+89a. country of origin (native range, MDD v2.5): Angola or Benin or Botswana or Burkina Faso or Burundi or Cameroon or Central African Republic or Chad or Cote d'Ivoire or Democratic Republic of the Congo or Djibouti or Equatorial Guinea or Eritrea or Ethiopia or Gabon or Gambia or Ghana or Guinea or Guinea-Bissau or Kenya or Lesotho or Liberia or Malawi or Mali or Mauritania or Morocco or Mozambique or Namibia or Niger or Nigeria or Republic of the Congo or Rwanda or Senegal or Sierra Leone or Somalia or South Africa or South Sudan or Sudan or Tanzania or Togo or Uganda or Zambia or Zimbabwe ... go to 90
+89b. country of origin (native range, MDD v2.5): any other country ... go to 98
 
-90a. lower p4 paraconulid: absent ... go to 91
-90b. lower p4 paraconulid: present ... *Sciurus / Tamiasciurus / Marmota (not separated)*
+90a. pelage bristly: no ... go to 91
+90b. pelage bristly: yes ... go to 96
 
-91a. pale lateral stripe black bordered: absent ... go to 92
-91b. pale lateral stripe black bordered: present ... *Sciurus / Tamiasciurus / Callospermophilus (not separated)*
+91a. infraorbital foramen forms canal: no ... go to 92
+91b. infraorbital foramen forms canal: yes ... go to 94
 
-92a. pale shoulder crescents: absent ... *Sciurus / Tamiasciurus / Ammospermophilus (not separated)*
-92b. pale shoulder crescents: present ... *Sciurus / Tamiasciurus / Otospermophilus (not separated)*
+92a. head-and-body length at most 147 mm ... *Myosciurus*
+92b. head-and-body length more than 147 mm ... go to 93
 
-93a. country of origin (native range, MDD v2.5): Afghanistan or Austria or Canada or China or France or Germany or India or Italy or Kazakhstan or Kyrgyzstan or Liechtenstein or Mexico or Mongolia or Nepal or Pakistan or Poland or Romania or Russia or Slovakia or Slovenia or Spain or Switzerland or Tajikistan or Ukraine or United States or Uzbekistan ... go to 94
-93b. country of origin (native range, MDD v2.5): any other country ... *Euxerus*
+93a. buccinator masticatory foramina separate: no ... *Protoxerus*
+93b. buccinator masticatory foramina separate: yes ... *Epixerus*
 
-94a. lower p4 paraconulid: absent ... go to 95
-94b. lower p4 paraconulid: present ... *Marmota*
+94a. lower molar crown type: basin_shaped or ridged_high_cusps ... go to 95
+94b. lower molar crown type: ridged_flat ... *Funisciurus*
 
-95a. upper toothrows strongly convergent: no ... go to 96
-95b. upper toothrows strongly convergent: yes ... *Cynomys*
+95a. premaxilla dorsoanterior process meets nasal: no ... *Paraxerus*
+95b. premaxilla dorsoanterior process meets nasal: yes ... *Heliosciurus*
 
-96a. p4 metaloph continuous: no ... *Ictidomys*
-96b. p4 metaloph continuous: yes ... *Urocitellus*
+96a. pale or dark line along the side of the body: absent ... *Xerus*
+96b. pale or dark line along the side of the body: present ... go to 97
 
-97a. country of origin (native range, MDD v2.5): Angola or Benin or Botswana or Burkina Faso or Burundi or Cameroon or Central African Republic or Chad or Cote d'Ivoire or Democratic Republic of the Congo or Djibouti or Equatorial Guinea or Eritrea or Ethiopia or Gabon or Gambia or Ghana or Guinea or Guinea-Bissau or Kenya or Lesotho or Liberia or Malawi or Mali or Mauritania or Morocco or Mozambique or Namibia or Niger or Nigeria or Republic of the Congo or Rwanda or Senegal or Sierra Leone or Somalia or South Africa or South Sudan or Sudan or Tanzania or Togo or Uganda or Zambia or Zimbabwe ... go to 98
-97b. country of origin (native range, MDD v2.5): any other country ... go to 105
+97a. ear pinna reduced to rim: no ... *Euxerus*
+97b. ear pinna reduced to rim: yes ... *Geosciurus*
 
-98a. pelage bristly: no ... go to 99
-98b. pelage bristly: yes ... go to 103
+98a. biogeographic realm of origin (native range, MDD v2.5): Australasia ... go to 99
+98b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Indomalaya or Nearctic or Neotropic or Palearctic ... go to 101
 
-99a. infraorbital foramen forms canal: no ... go to 100
-99b. infraorbital foramen forms canal: yes ... go to 102
+99a. markedly elongated, shrew-like snout: no ... go to 100
+99b. markedly elongated, shrew-like snout: yes ... *Hyosciurus*
 
-100a. head-and-body length at most 147 mm ... *Myosciurus*
-100b. head-and-body length more than 147 mm ... go to 101
+100a. head-and-body length at most 222 mm ... *Prosciurillus*
+100b. head-and-body length more than 222 mm ... *Rubrisciurus*
 
-101a. infraorbital foramen shape: rounded_large ... *Protoxerus*
-101b. infraorbital foramen shape: slit_like ... *Epixerus*
+101a. gliding membrane between fore- and hind-limbs: absent ... go to 102
+101b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
 
-102a. lower molar crown type: basin_shaped or ridged_high_cusps ... *Heliosciurus / Paraxerus (not separated)*
-102b. lower molar crown type: ridged_flat ... *Funisciurus*
+102a. frontoparietal suture in adults: visible ... go to 103
+102b. frontoparietal suture in adults: fused ... *Sciurillus*
 
-103a. pale or dark line along the side of the body: absent ... *Xerus*
-103b. pale or dark line along the side of the body: present ... go to 104
+103a. upper incisors procumbent: no ... *Sciurus*
+103b. upper incisors procumbent: yes ... go to 104
 
-104a. ear pinna reduced to rim: no ... *Euxerus*
-104b. ear pinna reduced to rim: yes ... *Geosciurus*
-
-105a. biogeographic realm of origin (native range, MDD v2.5): Australasia ... go to 106
-105b. biogeographic realm of origin (native range, MDD v2.5): Afrotropic or Antarctic or Indomalaya or Nearctic or Neotropic or Oceania or Palearctic ... go to 108
-
-106a. markedly elongated, shrew-like snout: no ... go to 107
-106b. markedly elongated, shrew-like snout: yes ... *Hyosciurus*
-
-107a. head-and-body length at most 222 mm ... *Prosciurillus*
-107b. head-and-body length more than 222 mm ... *Rubrisciurus*
-
-108a. gliding membrane between fore- and hind-limbs: absent ... go to 109
-108b. gliding membrane between fore- and hind-limbs: present ... *Glaucomys*
-
-109a. frontoparietal suture in adults: visible ... go to 110
-109b. frontoparietal suture in adults: fused ... *Sciurillus*
-
-110a. interparietal sutures fused in adults: no ... *Microsciurus / Sciurus (not separated)*
-110b. interparietal sutures fused in adults: yes ... *Sciurus / Syntheosciurus (not separated)*
+104a. interparietal sutures fused in adults: no ... *Microsciurus*
+104b. interparietal sutures fused in adults: yes ... *Syntheosciurus*
 
 
 ## Genus profiles and sources
@@ -365,10 +347,12 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **dorsal stripes**: present — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC5ED38FF11FC0DFC9BFEC7) (+1 more in data/characters)
 - **snout elongate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Wikipedia](https://en.wikipedia.org/wiki/Layard's_palm_squirrel)
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **baculum accessory blade**: no — [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Pocock](https://zenodo.org/records/13674531)
 - **cheekteeth deep central valley**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **dark interstripe pattern**: uniform — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **mid dorsal stripe colour**: pale — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFCAED37FFC7F548F599F0AC) (+2 more in data/characters)
 - **pale dorsal stripes**: present — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **premaxilla process abuts nasal**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 
 ### Hyosciurus
 - **head-and-body length**: 195-250 mm — [Musser](https://zenodo.org/records/13223327); [Koprowski](https://zenodo.org/records/6818644); [Koprowski](https://zenodo.org/records/6840505)
@@ -405,28 +389,42 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper incisor orientation**: proodont — [Musser](https://zenodo.org/records/13223327)
 
 ### Callosciurus
-- **head-and-body length**: not sourced
+- **head-and-body length**: 130-300 mm — [Wikipedia](https://en.wikipedia.org/wiki/Callosciurus); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFD7ED2AFA17FB84F92DFE7B); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFD0ED2DFAF1FE1AF6E1F1FE) (+18 more in data/characters)
 - **patagium**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **snout elongate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **cheek pouches**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **upper premolars**: 2 — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Animal Diversity Web](https://animaldiversity.org/accounts/Callosciurus_notatus/)
+- **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **baculum accessory blade**: yes — [Pocock](https://zenodo.org/records/13674531); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **bulla anteromesial lobe**: absent — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Moore 1958](https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d)
 - **cheekteeth deep central valley**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **cheekteeth pattern lost from birth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **incisors broad divergent**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **mid dorsal stripe colour**: none or dark — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **nasal vs interorbital**: interorbital_broader — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **orbit length over 13mm**: yes — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **pale dorsal stripes**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **upper incisor orientation**: orthodont or proodont — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Dremomys
 - **head-and-body length**: 165-230 mm — [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF66F658F728F14D); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCBFC41FE0AFFCF) (+3 more in data/characters)
 - **patagium**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **cheek pouches**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Hawkins et al. 2016](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf)
+- **baculum accessory blade**: yes — [Pocock](https://zenodo.org/records/13674531); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **bulla anteromesial lobe**: absent — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Hawkins](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf)
 - **cheekteeth deep central valley**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **cheekteeth pattern lost from birth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **mid dorsal stripe colour**: none or dark — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **nasal vs interorbital**: nasal_longer — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **occiput median keel pronounced**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
+- **p4 largest upper cheek tooth**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 - **pale dorsal stripes**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **postauricular patch**: present — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC2ED3FFFCEF6EEF629F4A4); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3FFA63F969FC6EF473) (+1 more in data/characters)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **temporal foramen**: present — [Hawkins et al. 2016](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf)
+- **upper incisors reduced**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Glyphotes
 - **head-and-body length**: 94-144 mm — [Koprowski](https://zenodo.org/records/6818722); [Thomas 1898](https://zenodo.org/records/18026445); [English Wikipedia](https://en.wikipedia.org/wiki/Glyphotes)
@@ -445,18 +443,26 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **hypsodont cheek teeth**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **bulla anteromesial lobe**: absent — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Moore 1958](https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d)
+- **cheekteeth pattern lost from birth**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **nasal vs interorbital**: nasal_longer — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 - **p4 largest upper cheek tooth**: yes — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Menetes
 - **head-and-body length**: 160-210 mm — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220); [Wikipedia](https://en.wikipedia.org/wiki/Berdmore's_ground_squirrel)
 - **patagium**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
-- **snout elongate**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Wikipedia](https://en.wikipedia.org/wiki/Berdmore's_ground_squirrel)
 - **cheek pouches**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **baculum accessory blade**: yes — [Pocock](https://zenodo.org/records/13674531); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **bulla anteromesial lobe**: absent — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 - **cheekteeth deep central valley**: yes — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **mid dorsal stripe colour**: none or dark — [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220)
 - **nasal vs interorbital**: nasal_longer — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **occiput median keel pronounced**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
+- **p4 largest upper cheek tooth**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 - **pale dorsal stripes**: present — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **teat pairs**: 3 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFD8ED25FFC1F737F9B9F220)
 
 ### Nannosciurus
 - **head-and-body length**: 62-82 mm — [Musser](https://zenodo.org/records/13223327); [Koprowski](https://zenodo.org/records/6818668); [Hayssen 2008](http://www.science.smith.edu/departments/Biology/VHAYSSEN/sq_size.pdf)
@@ -479,6 +485,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Animal Diversity Web account](https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/)
 - **claws greatly elongated**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **nape hair reversed**: present — [Musser](https://zenodo.org/records/13223327)
+- **occiput median keel pronounced**: yes — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 - **teat pairs**: 2 — [Animal Diversity Web account](https://animaldiversity.org/accounts/Rhinosciurus_laticaudatus/)
 - **upper incisors reduced**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265)
 
@@ -488,7 +495,8 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **snout elongate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Hawkins](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf)
 - **upper premolars**: 2 — [Hawkins](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf); [Animal Diversity Web account](https://animaldiversity.org/accounts/Sundasciurus_hippurus/); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **bulla anteromesial lobe**: present — [Moore 1958](https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d); [Hawkins](https://www.consevol.org/pdf/Hawkins_2016_MolPhylogenEvol.pdf)
+- **cheekteeth pattern lost from birth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **incisors broad divergent**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Tamiops
 - **head-and-body length**: 100-155 mm — [Wikipedia](https://en.wikipedia.org/wiki/Asiatic_striped_squirrel); [Liu et al. 2022](https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC0ED3DFFF0FE5BFD8DFFD5) (+4 more in data/characters)
@@ -499,12 +507,16 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **snout elongate**: no — [Liu et al. 2022](https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **cheek pouches**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **upper premolars**: 2 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Liu et al. 2022](https://tb.plazi.org/GgServer/xhtml/03F8879348029755FF33FDE4B6B5DC26)
+- **baculum accessory blade**: yes — [Pocock](https://zenodo.org/records/13674531)
+- **bulla anteromesial lobe**: absent — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Moore 1958](https://digitallibrary.amnh.org/items/0dcd3237-df30-4aed-8a7d-e2ce034a9f1d)
 - **cheekteeth deep central valley**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **dark interstripe pattern**: paired_dark_and_pale — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **incisors broad divergent**: no — [Moore 1959](https://digitallibrary.amnh.org/handle/2246/1265); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **mid dorsal stripe colour**: dark — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC3ED3EFF65FCC3FE59FFBE)
 - **nasal vs interorbital**: interorbital_broader — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **orbit length over 13mm**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **pale dorsal stripes**: present — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Ratufa
 - **head-and-body length**: 250-500 mm — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFC9ED34FF69FD83F8DFF5D4); [Wilson](https://tb.plazi.org/GgServer/xhtml/064D0660FFCEED34FAF6FE0EFD87F534) (+8 more in data/characters)
@@ -514,9 +526,13 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 1 — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **baculum accessory blade**: no — [Pocock](https://zenodo.org/records/13674531); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **cheekteeth deep central valley**: no — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **manus digit3 longest**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **nasal vs interorbital**: interorbital_broader — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
 - **pale dorsal stripes**: absent — [Moore & Tate 1965](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Sciurillus
 - **head-and-body length**: 89-115 mm — [Jessen](https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf); [Handbook of the Mammals of the World](https://zenodo.org/records/6818622); [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047)
@@ -527,7 +543,6 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **jugal frontal contact**: present — [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047)
 - **mammae pairs**: 3 — [Jessen](https://cales.arizona.edu/research/redsquirrel/res_pdf/Jessen_etal_2013MammSpp_Sciurillus_pusillus.pdf); [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047)
 - **masseteric tubercle**: absent — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
-- **transbullar septa per bulla**: 1 — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **upper incisors procumbent**: yes — [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047)
 
 ### Eoglaucomys
@@ -535,105 +550,205 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **patagium**: present — [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **ear tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **tail distichous**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Koprowski JL](https://treatment.plazi.org/id/064D0660FFFEED03FFF1FE0FFC71FDF5); [Sterndale RA 1884](https://www.gutenberg.org/ebooks/19550)
-- **upper premolars**: 2 — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **cheekteeth excessively wrinkled**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **glans penis length class**: short — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth quadricuspidate**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper m3 metaloph**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **zygomatic plate high tilted**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Glaucomys
 - **head-and-body length**: 115-190 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FFFEED04FFCBF40EF698F290); [Koprowski JL](https://treatment.plazi.org/id/064D0660FFF9ED05FA69FA20FF69FC8E)
 - **patagium**: present — [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf); [Ford WM & Rodrigue JL](https://research.fs.usda.gov/download/treesearch/38588.pdf)
 - **ear tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **tail distichous**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Animal Diversity Web](https://animaldiversity.org/accounts/Glaucomys_sabrinus/); [Ford WM & Rodrigue JL](https://research.fs.usda.gov/download/treesearch/38588.pdf)
-- **upper premolars**: 2 — [Animal Diversity Web](https://animaldiversity.org/accounts/Glaucomys_sabrinus/); [Animal Diversity Web](https://animaldiversity.org/accounts/Glaucomys_volans/); [Ford WM & Rodrigue JL](https://research.fs.usda.gov/download/treesearch/38588.pdf) (+1 more in data/characters)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Animal Diversity Web](https://animaldiversity.org/accounts/Glaucomys_sabrinus/); [Animal Diversity Web](https://animaldiversity.org/accounts/Glaucomys_volans/) (+1 more in data/characters)
 - **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **cheekteeth excessively wrinkled**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth metaconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth quadricuspidate**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **zygomatic plate high tilted**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Hylopetes
 - **head-and-body length**: 100-330 mm — [Koprowski](https://zenodo.org/records/6840584 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Koprowski](https://zenodo.org/records/6818856 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [G. M. Allen 1925](https://digitallibrary.amnh.org/handle/2246/4464) (+8 more in data/characters)
 - **patagium**: present — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Animal Diversity Web](https://animaldiversity.org/accounts/Hylopetes_spadiceus/)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [GBIF occurrence record](https://api.gbif.org/v1/occurrence/search?institutionCode=AMNH&catalogNumber=M-58161); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/) (+2 more in data/characters)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [GBIF occurrence record](https://api.gbif.org/v1/occurrence/search?institutionCode=AMNH&catalogNumber=M-58161); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/) (+2 more in data/characters)
 - **cheekteeth excessively wrinkled**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **interfemoral membrane**: not_well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [GBIF occurrence record](https://api.gbif.org/v1/occurrence/search?institutionCode=AMNH&catalogNumber=M-58161); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **p4 vs m1**: p4_equal_or_larger — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **upper cheekteeth hypocone distinct**: no — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+1 more in data/characters)
 - **upper cheekteeth quadricuspidate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles) (+1 more in data/characters)
 
 ### Iomys
 - **head-and-body length**: 165-231 mm — [Koprowski](https://zenodo.org/records/6818822 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Koprowski](https://zenodo.org/records/6818825 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226))
 - **patagium**: present — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **ear tufts**: absent — [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files)); [Koprowski](https://zenodo.org/records/6818825 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper premolars**: 1 — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411) (+2 more in data/characters)
+- **upper premolars**: 1 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)) (+4 more in data/characters)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
 - **bullae inflation**: inflated — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **bullar septa**: lt4 — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files))
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411) (+1 more in data/characters)
 - **cheekteeth excessively wrinkled**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **interfemoral membrane**: not_well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **p4 vs m1**: p4_equal_or_larger — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **upper cheekteeth hypocone distinct**: yes — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+1 more in data/characters)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **upper cheekteeth quadricuspidate**: yes — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177))
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Olisthomys
 - **head-and-body length**: 92-140 mm — [Carter 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)); [Koprowski](https://zenodo.org/records/6818827 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226))
 - **patagium**: present — [Carter 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
 - **tail distichous**: yes — [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)); [Animal Diversity Web](https://animaldiversity.org/accounts/Petinomys_setosus/)
 - **snout elongate**: no — [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
-- **upper premolars**: 2 — [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files))
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop SV](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)) (+3 more in data/characters)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
+- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804) (+2 more in data/characters)
 - **bullae inflation**: low_flattened — [Carter 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
-- **bullar septa**: honeycomb_gt4 — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files))
+- **bullar septa**: honeycomb_gt4 or cobweb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804) (+5 more in data/characters)
 - **cheekteeth excessively wrinkled**: no — [Carter 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop SV](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
+- **lower cheekteeth protolophid entolophid**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
 - **molar enamel sculptured**: no — [Carter 1942](https://digitallibrary.amnh.org/handle/2246/3804); [Kruskop](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com))
-- **upper cheekteeth hypocone distinct**: no — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth anterolophule**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
+- **upper cheekteeth hypocone distinct**: no — [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles) (+2 more in data/characters)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
 - **upper cheekteeth quadricuspidate**: no — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
+- **upper molar anterior flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
+- **upper molar central flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Carter TD 1942](https://digitallibrary.amnh.org/handle/2246/3804)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles) (+1 more in data/characters)
 
 ### Petaurillus
 - **head-and-body length**: 68-96 mm — [Koprowski](https://zenodo.org/records/6818862 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Koprowski](https://zenodo.org/records/6818860 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)) (+2 more in data/characters)
 - **patagium**: present — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **tail distichous**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Animal Diversity Web](https://animaldiversity.org/accounts/Petaurillus/); [Animal Diversity Web](https://animaldiversity.org/accounts/Petaurillus_hosei/) (+1 more in data/characters)
 - **snout elongate**: no — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
 - **bullae inflation**: inflated — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
 - **cheekteeth excessively wrinkled**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **interfemoral membrane**: not_well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **molar enamel sculptured**: no — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177))
 - **p4 vs m1**: p4_smaller — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **upper cheekteeth hypocone distinct**: no — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177))
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177))
 - **upper cheekteeth quadricuspidate**: no — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Petinomys
 - **head-and-body length**: 92-370 mm — [Koprowski](https://zenodo.org/records/6818832 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Koprowski](https://zenodo.org/records/6818830 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Koprowski](https://zenodo.org/records/6818834 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)) (+7 more in data/characters)
 - **patagium**: present — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **snout elongate**: no — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **upper premolars**: 2 — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+2 more in data/characters)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle) (+3 more in data/characters)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **bullar septa**: honeycomb_gt4 or cobweb_gt4 — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files)) (+1 more in data/characters)
+- **bullar septa**: honeycomb_gt4 or cobweb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Kruskop SV](https://doi.org/10.3390/d14080610 (PDF retrieved from mdpi-res.com)) (+4 more in data/characters)
 - **cheekteeth excessively wrinkled**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **interfemoral membrane**: not_well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **ear base tufts**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Koprowski](https://zenodo.org/records/6818832 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)) (+3 more in data/characters)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **molar enamel sculptured**: yes — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **p4 vs m1**: p4_equal_or_larger — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **upper cheekteeth hypocone distinct**: no — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth anterolophule**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **upper cheekteeth quadricuspidate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Priapomys
 - **head-and-body length**: 180-210 mm — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **patagium**: present — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **ear tufts**: absent — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **tail distichous**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
-- **upper premolars**: 2 — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
-- **ear base tufts**: absent — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **ear large naked black**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **glans penis length class**: very_long — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane well developed**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth anterolophule**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth mesolophule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth metaconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar central flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Aeretes
 - **head-and-body length**: 275-365 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
@@ -642,17 +757,29 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **tail distichous**: yes — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
 - **snout elongate**: no — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **hairy soles**: yes — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
-- **upper premolars**: 2 — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **upper incisor groove**: grooved — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **upper incisor groove**: grooved — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411) (+1 more in data/characters)
 - **hypsodont cheek teeth**: no — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
-- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: absent — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **interfemoral membrane**: not_well_developed — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
 - **interfemoral membrane well developed**: no — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **lower cheekteeth protolophid entolophid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **p4 greatly enlarged**: no — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **upper incisor breadth**: broad — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **upper incisor color**: orange — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
-- **upper molar posterior flexus distinct**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper m3 metaloph**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Aeromys
 - **head-and-body length**: 255-426 mm — [Koprowski](https://zenodo.org/records/6818902 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Koprowski](https://zenodo.org/records/6818904 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Animal Diversity Web](https://animaldiversity.org/accounts/Aeromys_tephromelas/)
@@ -660,41 +787,86 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **ear tufts**: absent — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files)); [Koprowski](https://zenodo.org/records/6818902 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226))
 - **tail distichous**: no — [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411) (+1 more in data/characters)
 - **hairy soles**: no — [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft)
-- **upper premolars**: 2 — [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)) (+2 more in data/characters)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft) (+4 more in data/characters)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **bullar septa**: lt4 — [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files))
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411) (+3 more in data/characters)
 - **cheekteeth excessively wrinkled**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **interfemoral membrane**: well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft)
+- **interfemoral membrane well developed**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **p4 vs m1**: p4_equal_or_larger — [Robinson & Kloss 1915](https://archive.org/details/journaloffederat06fedeuoft); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **upper cheekteeth quadricuspidate**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177))
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Belomys
 - **head-and-body length**: 180-250 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED76FA17FCCFF7B8FC08); [Squirrels of India (Sciurid Lab) website](https://squirrelsofindia.in/species/belomys-pearsonii); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle) (+1 more in data/characters)
 - **patagium**: present — [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **hairy soles**: yes — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED76FA17FCCFF7B8FC08); [Sterndale RA 1884](https://www.gutenberg.org/ebooks/19550); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper premolars**: 2 — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle) (+1 more in data/characters)
 - **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **hypsodont cheek teeth**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: honeycomb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **cheekteeth excessively wrinkled**: yes — [Thomas O 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: present — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED76FA17FCCFF7B8FC08) (+1 more in data/characters)
+- **ear base tufts**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Thomas O 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)) (+3 more in data/characters)
+- **glans penis length class**: short — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **p4 greatly enlarged**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesostyle**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth metaconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth quadricuspidate**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper m3 metaloph**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Biswamoyopterus
 - **head-and-body length**: 405-540 mm — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Li G](https://pmc.ncbi.nlm.nih.gov/articles/PMC7341418/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B) (+1 more in data/characters)
 - **patagium**: present — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
 - **tail distichous**: no — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/)
 - **snout elongate**: no — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/)
-- **upper premolars**: 2 — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li G](https://pmc.ncbi.nlm.nih.gov/articles/PMC7341418/) (+1 more in data/characters)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/) (+2 more in data/characters)
 - **hypsodont cheek teeth**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **bullar septa**: honeycomb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: present — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Koprowski JL](https://treatment.plazi.org/id/064D0660FFF0ED0DFFF5FE52FF53F0E4) (+1 more in data/characters)
+- **ear base tufts**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/) (+2 more in data/characters)
+- **interfemoral membrane**: well_developed — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/)
 - **interfemoral membrane well developed**: yes — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/)
+- **lower cheekteeth protolophid entolophid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **p4 greatly enlarged**: no — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth mesolophule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesostyle**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth quadricuspidate**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **upper incisor color**: yellow — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658571/); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper m3 metaloph**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Eupetaurus
 - **head-and-body length**: 419-610 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF88ED75FFC4F3D3F6AAF022); [Jackson SM et al. 2021](https://treatment.plazi.org/id/03CD87EABE4B6B3CFC7235C4FDDF94C7); [Jackson SM et al. 2021](https://treatment.plazi.org/id/03CD87EABE4D6B20FCAF33B1FD4094FB) (+1 more in data/characters)
@@ -702,53 +874,102 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **ear tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Jackson SM et al. 2021](https://treatment.plazi.org/id/03CD87EABE4B6B3CFC7235C4FDDF94C7)
 - **tail distichous**: no — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF88ED75FFC4F3D3F6AAF022); [Jackson SM et al. 2021](https://treatment.plazi.org/id/03CD87EABE4C6B3DFF78308EFD5E901F)
 - **hairy soles**: yes — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF88ED75FFC4F3D3F6AAF022); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle) (+1 more in data/characters)
-- **upper premolars**: 2 — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **upper incisor groove**: smooth — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
 - **hypsodont cheek teeth**: yes — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf)
 - **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **coronoid process reduced**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesostyle**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth metaconule**: absent or reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth quadricuspidate**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **upper incisor color**: yellow — [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
+- **upper m3 metaloph**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Petaurista
 - **head-and-body length**: 270-610 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FFF0ED0EFAF6F7B6FBFFFA9B); [Koprowski JL](https://treatment.plazi.org/id/064D0660FFF3ED0EFA67FEFCF8F4F099); [Koprowski JL](https://treatment.plazi.org/id/064D0660FFF3ED0FFA63F827FEF7F025) (+15 more in data/characters)
 - **patagium**: present — [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper premolars**: 2 — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
-- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **interfemoral membrane well developed**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **metaloph notched separate metaconule**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **p4 greatly enlarged**: no — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
 - **upper incisor breadth**: narrow — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **upper incisor color**: orange — [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
-- **upper molar posterior flexus distinct**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar posterior flexus distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Pteromys
 - **head-and-body length**: 120-228 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF89ED75FA15FCFDFDA2F34F); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF88ED75FFC1FB6DFD67FC08); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle) (+1 more in data/characters)
 - **patagium**: present — [Jackson SM & Thorington RW Jr 2012](https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo53267/pdf/GOVPUB-SI-PURL-gpo53267.pdf); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **ear tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **tail distichous**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper premolars**: 2 — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper premolars**: 2 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Jackson SM](https://treatment.plazi.org/id/03CD87EABE446B3BFF1B3473FAEC91FD)
-- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: lt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **cheekteeth excessively wrinkled**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **coronoid process reduced**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
-- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **metaloph notched separate metaconule**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **p4 greatly enlarged**: no — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth metaconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth quadricuspidate**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **upper m3 metaloph**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **zygomatic plate high tilted**: yes — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Pteromyscus
 - **head-and-body length**: 200-290 mm — [Koprowski](https://zenodo.org/records/6818906 (Plazi treatment; part of https://doi.org/10.5281/zenodo.6840226)); [Animal Diversity Web](https://animaldiversity.org/accounts/Pteromyscus_pulverulentus/); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
 - **patagium**: present — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **ear tufts**: absent — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+1 more in data/characters)
+- **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135)
 - **hypsodont cheek teeth**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **bullae inflation**: inflated — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **bullar septa**: honeycomb_gt4 — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [Li et al. 2021](https://doi.org/10.24272/j.issn.2095-8137.2021.039 - Supplementary Materials zr-42-4-389-S1.pdf (Europe PMC PMC8317177 supplementary files)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: honeycomb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+2 more in data/characters)
 - **cheekteeth excessively wrinkled**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
-- **interfemoral membrane**: not_well_developed — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Thomas O 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)) (+1 more in data/characters)
+- **glans penis length class**: short — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Sanamxay D](https://treatment.plazi.org/id/03EB87E49D0BA973FF08F8DFBA30A55B)
+- **lower cheekteeth hypoconulid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **molar enamel sculptured**: yes — [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
-- **upper cheekteeth hypocone distinct**: yes — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [McKenna 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)) (+1 more in data/characters)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesostyle**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth metaconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth paraconule**: reduced or developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **upper cheekteeth quadricuspidate**: no — [Li](https://doi.org/10.24272/j.issn.2095-8137.2021.039 (full text via Europe PMC PMC8317177)); [Thomas 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877))
+- **upper m3 metaloph**: reduced — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Trogopterus
 - **head-and-body length**: 200-330 mm — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8AED77FFDAF8CEF58CF0C6); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
@@ -757,12 +978,29 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **dorsal spots**: absent — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8AED77FFDAF8CEF58CF0C6)
 - **tail distichous**: yes — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8AED77FFDAF8CEF58CF0C6); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8BED77FA10F3D4FDD0F135); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
-- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **bulla septa honeycomb**: yes — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **bullar septa**: honeycomb_gt4 or cobweb_gt4 — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **cheekteeth excessively wrinkled**: yes — [Thomas O 1908](https://zenodo.org/records/16011082 (BHL part 61877, https://www.biodiversitylibrary.org/part/61877)); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
 - **coronoid process reduced**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
-- **ear base tufts**: present — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle); [Koprowski JL](https://treatment.plazi.org/id/064D0660FF8AED77FFDAF8CEF58CF0C6); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **ear base tufts**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle) (+1 more in data/characters)
+- **glans penis length class**: short — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **interfemoral membrane**: not_well_developed — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **interfemoral membrane well developed**: no — [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle)
+- **lower cheekteeth hypoconulid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **lower cheekteeth protolophid entolophid**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 - **p4 greatly enlarged**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [Ellerman JR 1940](https://archive.org/details/familiesgeneraof01elle); [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **upper cheekteeth anterolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth hypocone distinct**: yes — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411)
+- **upper cheekteeth mesolophule**: absent — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth mesostyle**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth metaconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper cheekteeth paraconule**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper cheekteeth quadricuspidate**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
 - **upper incisor breadth**: narrow — [Allen GM 1940](https://archive.org/details/mammalsofchinamo02alle)
-- **upper molar posterior flexus distinct**: no — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper m3 metaloph**: developed — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles); [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/)
+- **upper molar anterior flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar central flexus**: present — [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
+- **upper molar posterior flexus distinct**: no — [Li Q](https://pmc.ncbi.nlm.nih.gov/articles/PMC8317177/); [McKenna MC 1962](https://digitallibrary.amnh.org/handle/2246/3411); [Li Q et al. 2021](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8317177/supplementaryFiles)
 
 ### Microsciurus
 - **head-and-body length**: 108-160 mm — [Handbook of the Mammals of the World](https://zenodo.org/records/6818808); [Handbook of the Mammals of the World](https://zenodo.org/records/6818814); [Jessen](https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94) (+4 more in data/characters)
@@ -771,7 +1009,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **interparietal sutures fused in adults**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **mammae pairs**: 3 — [de Abreu-Jr et al. 2020](https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf); [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047); [Jessen](https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94)
 - **masseteric tubercle**: present — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
-- **transbullar septa per bulla**: 1 or 2 — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **upper incisors procumbent**: yes — [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Rheithrosciurus
@@ -788,29 +1026,44 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 ### Sciurus
 - **head-and-body length**: 140-370 mm — [Handbook of the Mammals of the World](https://zenodo.org/records/6818786); [Handbook of the Mammals of the World](https://zenodo.org/records/6818790); [Mammal Diversity Database taxon page: Sciurus aestuans (taxo](https://www.mammaldiversity.org/taxon/1001675/) (+28 more in data/characters)
 - **patagium**: absent — [Jackson](https://doi.org/10.5479/si.00810282.638.1); [The Mammals of Texas](https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Rodentia/index.php); [Chapman](https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf) (+1 more in data/characters)
+- **snout elongate**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
+- **cheek pouches**: absent — [Ognev](https://archive.org/details/mammalsofeastern04ogne); [Los Angeles County Agricultural Commissioner/Weights & Measu](https://file.lacounty.gov/SDSInter/acwm/215273_t_treesquirrel_pdf.pdf)
+- **upper incisor groove**: smooth — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **hypsodont cheek teeth**: no — [Black](https://archive.org/details/biostor-97496); [Animal Diversity Web (University of Michigan Museum of Zoolo](https://animaldiversity.org/accounts/Sciurus_lis/)
+- **baculum accessory blade**: no — [Pocock](https://zenodo.org/records/13674531); [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf) (+1 more in data/characters)
+- **baculum well developed**: yes — [Pocock](https://zenodo.org/records/13674531); [Ellerman](https://archive.org/details/familiesgeneraof01elle); [Howell](https://archive.org/details/revisionofnortha56howe) (+1 more in data/characters)
 - **frontoparietal suture in adults**: visible — [Voss](https://digitallibrary.amnh.org/items/9cc48373-fa1b-4094-9c80-ade05e562047); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **infraorbital canal**: present — [Ellerman](https://archive.org/details/familiesgeneraof01elle); [Howell](https://archive.org/details/revisionofnortha56howe)
+- **manus digit3 longest**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle); [Pocock](https://zenodo.org/records/13674531); [Ognev](https://archive.org/details/mammalsofeastern04ogne)
 - **masseteric tubercle**: present — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **upper incisors procumbent**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle); [Howell](https://archive.org/details/revisionofnortha56howe); [Jessen](https://treatment.plazi.org/id/03D187D7FF877E3EFF01FAFE6E80FB94) (+1 more in data/characters)
 
 ### Syntheosciurus
 - **head-and-body length**: 150-185 mm — [Handbook of the Mammals of the World](https://zenodo.org/records/6818816)
 - **patagium**: absent — [Jackson](https://doi.org/10.5479/si.00810282.638.1)
 - **upper premolars**: 2 — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [de Abreu-Jr et al. 2020](https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf)
+- **upper incisor groove**: grooved — [Howell](https://archive.org/details/revisionofnortha56howe); [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **frontoparietal suture in adults**: visible — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **interparietal sutures fused in adults**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **mammae pairs**: 3 — [de Abreu-Jr et al. 2020](https://static-content.springer.com/esm/art%3A10.1186%2Fs12862-020-01639-y/MediaObjects/12862_2020_1639_MOESM7_ESM.pdf)
 - **masseteric tubercle**: present — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
-- **transbullar septa per bulla**: 1 or 2 — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **upper incisors procumbent**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Tamiasciurus
 - **head-and-body length**: 110-293 mm — [Handbook of the Mammals of the World](https://zenodo.org/records/6835660); [Handbook of the Mammals of the World](https://zenodo.org/records/6818746); [Handbook of the Mammals of the World](https://zenodo.org/records/6818748) (+3 more in data/characters)
 - **patagium**: absent — [Jackson](https://doi.org/10.5479/si.00810282.638.1); [Chapman](https://www.nrs.fs.usda.gov/pubs/jrnl/2007/nrs_2007_chapman-ch3_003.pdf); [Koprowski](https://treatment.plazi.org/id/038887E4B827FFCB49BFBC2DFBE5FB4F)
+- **snout elongate**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
+- **cheek pouches**: absent — [Ognev](https://archive.org/details/mammalsofeastern04ogne)
 - **hypsodont cheek teeth**: no — [Black](https://archive.org/details/biostor-97496)
+- **baculum well developed**: no — [Pocock](https://zenodo.org/records/13674531); [Howell](https://archive.org/details/revisionofnortha56howe); [Ellerman](https://archive.org/details/familiesgeneraof01elle) (+1 more in data/characters)
 - **diploid chromosome number**: 46 — [Handbook of the Mammals of the World](https://zenodo.org/records/6818746); [Handbook of the Mammals of the World](https://zenodo.org/records/6818748); [Handbook of the Mammals of the World](https://zenodo.org/records/6835660)
 - **frontoparietal suture in adults**: visible — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **infraorbital canal**: present — [Howell](https://archive.org/details/revisionofnortha56howe); [Ellerman](https://archive.org/details/familiesgeneraof01elle)
+- **lower p4 paraconulid**: absent — [Howell](https://archive.org/details/revisionofnortha56howe)
+- **manus digit3 longest**: no — [Ellerman](https://archive.org/details/familiesgeneraof01elle); [Pocock](https://zenodo.org/records/13674531)
 - **masseteric tubercle**: present — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
-- **transbullar septa per bulla**: 3 — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **premaxilla process abuts nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Ammospermophilus
 - **head-and-body length**: 140-170 mm — [Wikipedia: Antelope squirrel](https://en.wikipedia.org/wiki/Antelope_squirrel)
@@ -821,9 +1074,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 2 — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Animal Diversity Web species account: Ammospermophilus harri](https://animaldiversity.org/accounts/Ammospermophilus_harrisii/)
 - **hypsodont cheek teeth**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **facial stripes**: absent — [Wikipedia: Antelope squirrel](https://en.wikipedia.org/wiki/Antelope_squirrel)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale lateral stripe black bordered**: absent — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **pale shoulder crescents**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **upper p3 gt quarter p4**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
@@ -839,9 +1094,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **cheek pouches**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Wikipedia: Ring-tailed ground squirrel (quote from rendered ](https://en.wikipedia.org/wiki/Ring-tailed_ground_squirrel)
 - **upper premolars**: 2 — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **hypsodont cheek teeth**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: yes — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale shoulder crescents**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **tail vs half hb**: half_hb_or_more — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **upper p3 gt quarter p4**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
@@ -855,9 +1112,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **snout elongate**: no — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf)
 - **hairy soles**: no — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf); [Animal Diversity Web species account: Marmota broweri](https://animaldiversity.org/accounts/Marmota_broweri/)
 - **upper premolars**: 2 — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf); [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle); [Animal Diversity Web species account: Marmota monax](https://animaldiversity.org/accounts/Marmota_monax/)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **upper p3 gt quarter p4**: yes — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **upper toothrows strongly convergent**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 
@@ -869,9 +1128,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 2 — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **hypsodont cheek teeth**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **facial stripes**: absent — [Wikipedia: Golden-mantled ground squirrel (quote from render](https://en.wikipedia.org/wiki/Golden-mantled_ground_squirrel); [Animal Diversity Web species account: Spermophilus lateralis](https://animaldiversity.org/accounts/Spermophilus_lateralis/); [Animal Diversity Web species account: Spermophilus saturatus](https://animaldiversity.org/accounts/Spermophilus_saturatus/)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale lateral stripe black bordered**: present — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **pale shoulder crescents**: present — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **upper p3 gt quarter p4**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
@@ -884,9 +1145,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **cheek pouches**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Wikipedia: Rock squirrel (quote from rendered text; markup s](https://en.wikipedia.org/wiki/Rock_squirrel)
 - **upper premolars**: 2 — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **hypsodont cheek teeth**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale lateral stripe black bordered**: absent — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **pale shoulder crescents**: present — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **tail vs half hb**: half_hb_or_more — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
@@ -933,9 +1196,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **cheek pouches**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **upper premolars**: 2 — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **hypsodont cheek teeth**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale shoulder crescents**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **tail vs half hb**: half_hb_or_more — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **upper p3 gt quarter p4**: yes — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
@@ -984,9 +1249,11 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **flank stripe**: absent — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Animal Diversity Web species account: Spermophilus tereticau](https://animaldiversity.org/accounts/Spermophilus_tereticaudus/); [Animal Diversity Web species account: Spermophilus mohavensi](https://animaldiversity.org/accounts/Spermophilus_mohavensis/)
 - **upper premolars**: 2 — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Animal Diversity Web species account: Spermophilus perotensi](https://animaldiversity.org/accounts/Spermophilus_perotensis/)
 - **hypsodont cheek teeth**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
+- **frontoparietal suture in adults**: fused — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: present — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **lower p4 paraconulid**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
+- **manus digit3 longest**: yes — [Ellerman](https://archive.org/details/familiesgeneraof01elle)
 - **pale shoulder crescents**: absent — [Helgen](https://bison-m.org/documents/25012_Helgen2009.pdf)
 - **upper p3 gt quarter p4**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **upper toothrows strongly convergent**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
@@ -999,10 +1266,14 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **auditory bullae size**: small — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **belly nearly naked**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **buccinator masticatory foramina separate**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital foramen forms canal**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **infraorbital foramen shape**: slit_like — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **lower molar crown type**: basin_shaped — [Thomas 1909](https://archive.org/details/biostor-86430)
 - **pelage bristly**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
+- **premaxilla dorsoanterior process meets nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **sphenopalatine foramen size**: large — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Funisciurus
 - **head-and-body length**: 160-251 mm — [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB7ED4AFFC3F640F8EAF17E); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB0ED4DFF60F97BFE25FC44); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB1ED4DFACAF9CCFE84F647) (+8 more in data/characters)
@@ -1013,15 +1284,21 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **lower molar crown type**: ridged_flat — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **palate extends beyond toothrow**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
 - **pelage bristly**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
+- **premaxilla dorsoanterior process meets nasal**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **sphenopalatine foramen size**: small — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: no — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Heliosciurus
 - **head-and-body length**: 153-253 mm — [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Heliosciurus_gambianus/); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFBBED46FFDAF621F8F7F0AC); [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Heliosciurus_mutabilis/) (+6 more in data/characters)
 - **patagium**: absent — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle); [Thomas](https://tb.plazi.org/GgServer/xhtml/03EF2C664574FF8FFEFBFD7BFC8FFC1F)
-- **tail rings**: present — [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFBBED46FFDAF621F8F7F0AC); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB5ED48FFDAFC40FED4FDE9); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFBAED47FF10F62CF611F5D0) (+3 more in data/characters)
+- **buccinator masticatory foramina separate**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital foramen forms canal**: yes — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **lower molar crown type**: basin_shaped — [Thomas 1909](https://archive.org/details/biostor-86430)
 - **palate extends beyond toothrow**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
 - **pelage bristly**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
+- **premaxilla dorsoanterior process meets nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **sphenopalatine foramen size**: large — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 
 ### Myosciurus
 - **head-and-body length**: 60-75 mm — [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Myosciurus_pumilio/); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFBBED46FFC1FE09FCC8FFD6); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
@@ -1031,6 +1308,8 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **infraorbital foramen forms canal**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **palate extends beyond toothrow**: no — [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Myosciurus_pumilio/)
 - **pelage bristly**: no — [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Myosciurus_pumilio/)
+- **premaxilla dorsoanterior process meets nasal**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Paraxerus
 - **head-and-body length**: 103-241 mm — [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB3ED4EFFF1F73FFF0AFA8C); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB0ED4EFA6EF37BFF37FF61); [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB2EDB0FA67F530F649F653) (+12 more in data/characters)
@@ -1040,15 +1319,22 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **lower molar crown type**: basin_shaped or ridged_high_cusps — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **palate extends beyond toothrow**: no — [Thomas 1909](https://archive.org/details/biostor-86430); [Banotai](https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69)
 - **pelage bristly**: no — [Thomas 1909](https://archive.org/details/biostor-86430); [Banotai](https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69)
+- **premaxilla dorsoanterior process meets nasal**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Banotai](https://tb.plazi.org/GgServer/xhtml/A54F87928B2B6429F7AEFED5FEB2FB69)
+- **sphenopalatine foramen size**: small — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265); [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle) (+2 more in data/characters)
 
 ### Protoxerus
 - **head-and-body length**: 228-310 mm — [Koprowski et al. 2016](https://tb.plazi.org/GgServer/xhtml/064D0660FFB5ED48FFD9F3F2F8ECFD2C); [Denys et al. 2025](https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/zoosystema2025v47a27.pdf); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle) (+1 more in data/characters)
 - **patagium**: absent — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **upper incisor groove**: smooth — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
+- **buccinator masticatory foramina separate**: no — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital foramen forms canal**: no — [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **infraorbital foramen shape**: rounded_large — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **lower molar crown type**: basin_shaped — [Thomas 1909](https://archive.org/details/biostor-86430); [Ellerman 1940](https://archive.org/details/familiesgeneraof01elle)
 - **pelage bristly**: no — [Thomas 1909](https://archive.org/details/biostor-86430)
+- **premaxilla dorsoanterior process meets nasal**: yes — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **sphenopalatine foramen size**: large — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
+- **zygomatic ridge reaches premaxilla**: yes — [Thomas 1909](https://archive.org/details/biostor-86430); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 
 ### Sciurotamias
 - **head-and-body length**: 172-290 mm — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf)
@@ -1057,6 +1343,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **dorsal spots**: absent — [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **ear tufts**: absent — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf); [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **cheek pouches**: present — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf); [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle)
+- **frontoparietal suture in adults**: visible — [Moore](https://libsysdigi.library.uiuc.edu/oca/Books2008-01/studyofdiurnalsq48moor/studyofdiurnalsq48moor.pdf); [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **mammae three pairs**: yes — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf); [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **tail vs half hb**: half_hb_or_more — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf)
 - **upper p3 gt quarter p4**: no — [Krystufek & Vohralik 2013](https://publikace.nm.cz/file/bb26e0998f8ef8a5c3859f63833b27c8/18271/027-138_Krystufek.pdf)
@@ -1071,6 +1358,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **cheek pouches**: present — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf); [G. M. Allen 1940](https://archive.org/details/mammalsofchinamo02alle)
 - **hypsodont cheek teeth**: no — [Howell 1929](https://archive.org/details/revisionofameric52howe)
 - **facial stripes**: present — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf)
+- **frontoparietal suture in adults**: visible — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf)
 - **tail vs half hb**: half_hb_or_more — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf)
@@ -1085,6 +1373,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper premolars**: 2 — [Howell 1938](https://archive.org/details/revisionofnortha56howe); [Animal Diversity Web species account: Tamias townsendii](https://animaldiversity.org/accounts/Tamias_townsendii/)
 - **hypsodont cheek teeth**: no — [Howell 1929](https://archive.org/details/revisionofameric52howe)
 - **facial stripes**: present — [Animal Diversity Web species account: Tamias townsendii](https://animaldiversity.org/accounts/Tamias_townsendii/); [Animal Diversity Web species account: Tamias minimus](https://animaldiversity.org/accounts/Tamias_minimus/)
+- **frontoparietal suture in adults**: visible — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **tail vs half hb**: half_hb_or_more — [Howell 1929](https://archive.org/details/revisionofameric52howe)
 - **upper p3 gt quarter p4**: no — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
@@ -1101,6 +1390,7 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **upper incisor groove**: smooth — [Howell 1929](https://archive.org/details/revisionofameric52howe)
 - **hypsodont cheek teeth**: no — [Howell 1929](https://archive.org/details/revisionofameric52howe); [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **facial stripes**: present — [Animal Diversity Web species account: Tamias striatus](https://animaldiversity.org/accounts/Tamias_striatus/)
+- **frontoparietal suture in adults**: visible — [Moore](https://digitallibrary.amnh.org/handle/2246/1265)
 - **infraorbital canal**: absent — [Howell 1938](https://archive.org/details/revisionofnortha56howe)
 - **mammae three pairs**: no — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf)
 - **tail vs half hb**: half_hb_or_more — [Krystufek & Vohralik 2012](https://www.pms-lj.si/app/uploads/2022/11/2012_Palaearctic_Sciuridae-1.pdf)
@@ -1188,28 +1478,31 @@ usually because no source documents it). Lengths are adult head-and-body, mm.
 - **palate extends beyond toothrow**: yes — [Kryštufek](https://tb.plazi.org/GgServer/xhtml/03EE87BAFFEA5B07FCE6F992FDCCFA48)
 - **pelage bristly**: yes — [Animal Diversity Web species account (University of Michigan](https://animaldiversity.org/accounts/Xerus_rutilus/); [Kryštufek](https://tb.plazi.org/GgServer/xhtml/03EE87BAFFEB5B07FF5AFA0DFB89FE31); [Thomas 1909](https://archive.org/details/biostor-86430)
 
-## Size couplets with little clearance
-
-These couplets separate genera whose documented size ranges barely miss each other;
-they are correct for the data but sensitive to undocumented variation.
-
-- at 387 mm: Petinomys versus Biswamoyopterus
-
 ## Coding notes
 
 - Aeromys.dorsal_stripes: sources cover only some species; treated as unknown
+- Biswamoyopterus.glans_penis_length_class: sources cover only some species; treated as unknown
 - Callosciurus: length range covers only some species; treated as unknown
 - Cynomys.snout_elongate: sources cover only some species; treated as unknown
+- Eupetaurus.glans_penis_length_class: sources cover only some species; treated as unknown
 - Exilisciurus.hypsodont_cheek_teeth: sources cover only some species; treated as unknown
 - Funisciurus.baculum: sources cover only some species; treated as unknown
 - Geosciurus.tail_distichous: sources cover only some species; treated as unknown
 - Geosciurus: length range covers only some species; treated as unknown
+- Glaucomys.glans_penis_length_class: sources cover only some species; treated as unknown
 - Heliosciurus.baculum: sources cover only some species; treated as unknown
 - Heliosciurus.flank_stripe: sources cover only some species; treated as unknown
 - Heliosciurus.snout_elongate: sources cover only some species; treated as unknown
 - Hylopetes.bullar_septa: sources cover only some species; treated as unknown
+- Hylopetes.glans_penis_length_class: sources cover only some species; treated as unknown
+- Hylopetes.lower_cheekteeth_hypoconulid: sources cover only some species; treated as unknown
+- Hylopetes.lower_cheekteeth_protolophid_entolophid: sources cover only some species; treated as unknown
 - Hylopetes.snout_elongate: sources cover only some species; treated as unknown
+- Hylopetes.upper_m3_metaloph: sources cover only some species; treated as unknown
+- Hylopetes.upper_molar_anterior_flexus: sources cover only some species; treated as unknown
+- Hylopetes.upper_molar_central_flexus: sources cover only some species; treated as unknown
 - Hylopetes.upper_premolars: sources cover only some species; treated as unknown
+- Hylopetes.zygomatic_plate_high_tilted: sources cover only some species; treated as unknown
 - Hyosciurus.dorsal_spots: sources cover only some species; treated as unknown
 - Hyosciurus.flank_stripe: sources cover only some species; treated as unknown
 - Lariscus.tail_rings: sources cover only some species; treated as unknown
@@ -1219,9 +1512,30 @@ they are correct for the data but sensitive to undocumented variation.
 - Marmota: length range covers only some species; treated as unknown
 - Microsciurus.ear_tufts: sources cover only some species; treated as unknown
 - Microsciurus.jugal_frontal_contact: sources cover only some species; treated as unknown
+- Olisthomys.upper_cheekteeth_mesostyle: sources cover only some species; treated as unknown
 - Paraxerus.baculum: sources cover only some species; treated as unknown
 - Petaurillus.bullar_septa: sources cover only some species; treated as unknown
+- Petaurillus.ear_base_tufts: sources cover only some species; treated as unknown
 - Petaurillus.ear_tufts: sources cover only some species; treated as unknown
+- Petaurillus.lower_cheekteeth_hypoconulid: sources cover only some species; treated as unknown
+- Petaurillus.lower_cheekteeth_protolophid_entolophid: sources cover only some species; treated as unknown
+- Petaurillus.upper_cheekteeth_anterolophule: sources cover only some species; treated as unknown
+- Petaurillus.upper_cheekteeth_mesolophule: sources cover only some species; treated as unknown
+- Petaurillus.upper_cheekteeth_mesostyle: sources cover only some species; treated as unknown
+- Petaurillus.upper_cheekteeth_metaconule: sources cover only some species; treated as unknown
+- Petaurillus.upper_cheekteeth_paraconule: sources cover only some species; treated as unknown
+- Petaurillus.upper_molar_anterior_flexus: sources cover only some species; treated as unknown
+- Petaurillus.upper_molar_central_flexus: sources cover only some species; treated as unknown
+- Petaurista.glans_penis_length_class: sources cover only some species; treated as unknown
+- Petaurista.lower_cheekteeth_hypoconulid: sources cover only some species; treated as unknown
+- Petaurista.lower_cheekteeth_protolophid_entolophid: sources cover only some species; treated as unknown
+- Petaurista.upper_cheekteeth_anterolophule: sources cover only some species; treated as unknown
+- Petaurista.upper_cheekteeth_metaconule: sources cover only some species; treated as unknown
+- Petaurista.upper_cheekteeth_paraconule: sources cover only some species; treated as unknown
+- Petaurista.upper_m3_metaloph: sources cover only some species; treated as unknown
+- Petaurista.upper_molar_anterior_flexus: sources cover only some species; treated as unknown
+- Petaurista.upper_molar_central_flexus: sources cover only some species; treated as unknown
+- Petaurista.upper_premolars: sources cover only some species; treated as unknown
 - Prosciurillus.dorsal_spots: sources cover only some species; treated as unknown
 - Prosciurillus.tail_distichous: sources cover only some species; treated as unknown
 - Prosciurillus.tail_rings: sources cover only some species; treated as unknown
@@ -1229,12 +1543,14 @@ they are correct for the data but sensitive to undocumented variation.
 - Protoxerus.flank_stripe: sources cover only some species; treated as unknown
 - Protoxerus.hypsodont_cheek_teeth: sources cover only some species; treated as unknown
 - Protoxerus.snout_elongate: sources cover only some species; treated as unknown
+- Pteromys.glans_penis_length_class: sources cover only some species; treated as unknown
 - Sciurotamias.postauricular_pale_patch: sources cover only some species; treated as unknown
 - Sciurus.anterior_orbit_border_ventral_view: sources cover only some species; treated as unknown
 - Sciurus.diploid_chromosome_number: sources cover only some species; treated as unknown
 - Sciurus.dorsal_spots: sources cover only some species; treated as unknown
 - Sciurus.ears_project_above_crown: sources cover only some species; treated as unknown
 - Sciurus.jugal_frontal_contact: sources cover only some species; treated as unknown
+- Sciurus.lower_p4_paraconulid: sources cover only some species; treated as unknown
 - Sciurus.tail_distichous: sources cover only some species; treated as unknown
 - Sciurus.upper_incisor_groove: sources cover only some species; treated as unknown
 - Sciurus.upper_incisors_procumbent: sources cover only some species; treated as unknown

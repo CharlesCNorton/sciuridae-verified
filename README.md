@@ -37,13 +37,15 @@ fails if any depends on an axiom.
 
 ## Status of the key
 
-The character data are being completed. With the data committed now, the key
-(91 characters, `docs/KEY.md`) separates 19 genera from all others on every
-complete observation; the remaining genera fall into residual groups that the
-current data provably cannot separate (missing codings for characters such as
-cheek pouches in tree squirrels, or genus-level head-and-body ranges). Targeted
-literature research for those pairs is in progress; the proofs are written so
-that they hold for whatever the data support.
+With the data committed now, the key (`docs/KEY.md`; 104 couplets, at most 10
+deep) identifies 51 of the 64 genera uniquely on every complete observation.
+The remaining 13 genera fall into small residual groups (for example
+*Sundasciurus* with *Callosciurus*, *Dremomys* or *Tamiops*; *Hylopetes* with
+*Eoglaucomys* or *Priapomys*; *Spermophilus* with *Urocitellus*) for which the
+literature consulted so far gives no character that holds across every species
+of both genera. `Identification.v` proves that each residual group is forced by
+the data: its genera share a complete observation, so no sound key over these
+characters could separate them. Further targeted research is in progress.
 
 ## Building
 
